@@ -1,0 +1,221 @@
+﻿@page "/hexicon"
+@inject GameCorner.ViewModels.HexiconVm Vm
+@inject IJSRuntime JS
+
+<PageTitle>Hexicon</PageTitle>
+
+<div class="container">
+    <h1>
+        @DateTime.Now.ToString("dddd"):
+        @(Vm.TitleRevealed? Vm.PangramTitle: "???")
+    </h1>
+
+    <h2 class="rank-line @CurrentRank.css @( _pulse ? "pulse" : null )" aria-live="polite">
+        @CurrentRank.label
+    </h2>
+
+    <p class="next-rank">@NextRankText</p>
+
+    <div class="bar">
+        <input class="buf"
+               @ref="_inputRef"
+               value="@Vm.CurrentEntry"
+               placeholder="Type or tap letters..."
+               inputmode="text"
+               autocomplete="off" autocapitalize="off" spellcheck="false"
+               @onkeydown="HandleKeyDown" @onkeydown:preventDefault @onpaste:preventDefault @ondrop:preventDefault/>
+
+        <button class="btn btn-outline-secondary" @onclick="Vm.Backspace">⌫</button>
+        <button class="btn btn-outline-secondary" @onclick="Vm.ClearEntry">Clear</button>
+        <button class="btn btn-primary" @onclick="SubmitClicked" disabled="@(Vm.CanSubmit ? null : true)">
+            Submit
+        </button>
+    </div>
+
+    <div class="hex">
+        <button class="cell required" @onclick="() => Vm.Append(Vm.Required)">
+            @Vm.Required
+        </button>
+
+        @foreach (var c in Vm.Letters.Where(c => c != Vm.Required))
+        {
+            <button class="cell" @onclick="() => Vm.Append(c)">@c</button>
+        }
+    </div>
+
+    <div class="bar">
+        <button class="btn btn-outline-secondary" @onclick="Vm.Shuffle">Shuffle</button>
+        <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset this puzzle</button>
+    </div>
+
+    <h4 class="mt-4">Found words (@Vm.Found.Count)</h4>
+    <div class="found-box">
+        <ul class="found-list">
+            @foreach (var w in Vm.Found.OrderBy(w => w.Length).ThenBy(w => w))
+            {
+                <li>@w</li>
+            }
+        </ul>
+    </div>
+
+    @if (_confirmOpen)
+    {
+        <div class="hx-modal-backdrop" @onclick="CloseConfirm" />
+
+        <div class="hx-modal" role="dialog" aria-modal="true" aria-labelledby="hx-reset-title" @onkeydown="HandleKeyDown" tabindex="0">
+            <h3 id="hx-reset-title">Reset today's progress?</h3>
+            <p>This will clear your found words and score for today. This cannot be undone!</p>
+
+            <div class="hx-modal-actions">
+                <button class="btn btn-outline-secondary" @onclick="CloseConfirm">Cancel</button>
+                <button class="btn btn-danger" @onclick="ConfirmResetAsync">Reset</button>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    protected override async Task OnInitializedAsync()
+    {
+        await Vm.InitAsync();
+    }
+
+    // rank levels: 0=none, 1=Hexemplary, 2=Hextraordinary, 3=Hexceptional
+    private int _lastLevel = 0;
+    private bool _pulse;
+
+    private (string label, string css, int level) CurrentRank
+    {
+        get
+        {
+            var tiers = new (double pct, string name, string css, int level)[]
+            {
+                (0.90, "Hexceptional", "rank-purple", 3),
+                (0.80, "Hextraordinary", "rank-blue",   2),
+                (0.66, "Hexemplary",   "rank-green",  1),
+            };
+            var pct = Vm.ScoreRatio;
+            var t = tiers.FirstOrDefault(x => pct >= x.pct);
+            if (t == default) return ($"Score: {Vm.Score}", "rank-default", 0);
+            return ($"{t.name}! {Vm.Score} points", t.css, t.level);
+        }
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        var lvl = CurrentRank.level;
+        if (lvl > _lastLevel)
+        {
+            _lastLevel = lvl;
+            _ = TriggerPulse();
+        }
+    }
+
+    private async Task TriggerPulse()
+    {
+        _pulse = true; StateHasChanged();
+        await Task.Delay(900);
+        _pulse = false; StateHasChanged();
+    }
+
+    private string NextRankText
+    {
+        get
+        {
+            var thresholds = new (double pct, string name)[]
+            {
+                (0.66, "Hexemplary"),
+                (0.80, "Hextraordinary"),
+                (0.90, "Hexceptional")
+            };
+            var pct = Vm.ScoreRatio;
+            var next = thresholds.FirstOrDefault(t => pct < t.pct);
+            if (next == default) return ""; // hide at top tier
+            var pts = (int)Math.Ceiling(next.pct * Vm.TargetScore) - Vm.Score;
+            return $"Next rank: {next.name} ({pts} points to go)";
+        }
+    }
+
+    private ElementReference _inputRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender) { try { await _inputRef.FocusAsync(); } catch { } }
+    }
+
+    private async Task HandleKeyDown(KeyboardEventArgs e)
+    {
+        var key = e.Key ?? "";
+
+        if (_confirmOpen && key == "Escape")
+        {
+            CloseConfirm();
+            StateHasChanged();
+            return;
+        }
+
+        if (key == "Enter")
+        {
+            await Vm.SubmitAsync();
+            StateHasChanged();
+            return;
+        }
+
+        if (key == "Backspace")
+        {
+            Vm.Backspace();
+            StateHasChanged();
+            return;
+        }
+
+        if (key == "Escape")
+        {
+            Vm.ClearEntry();
+            StateHasChanged();
+            return;
+        }
+
+        if (key == " ")
+        {
+            Vm.Shuffle();
+            StateHasChanged();
+            return;
+        }
+
+        if (key.Length == 1 && char.IsLetter(key[0]))
+        {
+            Vm.Append(char.ToLowerInvariant(key[0]));
+            StateHasChanged();
+        }
+    }
+
+    private async Task SubmitClicked()
+    {
+        var ok = await Vm.SubmitAsync();
+        if (ok)
+        {
+            StateHasChanged(); // force refresh UI after persistence
+        }
+    }
+
+    private bool _confirmOpen;
+    private void OpenConfirm() => _confirmOpen = true;
+    private void CloseConfirm() => _confirmOpen = false;
+
+    private async Task ConfirmResetAsync()
+    {
+        await Vm.ResetTodayAsync();
+        _confirmOpen = false;
+        StateHasChanged();
+    }
+
+    private async Task ResetClicked()
+    {
+        var ok = await JS.InvokeAsync<bool>("confirm", "Reset today's progress? This cannot be undone!");
+        if (ok)
+        {
+            await Vm.ResetTodayAsync();
+            StateHasChanged(); // force the UI to update
+        }
+    }
+}

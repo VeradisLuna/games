@@ -1,0 +1,1 @@
+﻿window.setInputValue = (el, val) => { if (el) el.value = val; };

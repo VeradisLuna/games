@@ -1,0 +1,76 @@
+﻿@page "/"
+
+<div class="homepage">
+    <h1 class="title">GAME CORNER</h1>
+    <p class="subtitle">Choose a game to play!</p>
+
+    <div class="game-grid">
+        <div class="game-card">
+            <a href="/hexicon">
+                <div class="card-content">
+                    <h2>Hexicon</h2>
+                    <p>Find words using all 7 letters. New puzzle every day!</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card disabled">
+            <div class="card-content">
+                <h2>Coming Soon</h2>
+                <p>More games will appear here!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .homepage {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 0.25rem;
+    }
+    .subtitle {
+        color: #6b7280;
+        margin-bottom: 2rem;
+    }
+    .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1.5rem;
+    }
+    .game-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 1rem;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .game-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+    .game-card a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .card-content {
+        padding: 1.25rem;
+    }
+    .card-content h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .card-content p {
+        color: #374151;
+        font-size: 0.95rem;
+    }
+    .disabled {
+        opacity: 0.6;
+        pointer-events: none;
+    }
+</style>

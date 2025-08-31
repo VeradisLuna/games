@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameCorner", "GameCorner.csproj", "{B62FFAD2-3D4B-4338-89F1-DD3CE3C3117D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hexicon.Core", "..\Hexicon.Core\Hexicon.Core.csproj", "{96C7603A-6596-4E97-9D26-A8C1905BF877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B62FFAD2-3D4B-4338-89F1-DD3CE3C3117D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62FFAD2-3D4B-4338-89F1-DD3CE3C3117D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62FFAD2-3D4B-4338-89F1-DD3CE3C3117D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62FFAD2-3D4B-4338-89F1-DD3CE3C3117D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96C7603A-6596-4E97-9D26-A8C1905BF877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C7603A-6596-4E97-9D26-A8C1905BF877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C7603A-6596-4E97-9D26-A8C1905BF877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C7603A-6596-4E97-9D26-A8C1905BF877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2ACA9FF-D42E-4ABF-82B6-94D5FDCEF938}
+	EndGlobalSection
+EndGlobal
