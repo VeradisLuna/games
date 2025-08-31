@@ -18,15 +18,8 @@
 
     <div class="row g-2 align-items-center mb-3">
         <div class="col-12 col-md">
-@*             <input class="form-control"
-                   @ref="_inputRef"
-                   value="@Vm.CurrentEntry"
-                   placeholder="Type or tap letters..."
-                   inputmode="text"
-                   autocomplete="off" autocapitalize="off" spellcheck="false"
-                   @onkeydown="HandleKeyDown" @onkeydown:preventDefault @onpaste:preventDefault @ondrop:preventDefault /> *@
-                   <input class="form-control" @bind="Vm.CurrentEntry" @onkeydown="HandleKeyDown" @oninput="HandleInput" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
-                   placeholder="Type or tap letters..."/>
+            <input class="form-control" @bind="Vm.CurrentEntry" @onkeydown="HandleKeyDown" @oninput="HandleInput" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
+            placeholder="Type or tap letters..."/>
         </div>
         <div class="col-12 col-md-auto">
             <div class="d-flex gap-2 justify-content-md-end">
@@ -58,7 +51,7 @@
         <ul class="found-list">
             @foreach (var w in Vm.Found.OrderBy(w => w.Length).ThenBy(w => w))
             {
-                <li>@w</li>
+                <li class="found-word @(Vm.IsPangram(w) ? "pangram" : null)">@w</li>
             }
         </ul>
     </div>

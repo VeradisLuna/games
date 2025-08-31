@@ -21,7 +21,7 @@ namespace GameCorner.ViewModels
     public sealed class HexiconVm
     {
         private readonly Persistence _persist;
-        private DateOnly _today;
+        private readonly IDateProvider _dates;
 
         private readonly PuzzleLoader _loader;
 
@@ -49,16 +49,17 @@ namespace GameCorner.ViewModels
         private Scoring _scoring = new(minLen: 4, pangramBonus: 6);
         private HashSet<char> _letterSet = new();
 
-        public HexiconVm(PuzzleLoader loader, Persistence persist)
+        public HexiconVm(PuzzleLoader loader, Persistence persist, IDateProvider dates)
         {
             _loader = loader;
             _persist = persist;
+            _dates = dates;
         }
 
         // Initialize from curated JSON (required for play)
-        public async Task InitAsync(DateOnly? date = null)
+        public async Task InitAsync()
         {
-            var today = date ?? DateOnly.FromDateTime(DateTime.Now);
+            var today = _dates.Today;
 
             var data = await _loader.LoadAsync(today)
                        ?? throw new InvalidOperationException($"No puzzle found for {today:yyyy-MM-dd}");
@@ -95,7 +96,7 @@ namespace GameCorner.ViewModels
             TargetScore = _scoring.Total(_valid, _letterSet);
 
             // Try to restore saved state
-            var saved = await _persist.LoadAsync<SaveData>(_today);
+            var saved = await _persist.LoadAsync<SaveData>(_dates.Today);
             if (saved is not null &&
                 saved.Pangram.Equals(data.Pangram, StringComparison.OrdinalIgnoreCase) &&
                 saved.Required == data.Required)
@@ -154,14 +155,14 @@ namespace GameCorner.ViewModels
             var save = new SaveData
             {
                 Version = 1,
-                Date = _today.ToString("yyyy-MM-dd"),
+                Date = _dates.Today.ToString("yyyy-MM-dd"),
                 Pangram = PangramTitle.Split(' ')[0],
                 Required = Required,
                 Found = _found.OrderBy(x => x.Length).ThenBy(x => x).ToList(),
                 Score = Score,
                 SavedAt = DateTime.UtcNow
             };
-            await _persist.SaveAsync(_today, save);
+            await _persist.SaveAsync(_dates.Today, save);
 
             return true;
         }
@@ -169,13 +170,22 @@ namespace GameCorner.ViewModels
         public async Task ResetTodayAsync()
         {
             // Clear persisted save
-            await _persist.ClearAsync(_today);
+            await _persist.ClearAsync(_dates.Today);
 
             // Reset in-memory state
             _found.Clear();
             Score = 0;
             TitleRevealed = false;
             CurrentEntry = "";
+        }
+
+        public bool IsPangram(string w)
+        {
+            if (string.IsNullOrEmpty(w)) return false;
+            var s = w.AsSpan();
+            foreach (var ch in _letters)
+                if (!s.Contains(ch)) return false;
+            return true;
         }
 
         // Utility for components that want % progress

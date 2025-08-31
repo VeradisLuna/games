@@ -216,3 +216,17 @@
     list-style: disc;
     margin-left: 1.25rem;
 }
+
+.found-list {
+    list-style: disc;
+    padding-left: 1.25rem;
+}
+
+.found-word {
+    margin: .25rem 0;
+}
+
+.found-word.pangram {
+    font-weight: 700;
+    color: var(--rank-purple);
+}
