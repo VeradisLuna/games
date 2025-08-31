@@ -13,7 +13,7 @@ builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.
 
 // General
 #if DEBUG
-builder.Services.AddSingleton<IDateProvider>(_ => new FixedDateProvider(new DateOnly(2025, 8, 31)));
+builder.Services.AddSingleton<IDateProvider>(_ => new FixedDateProvider(new DateOnly(2025, 9, 5)));
 //builder.Services.AddSingleton<IDateProvider, SystemDateProvider>();
 #else
 builder.Services.AddSingleton<IDateProvider, SystemDateProvider>();
