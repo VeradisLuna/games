@@ -6,7 +6,7 @@
 
 <div class="container">
     <h1>
-        @DateTime.Now.ToString("dddd"):
+        @Vm.PuzzleDate.ToString("dddd"):
         @if (Vm.Tagline is { Length: > 0 })
         {
             @Vm.Tagline
