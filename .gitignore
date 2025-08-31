@@ -1,0 +1,7 @@
+# build outputs
+bin/
+obj/
+publish/
+# IDE junk
+.vs/
+*.user
