@@ -8,7 +8,7 @@ public sealed class PuzzleLoader
 
     public async Task<PuzzleData?> LoadAsync(DateOnly date)
     {
-        try { return await _http.GetFromJsonAsync<PuzzleData>($"puzzles/hexicon/{date:yyyy-MM-dd}.json"); }
+        try { return await _http.GetFromJsonAsync<PuzzleData>($"puzzles/hexicon/{date:yyyy-MM-dd}.json?v={DateTime.UtcNow.Ticks}"); }
         catch { return null; } // not found / bad json -> null
     }
 }

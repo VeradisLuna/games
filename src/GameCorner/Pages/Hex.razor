@@ -7,7 +7,14 @@
 <div class="container">
     <h1>
         @DateTime.Now.ToString("dddd"):
-        @(Vm.TitleRevealed? Vm.PangramTitle: "???")
+        @if (Vm.Tagline is { Length: > 0 })
+        {
+            @Vm.Tagline
+        }
+        else
+        {
+            @(Vm.TitleRevealed? Vm.PangramTitle: "???")
+        }
     </h1>
 
     <h2 class="rank-line @CurrentRank.css @( _pulse ? "pulse" : null )" aria-live="polite">
@@ -46,7 +53,14 @@
         <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset this puzzle</button>
     </div>
 
-    <h4 class="mt-4">Found words (@Vm.Found.Count)</h4>
+    @if (Vm.Themed)
+    {
+        <h4 class="mt-4">Found words (@Vm.Found.Count / @Vm.TotalWords)</h4>
+    }
+    else
+    {
+        <h4 class="mt-4">Found words (@Vm.Found.Count)</h4>
+    }
     <div class="found-box">
         <ul class="found-list">
             @foreach (var w in Vm.Found.OrderBy(w => w.Length).ThenBy(w => w))
@@ -92,21 +106,40 @@
                 (0.80, "Hextraordinary", "rank-blue",   2),
                 (0.66, "Hexemplary",   "rank-green",  1),
             };
-            var pct = Vm.ScoreRatio;
-            var t = tiers.FirstOrDefault(x => pct >= x.pct);
-            if (t == default) return ($"Score: {Vm.Score}", "rank-default", 0);
-            return ($"{t.name}! {Vm.Score} points", t.css, t.level);
+
+            if (TinyPuzzle())
+            {
+                var offsetBy = Vm.TotalWords - 3;
+                var t = tiers.FirstOrDefault(x => (Vm.Found.Count - offsetBy) >= x.level);
+                if (t == default) return ($"{Vm.Found.Count} words", "rank-default", 0);
+                return ($"{t.name}! {Vm.Found.Count} words", t.css, t.level);
+            }
+            else
+            {
+                var pct = Vm.ScoreRatio;
+                var t = tiers.FirstOrDefault(x => pct >= x.pct);
+                if (t == default) return ($"{Vm.Score} points", "rank-default", 0);
+                return ($"{t.name}! {Vm.Score} points", t.css, t.level);
+            }
         }
+    }
+
+    protected bool TinyPuzzle()
+    {
+        return Vm.TotalWords <= 5;
     }
 
     protected override void OnAfterRender(bool firstRender)
     {
         var lvl = CurrentRank.level;
-        if (lvl > _lastLevel)
+        var prev = _lastLevel;
+
+        if (lvl > prev)
         {
-            _lastLevel = lvl;
             _ = TriggerPulse();
         }
+
+        _lastLevel = lvl;
     }
 
     private async Task TriggerPulse()
@@ -120,6 +153,8 @@
     {
         get
         {
+            if (TinyPuzzle()) return "";
+
             var thresholds = new (double pct, string name)[]
             {
                 (0.66, "Hexemplary"),
@@ -159,13 +194,6 @@
             return;
         }
 
-        // if (key == "Backspace")
-        // {
-        //     Vm.Backspace();
-        //     StateHasChanged();
-        //     return;
-        // }
-
         if (key == "Escape")
         {
             Vm.ClearEntry();
@@ -179,12 +207,6 @@
             StateHasChanged();
             return;
         }
-
-        // if (key.Length == 1 && char.IsLetter(key[0]))
-        // {
-        //     Vm.Append(char.ToLowerInvariant(key[0]));
-        //     StateHasChanged();
-        // }
     }
 
     private void HandleInput(ChangeEventArgs e)

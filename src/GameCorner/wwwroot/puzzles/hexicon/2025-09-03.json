@@ -1,0 +1,18 @@
+{
+  "date": "2025-09-03",
+  "pangram": "dragonair",
+  "letters": [ "r", "a", "g", "i", "n", "o", "d" ],
+  "required": "r",
+  "words": [
+    "aron",
+    "aggron",
+    "dodrio",
+    "goodra",
+    "nidoran",
+    "nidorina",
+    "nidorino",
+    "dragonair"
+  ],
+  "themed": true,
+  "tagline": "Can you catch 'em all?"
+}

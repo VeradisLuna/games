@@ -15,5 +15,7 @@
         public List<char> Letters { get; set; } = new List<char>();
         public char Required { get; set; }
         public List<string> Words { get; set; } = new List<string>();
+        public bool Themed { get; set; } = false;
+        public string? Tagline { get; set; }
     }
 }

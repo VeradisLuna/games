@@ -1,0 +1,13 @@
+{
+  "date": "2025-09-04",
+  "pangram": "troilus",
+  "letters": [ "s", "i", "l", "o", "r", "t", "u" ],
+  "required": "s",
+  "words": [
+    "titus",
+    "lost",
+    "troilus"
+  ],
+  "themed": true,
+  "tagline": "Shakespeare Title Words"
+}

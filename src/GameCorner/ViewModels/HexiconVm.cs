@@ -38,6 +38,10 @@ namespace GameCorner.ViewModels
         public string PangramTitle { get; private set; } = string.Empty;
         public bool TitleRevealed { get; private set; }
 
+        public bool Themed { get; private set; } = false;
+        public string? Tagline { get; private set; }
+        public int TotalWords { get; private set; }
+
         // Input buffer
         public string CurrentEntry { get; set; } = string.Empty;
 
@@ -79,15 +83,13 @@ namespace GameCorner.ViewModels
             _valid = (data.Words ?? new List<string>()).Select(Norm).Distinct().ToList();
             _validSet = _valid.ToHashSet(StringComparer.Ordinal);
 
-            // Optional meta overrides
-            //if (data.Meta is not null)
-            //    _scoring = new Scoring(data.Meta.MinLen, data.Meta.PangramBonus);
-
-            PangramTitle = string.IsNullOrWhiteSpace(data.Pangram)
-                ? ""
-                : $"{data.Pangram.Trim().ToLowerInvariant()} ({Required})";
-
+            PangramTitle = string.IsNullOrWhiteSpace(data.Pangram) ? "" : $"{data.Pangram.Trim().ToLowerInvariant()} ({Required})";
             TitleRevealed = false;
+
+            Themed = data.Themed;
+            Tagline = data.Tagline;
+            TotalWords = (data.Words ?? []).Count;
+
             CurrentEntry = "";
             _found.Clear();
             Score = 0;
