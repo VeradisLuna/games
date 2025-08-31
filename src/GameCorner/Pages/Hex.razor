@@ -16,20 +16,25 @@
 
     <p class="next-rank">@NextRankText</p>
 
-    <div class="bar">
-        <input class="buf"
-               @ref="_inputRef"
-               value="@Vm.CurrentEntry"
-               placeholder="Type or tap letters..."
-               inputmode="text"
-               autocomplete="off" autocapitalize="off" spellcheck="false"
-               @onkeydown="HandleKeyDown" @onkeydown:preventDefault @onpaste:preventDefault @ondrop:preventDefault/>
-
-        <button class="btn btn-outline-secondary" @onclick="Vm.Backspace">⌫</button>
-        <button class="btn btn-outline-secondary" @onclick="Vm.ClearEntry">Clear</button>
-        <button class="btn btn-primary" @onclick="SubmitClicked" disabled="@(Vm.CanSubmit ? null : true)">
-            Submit
-        </button>
+    <div class="row g-2 align-items-center mb-3">
+        <div class="col-12 col-md">
+@*             <input class="form-control"
+                   @ref="_inputRef"
+                   value="@Vm.CurrentEntry"
+                   placeholder="Type or tap letters..."
+                   inputmode="text"
+                   autocomplete="off" autocapitalize="off" spellcheck="false"
+                   @onkeydown="HandleKeyDown" @onkeydown:preventDefault @onpaste:preventDefault @ondrop:preventDefault /> *@
+                   <input class="form-control" @bind="Vm.CurrentEntry" @onkeydown="HandleKeyDown" @oninput="HandleInput" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
+                   placeholder="Type or tap letters..."/>
+        </div>
+        <div class="col-12 col-md-auto">
+            <div class="d-flex gap-2 justify-content-md-end">
+                <button class="btn btn-outline-secondary" @onclick="Vm.Backspace">⌫</button>
+                <button class="btn btn-outline-secondary" @onclick="Vm.ClearEntry">Clear</button>
+                <button class="btn btn-primary" @onclick="SubmitClicked" disabled="@(Vm.CanSubmit ? null : true)">Submit</button>
+            </div>
+        </div>
     </div>
 
     <div class="hex">
@@ -161,12 +166,12 @@
             return;
         }
 
-        if (key == "Backspace")
-        {
-            Vm.Backspace();
-            StateHasChanged();
-            return;
-        }
+        // if (key == "Backspace")
+        // {
+        //     Vm.Backspace();
+        //     StateHasChanged();
+        //     return;
+        // }
 
         if (key == "Escape")
         {
@@ -182,11 +187,18 @@
             return;
         }
 
-        if (key.Length == 1 && char.IsLetter(key[0]))
-        {
-            Vm.Append(char.ToLowerInvariant(key[0]));
-            StateHasChanged();
-        }
+        // if (key.Length == 1 && char.IsLetter(key[0]))
+        // {
+        //     Vm.Append(char.ToLowerInvariant(key[0]));
+        //     StateHasChanged();
+        // }
+    }
+
+    private void HandleInput(ChangeEventArgs e)
+    {
+        var s = (e.Value?.ToString() ?? "");
+        var allowed = Vm.Letters;
+        Vm.CurrentEntry = new string(s.Where(ch => allowed.Contains(ch)).ToArray());
     }
 
     private async Task SubmitClicked()

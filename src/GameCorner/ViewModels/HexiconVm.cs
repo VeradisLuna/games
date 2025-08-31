@@ -39,7 +39,7 @@ namespace GameCorner.ViewModels
         public bool TitleRevealed { get; private set; }
 
         // Input buffer
-        public string CurrentEntry { get; private set; } = string.Empty;
+        public string CurrentEntry { get; set; } = string.Empty;
 
         // --- Backing fields ---
         private List<char> _letters = new();
