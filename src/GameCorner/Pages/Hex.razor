@@ -92,34 +92,56 @@
         await Vm.InitAsync();
     }
 
-    // rank levels: 0=none, 1=Hexemplary, 2=Hextraordinary, 3=Hexceptional
-    private int _lastLevel = 0;
+    private int _lastLevelIndex = 0;
     private bool _pulse;
 
-    private (string label, string css, int level) CurrentRank
+    // Tiny puzzles keep just the three "Hex—" ranks (by words found)
+    private static readonly (int level, string name, string css)[] TinyTiers =
+    {
+        (1, "Hexemplary",   "rank-green"),
+        (2, "Hextraordinary", "rank-blue"),
+        (3, "Hexceptional", "rank-purple")
+    };
+
+    // Normal puzzles get milestones + the three "Hex—" ranks (by score ratio)
+    private static readonly (double pct, string name, string css)[] BigTiers =
+    {
+        (0.13, "Warming up",  "rank-ash"),
+        (0.26, "Solid",       "rank-ash"),
+        (0.39, "Strong",      "rank-ash"),
+        (0.52, "Sharp",       "rank-ash"),
+        (0.66, "Hexemplary",  "rank-green"),
+        (0.80, "Hextraordinary","rank-blue"),
+        (0.90, "Hexceptional", "rank-purple")
+    };
+
+
+    private (string label, string css, int levelIndex) CurrentRank
     {
         get
         {
-            var tiers = new (double pct, string name, string css, int level)[]
-            {
-                (0.90, "Hexceptional", "rank-purple", 3),
-                (0.80, "Hextraordinary", "rank-blue",   2),
-                (0.66, "Hexemplary",   "rank-green",  1),
-            };
-
             if (TinyPuzzle())
             {
-                var offsetBy = Vm.TotalWords - 3;
-                var t = tiers.FirstOrDefault(x => (Vm.Found.Count - offsetBy) >= x.level);
-                if (t == default) return ($"{Vm.Found.Count} words", "rank-default", 0);
-                return ($"{t.name}! {Vm.Found.Count} words", t.css, t.level);
+                int words = Vm.Found.Count;
+                int neededForMax = Math.Min(3, Vm.TotalWords);
+                int level = Math.Clamp(words, 0, neededForMax);
+
+                if (level == 0) return ($"{Vm.Found.Count} word{(words == 1 ? "" : "s")}", "rank-default", 0);
+
+                var tier = TinyTiers[level - 1];
+                return ($"{tier.name}! {words} word{(words == 1 ? "" : "s")}", tier.css, level);
             }
             else
             {
-                var pct = Vm.ScoreRatio;
-                var t = tiers.FirstOrDefault(x => pct >= x.pct);
-                if (t == default) return ($"{Vm.Score} points", "rank-default", 0);
-                return ($"{t.name}! {Vm.Score} points", t.css, t.level);
+                double pct = Vm.ScoreRatio;
+                int idx = -1;
+                for (int i = 0; i < BigTiers.Length; i++)
+                    if (pct >= BigTiers[i].pct) idx = i;
+
+                if (idx < 0) return ($"{Vm.Score} points", "rank-default", 0);
+
+                var t = BigTiers[idx];
+                return ($"{t.name}! {Vm.Score} points", t.css, idx + 1);
             }
         }
     }
@@ -131,15 +153,16 @@
 
     protected override void OnAfterRender(bool firstRender)
     {
-        var lvl = CurrentRank.level;
-        var prev = _lastLevel;
-
-        if (lvl > prev)
+        var cur = CurrentRank.levelIndex;
+        if (cur > _lastLevelIndex)
         {
+            _lastLevelIndex = cur;
             _ = TriggerPulse();
         }
-
-        _lastLevel = lvl;
+        else
+        {
+            _lastLevelIndex = cur;
+        }
     }
 
     private async Task TriggerPulse()
@@ -149,23 +172,20 @@
         _pulse = false; StateHasChanged();
     }
 
+    private string ProgressWidth => $"{Math.Round(Math.Clamp(Vm.ScoreRatio, 0, 1) * 100)}%";
+
     private string NextRankText
     {
         get
         {
             if (TinyPuzzle()) return "";
 
-            var thresholds = new (double pct, string name)[]
-            {
-                (0.66, "Hexemplary"),
-                (0.80, "Hextraordinary"),
-                (0.90, "Hexceptional")
-            };
-            var pct = Vm.ScoreRatio;
-            var next = thresholds.FirstOrDefault(t => pct < t.pct);
-            if (next == default) return ""; // hide at top tier
-            var pts = (int)Math.Ceiling(next.pct * Vm.TargetScore) - Vm.Score;
-            return $"Next rank: {next.name} ({pts} points to go)";
+            double pct = Vm.ScoreRatio;
+            var next = BigTiers.FirstOrDefault(t => pct < t.pct);
+            if (next == default) return "";
+
+            int ptsNeeded = (int)Math.Ceiling(next.pct * Vm.TargetScore) - Vm.Score;
+            return $"Next rank: {next.name} ({ptsNeeded} points to go)";
         }
     }
 
