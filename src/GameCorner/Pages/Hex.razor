@@ -34,7 +34,7 @@
             <div class="d-flex gap-2 justify-content-md-end">
                 <button class="btn btn-outline-secondary" @onclick="Vm.Backspace">⌫</button>
                 <button class="btn btn-outline-secondary" @onclick="Vm.ClearEntry">Clear</button>
-                <button class="btn btn-primary" @onclick="SubmitClicked" disabled="@(Vm.CanSubmit ? null : true)">Submit</button>
+                <button class="btn btn-primary submit" @onclick="SubmitClicked" disabled="@(Vm.CanSubmit ? null : true)">Submit</button>
             </div>
         </div>
         <span class="floaty-wrap" aria-hidden="true">
@@ -52,7 +52,7 @@
         </span>
     </div>
 
-    <div class="hex">
+@*     <div class="hex">
         <button class="cell required" @onclick="() => Vm.Append(Vm.Required)">
             @Vm.Required
         </button>
@@ -60,6 +60,16 @@
         @foreach (var c in Vm.Letters.Where(c => c != Vm.Required))
         {
             <button class="cell" @onclick="() => Vm.Append(c)">@c</button>
+        }
+    </div> *@
+
+    <div class="hexboard">
+        @foreach (var (letter, i) in Vm.Letters.Select((l, idx) => (l, idx)))
+        {
+            <div class="tile @(letter == Vm.Required ? "required" : null)"
+                 @onclick="() => Vm.Append(letter)">
+                @letter
+            </div>
         }
     </div>
 
