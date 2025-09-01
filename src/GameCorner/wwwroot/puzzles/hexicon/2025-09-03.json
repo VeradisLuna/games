@@ -13,6 +13,26 @@
     "nidorino",
     "dragonair"
   ],
+  "formattedWords": [
+    "Aron",
+    "Aggron",
+    "Dodrio",
+    "Goodra",
+    "Nidoran (♀ or ♂)",
+    "Nidorina",
+    "Nidorino",
+    "Dragonair"
+  ],
+  "clues": [
+    "Gen 3",
+    "Gen 3",
+    "Gen 1",
+    "Gen 6",
+    "Gen 1",
+    "Gen 1",
+    "Gen 1",
+    "Gen 1"
+  ],
   "themed": true,
   "tagline": "Can you catch 'em all?"
 }

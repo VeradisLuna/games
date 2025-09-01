@@ -12,6 +12,24 @@
     "sinistea",
     "ninetales"
   ],
+  "formattedWords": [
+    "Seel",
+    "Entei",
+    "Litten",
+    "Sneasel",
+    "Steenee",
+    "Sinistea",
+    "Ninetales"
+  ],
+  "clues": [
+    "Gen 1",
+    "Gen 2",
+    "Gen 7",
+    "Gen 2",
+    "Gen 7",
+    "Gen 8",
+    "Gen 1"
+  ],
   "themed": true,
   "tagline": "Can you catch 'em all?"
 }

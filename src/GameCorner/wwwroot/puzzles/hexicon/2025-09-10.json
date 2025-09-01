@@ -1,0 +1,35 @@
+{
+  "date": "2025-09-10",
+  "pangram": "spector",
+  "letters": [ "o", "c", "t", "p", "e", "r", "s" ],
+  "required": "o",
+  "words": [
+    "otto",
+    "ross",
+    "cross",
+    "potts",
+    "scott",
+    "torres",
+    "spector"
+  ],
+  "formattedWords": [
+    "Otto",
+    "Ross",
+    "Cross",
+    "Potts",
+    "Scott",
+    "Torres",
+    "Spector"
+  ],
+  "clues": [
+    "Doc Ock",
+    "Thunderbolt",
+    "Yellowjacket",
+    "Rescue",
+    "Ant-Man",
+    "Falcon",
+    "Moon Knight"
+  ],
+  "themed": true,
+  "tagline": "First and last names of the MCU"
+}

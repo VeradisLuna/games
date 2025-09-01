@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-08",
+  "pangram": "brickwork",
+  "letters": [ "o", "b", "c", "i", "w", "k", "r" ],
+  "required": "o",
+  "words": [
+    "bock",
+    "boob",
+    "book",
+    "boor",
+    "brow",
+    "cock",
+    "coir",
+    "cook",
+    "cork",
+    "crow",
+    "kook",
+    "rock",
+    "rook",
+    "work",
+    "boric",
+    "brook",
+    "crock",
+    "crook",
+    "borrow",
+    "cookbook",
+    "workbook",
+    "brickwork"
+  ]
+}

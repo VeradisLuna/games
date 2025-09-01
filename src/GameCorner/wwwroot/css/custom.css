@@ -1,4 +1,13 @@
 ﻿/* super-light styles for layout; replace with Tailwind/etc later */
+
+body {
+    font-family: 'Nunito', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+h2, .floaty {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 .container {
     max-width: 680px;
     margin: 2rem auto;
@@ -11,18 +20,6 @@
     align-items: center;
     margin: 1rem 0;
 }
-
-/*.buf {
-    width: 16rem;
-    padding: .5rem .75rem;
-}*/
-
-/*.hex {
-    position: relative;
-    width: 280px;
-    height: 260px;
-    margin: 1rem auto 2rem;
-}*/
 
 .cell {
     position: absolute;
@@ -43,48 +40,6 @@
     border-color: #9cc2ff;
 }
 
-/* positions: assumes Required is first, ring follows */
-/*.hex .cell.required {
-    left: 104px;
-    top: 102px;
-}*/
-
-/* N */
-/*.hex .cell:nth-child(2) {
-    left: 104px;
-    top: 20px;
-}*/
-
-/* NE */
-/*.hex .cell:nth-child(3) {
-    left: 196px;
-    top: 70px;
-}*/
-
-/* SE */
-/*.hex .cell:nth-child(4) {
-    left: 196px;
-    top: 154px;
-}*/
-
-/* S */
-/*.hex .cell:nth-child(5) {
-    left: 104px;
-    top: 204px;
-}*/
-
-/* SW */
-/*.hex .cell:nth-child(6) {
-    left: 12px;
-    top: 154px;
-}*/
-
-/* NW */
-/*.hex .cell:nth-child(7) {
-    left: 12px;
-    top: 70px;
-}*/
-
 :root {
     --rank-green: #2ecc71;
     --rank-blue: #3498db;
@@ -97,6 +52,19 @@
     font-weight: 800;
     font-size: 1.35rem;
     margin: .5rem 0 .25rem;
+}
+
+.title {
+    font-weight: 800;
+    font-size: 1.35rem;
+}
+
+.subtitle {
+    font-size: 1.35rem;
+}
+.game-card h2 {
+    font-weight: 800;
+    font-size: 1.35rem;
 }
 
 .rank-default {
@@ -231,6 +199,12 @@
     color: var(--rank-purple);
 }
 
+.clue {
+    margin: .25rem 0;
+    font-style: italic;
+    color: #3498db;
+}
+
 .score-area, .rank-line, .input-area {
     position: relative;
 }
@@ -291,7 +265,16 @@
     position: relative;
 }
 
-/* vertical hex styling */
+.tile-group{
+    position: absolute;
+    width: 84px;
+    height: 96px;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    filter: drop-shadow(-1px 3px 3px rgba(0, 0, 0,0.36));
+}
+
 .tile {
     width: 84px;
     height: 96px;
@@ -335,31 +318,31 @@
     font-family: 'Nunito', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
 
-.tile:nth-child(1) {
+.tile-group:nth-child(1) {
     left: calc(160px - 1 * 42px);
     top: calc(150px - 1 * 42px);
 }
-.tile:nth-child(2) {
+.tile-group:nth-child(2) {
     left: calc(160px);
     top: calc(150px - 3 * 42px);
 }
-.tile:nth-child(3) {
+.tile-group:nth-child(3) {
     left: calc(160px + 1 * 42px);
     top: calc(150px - 1 * 42px);
 }
-.tile:nth-child(4) {
+.tile-group:nth-child(4) {
     left: calc(160px);
     top: calc(150px + 1 * 42px);
 }
-.tile:nth-child(5) {
+.tile-group:nth-child(5) {
     left: calc(160px - 2 * 42px);
     top: calc(150px + 1 * 42px);
 }
-.tile:nth-child(6) {
+.tile-group:nth-child(6) {
     left: calc(160px - 3 * 42px);
     top: calc(150px - 1 * 42px);
 }
-.tile:nth-child(7) {
+.tile-group:nth-child(7) {
     left: calc(160px - 2 * 42px);
     top: calc(150px - 3 * 42px);
 }
@@ -370,4 +353,27 @@
 .submit.disabled, .submit:disabled {
     background-color: #d7bce3 !important;
     border-color: var(--rank-purple) !important;
+}
+
+.tile-group .tile-badge {
+    display: none;
+}
+
+.tile-group .tile-badge.cleared{
+    display: inline-flex;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background: #ab74c2;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.18);
+    pointer-events: none;
 }

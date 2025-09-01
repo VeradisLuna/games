@@ -4,9 +4,19 @@
   "letters": [ "s", "i", "l", "o", "r", "t", "u" ],
   "required": "s",
   "words": [
-    "titus",
     "lost",
+    "titus",
     "troilus"
+  ],
+  "formattedWords": [
+    "Love's Labour's LOST",
+    "TITUS Andronicus",
+    "TROILUS and Cressida"
+  ],
+  "clues": [
+    "Early comedy",
+    "Roman tragedy",
+    "Problem play"
   ],
   "themed": true,
   "tagline": "Shakespeare Title Words"

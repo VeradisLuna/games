@@ -1,0 +1,13 @@
+{
+  "date": "2025-09-10",
+  "pangram": "copters",
+  "letters": [ "t", "c", "o", "p", "e", "r", "s" ],
+  "required": "t",
+  "words": [
+    "otto",
+    "peter",
+    "scott"
+  ],
+  "themed": true,
+  "tagline": "MCU first names (with extra legs?)"
+}

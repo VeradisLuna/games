@@ -17,5 +17,7 @@
         public List<string> Words { get; set; } = new List<string>();
         public bool Themed { get; set; } = false;
         public string? Tagline { get; set; }
+        public List<string> Clues { get; set; } = new List<string>();
+        public List<string> FormattedWords { get; set; } = new List<string>();
     }
 }

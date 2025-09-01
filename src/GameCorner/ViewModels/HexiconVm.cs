@@ -30,6 +30,8 @@ namespace GameCorner.ViewModels
         public char Required { get; private set; }
         public IReadOnlyList<string> Valid => _valid;
         public IReadOnlyCollection<string> Found => _found;
+        public IReadOnlyList<string> Clues => _clues;
+        public IReadOnlyList<string> FormattedWords => _formattedWords;
 
         public int Score { get; private set; }
         public int TargetScore { get; private set; }
@@ -40,6 +42,8 @@ namespace GameCorner.ViewModels
 
         public bool Themed { get; private set; } = false;
         public string? Tagline { get; private set; }
+        public bool HasClues { get; private set; } = false;
+        public bool Formatted { get; private set; } = false;
         public int TotalWords { get; private set; }
         public DateOnly PuzzleDate => _puzzleDate;
 
@@ -50,6 +54,8 @@ namespace GameCorner.ViewModels
         private List<char> _letters = new();
         private List<string> _valid = new();
         private HashSet<string> _validSet = new();
+        private List<string> _clues = new();
+        private List<string> _formattedWords = new();
         private HashSet<string> _found = new(StringComparer.Ordinal);
         private Scoring _scoring = new(minLen: 4, pangramBonus: 6);
         private HashSet<char> _letterSet = new();
@@ -86,12 +92,18 @@ namespace GameCorner.ViewModels
             _valid = (data.Words ?? new List<string>()).Select(Norm).Distinct().ToList();
             _validSet = _valid.ToHashSet(StringComparer.Ordinal);
 
+            _clues = (data.Clues ?? new List<string>()).ToList();
+            _formattedWords = (data.FormattedWords ?? new List<string>()).Distinct().ToList();
+
             PangramTitle = string.IsNullOrWhiteSpace(data.Pangram) ? "" : $"{data.Pangram.Trim().ToLowerInvariant()} ({Required})";
             TitleRevealed = false;
 
             Themed = data.Themed;
             Tagline = data.Tagline;
             TotalWords = (data.Words ?? []).Count;
+
+            HasClues = (data.Clues ?? []).Any();
+            Formatted = (data.FormattedWords ?? []).Any();
 
             CurrentEntry = "";
             _found.Clear();
@@ -110,6 +122,8 @@ namespace GameCorner.ViewModels
                 Score = saved.Score;
                 TitleRevealed = _found.Contains(data.Pangram);
             }
+
+            InitBuckets();
         }
 
         // --- Input helpers ---
@@ -153,9 +167,10 @@ namespace GameCorner.ViewModels
 
             _found.Add(w);
             AddScore(_scoring.Word(w, _letterSet));
-            //Score += _scoring.Word(w, _letterSet);
 
             if (w == PangramTitle.Split(' ')[0]) TitleRevealed = true;
+
+            OnWordAccepted(w);
 
             // Persist progress
             var save = new SaveData
@@ -183,6 +198,8 @@ namespace GameCorner.ViewModels
             Score = 0;
             TitleRevealed = false;
             CurrentEntry = "";
+
+            UpdateClearedStarts();
         }
 
         public bool IsPangram(string w)
@@ -206,6 +223,47 @@ namespace GameCorner.ViewModels
         {
             Score += delta;
             OnScored?.Invoke(delta);
+        }
+
+        // Map: first-letter -> total words that start with that letter
+        private Dictionary<char, int> _totalByStart = new();
+
+        // The letters whose buckets are fully cleared
+        private readonly HashSet<char> _clearedStarts = new();
+
+        public bool IsStartCleared(char c) => _clearedStarts.Contains(char.ToLowerInvariant(c));
+
+        public void InitBuckets()
+        {
+            //_totalByStart = _validSet
+            //    .GroupBy(w => char.ToLowerInvariant(w[0]))
+            //    .ToDictionary(g => g.Key, g => g.Count());
+
+            _totalByStart = _letterSet.ToDictionary(c => c, c => _validSet.Count(vs => vs[0] == c));
+
+            UpdateClearedStarts();
+        }
+
+        private void UpdateClearedStarts()
+        {
+            var foundByStart = Found
+                .GroupBy(w => char.ToLowerInvariant(w[0]))
+                .ToDictionary(g => g.Key, g => g.Count());
+
+            foreach (var kv in _totalByStart)
+            {
+                var c = kv.Key;
+                var total = kv.Value;
+                foundByStart.TryGetValue(c, out var have);
+                if (have >= total) _clearedStarts.Add(c);
+                else _clearedStarts.Remove(c);
+            }
+        }
+
+        private void OnWordAccepted(string word)
+        {
+            _found.Add(word);
+            UpdateClearedStarts();
         }
     }
 }

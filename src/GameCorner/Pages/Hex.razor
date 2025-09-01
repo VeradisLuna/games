@@ -52,23 +52,18 @@
         </span>
     </div>
 
-@*     <div class="hex">
-        <button class="cell required" @onclick="() => Vm.Append(Vm.Required)">
-            @Vm.Required
-        </button>
-
-        @foreach (var c in Vm.Letters.Where(c => c != Vm.Required))
-        {
-            <button class="cell" @onclick="() => Vm.Append(c)">@c</button>
-        }
-    </div> *@
-
     <div class="hexboard">
         @foreach (var (letter, i) in Vm.Letters.Select((l, idx) => (l, idx)))
         {
-            <div class="tile @(letter == Vm.Required ? "required" : null)"
-                 @onclick="() => Vm.Append(letter)">
-                @letter
+            <div class="tile-group">
+                <div class="tile @(letter == Vm.Required ? "required" : null)"
+                     @onclick="() => Vm.Append(letter)">
+                    <span class="glyph">@letter</span>
+                </div>
+                @if (!TinyPuzzle())
+                {
+                    <div class="tile-badge @(Vm.IsStartCleared(letter) ? "cleared" : null)" aria-hidden="true" title="All words found for @letter">✓</div>
+                }
             </div>
         }
     </div>
@@ -78,7 +73,7 @@
         <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset this puzzle</button>
     </div>
 
-    @if (Vm.Themed)
+    @if (Vm.Themed || CurrentRank.levelIndex == 7)
     {
         <h4 class="mt-4">Found words (@Vm.Found.Count / @Vm.TotalWords)</h4>
     }
@@ -88,9 +83,33 @@
     }
     <div class="found-box">
         <ul class="found-list">
-            @foreach (var w in Vm.Found.OrderBy(w => w.Length).ThenBy(w => w))
+            @if (Vm.HasClues)
             {
-                <li class="found-word @(Vm.IsPangram(w) ? "pangram" : null)">@w</li>
+                @foreach (var (index, w) in (Vm.Valid.OrderBy(w => w.Length).ThenBy(w => w).Select((member, index) => (index, member))))
+                {
+                    if (Vm.Found.Contains(w))
+                    {
+                        if (Vm.Formatted)
+                        {
+                            <li class="found-word @(Vm.IsPangram(w) ? "pangram" : null)">@Vm.FormattedWords[index]</li>
+                        }
+                        else
+                        {
+                            <li class="found-word @(Vm.IsPangram(w) ? "pangram" : null)">@w</li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="clue">@Vm.Clues[index]</li>
+                    }
+                }
+            }
+            else
+            {
+                @foreach (var w in Vm.Found.OrderBy(w => w.Length).ThenBy(w => w))
+                {
+                    <li class="found-word @(Vm.IsPangram(w) ? "pangram" : null)">@w</li>
+                }
             }
         </ul>
     </div>
@@ -203,11 +222,11 @@
     {
         get
         {
-            if (TinyPuzzle()) return "";
+            if (TinyPuzzle()) return " ";
 
             double pct = Vm.ScoreRatio;
             var next = BigTiers.FirstOrDefault(t => pct < t.pct);
-            if (next == default) return "";
+            if (next == default) return " ";
 
             int ptsNeeded = (int)Math.Ceiling(next.pct * Vm.TargetScore) - Vm.Score;
             return $"Next rank: {next.name} ({ptsNeeded} points to go)";
