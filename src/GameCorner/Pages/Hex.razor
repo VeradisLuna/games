@@ -40,7 +40,14 @@
         <span class="floaty-wrap" aria-hidden="true">
             @if (_showFloaty)
             {
-                <span class="floaty" @key="_floatyRunId">+@_lastDelta</span>
+                @if (TinyPuzzle())
+                {
+                    <span class="floaty" @key="_floatyRunId">✔️</span>
+                }
+                else
+                {
+                    <span class="floaty" @key="_floatyRunId">+@_lastDelta</span>
+                }
             }
         </span>
     </div>

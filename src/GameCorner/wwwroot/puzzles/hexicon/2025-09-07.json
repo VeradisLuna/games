@@ -1,0 +1,17 @@
+{
+  "date": "2025-09-07",
+  "pangram": "ninetales",
+  "letters": [ "e", "a", "i", "s", "t", "l", "n" ],
+  "required": "e",
+  "words": [
+    "seel",
+    "entei",
+    "litten",
+    "sneasel",
+    "steenee",
+    "sinistea",
+    "ninetales"
+  ],
+  "themed": true,
+  "tagline": "Can you catch 'em all?"
+}
