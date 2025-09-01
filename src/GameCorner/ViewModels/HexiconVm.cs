@@ -152,7 +152,8 @@ namespace GameCorner.ViewModels
             if (!_validSet.Contains(w) || _found.Contains(w)) return false;
 
             _found.Add(w);
-            Score += _scoring.Word(w, _letterSet);
+            AddScore(_scoring.Word(w, _letterSet));
+            //Score += _scoring.Word(w, _letterSet);
 
             if (w == PangramTitle.Split(' ')[0]) TitleRevealed = true;
 
@@ -198,5 +199,13 @@ namespace GameCorner.ViewModels
 
         // --- Helpers ---
         private static string Norm(string s) => new string(s.Trim().ToLowerInvariant().Where(char.IsLetter).ToArray());
+
+        public event Action<int>? OnScored;
+
+        private void AddScore(int delta)
+        {
+            Score += delta;
+            OnScored?.Invoke(delta);
+        }
     }
 }

@@ -230,3 +230,56 @@
     font-weight: 700;
     color: var(--rank-purple);
 }
+
+.score-area, .rank-line, .input-area {
+    position: relative;
+}
+
+.floaty-wrap {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    margin-bottom: .25rem;
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: none;
+}
+
+.floaty {
+    display: inline-block;
+    padding: .2rem .5rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    background: rgba(128, 200, 255, .15);
+    color: #2b7cff;
+    backdrop-filter: blur(2px);
+    animation: hx-float 1.5s ease-out forwards;
+    will-change: transform, opacity;
+}
+
+/* float up + fade */
+@keyframes hx-float {
+    0% {
+        transform: translateY(0) scale(.98);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    60% {
+        transform: translateY(-14px) scale(1.02);
+    }
+
+    100% {
+        transform: translateY(-22px) scale(1);
+        opacity: 0;
+    }
+}
+
+:root.dark .floaty {
+    background: rgba(80, 140, 255, .18);
+    color: #8fb6ff;
+}

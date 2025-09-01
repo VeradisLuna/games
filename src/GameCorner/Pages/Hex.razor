@@ -17,13 +17,15 @@
         }
     </h1>
 
-    <h2 class="rank-line @CurrentRank.css @( _pulse ? "pulse" : null )" aria-live="polite">
-        @CurrentRank.label
-    </h2>
+    <div class="score-area">
+        <h2 class="rank-line @CurrentRank.css @( _pulse ? "pulse" : null )" aria-live="polite">
+            @CurrentRank.label
+        </h2>
 
-    <p class="next-rank">@NextRankText</p>
+        <p class="next-rank">@NextRankText</p>
+    </div>
 
-    <div class="row g-2 align-items-center mb-3">
+    <div class="row g-2 align-items-center mb-3 input-area">
         <div class="col-12 col-md">
             <input class="form-control" @bind="Vm.CurrentEntry" @onkeydown="HandleKeyDown" @oninput="HandleInput" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
             placeholder="Type or tap letters..."/>
@@ -35,6 +37,12 @@
                 <button class="btn btn-primary" @onclick="SubmitClicked" disabled="@(Vm.CanSubmit ? null : true)">Submit</button>
             </div>
         </div>
+        <span class="floaty-wrap" aria-hidden="true">
+            @if (_showFloaty)
+            {
+                <span class="floaty" @key="_floatyRunId">+@_lastDelta</span>
+            }
+        </span>
     </div>
 
     <div class="hex">
@@ -264,5 +272,37 @@
             await Vm.ResetTodayAsync();
             StateHasChanged(); // force the UI to update
         }
+    }
+
+    private int _lastDelta;
+    private bool _showFloaty;
+    private int _floatyRunId; // changes to restart CSS animation
+
+    protected override void OnInitialized()
+    {
+        Vm.OnScored += HandleScored;
+    }
+
+    private async void HandleScored(int delta)
+    {
+        if (delta <= 0) return;
+        _lastDelta = delta;
+        _floatyRunId++;        // change key to re-trigger animation
+        _showFloaty = false;   // reset
+        StateHasChanged();
+
+        // show on next tick so the CSS animation restarts cleanly
+        await Task.Yield();
+        _showFloaty = true;
+        StateHasChanged();
+
+        await Task.Delay(1500); // match CSS duration
+        _showFloaty = false;
+        StateHasChanged();
+    }
+
+    public void Dispose()
+    {
+        Vm.OnScored -= HandleScored;
     }
 }
