@@ -10,20 +10,20 @@ public sealed class Persistence
 
     static readonly JsonSerializerOptions JsonOpts = new() { WriteIndented = false };
 
-    static string KeyFor(DateOnly date) => $"hexicon:{date:yyyy-MM-dd}";
+    static string KeyFor(string gamePrefix, DateOnly date) => $"{gamePrefix}:{date:yyyy-MM-dd}";
 
-    public async Task SaveAsync(DateOnly date, object state)
+    public async Task SaveAsync(string gamePrefix, DateOnly date, object state)
     {
         var json = JsonSerializer.Serialize(state, JsonOpts);
-        await _js.InvokeVoidAsync("hexiconStore.set", KeyFor(date), json);
+        await _js.InvokeVoidAsync("hexiconStore.set", KeyFor(gamePrefix, date), json);
     }
 
-    public async Task<T?> LoadAsync<T>(DateOnly date)
+    public async Task<T?> LoadAsync<T>(string gamePrefix, DateOnly date)
     {
-        var json = await _js.InvokeAsync<string?>("hexiconStore.get", KeyFor(date));
+        var json = await _js.InvokeAsync<string?>("hexiconStore.get", KeyFor(gamePrefix, date));
         return string.IsNullOrWhiteSpace(json) ? default : JsonSerializer.Deserialize<T>(json);
     }
 
-    public Task ClearAsync(DateOnly date) =>
-        _js.InvokeVoidAsync("hexiconStore.remove", KeyFor(date)).AsTask();
+    public Task ClearAsync(string gamePrefix, DateOnly date) =>
+        _js.InvokeVoidAsync("hexiconStore.remove", KeyFor(gamePrefix, date)).AsTask();
 }

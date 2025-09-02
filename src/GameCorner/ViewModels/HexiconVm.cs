@@ -113,7 +113,7 @@ namespace GameCorner.ViewModels
             TargetScore = _scoring.Total(_valid, _letterSet);
 
             // Try to restore saved state
-            var saved = await _persist.LoadAsync<SaveData>(_puzzleDate);
+            var saved = await _persist.LoadAsync<SaveData>("hexicon", _puzzleDate);
             if (saved is not null &&
                 saved.Pangram.Equals(data.Pangram, StringComparison.OrdinalIgnoreCase) &&
                 saved.Required == data.Required)
@@ -183,7 +183,7 @@ namespace GameCorner.ViewModels
                 Score = Score,
                 SavedAt = DateTime.UtcNow
             };
-            await _persist.SaveAsync(_puzzleDate, save);
+            await _persist.SaveAsync("hexicon", _puzzleDate, save);
 
             return true;
         }
@@ -191,7 +191,7 @@ namespace GameCorner.ViewModels
         public async Task ResetTodayAsync()
         {
             // Clear persisted save
-            await _persist.ClearAsync(_puzzleDate);
+            await _persist.ClearAsync("hexicon", _puzzleDate);
 
             // Reset in-memory state
             _found.Clear();

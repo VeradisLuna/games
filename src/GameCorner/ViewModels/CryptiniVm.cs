@@ -52,7 +52,7 @@ public sealed class CryptiniVm
 
         _answerNorm = Norm(data.Answer ?? "");
 
-        var saved = await _persist.LoadAsync<CryptiniSave>(PuzzleDate);
+        var saved = await _persist.LoadAsync<CryptiniSave>("cryptini", PuzzleDate);
         if (saved is not null)
         {
             Solved = saved.Solved;
@@ -74,7 +74,7 @@ public sealed class CryptiniVm
         var ok = norm == _answerNorm || _alts.Contains(norm);
         if (ok) Solved = true;
 
-        await _persist.SaveAsync(PuzzleDate, new CryptiniSave
+        await _persist.SaveAsync("cryptini", PuzzleDate, new CryptiniSave
         {
             Date = PuzzleDate.ToString("yyyy-MM-dd"),
             Solved = Solved,
@@ -96,7 +96,7 @@ public sealed class CryptiniVm
 
     public async Task ResetAsync()
     {
-        await _persist.ClearAsync(_dates.Today);
+        await _persist.ClearAsync("cryptini", _dates.Today);
         Solved = false;
         CurrentEntry = "";
     }
