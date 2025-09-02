@@ -1,4 +1,6 @@
-﻿namespace Hexicon.Core
+﻿using System.Text.Json.Serialization;
+
+namespace Hexicon.Core
 {
     public sealed record Puzzle(
         char Required,
@@ -19,5 +21,15 @@
         public string? Tagline { get; set; }
         public List<string> Clues { get; set; } = new List<string>();
         public List<string> FormattedWords { get; set; } = new List<string>();
+    }
+
+    public sealed class CryptiniData
+    {
+        public string Date { get; set; } = "";
+        public string Clue { get; set; }
+        public string Enumeration { get; set; }
+        public string Answer { get; set; }
+        public string Explanation { get; set; }
+        public string Hint { get; set; }
     }
 }

@@ -1,0 +1,116 @@
+﻿@page "/cryptini"
+@inject GameCorner.ViewModels.CryptiniVm Vm
+@inject IJSRuntime JS
+
+<div class="container">
+    <h1 class="title">@(Vm.Solved ? @Vm.Answer : $"{Vm.PuzzleDate.ToString("dddd")}'s Cryptini")</h1>
+
+    <div class="subtitle" style="margin:.25rem 0 1rem;">
+        @Vm.Clue @if (!string.IsNullOrWhiteSpace(Vm.Enumeration)) {
+        <span> (@Vm.Enumeration)</span>
+                }
+    </div>
+
+    <div class="row g-2 align-items-center mb-3 input-area">
+        <div class="col-12 col-md">
+            <input class="form-control" @bind="Vm.CurrentEntry" @onkeydown="HandleKeyDown" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
+                   placeholder="Type your answer..." />
+        </div>
+        <div class="col-12 col-md-auto">
+            <div class="d-flex gap-2 justify-content-md-end">
+                <button class="btn btn-primary submit @(Vm.Solved ? "disabled": "")" @onclick="Submit" disabled="@(Vm.Solved)">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bar">
+        <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reveal solution</button>
+    </div>
+
+    @if (Vm.Solved)
+    {
+        @if (Vm.Revealed)
+        {
+            <div class="rank-line pulse">Revealed!</div>
+        }
+        else
+        {
+            <div class="rank-line rank-purple pulse">Correct!</div>
+        }
+        @if (!string.IsNullOrWhiteSpace(Vm.Explanation))
+        {
+            <div class="found-box" style="margin-top:.5rem;">
+                <h3>How it works</h3>
+                <p>@Vm.Explanation</p>
+            </div>
+        }
+    }
+
+    @if (_confirmOpen)
+    {
+        <div class="hx-modal-backdrop" @onclick="CloseConfirm" />
+
+        <div class="hx-modal" role="dialog" aria-modal="true" aria-labelledby="hx-reset-title" @onkeydown="HandleKeyDown" tabindex="0">
+            <h3 id="hx-reset-title">Reveal today's solution?</h3>
+            <p>This will reveal today's solution, and the explanation. This cannot be undone!</p>
+
+            <div class="hx-modal-actions">
+                <button class="btn btn-outline-secondary" @onclick="CloseConfirm">Cancel</button>
+                <button class="btn btn-danger" @onclick="ConfirmResetAsync">Reveal</button>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [SupplyParameterFromQuery(Name = "reset")]
+    public bool Reset { get; set; } // ?reset=true resets the puzzle
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if(Reset) await Vm.ResetAsync();
+    }
+
+    protected override async Task OnInitializedAsync() => await Vm.InitAsync();
+    private async Task Submit() => await Vm.SubmitAsync();
+
+    private async Task HandleKeyDown(KeyboardEventArgs e)
+    {
+        var key = e.Key ?? "";
+
+        if (key == "Enter")
+        {
+            await Vm.SubmitAsync();
+            StateHasChanged();
+            return;
+        }
+
+        if (key == "Escape")
+        {
+            Vm.ClearEntry();
+            StateHasChanged();
+            return;
+        }
+    }
+
+    private bool _confirmOpen;
+    private void OpenConfirm() => _confirmOpen = true;
+    private void CloseConfirm() => _confirmOpen = false;
+
+    private async Task ConfirmResetAsync()
+    {
+        await Vm.RevealAsync();
+        _confirmOpen = false;
+        StateHasChanged();
+    }
+
+    private async Task ResetClicked()
+    {
+        var ok = await JS.InvokeAsync<bool>("confirm", "Reveal today's solution? This cannot be undone!");
+        if (ok)
+        {
+            await Vm.RevealAsync();
+            StateHasChanged(); // force the UI to update
+        }
+    }
+}
