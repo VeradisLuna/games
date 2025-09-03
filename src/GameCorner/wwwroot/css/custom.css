@@ -377,3 +377,48 @@ h2, .floaty {
     box-shadow: 2px 2px 2px rgba(0,0,0,.18);
     pointer-events: none;
 }
+
+.mini-cell {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    background: #fff;
+    transition: border-color 120ms ease, box-shadow 120ms ease;
+}
+
+.mini-cell.is-active {
+    border-color: rebeccapurple;
+    box-shadow: 0 0 0 3px rgba(102, 51, 153, 0.25) inset;
+}
+
+.mini-cell-input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    text-align: center;
+    font: 700 24px/1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    text-transform: uppercase;
+    caret-color: transparent; /* crossword vibe; no blinking caret */
+}
+
+.mini-cell-input:focus {
+    outline: none;
+}
+
+.mini-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 56px);
+    grid-auto-rows: 56px;
+    gap: 8px;
+    outline: none; /* we handle focus inside cells */
+}
+
+.mini-grid-cellwrap {
+    width: 56px;
+    height: 56px;
+}

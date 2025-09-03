@@ -1,0 +1,114 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+
+<div class="mini-cell @(isFocused ? "is-active" : null)" @onclick="FocusInput">
+    <input @ref="inputRef"
+           class="mini-cell-input"
+           type="text"
+           maxlength="1"
+           inputmode="latin"
+           autocomplete="off"
+           autocorrect="off"
+           autocapitalize="characters"
+           spellcheck="false"
+           @bind-value="Text"
+           @bind-value:event="oninput"
+           @bind-value:after="OnTextChanged"
+           @onfocus="() => isFocused = true"
+           @onblur="() => isFocused = false"
+           @onkeydown="HandleKeyDown" />
+</div>
+
+@code {
+    private ElementReference inputRef;
+    private bool isFocused;
+    private string _text = "";
+    private int _lastFocusKey = -1;
+    private bool _shouldFocus;
+
+    [Parameter] public char? Value { get; set; }
+    [Parameter] public EventCallback<char?> ValueChanged { get; set; }
+    [Parameter] public EventCallback<char?> OnInput { get; set; }
+
+    // New: let parent decide which cell is “active” and when to (re)focus it
+    [Parameter] public bool IsActive { get; set; }
+    [Parameter] public int RequestFocusKey { get; set; }  // increment in parent to force focus
+    [Parameter] public EventCallback<KeyboardEventArgs> OnKeyDownFromCell { get; set; }
+
+    [Parameter] public bool AutoFocus { get; set; } = false;
+
+    private string Text
+    {
+        get => _text;
+        set
+        {
+            var s = (value ?? "").Trim();
+            char? ch = null;
+
+            if (s.Length > 0)
+            {
+                var last = s[^1];
+                if (char.IsLetter(last))
+                {
+                    ch = char.ToUpperInvariant(last);
+                    _text = ch.Value.ToString();
+                }
+                else
+                {
+                    _text = "";
+                }
+            }
+            else
+            {
+                _text = "";
+            }
+
+            Value = ch;
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && AutoFocus)
+        {
+            await inputRef.FocusAsync();
+        }
+
+        if (_shouldFocus)
+        {
+            _shouldFocus = false;
+            await inputRef.FocusAsync();
+        }
+    }
+
+    protected override void OnParametersSet()
+    {
+        if (IsActive && RequestFocusKey != _lastFocusKey)
+        {
+            _lastFocusKey = RequestFocusKey;
+            _shouldFocus = true;
+        }
+    }
+
+    private async Task OnTextChanged()
+    {
+        if (ValueChanged.HasDelegate) await ValueChanged.InvokeAsync(Value);
+        if (OnInput.HasDelegate) await OnInput.InvokeAsync(Value);
+    }
+
+    private async Task HandleKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Backspace" || e.Key == "Delete")
+        {
+            _text = "";
+            Value = null;
+
+            if (ValueChanged.HasDelegate) await ValueChanged.InvokeAsync(Value);
+            if (OnInput.HasDelegate) await OnInput.InvokeAsync(Value);
+        }
+
+        if (OnKeyDownFromCell.HasDelegate)
+            await OnKeyDownFromCell.InvokeAsync(e);
+    }
+
+    private async Task FocusInput() => await inputRef.FocusAsync();
+}

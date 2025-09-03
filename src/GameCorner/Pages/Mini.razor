@@ -1,0 +1,17 @@
+﻿@page "/mini-demo"
+
+<h3>Mini cell demo</h3>
+
+<MiniCell @bind-Value="cell" AutoFocus="true" OnInput="HandleInput" />
+
+<p>Current value: @((cell.HasValue ? cell.Value.ToString() : "∅"))</p>
+
+@code {
+    private char? cell;
+
+    private void HandleInput(char? ch)
+    {
+        // This is where you’ll move focus to the next cell in a grid later.
+        // For now, it just shows the typed letter above.
+    }
+}
