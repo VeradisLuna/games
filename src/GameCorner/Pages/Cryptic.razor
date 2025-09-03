@@ -13,7 +13,7 @@
 
     <div class="row g-2 align-items-center mb-3 input-area">
         <div class="col-12 col-md">
-            <input class="form-control" @bind="Vm.CurrentEntry" @onkeydown="HandleKeyDown" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
+            <input class="form-control" @bind="Vm.CurrentEntry" @bind:event="oninput" @onkeydown="HandleKeyDown" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" inputmode="latin"
                    placeholder="Type your answer..." />
         </div>
         <div class="col-12 col-md-auto">
