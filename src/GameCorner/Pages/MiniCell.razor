@@ -1,4 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Components.Web
+@inject IJSRuntime JS
 
 @if (IsBlock)
 {
@@ -19,7 +20,7 @@ else
                @bind-value="Text"
                @bind-value:event="oninput"
                @bind-value:after="OnTextChanged"
-               @onfocus="() => isFocused = true"
+               @onfocus="OnFocus"
                @onblur="() => isFocused = false"
                @onkeydown="HandleKeyDown" />
     </div>
@@ -44,6 +45,18 @@ else
     [Parameter] public EventCallback<KeyboardEventArgs> OnKeyDownFromCell { get; set; }
 
     [Parameter] public bool AutoFocus { get; set; } = false;
+
+    private async Task OnFocus(FocusEventArgs _)
+    {
+        isFocused = true;
+
+        // If there is already a letter, select it so the next key overwrites it,
+        // which will trigger 'input' (works on mobile).
+        if (!string.IsNullOrEmpty(_text))
+        {
+            await JS.InvokeVoidAsync("mini.selectAll", inputRef);
+        }
+    }
 
     private string Text
     {

@@ -11,3 +11,12 @@ window.lunaFocus = {
         }
     }
 };
+
+window.mini = {
+    selectAll(el) {
+        if (!el) return;
+        // Select the single character so the next keystroke replaces it
+        if (typeof el.select === "function") el.select();
+        if (typeof el.setSelectionRange === "function") el.setSelectionRange(0, 1);
+    }
+};
