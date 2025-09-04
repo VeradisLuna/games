@@ -14,7 +14,7 @@
 </div>
 
 @code {
-    [Parameter] public string BasePath { get; set; } = "/hexicon";
+    [Parameter] public string BasePath { get; set; } = "hexicon";
     [Parameter] public DateOnly? MinDate { get; set; } // optional lower bound
 
     private DateOnly Effective => Dates.Today; // already clamped by UrlDateProvider
