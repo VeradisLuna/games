@@ -1,22 +1,29 @@
 ﻿@using Microsoft.AspNetCore.Components.Web
 
-<div class="mini-cell @(isFocused ? "is-active" : null)" @onclick="FocusInput">
-    <input @ref="inputRef"
-           class="mini-cell-input"
-           type="text"
-           maxlength="1"
-           inputmode="latin"
-           autocomplete="off"
-           autocorrect="off"
-           autocapitalize="characters"
-           spellcheck="false"
-           @bind-value="Text"
-           @bind-value:event="oninput"
-           @bind-value:after="OnTextChanged"
-           @onfocus="() => isFocused = true"
-           @onblur="() => isFocused = false"
-           @onkeydown="HandleKeyDown" />
-</div>
+@if (IsBlock)
+{
+    <div class="mini-cell is-block"></div>
+}
+else
+{
+    <div class="mini-cell @(isFocused ? "is-active" : null)" @onclick="FocusInput">
+        <input @ref="inputRef"
+               class="mini-cell-input"
+               type="text"
+               maxlength="1"
+               inputmode="latin"
+               autocomplete="off"
+               autocorrect="off"
+               autocapitalize="characters"
+               spellcheck="false"
+               @bind-value="Text"
+               @bind-value:event="oninput"
+               @bind-value:after="OnTextChanged"
+               @onfocus="() => isFocused = true"
+               @onblur="() => isFocused = false"
+               @onkeydown="HandleKeyDown" />
+    </div>
+}
 
 @code {
     private ElementReference inputRef;
@@ -24,6 +31,8 @@
     private string _text = "";
     private int _lastFocusKey = -1;
     private bool _shouldFocus;
+
+    [Parameter] public bool IsBlock { get; set; }
 
     [Parameter] public char? Value { get; set; }
     [Parameter] public EventCallback<char?> ValueChanged { get; set; }
@@ -68,21 +77,24 @@
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        if (firstRender && AutoFocus)
+        if (!IsBlock)
         {
-            await inputRef.FocusAsync();
-        }
+            if (firstRender && AutoFocus)
+            {
+                await inputRef.FocusAsync();
+            }
 
-        if (_shouldFocus)
-        {
-            _shouldFocus = false;
-            await inputRef.FocusAsync();
+            if (_shouldFocus)
+            {
+                _shouldFocus = false;
+                await inputRef.FocusAsync();
+            }
         }
     }
 
     protected override void OnParametersSet()
     {
-        if (IsActive && RequestFocusKey != _lastFocusKey)
+        if (!IsBlock && IsActive && RequestFocusKey != _lastFocusKey)
         {
             _lastFocusKey = RequestFocusKey;
             _shouldFocus = true;
@@ -97,18 +109,12 @@
 
     private async Task HandleKeyDown(KeyboardEventArgs e)
     {
-        if (e.Key == "Backspace" || e.Key == "Delete")
-        {
-            _text = "";
-            Value = null;
-
-            if (ValueChanged.HasDelegate) await ValueChanged.InvokeAsync(Value);
-            if (OnInput.HasDelegate) await OnInput.InvokeAsync(Value);
-        }
-
         if (OnKeyDownFromCell.HasDelegate)
             await OnKeyDownFromCell.InvokeAsync(e);
     }
 
-    private async Task FocusInput() => await inputRef.FocusAsync();
+    private async Task FocusInput()
+    {
+        if(!IsBlock) await inputRef.FocusAsync();
+    }
 }

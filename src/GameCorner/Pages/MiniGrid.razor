@@ -8,7 +8,8 @@
     {
         var idx = i;
         <div class="mini-grid-cellwrap" @onclick="@(() => Activate(idx))">
-            <MiniCell Value="@cells[idx]"
+            <MiniCell IsBlock="@blocks[idx]"
+                      Value="@cells[idx]"
                       ValueChanged="@(ch => SetCell(idx, ch))"
                       OnInput="@(ch => OnCellInput(idx, ch))"
                       OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
@@ -22,27 +23,39 @@
 
 @code {
     private char?[] cells = Enumerable.Repeat<char?>(null, 25).ToArray();
-    private int activeIndex = 0;   // 0..24
-    private int focusKey = 0;      // bump to force focus on active cell
+    private bool[] blocks = new bool[25];
+    private int activeIndex = 0;
+    private int focusKey = 0;
 
-    private string BoardString => new string(CellsToString());
+    private string BoardString => new string(Enumerable.Range(0, 25).Select(i => blocks[i] ? '#' : (cells[i] ?? '.')).ToArray());
 
     private void Activate(int idx)
     {
+        if (idx < 0 || idx > 24) return;
+        if (blocks[idx]) return;
+
         activeIndex = idx;
         focusKey++;
+    }
+
+    protected override void OnInitialized()
+    {
+        SetBlocks(2, 7, 11, 12, 13, 17, 22);
+    }
+
+    private void SetBlocks(params int[] idxs)
+    {
+        foreach (var i in idxs) blocks[i] = true;
     }
 
     private void SetCell(int idx, char? ch) => cells[idx] = ch;
 
     private void OnCellInput(int idx, char? ch)
     {
-        // Type-to-advance (only when a valid letter was entered)
         if (ch.HasValue)
-            MoveActive(NextIndex(idx));
+            MoveActive(NextRightOpen(idx));
         else
         {
-            // If they cleared the cell, keep focus here.
             Activate(idx);
         }
     }
@@ -51,36 +64,62 @@
     {
         switch (e.Key)
         {
-            case "ArrowLeft": MoveActive(Left(idx)); break;
-            case "ArrowRight": MoveActive(Right(idx)); break;
-            case "ArrowUp": MoveActive(Up(idx)); break;
-            case "ArrowDown": MoveActive(Down(idx)); break;
+            case "ArrowLeft": MoveActive(NextLeftOpen(idx)); break;
+            case "ArrowRight": MoveActive(NextRightOpen(idx)); break;
+            case "ArrowUp": MoveActive(NextUpOpen(idx)); break;
+            case "ArrowDown": MoveActive(NextDownOpen(idx)); break;
             case "Backspace":
                 if (cells[idx] is null)
-                    MoveActive(PrevIndex(idx)); // back up if already empty
+                {
+                    MoveActive(NextLeftOpen(idx));
+                }
                 break;
             case "Tab":
-                MoveActive(NextIndex(idx));
+                MoveActive(NextRightOpen(idx));
                 break;
             case "Enter":
-                // Optional: flip direction later; for now treat as Next
-                MoveActive(NextIndex(idx));
+                MoveActive(NextRightOpen(idx));
                 break;
         }
     }
-
-    // Also allow grid container to move focus with arrows when it has focus
-    // private void HandleGridKey(KeyboardEventArgs e) => OnCellKey(activeIndex, e);
 
     private void MoveActive(int idx) => Activate(ClampToBoard(idx));
 
     private static int Row(int idx) => idx / 5;
     private static int Col(int idx) => idx % 5;
+    private static int Mod(int x, int m) => (x % m + m) % m;
 
-    private static int Left(int idx) => Row(idx) * 5 + Math.Max(0, Col(idx) - 1);
-    private static int Right(int idx) => Row(idx) * 5 + Math.Min(4, Col(idx) + 1);
-    private static int Up(int idx) => Math.Max(0, idx - 5);
-    private static int Down(int idx) => Math.Min(24, idx + 5);
+    private static readonly int[] AcrossOrder =
+        Enumerable.Range(0, 25).ToArray();
+
+    private static readonly int[] DownOrder = BuildDownOrder();
+
+    private static int[] BuildDownOrder()
+    {
+        var list = new List<int>(25);
+        for (int c = 0; c < 5; c++)
+            for (int r = 0; r < 5; r++)
+                list.Add(r * 5 + c);
+        return list.ToArray();
+    }
+
+    private int NextOpenInOrder(int idx, int[] order, bool forward)
+    {
+        int pos = Array.IndexOf(order, idx);
+        if (pos < 0) return idx;
+
+        for (int step = 1; step <= 24; step++)
+        {
+            int t = order[Mod(pos + (forward ? step : -step), 25)];
+            if (!blocks[t]) return t;
+        }
+        return idx;
+    }
+
+    private int NextRightOpen(int idx) => NextOpenInOrder(idx, AcrossOrder, true);
+    private int NextLeftOpen(int idx) => NextOpenInOrder(idx, AcrossOrder, false);
+    private int NextDownOpen(int idx) => NextOpenInOrder(idx, DownOrder, true);
+    private int NextUpOpen(int idx) => NextOpenInOrder(idx, DownOrder, false);
 
     private static int NextIndex(int idx)
     {
@@ -95,12 +134,4 @@
     }
 
     private static int ClampToBoard(int idx) => Math.Clamp(idx, 0, 24);
-
-    private char[] CellsToString()
-    {
-        var arr = new char[25];
-        for (int i = 0; i < 25; i++)
-            arr[i] = cells[i] ?? '·';
-        return arr;
-    }
 }
