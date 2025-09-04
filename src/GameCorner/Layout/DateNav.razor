@@ -1,0 +1,43 @@
+﻿@using GameCorner.Services
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+@inject NavigationManager Nav
+@inject IDateProvider Dates
+@inject Microsoft.AspNetCore.Components.WebAssembly.Hosting.IWebAssemblyHostEnvironment HostEnv
+
+<div class="date-nav" style="display:flex; gap:.5rem; align-items:center; margin:.75rem 0;">
+    <button @onclick="GoPrev" disabled="@(!CanGoPrev)">◀︎ Prev</button>
+    <button @onclick="GoToday">Today</button>
+    <button @onclick="GoNext" disabled="@(!CanGoNext)">Next ▶︎</button>
+    <span style="opacity:.7; margin-left:.5rem;">
+        @Effective.ToString("yyyy-MM-dd")
+    </span>
+</div>
+
+@code {
+    [Parameter] public string BasePath { get; set; } = "/hexicon";
+    [Parameter] public DateOnly? MinDate { get; set; } // optional lower bound
+
+    private DateOnly Effective => Dates.Today; // already clamped by UrlDateProvider
+    private DateOnly RealToday => DateOnly.FromDateTime(DateTime.Now);
+    private bool AllowFuture => HostEnv.IsDevelopment();
+
+    private bool CanGoPrev => !MinDate.HasValue || Effective > MinDate.Value;
+    private bool CanGoNext => AllowFuture || Effective < RealToday;
+
+    private static string ToIso(DateOnly d) => d.ToString("yyyy-MM-dd");
+
+    private void GoPrev()
+    {
+        if (!CanGoPrev) return;
+        Nav.NavigateTo($"{BasePath}/{ToIso(Effective.AddDays(-1))}");
+    }
+
+    private void GoToday()
+        => Nav.NavigateTo(BasePath);
+
+    private void GoNext()
+    {
+        if (!CanGoNext) return;
+        Nav.NavigateTo($"{BasePath}/{ToIso(Effective.AddDays(1))}");
+    }
+}

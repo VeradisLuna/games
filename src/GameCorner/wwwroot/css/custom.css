@@ -176,6 +176,10 @@ h2, .floaty {
     .found-list {
         column-count: 3;
     }
+
+    .found-list.single-column {
+        column-count: 1;
+    }
 }
 
 .found-list li {
@@ -188,6 +192,10 @@ h2, .floaty {
 .found-list {
     list-style: disc;
     padding-left: 1.25rem;
+}
+
+.found-list.single-column{
+    column-count: 1;
 }
 
 .found-word {

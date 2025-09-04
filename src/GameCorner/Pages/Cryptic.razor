@@ -4,6 +4,9 @@
 @inject IJSRuntime JS
 
 <div class="container">
+
+    <GameCorner.Layout.DateNav BasePath="/cryptini" MinDate="@(new DateOnly(2025, 09, 02))" />
+
     <h1 class="title">@(Vm.Solved ? @Vm.Answer : $"{Vm.PuzzleDate.ToString("dddd")}'s Cryptini")</h1>
 
     <div class="subtitle" style="margin:.25rem 0 1rem;">
@@ -64,13 +67,23 @@
 </div>
 
 @code {
-    [Parameter] public string? date { get; set; }  // unused; satisfies the router
+    [Parameter] public string? date { get; set; }
+
+    private string? _lastDate;
+
     [SupplyParameterFromQuery(Name = "reset")]
     public bool Reset { get; set; } // ?reset=true resets the puzzle
 
     protected override async Task OnParametersSetAsync()
     {
-        if(Reset) await Vm.ResetAsync();
+        if (date != _lastDate)           // only reload if the date changed
+        {
+            _lastDate = date;
+            await Vm.InitAsync();         // provider will read new URL date
+        }
+        else if (Reset) {
+            await Vm.ResetAsync();
+        }
     }
 
     protected override async Task OnInitializedAsync() => await Vm.InitAsync();

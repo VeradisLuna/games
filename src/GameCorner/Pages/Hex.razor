@@ -6,6 +6,9 @@
 <PageTitle>Hexicon</PageTitle>
 
 <div class="container">
+
+    <GameCorner.Layout.DateNav BasePath="/hexicon" MinDate="@(new DateOnly(2025, 08, 30))" />
+
     <h1>
         @Vm.PuzzleDate.ToString("dddd"):
         @if (Vm.Tagline is { Length: > 0 })
@@ -83,7 +86,7 @@
         <h4 class="mt-4">Found words (@Vm.Found.Count)</h4>
     }
     <div class="found-box">
-        <ul class="found-list">
+        <ul class="found-list @(TinyPuzzle() ? "single-column" : null)">
             @if (Vm.HasClues)
             {
                 @foreach (var (index, w) in (Vm.Valid.OrderBy(w => w.Length).ThenBy(w => w).Select((member, index) => (index, member))))
@@ -132,7 +135,18 @@
 </div>
 
 @code {
-    [Parameter] public string? date { get; set; }  // unused; satisfies the router
+    [Parameter] public string? date { get; set; }
+
+    private string? _lastDate;
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (date != _lastDate)           // only reload if the date changed
+        {
+            _lastDate = date;
+            await Vm.InitAsync();         // provider will read new URL date
+        }
+    }
 
     protected override async Task OnInitializedAsync()
     {

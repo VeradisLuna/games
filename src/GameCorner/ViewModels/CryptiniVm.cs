@@ -42,6 +42,9 @@ public sealed class CryptiniVm
         var today = _dates.Today;
         PuzzleDate = today;
 
+        CurrentEntry = "";
+        Solved = false;
+
         var data = await _loader.LoadCryptiniAsync(today)
                    ?? throw new InvalidOperationException($"No cryptic for {today:yyyy-MM-dd}");
 

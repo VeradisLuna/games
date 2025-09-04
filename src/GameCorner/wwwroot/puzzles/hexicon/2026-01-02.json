@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-02",
+  "pangram": "braveheart",
+  "letters": [ "a", "b", "e", "h", "r", "t", "v" ],
+  "required": "a",
+  "words": [
+    "babe",
+    "brave",
+    "avatar",
+    "braveheart"
+  ],
+  "formattedWords": [
+    "Babe (1995)",
+    "Brave (2012)",
+    "Avatar (2009)",
+    "Braveheart (1995)"
+  ],
+  "clues": [
+    "B... (1995)",
+    "B.... (2012)",
+    "A..... (2009)",
+    "B......... (1995)"
+  ],
+  "themed": true,
+  "tagline": "Academy Award-winning movies"
+}
