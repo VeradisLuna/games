@@ -11,13 +11,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-// General
-#if DEBUG
-builder.Services.AddSingleton<IDateProvider>(_ => new FixedDateProvider(new DateOnly(2025, 9, 4)));
-//builder.Services.AddSingleton<IDateProvider, SystemDateProvider>();
-#else
-builder.Services.AddSingleton<IDateProvider, SystemDateProvider>();
-#endif
+builder.Services.AddScoped<IDateProvider, UrlDateProvider>();
 
 // Hexicon
 builder.Services.AddSingleton<IWordRepo, EmbeddedWordRepo>();

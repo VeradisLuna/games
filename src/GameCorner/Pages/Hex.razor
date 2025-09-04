@@ -1,4 +1,5 @@
 ﻿@page "/hexicon"
+@page "/hexicon/{date}"
 @inject GameCorner.ViewModels.HexiconVm Vm
 @inject IJSRuntime JS
 
@@ -131,6 +132,8 @@
 </div>
 
 @code {
+    [Parameter] public string? date { get; set; }  // unused; satisfies the router
+
     protected override async Task OnInitializedAsync()
     {
         await Vm.InitAsync();
