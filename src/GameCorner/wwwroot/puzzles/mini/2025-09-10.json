@@ -1,0 +1,68 @@
+{
+  "date": "2025-09-10",
+  "title": "Test Mini",
+  "author": "Luna",
+  "rows": [
+    "PLAIT",
+    "RETRO",
+    "EVOKE",
+    "SINS#",
+    "SSE##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Braid of hair"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Old-school"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bring to mind"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Seven things which might be deadly"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Opposite of NNW"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Garlic squeezer"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "501s"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Make amends"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Annoys"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Low digit?"
+      }
+    ]
+  }
+}
