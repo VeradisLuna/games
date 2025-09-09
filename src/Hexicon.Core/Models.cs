@@ -32,4 +32,27 @@ namespace Hexicon.Core
         public string Explanation { get; set; }
         public string Hint { get; set; }
     }
+
+    public sealed class MiniData
+    {
+        public string Date { get; set; } = "";
+        public string Title { get; set; } = "";
+        public string Author { get; set; } = "";
+        public List<string> Rows { get; set; } = new();
+        public MiniClueSet? Clues { get; set; }
+    }
+
+    public sealed class MiniClueSet
+    {
+        public List<MiniClueData> Across { get; set; } = new();
+        public List<MiniClueData> Down { get; set; } = new();
+    }
+
+    public sealed class MiniClueData
+    {
+        public int Row { get; set; }
+        public int Col { get; set; }
+        public string Clue { get; set; } = "";
+        public string? Answer { get; set; }  // optional, for validation/debug
+    }
 }

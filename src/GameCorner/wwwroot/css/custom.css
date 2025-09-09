@@ -429,10 +429,106 @@ h2, .floaty {
 .mini-grid-cellwrap {
     width: 56px;
     height: 56px;
+    position: relative;
 }
 
 .mini-cell.is-block {
     background: #222;
     border-color: #222;
     box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
+}
+
+.cluenumber {
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    font: 600 10px/1 system-ui, sans-serif;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.cluelist ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cluelist li {
+    padding: 4px 6px;
+    border-radius: 8px;
+}
+
+.clue--active {
+    background: rgba(102, 51, 153, 0.10); /* faint purple */
+    font-weight: 700;
+}
+
+.cell--active-entry {
+    box-shadow: inset 0 0 0 3px rgba(102, 51, 153, 0.12);
+}
+
+/* Board sizing (unchanged) */
+:root {
+    --cell: 56px;
+    --gap: 8px;
+    --cols: 5;
+}
+
+.mini-board {
+    width: calc(var(--cols)*var(--cell) + (var(--cols)-1)*var(--gap));
+}
+
+/* Optional: highlight current entry cells */
+.cell--active-entry {
+    box-shadow: inset 0 0 0 3px rgba(102, 51, 153, .12);
+}
+
+/* Active clue look (Bootstrap override) */
+.list-group-item.active {
+    background: rgba(102, 51, 153, .14);
+    color: inherit;
+    border: 0;
+    font-weight: 700;
+    border-radius: .75rem;
+}
+
+/* ---------- Desktop / large screens (lg and up) ---------- */
+@media (min-width: 992px) {
+    /* Two scrollable columns of clues; stick under header */
+    .clue-pane {
+        position: sticky;
+        top: 1rem;
+        max-height: calc(100vh - 160px); /* adjust for your header height */
+        overflow: auto;
+    }
+    /* show full lists at lg+ (default behavior) */
+}
+
+/* ---------- Tablet & mobile (below lg) ---------- */
+@media (max-width: 991.98px) {
+    /* Show only the active clue, hide section headers for compactness */
+    .clue-pane .list-group-item {
+        display: none;
+    }
+
+        .clue-pane .list-group-item.active {
+            display: block;
+            font-size: 1.05rem;
+            margin: .25rem 0 .75rem;
+        }
+
+    .clue-pane h5 {
+        display: none;
+    }
+}
+
+.clue-num {
+    min-width: 2.5ch; /* keeps numbers aligned */
+    display: inline-block;
+    opacity: .7; /* softer than clue text */
+}
+
+@media (max-width: 991.98px) {
+    .clue-num {
+        font-weight: 700;
+    }
 }

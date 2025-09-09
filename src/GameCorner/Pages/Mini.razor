@@ -1,17 +1,365 @@
-﻿@page "/mini-demo"
+﻿@page "/mini"
+@using GameCorner.Services
+@using Hexicon.Mini
+@using Microsoft.JSInterop
+@inject MiniCrosswordVm Vm
+@inject IJSRuntime JS
 
-<h3>Mini cell demo</h3>
+<h3>@Vm.Title</h3>
+<p class="byline">by @Vm.Author — @Vm.PuzzleDate</p>
 
-<MiniCell @bind-Value="cell" AutoFocus="true" OnInput="HandleInput" />
+@if (!Vm.IsLoaded)
+{
+    <p>Loading puzzle...</p>
+}
+else
+{
+    var spanSet = CurrentSpanSet();
+    <div class="container-xl">
+        <div class="row g-4 justify-content-center align-items-start mini-layout-row">
+            <div class="col-auto">
+                <div class="mini-board">
+                    <div class="mini-grid" id="mini-grid">
+                        @for (int r = 0; r < MiniCrosswordVm.Size; r++)
+                        {
+                            for (int c = 0; c < MiniCrosswordVm.Size; c++)
+                            {
+                                var idx = r * MiniCrosswordVm.Size + c;
+                                var cell = Vm.Grid[idx];
+                                var cellActive = spanSet.Contains(idx) ? "clue--active-entry" : "";
+                                <div class="mini-grid-cellwrap @cellActive" @onclick="@(() => OnCellClick(idx))">
+                                    @if (cell.IsBlock)
+                                    {
+                                        <MiniCell IsBlock="true" />
+                                    }
+                                    else
+                                    {
+                                        <div class="cluenumber">@cell.Number</div>
+                                        <MiniCell Value="@(cell.Entry)"
+                                                  ValueChanged="@(ch => Vm.SetEntry(idx, ch))"
+                                                  OnInput="@(ch => OnCellInput(idx, ch))"
+                                                  OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
+                                                  IsActive="@(idx == activeIndex)"
+                                                  RequestFocusKey="@focusKey" />
+                                    }
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7">
+                <div class="row row-cols-1 row-cols-lg-2 g-3">
+                    <section class="col">
+                        <div class="d-lg-none my-2 btn-group" role="group" aria-label="Clue navigation">
+                            <button type="button" class="btn btn-outline-secondary" @onclick="PrevClue" aria-label="Previous clue">‹</button>
+                            <button type="button" class="btn btn-outline-secondary" @onclick="NextClue" aria-label="Next clue">›</button>
+                        </div>
+                        <h5 class="mb-2 d-none d-lg-block">Across</h5>
+                        <ol class="list-group list-group-flush clue-pane">
+                            @foreach (var a in Vm.Across)
+                            {
+                                var active = ClueClass(a, true) == "clue--active";
+                                <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(a)">
+                                    <span class="clue-num me-2 d-none d-lg-inline">@($"{a.Number}.")</span>
+                                    <span class="clue-num me-2 d-inline d-lg-none">@($"{a.Number}A.")</span>
+                                    @a.Text
+                                </li>
+                            }
+                        </ol>
+                    </section>
 
-<p>Current value: @((cell.HasValue ? cell.Value.ToString() : "∅"))</p>
+                    <section class="col">
+                        <h5 class="mb-2 d-none d-lg-block">Down</h5>
+                        <ol class="list-group list-group-flush clue-pane">
+                            @foreach (var d in Vm.Down)
+                            {
+                                var active = ClueClass(d, false) == "clue--active";
+                                <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(d)">
+                                    <span class="clue-num me-2 d-none d-lg-inline">@($"{d.Number}.")</span>
+                                    <span class="clue-num me-2 d-inline d-lg-none">@($"{d.Number}D.")</span>
+                                    @d.Text
+                                </li>
+                            }
+                        </ol>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+}
 
 @code {
-    private char? cell;
+    private DotNetObjectReference<Mini>? selfRef;
 
-    private void HandleInput(char? ch)
+    private MiniNavigator nav;
+    private bool downMode = false;
+
+    private int activeIndex = 0;
+    private int focusKey = 0;
+
+    protected override async Task OnInitializedAsync()
     {
-        // This is where you’ll move focus to the next cell in a grid later.
-        // For now, it just shows the typed letter above.
+        await Vm.InitAsync();
+
+        nav = new MiniNavigator(MiniCrosswordVm.Size, idx => Vm.IsBlock(idx));
+
+        // pick first non-block as start
+        for (int i = 0; i < MiniCrosswordVm.Cells; i++)
+            if (!Vm.IsBlock(i)) { activeIndex = i; break; }
+        focusKey++;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(Vm.IsLoaded && selfRef is null)
+        {
+            selfRef = DotNetObjectReference.Create(this);
+            await JS.InvokeVoidAsync("miniTabs.enable", "mini-grid", selfRef);
+        }
+    }
+
+    [JSInvokable]
+    public Task OnTab(bool shift)
+    {
+        // Shift+Tab goes backward in the current mode; Tab goes forward
+        var res = shift
+            ? nav.PrevOnBackspace(downMode, activeIndex)
+            : nav.NextAfterInput(downMode, activeIndex);
+
+        if (res.Wrapped)
+            downMode = !downMode;
+
+        Activate(res.To);
+        return Task.CompletedTask;
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if(selfRef is not null)
+        {
+            await JS.InvokeVoidAsync("miniTabs.disable", "mini-grid");
+            selfRef.Dispose();
+        }
+    }
+
+    private void OnCellInput(int idx, char? ch)
+    {
+        if (!ch.HasValue)
+        {
+            Activate(idx);
+            return;
+        }
+
+        var res = nav.NextAfterInput(downMode, idx);
+        if (res.Wrapped) downMode = !downMode;
+        Activate(res.To);
+    }
+
+    private void OnCellKey(int idx, KeyboardEventArgs e)
+    {
+        switch (e.Key)
+        {
+            case "ArrowLeft":
+                {
+                    downMode = false;
+                    var res = nav.NextLeftOpen(idx);
+                    Activate(res.To);
+                    break;
+                }
+            case "ArrowRight":
+                {
+                    downMode = false;
+                    var res = nav.NextRightOpen(idx);
+                    Activate(res.To);
+                    break;
+                }
+            case "ArrowUp":
+                {
+                    downMode = true;
+                    var res = nav.NextUpOpen(idx);
+                    Activate(res.To);
+                    break;
+                }
+            case "ArrowDown":
+                {
+                    downMode = true;
+                    var res = nav.NextDownOpen(idx);
+                    Activate(res.To);
+                    break;
+                }
+            case "Backspace":
+                {
+                    if (Vm.GetEntry(idx) is null)
+                    {
+                        var res = nav.PrevOnBackspace(downMode, idx);
+                        Activate(res.To);
+                    }
+                    break;
+                }
+        }
+    }
+
+    private void Activate(int idx)
+    {
+        activeIndex = idx;
+        focusKey++;
+    }
+
+    private void OnCellClick(int idx)
+    {
+        if (idx == activeIndex)
+        {
+            downMode = !downMode;
+            focusKey++;
+        }
+        else
+        {
+            Activate(idx);
+        }
+    }
+
+    // Compute span start for current mode
+    private int FindSpanStartIndex(int idx, bool isDown)
+    {
+        int size = MiniCrosswordVm.Size;
+        int r = idx / size, c = idx % size;
+
+        if (isDown)
+        {
+            while (r > 0 && !Vm.IsBlock((r - 1) * size + c)) r--;
+            return r * size + c;
+        }
+        else
+        {
+            while (c > 0 && !Vm.IsBlock(r * size + (c - 1))) c--;
+            return r * size + c;
+        }
+    }
+
+    // Enumerate indices in the span from a start index (inclusive)
+    private IEnumerable<int> EnumerateSpanIndices(int startIdx, bool isDown)
+    {
+        int size = MiniCrosswordVm.Size;
+        int r = startIdx / size, c = startIdx % size;
+
+        if (isDown)
+        {
+            for (int rr = r; rr < size; rr++)
+            {
+                int i = rr * size + c;
+                if (Vm.IsBlock(i)) yield break;
+                yield return i;
+            }
+        }
+        else
+        {
+            for (int cc = c; cc < size; cc++)
+            {
+                int i = r * size + cc;
+                if (Vm.IsBlock(i)) yield break;
+                yield return i;
+            }
+        }
+    }
+
+    // Convenience: current clue identity (number + side)
+    private (int number, bool isAcross)? CurrentClue()
+    {
+        if (!Vm.IsLoaded) return null;
+
+        int start = FindSpanStartIndex(activeIndex, downMode);
+        var num = Vm.Grid[start].Number;
+        if (num is null) return null; // should not happen, but be safe
+
+        return (num.Value, isAcross: !downMode);
+    }
+
+    // Return CSS class for a clue item
+    private string ClueClass(Hexicon.Mini.MiniCrosswordVm.Clue clue, bool forAcrossList)
+    {
+        var cur = CurrentClue();
+        if (cur is null) return "";
+        return (cur.Value.number == clue.Number && cur.Value.isAcross == forAcrossList) ? "clue--active" : "";
+    }
+
+    // For optional cell highlighting
+    private HashSet<int> CurrentSpanSet()
+    {
+        var set = new HashSet<int>();
+        if (!Vm.IsLoaded) return set;
+        int start = FindSpanStartIndex(activeIndex, downMode);
+        foreach (var i in EnumerateSpanIndices(start, downMode)) set.Add(i);
+        return set;
+    }
+
+    private void JumpToClue(MiniCrosswordVm.Clue clue)
+    {
+        var cur = CurrentClue();
+        if (cur is not null && cur.Value.number == clue.Number && cur.Value.isAcross == clue.IsAcross)
+            return;
+
+        downMode = !clue.IsAcross;
+        int idx = clue.Row * MiniCrosswordVm.Size + clue.Col;
+        Activate(idx);
+    }
+
+    private static int IndexOfClueByNumber(IReadOnlyList<Hexicon.Mini.MiniCrosswordVm.Clue> list, int number)
+    {
+        for (int i = 0; i < list.Count; i++)
+            if (list[i].Number == number) return i;
+        return -1;
+    }
+
+    private void NextClue()
+    {
+        var cur = CurrentClue();
+        if (cur is null) return;
+
+        var across = Vm.Across;
+        var down = Vm.Down;
+        int total = across.Count + down.Count;
+        if (total == 0) return;
+
+        // find current index in the combined Across-then-Down order
+        int combinedIndex =
+            cur.Value.isAcross
+            ? IndexOfClueByNumber(across, cur.Value.number)
+            : across.Count + IndexOfClueByNumber(down, cur.Value.number);
+
+        if (combinedIndex < 0) combinedIndex = 0;
+
+        int next = (combinedIndex + 1) % total;
+
+        // map back to the actual clue object
+        var target = next < across.Count ? across[next]
+                                         : down[next - across.Count];
+
+        JumpToClue(target);
+    }
+
+    private void PrevClue()
+    {
+        var cur = CurrentClue();
+        if (cur is null) return;
+
+        var across = Vm.Across;
+        var down = Vm.Down;
+        int total = across.Count + down.Count;
+        if (total == 0) return;
+
+        int combinedIndex =
+            cur.Value.isAcross
+            ? IndexOfClueByNumber(across, cur.Value.number)
+            : across.Count + IndexOfClueByNumber(down, cur.Value.number);
+
+        if (combinedIndex < 0) combinedIndex = 0;
+
+        int prev = (combinedIndex - 1 + total) % total;
+
+        var target = prev < across.Count ? across[prev]
+                                         : down[prev - across.Count];
+
+        JumpToClue(target);
     }
 }

@@ -2,6 +2,7 @@ using GameCorner;
 using GameCorner.Services;
 using GameCorner.ViewModels;
 using Hexicon.Core;
+using Hexicon.Mini;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -23,14 +24,14 @@ builder.Services.AddScoped<IDateProvider>(sp =>
 #endif
 });
 
-// Hexicon
+// probably don't need these two any more - due a clean-up at some point!
 builder.Services.AddSingleton<IWordRepo, EmbeddedWordRepo>();
 builder.Services.AddSingleton<PuzzleGenerator>();
-builder.Services.AddScoped<PuzzleLoader>();
-builder.Services.AddScoped<GameCorner.Services.Persistence>();
-builder.Services.AddScoped<HexiconVm>();
 
-// Cryptini
+builder.Services.AddScoped<PuzzleLoader>();
+builder.Services.AddScoped<Persistence>();
+builder.Services.AddScoped<HexiconVm>();
 builder.Services.AddScoped<CryptiniVm>();
+builder.Services.AddScoped<MiniCrosswordVm>();
 
 await builder.Build().RunAsync();

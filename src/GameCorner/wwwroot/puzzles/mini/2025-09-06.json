@@ -1,0 +1,68 @@
+{
+  "date": "2025-09-05",
+  "title": "Test Mini",
+  "author": "Luna",
+  "rows": [
+    "BOLT#",
+    "UHURA",
+    "MINIS",
+    "POACH",
+    "##REY"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ from the blue"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Woman from Star Trek, whose first name was once a mystery"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Compact cars"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cook an egg, maybe"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Woman from Star Wars, whose last name was once a mystery"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Word that follows fist or goose"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "State named from the Seneca for \"good river\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Moony?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Jiffy"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Like a fire pit after a barbecue"
+      }
+    ]
+  }
+}

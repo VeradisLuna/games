@@ -20,3 +20,26 @@ window.mini = {
         if (typeof el.setSelectionRange === "function") el.setSelectionRange(0, 1);
     }
 };
+
+window.miniTabs = {
+    enable: function (id, dotNetRef) {
+        const container = document.getElementById(id);
+        if (!container) return;
+
+        const handler = (e) => {
+            if (e.key === 'Tab') {
+                e.preventDefault();
+                dotNetRef.invokeMethodAsync('OnTab', !!e.shiftKey);
+            }
+        };
+        container._miniTabsHandler = handler;
+        container.addEventListener('keydown', handler, true);
+    },
+    disable: function (id) {
+        const container = document.getElementById(id);
+        if (container && container._miniTabsHandler) {
+            container.removeEventListener('keydown', container._miniTabsHandler, true);
+            delete container._miniTabsHandler;
+        }
+    }
+};
