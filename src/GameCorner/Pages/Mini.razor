@@ -1,13 +1,14 @@
 ﻿@page "/mini"
+@page "/mini/{date}"
 @using GameCorner.Services
 @using Hexicon.Mini
 @using Microsoft.JSInterop
 @inject MiniCrosswordVm Vm
 @inject IJSRuntime JS
 
-<h3>@Vm.Title</h3>
-<p class="byline">by @Vm.Author — @Vm.PuzzleDate</p>
-
+<div class="container">
+    <GameCorner.Layout.DateNav BasePath="mini" MinDate="@(new DateOnly(2025, 09, 09))" />
+</div>
 @if (!Vm.IsLoaded)
 {
     <p>Loading puzzle...</p>
@@ -18,6 +19,19 @@ else
     <div class="container-xl">
         <div class="row g-4 justify-content-center align-items-start mini-layout-row">
             <div class="col-auto">
+                <h1 class="title">@Vm.Title</h1>
+                @* <p class="byline">by @Vm.Author — @Vm.PuzzleDate</p> *@
+                @if (solved)
+                {
+                    @if (Vm.Revealed)
+                    {
+                        <div class="rank-line pulse">Revealed!</div>
+                    }
+                    else
+                    {
+                        <div class="rank-line rank-purple pulse">Correct!</div>
+                    }
+                }
                 <div class="mini-board">
                     <div class="mini-grid" id="mini-grid">
                         @for (int r = 0; r < MiniCrosswordVm.Size; r++)
@@ -36,11 +50,11 @@ else
                                     {
                                         <div class="cluenumber">@cell.Number</div>
                                         <MiniCell Value="@(cell.Entry)"
-                                                  ValueChanged="@(ch => Vm.SetEntry(idx, ch))"
-                                                  OnInput="@(ch => OnCellInput(idx, ch))"
-                                                  OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
-                                                  IsActive="@(idx == activeIndex)"
-                                                  RequestFocusKey="@focusKey" />
+                                                    ValueChanged="@(ch => Vm.SetEntry(idx, ch))"
+                                                    OnInput="@(ch => OnCellInput(idx, ch))"
+                                                    OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
+                                                    IsActive="@(idx == activeIndex)"
+                                                    RequestFocusKey="@focusKey" />
                                     }
                                 </div>
                             }
@@ -48,12 +62,71 @@ else
                     </div>
                 </div>
             </div>
+            @{
+                var curInfo = CurrentClueInfo();
+            }
             <div class="col-12 col-lg-7">
+                <div class="current-clue-bar d-lg-none">
+                    <div class="d-flex align-items-center justify-content-between gap-2">
+                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                @onclick="PrevClue" aria-label="Previous clue">
+                            ◀︎
+                        </button>
+
+                        <div class="flex-grow-1 text-center">
+                            @if (curInfo is not null)
+                            {
+                                <span class="fw-bold me-1">@($"{curInfo.Value.number}{(curInfo.Value.isAcross ? "A" : "D")}.")</span>
+                                <span>@curInfo.Value.text</span>
+                            }
+                        </div>
+
+                        <button type="button" class="btn btn-outline-secondary btn-sm"
+                                @onclick="NextClue" aria-label="Next clue">
+                            ▶︎
+                        </button>
+                    </div>
+                </div>
+                <div class="d-none d-lg-block">
+                    <div class="row row-cols-1 row-cols-lg-2 g-3">
+                        <section class="col">
+                            <h5 class="mb-2">Across</h5>
+                            <ol class="list-group list-group-flush clue-pane">
+                                @foreach (var a in Vm.Across)
+                                {
+                                    var active = ClueClass(a, true) == "clue--active";
+                                    <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(a)">
+                                        <span class="clue-num me-2 d-none d-lg-inline">@($"{a.Number}.")</span>
+                                        @* <span class="clue-num me-2 d-inline d-lg-none">@($"{a.Number}A.")</span> *@
+                                        @a.Text
+                                    </li>
+                                }
+                            </ol>
+                        </section>
+
+                        <section class="col">
+                            <h5 class="mb-2">Down</h5>
+                            <ol class="list-group list-group-flush clue-pane">
+                                @foreach (var d in Vm.Down)
+                                {
+                                    var active = ClueClass(d, false) == "clue--active";
+                                    <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(d)">
+                                        <span class="clue-num me-2 d-none d-lg-inline">@($"{d.Number}.")</span>
+                                        @* <span class="clue-num me-2 d-inline d-lg-none">@($"{d.Number}D.")</span> *@
+                                        @d.Text
+                                    </li>
+                                }
+                            </ol>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            @* <div class="col-12 col-lg-7">
                 <div class="row row-cols-1 row-cols-lg-2 g-3">
                     <section class="col">
                         <div class="d-lg-none my-2 btn-group" role="group" aria-label="Clue navigation">
-                            <button type="button" class="btn btn-outline-secondary" @onclick="PrevClue" aria-label="Previous clue">‹</button>
-                            <button type="button" class="btn btn-outline-secondary" @onclick="NextClue" aria-label="Next clue">›</button>
+                            <button type="button" class="btn btn-outline-secondary" @onclick="PrevClue" aria-label="Previous clue">‹ Previous clue</button>
+                            <button type="button" class="btn btn-outline-secondary" @onclick="NextClue" aria-label="Next clue">Next clue ›</button>
                         </div>
                         <h5 class="mb-2 d-none d-lg-block">Across</h5>
                         <ol class="list-group list-group-flush clue-pane">
@@ -84,12 +157,23 @@ else
                         </ol>
                     </section>
                 </div>
-            </div>
+            </div> *@
         </div>
     </div>
 }
 
 @code {
+    [Parameter] public string? date { get; set; }
+    private string? _lastDate;
+    protected override async Task OnParametersSetAsync()
+    {
+        if (date != _lastDate)           // only reload if the date changed
+        {
+            _lastDate = date;
+            await Vm.InitAsync();         // provider will read new URL date
+        }
+    }
+
     private DotNetObjectReference<Mini>? selfRef;
 
     private MiniNavigator nav;
@@ -148,12 +232,14 @@ else
         if (!ch.HasValue)
         {
             Activate(idx);
+            AfterEntryChanged();
             return;
         }
 
         var res = nav.NextAfterInput(downMode, idx);
         if (res.Wrapped) downMode = !downMode;
         Activate(res.To);
+        AfterEntryChanged();
     }
 
     private void OnCellKey(int idx, KeyboardEventArgs e)
@@ -194,6 +280,7 @@ else
                     {
                         var res = nav.PrevOnBackspace(downMode, idx);
                         Activate(res.To);
+                        AfterEntryChanged();
                     }
                     break;
                 }
@@ -311,6 +398,19 @@ else
         return -1;
     }
 
+    private (int number, bool isAcross, string text)? CurrentClueInfo()
+    {
+        var cur = CurrentClue();
+        if (cur is null) return null;
+
+        var (num, isAcross) = cur.Value;
+        var list = isAcross ? Vm.Across : Vm.Down;
+        var i = IndexOfClueByNumber(list, num);
+        if (i < 0) return null;
+
+        return (num, isAcross, list[i].Text);
+    }
+
     private void NextClue()
     {
         var cur = CurrentClue();
@@ -361,5 +461,19 @@ else
                                          : down[prev - across.Count];
 
         JumpToClue(target);
+    }
+
+    private bool solved;
+    private void AfterEntryChanged()
+    {
+        if(!solved && Vm.Solved)
+        {
+            solved = true;
+        }
+        else if (solved && !Vm.Solved)
+        {
+            solved = false;
+        }
+        StateHasChanged();
     }
 }

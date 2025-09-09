@@ -504,9 +504,9 @@ h2, .floaty {
 }
 
 /* ---------- Tablet & mobile (below lg) ---------- */
-@media (max-width: 991.98px) {
+/*@media (max-width: 991.98px) {*/
     /* Show only the active clue, hide section headers for compactness */
-    .clue-pane .list-group-item {
+    /*.clue-pane .list-group-item {
         display: none;
     }
 
@@ -519,7 +519,7 @@ h2, .floaty {
     .clue-pane h5 {
         display: none;
     }
-}
+}*/
 
 .clue-num {
     min-width: 2.5ch; /* keeps numbers aligned */
@@ -531,4 +531,19 @@ h2, .floaty {
     .clue-num {
         font-weight: 700;
     }
+}
+
+.current-clue-bar {
+    background: rgba(102, 51, 153, .14);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.current-clue-bar .flex-grow-1 {
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }

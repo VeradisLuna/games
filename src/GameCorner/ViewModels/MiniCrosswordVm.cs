@@ -19,6 +19,7 @@ public sealed class MiniCrosswordVm
     private DateOnly _puzzleDate = new();
 
     public bool IsLoaded { get; set; } = false;
+    public bool Revealed { get; private set; } // the puzzle was revealed (i.e. the player didn't solve the puzzle)
 
     public MiniCrosswordVm(PuzzleLoader loader, Persistence persist, IDateProvider dates)
     {
@@ -215,5 +216,5 @@ public sealed class MiniCrosswordVm
     public char? GetEntry(int idx) => _grid[idx].Entry;
     public void SetEntry(int idx, char? ch) { if (!_grid[idx].IsBlock) _grid[idx].Entry = ch; }
     public char? GetSolution(int idx) => _grid[idx].Solution;
-    public bool IsSolved => _grid.All(c => c.IsBlock || c.Entry == c.Solution);
+    public bool Solved => _grid.All(c => c.IsBlock || c.Entry == c.Solution);
 }
