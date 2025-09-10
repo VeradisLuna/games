@@ -145,6 +145,7 @@ else
 
 @code {
     bool useOnscreenKeys;
+    bool _lastUseOnscreenKeys;
     bool mobileLikely;
 
     [Parameter] public string? date { get; set; }
@@ -193,6 +194,16 @@ else
             await JS.InvokeVoidAsync("miniClueBar.enable");
             await JS.InvokeVoidAsync("miniFit.enable");
         }
+
+        if (useOnscreenKeys && !_lastUseOnscreenKeys)
+        {
+            _lastUseOnscreenKeys = useOnscreenKeys;
+            await JS.InvokeVoidAsync("miniLayout.refresh");
+        }
+        else
+        {
+            _lastUseOnscreenKeys = useOnscreenKeys;
+        }
     }
 
     [JSInvokable]
@@ -215,6 +226,7 @@ else
         focusKey++;
         _ = JS.InvokeVoidAsync("miniMobile.ensureInView");
         _ = JS.InvokeVoidAsync("miniLayout.refresh");
+        StateHasChanged();
     }
 
 

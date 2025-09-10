@@ -204,12 +204,18 @@ window.miniLayout = (function () {
 
     function update() {
         const k = document.querySelector(KEY_SEL);
-        const h = (k && visible(k)) ? k.getBoundingClientRect().height : 0;
+        if (!k) return console.log("[miniLayout] update: no .mini-keys");
+        const rect = k.getBoundingClientRect();
+        const vis = k.offsetParent !== null;
+        const h = (k && visible(k)) ? rect.height : 0;
+        console.log("[miniLayout] update rect.height=", rect.height, "visible?", vis);
         document.documentElement.style.setProperty('--keys-height', (h | 0) + 'px');
+        console.log("[miniLayout] set --keys-height =", h);
     }
 
     function observe() {
         const k = document.querySelector(KEY_SEL);
+        console.log("[miniLayout] observe found:", k);
         if (!k) return;
         if (ro) ro.disconnect();
         ro = new ResizeObserver(update);
