@@ -84,3 +84,165 @@ window.miniDevice = (function () {
 
     return { isMobileLike, subscribe, unsubscribe };
 })();
+
+window.miniFit = (function () {
+    const cfg = { cell: 56, min: 36, gap: 8, rows: 5 };
+    const gridSel = ".mini-grid";
+    const barSel = ".current-clue-bar";
+
+    function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+
+    function fit() {
+        const vv = window.visualViewport;
+        const grid = document.querySelector(gridSel);
+        if (!vv || !grid) return;
+
+        const rect = grid.getBoundingClientRect();
+
+        // header (or top nav) to keep out of the way
+        const header = document.querySelector(".mini-header");
+        const headerBottom = header ? header.getBoundingClientRect().bottom : 0;
+
+        // where the visible viewport ends (above the keyboard)
+        const viewBottom = vv.height - vv.offsetTop;
+
+        // account for the clue bar if present; otherwise assume ~2 line height
+        const bar = document.querySelector(barSel);
+        const barH = bar ? bar.getBoundingClientRect().height : 56;
+
+        // little breathing room
+        const pad = 12;
+
+        const topLimit = Math.max(headerBottom + pad, rect.top);
+
+        const keys = document.querySelector('.mini-keys');
+        const keysH = (keys && keys.offsetParent !== null) ? keys.getBoundingClientRect().height : 0;
+
+        const bottomLimit = viewBottom - barH - keysH - pad;
+
+        const avail = bottomLimit - topLimit;
+        if (avail <= 0) return;
+
+        // rows * cell + gaps
+        const rows = cfg.rows;
+        const needed = rows + (rows - 1) * (cfg.gap / Math.max(1, avail)); // just to avoid NaN
+        const size = Math.floor((avail - cfg.gap * (rows - 1)) / rows);
+
+        const px = clamp(size, cfg.min, cfg.cell);
+        document.documentElement.style.setProperty("--cell", px + "px");
+    }
+
+    function enable() {
+        fit();
+        window.addEventListener("resize", fit);
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener("resize", fit);
+            window.visualViewport.addEventListener("scroll", fit);
+        }
+        window.addEventListener("orientationchange", () => setTimeout(fit, 150));
+    }
+
+    function disable() {
+        window.removeEventListener("resize", fit);
+        if (window.visualViewport) {
+            window.visualViewport.removeEventListener("resize", fit);
+            window.visualViewport.removeEventListener("scroll", fit);
+        }
+        document.documentElement.style.removeProperty("--cell");
+    }
+
+    return { enable, disable, fit };
+})();
+
+window.miniClueBar = (function () {
+    const SEL = '.current-clue-bar';
+    const BASE = 8; // base bottom padding in px
+
+    function setBottom(px) {
+        const el = document.querySelector(SEL);
+        if (!el) return;
+        el.style.bottom = `calc(${px}px + env(safe-area-inset-bottom))`;
+    }
+
+    function update() {
+        const vv = window.visualViewport;
+        if (!vv) return;
+
+        // keyboard overlap = layout viewport bottom - (visual viewport bottom)
+        const overlap = window.innerHeight - (vv.height + vv.offsetTop);
+        const bump = Math.max(BASE, BASE + overlap); // never less than BASE
+        setBottom(bump);
+    }
+
+    function enable() {
+        update();
+        window.addEventListener('resize', update);
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('resize', update);
+            window.visualViewport.addEventListener('scroll', update);
+        }
+        window.addEventListener('orientationchange', () => setTimeout(update, 150));
+    }
+
+    function disable() {
+        window.removeEventListener('resize', update);
+        if (window.visualViewport) {
+            window.visualViewport.removeEventListener('resize', update);
+            window.visualViewport.removeEventListener('scroll', update);
+        }
+    }
+
+    return { enable, disable, update };
+})();
+
+window.miniLayout = (function () {
+    const KEY_SEL = '.mini-keys';
+
+    let ro, activeEl;
+
+    function visible(el) { return !!(el && el.offsetParent !== null); }
+
+    function update() {
+        const k = document.querySelector(KEY_SEL);
+        const h = (k && visible(k)) ? k.getBoundingClientRect().height : 0;
+        document.documentElement.style.setProperty('--keys-height', (h | 0) + 'px');
+    }
+
+    function observe() {
+        const k = document.querySelector(KEY_SEL);
+        if (!k) return;
+        if (ro) ro.disconnect();
+        ro = new ResizeObserver(update);
+        ro.observe(k);
+        activeEl = k;
+    }
+
+    function enable() {
+        update();
+        observe();
+        window.addEventListener('resize', update);
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('resize', update);
+            window.visualViewport.addEventListener('scroll', update);
+        }
+        window.addEventListener('orientationchange', () => setTimeout(update, 150));
+    }
+
+    function refresh() {
+        console.log("we hit refresh!");
+        update();
+        observe();
+    }
+
+    function disable() {
+        window.removeEventListener('resize', update);
+        if (window.visualViewport) {
+            window.visualViewport.removeEventListener('resize', update);
+            window.visualViewport.removeEventListener('scroll', update);
+        }
+        if (ro && activeEl) ro.disconnect();
+        document.documentElement.style.removeProperty('--keys-height');
+    }
+
+    return { enable, refresh, disable };
+})();

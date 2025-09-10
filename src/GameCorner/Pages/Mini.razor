@@ -19,7 +19,7 @@ else
     <div class="container-xl">
         <div class="row g-4 justify-content-center align-items-start mini-layout-row">
             <div class="col-auto">
-                <h1 class="title">@Vm.Title</h1>
+                <h1 class="title mini-header">@Vm.Title</h1>
                 @* <p class="byline">by @Vm.Author — @Vm.PuzzleDate</p> *@
                 @if (solved)
                 {
@@ -62,6 +62,7 @@ else
                         }
                     </div>
                 </div>
+                <div class="current-clue-spacer d-lg-none"></div>
             </div>
             @{
                 var curInfo = CurrentClueInfo();
@@ -185,6 +186,13 @@ else
             await JS.InvokeVoidAsync("miniTabs.enable", "mini-grid", selfRef);
             await JS.InvokeVoidAsync("miniDevice.subscribe", selfRef);
         }
+
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("miniLayout.enable");
+            await JS.InvokeVoidAsync("miniClueBar.enable");
+            await JS.InvokeVoidAsync("miniFit.enable");
+        }
     }
 
     [JSInvokable]
@@ -192,8 +200,10 @@ else
     {
         mobileLikely = enable;
 
-        if (mobileLikely)
-            useOnscreenKeys = true;
+        if (mobileLikely && !useOnscreenKeys)
+        {
+            ShowOnscreenKeyboard();
+        }
 
         StateHasChanged();
         return Task.CompletedTask;
@@ -204,6 +214,7 @@ else
         useOnscreenKeys = true;
         focusKey++;
         _ = JS.InvokeVoidAsync("miniMobile.ensureInView");
+        _ = JS.InvokeVoidAsync("miniLayout.refresh");
     }
 
 
@@ -230,6 +241,10 @@ else
             await JS.InvokeVoidAsync("miniDevice.unsubscribe");
             selfRef.Dispose();
         }
+
+        await JS.InvokeVoidAsync("miniFit.disable");
+        await JS.InvokeVoidAsync("miniClueBar.disable");
+        await JS.InvokeVoidAsync("miniLayout.disable");
     }
 
     private void OnCellInput(int idx, char? ch)
@@ -296,6 +311,8 @@ else
     {
         activeIndex = idx;
         focusKey++;
+
+        _ = JS.InvokeVoidAsync("miniFit.fit");
     }
 
     private void OnCellClick(int idx)
