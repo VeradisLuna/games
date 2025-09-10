@@ -38,11 +38,11 @@ jobs:
         run: dotnet publish src/GameCorner/GameCorner.csproj -c Release -o out
 
       # Adjust <base href> for GitHub Pages (/<repo-name>/)
-      - name: Fix base href for Pages
-        run: |
-          REPO="/${{ github.event.repository.name }}/"
-          INDEX="out/wwwroot/index.html"
-          sed -i "s|<base href=\"/\"|<base href=\"${REPO}\"|g" "$INDEX"
+      #- name: Fix base href for Pages
+      #  run: |
+      #    REPO="/${{ github.event.repository.name }}/"
+      #    INDEX="out/wwwroot/index.html"
+      #    sed -i "s|<base href=\"/\"|<base href=\"${REPO}\"|g" "$INDEX"
 
       # SPA fallback so deep-links work on Pages
       - name: Add SPA 404 fallback
@@ -52,6 +52,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: out/wwwroot
+
+      - name: Disable Jekyll
+        run: touch out/wwwroot/.nojekyll
 
   deploy:
     needs: build
