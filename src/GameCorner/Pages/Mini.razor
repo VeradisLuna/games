@@ -54,7 +54,8 @@ else
                                                     OnInput="@(ch => OnCellInput(idx, ch))"
                                                     OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
                                                     IsActive="@(idx == activeIndex)"
-                                                    RequestFocusKey="@focusKey" />
+                                                    RequestFocusKey="@focusKey"
+                                                    DisableNativeKeyboard="useOnscreenKeys"/>
                                     }
                                 </div>
                             }
@@ -97,7 +98,6 @@ else
                                     var active = ClueClass(a, true) == "clue--active";
                                     <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(a)">
                                         <span class="clue-num me-2 d-none d-lg-inline">@($"{a.Number}.")</span>
-                                        @* <span class="clue-num me-2 d-inline d-lg-none">@($"{a.Number}A.")</span> *@
                                         @a.Text
                                     </li>
                                 }
@@ -112,7 +112,6 @@ else
                                     var active = ClueClass(d, false) == "clue--active";
                                     <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(d)">
                                         <span class="clue-num me-2 d-none d-lg-inline">@($"{d.Number}.")</span>
-                                        @* <span class="clue-num me-2 d-inline d-lg-none">@($"{d.Number}D.")</span> *@
                                         @d.Text
                                     </li>
                                 }
@@ -121,48 +120,32 @@ else
                     </div>
                 </div>
             </div>
-            @* <div class="col-12 col-lg-7">
-                <div class="row row-cols-1 row-cols-lg-2 g-3">
-                    <section class="col">
-                        <div class="d-lg-none my-2 btn-group" role="group" aria-label="Clue navigation">
-                            <button type="button" class="btn btn-outline-secondary" @onclick="PrevClue" aria-label="Previous clue">‹ Previous clue</button>
-                            <button type="button" class="btn btn-outline-secondary" @onclick="NextClue" aria-label="Next clue">Next clue ›</button>
-                        </div>
-                        <h5 class="mb-2 d-none d-lg-block">Across</h5>
-                        <ol class="list-group list-group-flush clue-pane">
-                            @foreach (var a in Vm.Across)
-                            {
-                                var active = ClueClass(a, true) == "clue--active";
-                                <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(a)">
-                                    <span class="clue-num me-2 d-none d-lg-inline">@($"{a.Number}.")</span>
-                                    <span class="clue-num me-2 d-inline d-lg-none">@($"{a.Number}A.")</span>
-                                    @a.Text
-                                </li>
-                            }
-                        </ol>
-                    </section>
-
-                    <section class="col">
-                        <h5 class="mb-2 d-none d-lg-block">Down</h5>
-                        <ol class="list-group list-group-flush clue-pane">
-                            @foreach (var d in Vm.Down)
-                            {
-                                var active = ClueClass(d, false) == "clue--active";
-                                <li class="list-group-item py-2 px-2 rounded-3 @(active ? "active" : "")" role="button" tabindex="0" @onclick="() => JumpToClue(d)">
-                                    <span class="clue-num me-2 d-none d-lg-inline">@($"{d.Number}.")</span>
-                                    <span class="clue-num me-2 d-inline d-lg-none">@($"{d.Number}D.")</span>
-                                    @d.Text
-                                </li>
-                            }
-                        </ol>
-                    </section>
-                </div>
-            </div> *@
+            @if (useOnscreenKeys)
+            {
+                <MiniKeys DownMode="downMode"
+                          OnLetter="@(c => { Vm.SetEntry(activeIndex, c); OnCellInput(activeIndex, c); AfterEntryChanged(); })"
+                          OnBackspace="@( () => { if (Vm.GetEntry(activeIndex) is null) Activate(nav.PrevOnBackspace(downMode, activeIndex).To); Vm.SetEntry(activeIndex, null); AfterEntryChanged(); })"
+                          OnNextClue="NextClue"
+                          OnPrevClue="PrevClue"
+                          OnTab="@( () => { var res = nav.NextAfterInput(downMode, activeIndex); if (res.Wrapped) downMode = !downMode; Activate(res.To); })"
+                OnToggleMode="@( () => { downMode = !downMode; focusKey++; })" />
+            }
+            else
+            {
+                <button type="button"
+                        class="btn btn-outline-secondary btn-sm show-keys-btn"
+                        @onclick="ShowOnscreenKeyboard">
+                    Show on-screen keyboard
+                </button>
+            }
         </div>
     </div>
 }
 
 @code {
+    bool useOnscreenKeys;
+    bool mobileLikely;
+
     [Parameter] public string? date { get; set; }
     private string? _lastDate;
     protected override async Task OnParametersSetAsync()
@@ -200,8 +183,29 @@ else
         {
             selfRef = DotNetObjectReference.Create(this);
             await JS.InvokeVoidAsync("miniTabs.enable", "mini-grid", selfRef);
+            await JS.InvokeVoidAsync("miniDevice.subscribe", selfRef);
         }
     }
+
+    [JSInvokable]
+    public Task SetOnscreenKeys(bool enable)
+    {
+        mobileLikely = enable;
+
+        if (mobileLikely)
+            useOnscreenKeys = true;
+
+        StateHasChanged();
+        return Task.CompletedTask;
+    }
+
+    private void ShowOnscreenKeyboard()
+    {
+        useOnscreenKeys = true;
+        focusKey++;
+        _ = JS.InvokeVoidAsync("miniMobile.ensureInView");
+    }
+
 
     [JSInvokable]
     public Task OnTab(bool shift)
@@ -223,6 +227,7 @@ else
         if(selfRef is not null)
         {
             await JS.InvokeVoidAsync("miniTabs.disable", "mini-grid");
+            await JS.InvokeVoidAsync("miniDevice.unsubscribe");
             selfRef.Dispose();
         }
     }

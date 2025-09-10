@@ -43,3 +43,44 @@ window.miniTabs = {
         }
     }
 };
+
+window.miniDevice = (function () {
+    function isMobileLike() {
+        const vv = window.visualViewport;
+        const width = vv ? vv.width : window.innerWidth;
+
+        const touch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+        const ua = navigator.userAgent || "";
+        const uaMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(ua);
+
+        const smallViewport = width < 768;
+
+        return smallViewport && (touch || uaMobile);
+    }
+
+    function subscribe(dotNetRef) {
+        const fire = () => dotNetRef.invokeMethodAsync('SetOnscreenKeys', isMobileLike());
+        window.addEventListener('resize', fire);
+        window.addEventListener('orientationchange', fire);
+        if (window.visualViewport) {
+            window.visualViewport.addEventListener('resize', fire);
+            window.visualViewport.addEventListener('scroll', fire);
+        }
+        fire();
+        window._miniDeviceHandlers = { fire };
+    }
+
+    function unsubscribe() {
+        const h = window._miniDeviceHandlers;
+        if (!h) return;
+        window.removeEventListener('resize', h.fire);
+        window.removeEventListener('orientationchange', h.fire);
+        if (window.visualViewport) {
+            window.visualViewport.removeEventListener('resize', h.fire);
+            window.visualViewport.removeEventListener('scroll', h.fire);
+        }
+        delete window._miniDeviceHandlers;
+    }
+
+    return { isMobileLike, subscribe, unsubscribe };
+})();

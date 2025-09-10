@@ -1,0 +1,44 @@
+﻿<div class="mini-keys">
+    <div class="keys-row">
+        @foreach (var ch in "QWERTYUIOP")
+        {
+            <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
+        }
+    </div>
+    <div class="keys-row">
+        @foreach (var ch in "ASDFGHJKL")
+        {
+            <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
+        }
+    </div>
+    <div class="keys-row">
+        <button class="btn key wide" @onclick="PrevClue">◀︎</button>
+        @foreach (var ch in "ZXCVBNM")
+        {
+            <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
+        }
+        <button class="btn key wide" @onclick="NextClue">▶︎</button>
+    </div>
+    <div class="keys-row">
+        <button class="btn key wide" @onclick="Backspace">⌫</button>
+        <button class="btn key wide" @onclick="ToggleMode">@((DownMode ? "Down" : "Across"))</button>
+        <button class="btn key wide" @onclick="TabForward">Tab</button>
+    </div>
+</div>
+
+@code {
+    [Parameter] public EventCallback<char> OnLetter { get; set; }
+    [Parameter] public EventCallback OnBackspace { get; set; }
+    [Parameter] public EventCallback OnNextClue { get; set; }
+    [Parameter] public EventCallback OnPrevClue { get; set; }
+    [Parameter] public EventCallback OnTab { get; set; }
+    [Parameter] public EventCallback OnToggleMode { get; set; }
+    [Parameter] public bool DownMode { get; set; }
+
+    private Task Press(char c) => OnLetter.InvokeAsync(c);
+    private Task Backspace() => OnBackspace.InvokeAsync();
+    private Task NextClue() => OnNextClue.InvokeAsync();
+    private Task PrevClue() => OnPrevClue.InvokeAsync();
+    private Task TabForward() => OnTab.InvokeAsync();
+    private Task ToggleMode() => OnToggleMode.InvokeAsync();
+}
