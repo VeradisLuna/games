@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01",
+  "date": "2025-09-17",
   "pangram": "inception",
   "letters": [ "n", "c", "i", "o", "p", "e", "t" ],
   "required": "n",
@@ -18,11 +18,11 @@
     "Inception (2010)"
   ],
   "clues": [
-    "O... (2007)",
-    "T.... (2020)",
-    "C..... (1985)",
-    "P..... (1955)",
-    "I........ (2010)"
+    "At one time (2007)",
+    "Principle (2020)",
+    "Protective casing (1985)",
+    "Al fresco meal (1955)",
+    "Beginning (2010)"
   ],
   "themed": true,
   "tagline": "Academy Award-winning movies"

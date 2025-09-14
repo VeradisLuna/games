@@ -1,0 +1,33 @@
+{
+  "date": "2025-09-16",
+  "pangram": "ephemeral",
+  "letters": [ "h", "e", "m", "p", "l", "a", "r" ],
+  "required": "h",
+  "words": [
+    "ahem",
+    "hale",
+    "hall",
+    "hare",
+    "harm",
+    "harp",
+    "heal",
+    "heap",
+    "hear",
+    "heel",
+    "hell",
+    "helm",
+    "help",
+    "hemp",
+    "here",
+    "rhea",
+    "alpha",
+    "halal",
+    "harem",
+    "hammer",
+    "hamper",
+    "healer",
+    "helper",
+    "ephemera",
+    "ephemeral"
+  ]
+}

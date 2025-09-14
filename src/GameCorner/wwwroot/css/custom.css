@@ -387,8 +387,8 @@ h2, .floaty {
 }
 
 .mini-cell {
-    width: 56px;
-    height: 56px;
+    width: var(--cell);
+    height: var(--cell);
     border: 2px solid #ddd;
     border-radius: 10px;
     display: grid;
@@ -420,15 +420,17 @@ h2, .floaty {
 
 .mini-grid {
     display: grid;
-    grid-template-columns: repeat(5, 56px);
-    grid-auto-rows: 56px;
-    gap: 8px;
+    grid-template-columns: repeat(5, var(--cell));
+    grid-auto-rows: var(--cell);
+    gap: var(--gap);
     outline: none; /* we handle focus inside cells */
 }
 
 .mini-grid-cellwrap {
-    width: 56px;
-    height: 56px;
+    width: var(--cell);
+    height: var(--cell);
+    margin: 0;
+    padding: 0;
     position: relative;
 }
 

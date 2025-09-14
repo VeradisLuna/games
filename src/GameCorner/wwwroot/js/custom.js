@@ -85,73 +85,120 @@ window.miniDevice = (function () {
     return { isMobileLike, subscribe, unsubscribe };
 })();
 
+// Compute the biggest cell size that fits width AND height constraints.
+// Assumes:
+//   - grid element:  .mini-grid  (inside .mini-board)
+//   - clue bar:      .current-clue-bar (fixed on mobile)
+//   - custom keys:   .mini-keys (fixed on mobile)
+//   - CSS var --keys-height is optional; we also measure live heights.
 window.miniFit = (function () {
-    const cfg = { cell: 56, min: 36, gap: 8, rows: 5 };
-    const gridSel = ".mini-grid";
-    const barSel = ".current-clue-bar";
+    const SEL_GRID = '.mini-grid';
+    const SEL_BOARD = '.mini-board';
+    const SEL_BAR = '.current-clue-bar';
+    const SEL_KEYS = '.mini-keys';
+
+    // tune these two to taste
+    const MAX_CELL = 64;   // biggest cell you’ll allow
+    const MIN_CELL = 36;   // smallest cell you’ll allow
+    const PAD = 12;        // extra breathing room
+
+    function elementsReady() {
+        return document.querySelector(SEL_GRID) && document.querySelector(SEL_BOARD);
+    }
+
+    function runWhenReady(fn) {
+        if (elementsReady()) { fn(); return; }
+        const mo = new MutationObserver(() => {
+            if (elementsReady()) { mo.disconnect(); fn(); }
+        });
+        mo.observe(document.body, { childList: true, subtree: true });
+    }
 
     function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+    function isShown(el) { return !!el && el.getClientRects().length > 0; }
 
     function fit() {
+        console.log("fitting grid!");
+        const grid = document.querySelector(SEL_GRID);
+        const board = document.querySelector(SEL_BOARD);
+        if (!grid || !board) return;
+
+        console.log("still fitting grid!");
         const vv = window.visualViewport;
-        const grid = document.querySelector(gridSel);
-        if (!vv || !grid) return;
+        const rectGrid = board.getBoundingClientRect(); // use the board to get top
 
-        const rect = grid.getBoundingClientRect();
+        // WIDTH: container width (board’s parent content box)
+        const container = board.parentElement; // board is usually inside the left col
+        const usableW = (container?.clientWidth ?? board.clientWidth);
 
-        // header (or top nav) to keep out of the way
-        const header = document.querySelector(".mini-header");
-        const headerBottom = header ? header.getBoundingClientRect().bottom : 0;
+        // HEIGHT: from grid top to just above bar/keyboard (visual viewport aware)
+        const viewBottom = vv ? (vv.height - vv.offsetTop) : window.innerHeight;
 
-        // where the visible viewport ends (above the keyboard)
-        const viewBottom = vv.height - vv.offsetTop;
+        const bar = document.querySelector(SEL_BAR);
+        const keys = document.querySelector(SEL_KEYS);
+        const barH = isShown(bar) ? bar.getBoundingClientRect().height : 0;
+        const keysH = isShown(keys) ? keys.getBoundingClientRect().height : 0;
 
-        // account for the clue bar if present; otherwise assume ~2 line height
-        const bar = document.querySelector(barSel);
-        const barH = bar ? bar.getBoundingClientRect().height : 56;
+        const bottomLimit = viewBottom - barH - keysH - PAD; // where we must stay above
+        const usableH = bottomLimit - rectGrid.top;
 
-        // little breathing room
-        const pad = 12;
+        console.log("usable width - " + usableW + ", usable height - " + usableH);
 
-        const topLimit = Math.max(headerBottom + pad, rect.top);
+        if (usableW <= 0 || usableH <= 0) return;
 
-        const keys = document.querySelector('.mini-keys');
-        const keysH = (keys && keys.offsetParent !== null) ? keys.getBoundingClientRect().height : 0;
+        // 5x5 board → 5 cells + 4 gaps vertically/horizontally
+        const ROWS = 5, COLS = 5;
+        const gapsW = (COLS - 1) * getGapPx();
+        const gapsH = (ROWS - 1) * getGapPx();
 
-        const bottomLimit = viewBottom - barH - keysH - pad;
+        const cellByW = Math.floor((usableW - gapsW) / COLS);
+        const cellByH = Math.floor((usableH - gapsH) / ROWS);
 
-        const avail = bottomLimit - topLimit;
-        if (avail <= 0) return;
+        const chosen = clamp(Math.min(cellByW, cellByH), MIN_CELL, MAX_CELL);
 
-        // rows * cell + gaps
-        const rows = cfg.rows;
-        const needed = rows + (rows - 1) * (cfg.gap / Math.max(1, avail)); // just to avoid NaN
-        const size = Math.floor((avail - cfg.gap * (rows - 1)) / rows);
+        console.log("chosen = " + chosen + ", cellByW = " + cellByW + ", cellByH = " + cellByH);
 
-        const px = clamp(size, cfg.min, cfg.cell);
-        document.documentElement.style.setProperty("--cell", px + "px");
+        document.documentElement.style.setProperty('--cell', chosen + 'px');
+    }
+
+    function getGapPx() {
+        const val = getComputedStyle(document.documentElement).getPropertyValue('--gap').trim();
+        const n = parseInt(val, 10);
+        return Number.isFinite(n) ? n : 8;
     }
 
     function enable() {
-        fit();
-        window.addEventListener("resize", fit);
-        if (window.visualViewport) {
-            window.visualViewport.addEventListener("resize", fit);
-            window.visualViewport.addEventListener("scroll", fit);
-        }
-        window.addEventListener("orientationchange", () => setTimeout(fit, 150));
+        runWhenReady(() => {
+            fit();
+
+            window.addEventListener('resize', fit, { passive: true });
+            window.addEventListener('orientationchange', () => setTimeout(fit, 150), { passive: true });
+            if (window.visualViewport) {
+                window.visualViewport.addEventListener('resize', fit);
+                window.visualViewport.addEventListener('scroll', fit);
+            }
+            // react when bar/keys heights change dynamically
+            const roTargets = [SEL_BAR, SEL_KEYS].map(sel => document.querySelector(sel)).filter(Boolean);
+            if (roTargets.length) {
+                const ro = new ResizeObserver(fit);
+                roTargets.forEach(t => ro.observe(t));
+                // stash for disable
+                window._miniFitRO = ro;
+            }
+        });
     }
 
     function disable() {
-        window.removeEventListener("resize", fit);
+        window.removeEventListener('resize', fit);
         if (window.visualViewport) {
-            window.visualViewport.removeEventListener("resize", fit);
-            window.visualViewport.removeEventListener("scroll", fit);
+            window.visualViewport.removeEventListener('resize', fit);
+            window.visualViewport.removeEventListener('scroll', fit);
         }
-        document.documentElement.style.removeProperty("--cell");
+        if (window._miniFitRO) { window._miniFitRO.disconnect(); window._miniFitRO = null; }
+        document.documentElement.style.removeProperty('--cell');
     }
 
-    return { enable, disable, fit };
+    return { enable, fit, disable };
 })();
 
 window.miniClueBar = (function () {
@@ -161,7 +208,7 @@ window.miniClueBar = (function () {
     function setBottom(px) {
         const el = document.querySelector(SEL);
         if (!el) return;
-        el.style.bottom = `calc(${px}px + env(safe-area-inset-bottom))`;
+        el.style.bottom = `calc(var(--keys-height) + ${px}px + env(safe-area-inset-bottom))`;
     }
 
     function update() {
