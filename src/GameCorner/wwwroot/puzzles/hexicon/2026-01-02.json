@@ -1,0 +1,29 @@
+{
+  "date": "2026-01-02",
+  "pangram": "strangers",
+  "letters": [ "a", "e", "g", "n", "r", "t", "s" ],
+  "required": "a",
+  "words": [
+    "stan",
+    "start",
+    "taste",
+    "tears",
+    "strangers"
+  ],
+  "formattedWords": [
+    "Stan (Eminem, 2000)",
+    "Start! (The Jam, 1980)",
+    "Taste (Sabrina Carpenter, 2024)",
+    "Tears (Ken Dodd, 1965)",
+    "Strangers (Kenya Grace, 2023)"
+  ],
+  "clues": [
+    "Superfan (2000)",
+    "Begin! (1980)",
+    "Flavour (2024)",
+    "Cheek streaks (1965)",
+    "Mysterious people (2023)"
+  ],
+  "themed": true,
+  "tagline": "UK number ones"
+}

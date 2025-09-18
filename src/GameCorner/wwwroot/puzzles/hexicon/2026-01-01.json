@@ -1,0 +1,32 @@
+{
+  "date": "2026-01-01",
+  "pangram": "promises",
+  "letters": [ "s", "e", "i", "o", "r", "p", "m" ],
+  "required": "s",
+  "words": [
+    "rise",
+    "roses",
+    "mirrors",
+    "espresso",
+    "promises",
+    "mississippi"
+  ],
+  "formattedWords": [
+    "Rise (Gabrielle, 2000)",
+    "Roses (SAINt JHN — Imanbek Remix, 2020)",
+    "Mirrors (Justin Timberlake, 2013)",
+    "Espresso (Sabrina Carpenter, 2024)",
+    "Promises (Calvin Harris & Sam Smith, 2018)",
+    "Mississippi (Pussycat, 1976)"
+  ],
+  "clues": [
+    "Get up (2000)",
+    "Thorny flowers (2020)",
+    "Reflective surfaces (2013)",
+    "Coffee (2024)",
+    "Vows (2018)",
+    "Magnolia state (1976)"
+  ],
+  "themed": true,
+  "tagline": "UK number ones"
+}
