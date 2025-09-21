@@ -1,0 +1,32 @@
+{
+  "date": "2025-09-22",
+  "pangram": "cappuccino",
+  "letters": [ "a", "c", "i", "n", "o", "p", "u" ],
+  "required": "a",
+  "words": [
+    "anon",
+    "capo",
+    "ciao",
+    "coca",
+    "naan",
+    "pain",
+    "papa",
+    "pica",
+    "pupa",
+    "anion",
+    "cacao",
+    "canon",
+    "capon",
+    "cocoa",
+    "cuppa",
+    "panic",
+    "piano",
+    "poppa",
+    "uncap",
+    "acacia",
+    "cancan",
+    "cannon",
+    "niacin",
+    "cappuccino"
+  ]
+}

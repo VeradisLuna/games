@@ -1,0 +1,29 @@
+{
+  "date": "2025-09-24",
+  "pangram": "pidgeot",
+  "letters": [ "t", "e", "i", "p", "g", "o", "d" ],
+  "required": "t",
+  "words": [
+    "ditto",
+    "tepig",
+    "togepi",
+    "pidgeot",
+    "pidgeotto"
+  ],
+  "formattedWords": [
+    "Ditto",
+    "Tepig",
+    "Togepi",
+    "Pidgeot",
+    "Pidgeotto"
+  ],
+  "clues": [
+    "Can transform into any other creature",
+    "Breathes bursts of flame from its snout",
+    "Associated with happiness and good luck",
+    "Flies at incredible speeds while hunting",
+    "Weakens its prey using its sharp claws"
+  ],
+  "themed": true,
+  "tagline": "Can you catch 'em all?"
+}
