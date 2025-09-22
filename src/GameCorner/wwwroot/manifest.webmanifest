@@ -1,6 +1,6 @@
 {
-  "name": "Game Corner",
-  "short_name": "Game Corner",
+  "name": "Luna Mini",
+  "short_name": "Luna Mini",
   "id": "./",
   "start_url": "./",
   "display": "standalone",
@@ -9,12 +9,12 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "icon-512.png",
+      "src": "lunamini512color.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "icon-192.png",
+      "src": "lunamini192color.png",
       "type": "image/png",
       "sizes": "192x192"
     }
