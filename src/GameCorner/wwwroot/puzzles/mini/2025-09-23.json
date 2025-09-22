@@ -1,67 +1,67 @@
 {
-  "date": "2025-09-10",
-  "title": "Test Mini",
+  "date": "2025-09-23",
+  "title": "Tuesday Mini",
   "author": "Luna",
   "rows": [
-    "PLAIT",
-    "RETRO",
-    "EVOKE",
-    "SINS#",
-    "SSE##"
+    "BOLD#",
+    "ASIA#",
+    "RANTS",
+    "#KEEL",
+    "#ADDY"
   ],
   "clues": {
     "across": [
       {
         "row": 0,
         "col": 0,
-        "clue": "Braid of hair"
+        "clue": "Strong type"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "Old-school"
+        "clue": "Continent containing 2-down"
       },
       {
         "row": 2,
         "col": 0,
-        "clue": "Bring to mind"
+        "clue": "Partner for raves"
       },
       {
         "row": 3,
-        "col": 0,
-        "clue": "Seven things which might be deadly"
+        "col": 1,
+        "clue": "Ship's spine"
       },
       {
         "row": 4,
-        "col": 0,
-        "clue": "Opposite of NNW"
+        "col": 1,
+        "clue": "MSN address, back in the day?"
       }
     ],
     "down": [
       {
         "row": 0,
         "col": 0,
-        "clue": "Garlic squeezer"
+        "clue": "Tavern"
       },
       {
         "row": 0,
         "col": 1,
-        "clue": "501s"
+        "clue": "City found in 5-across"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "Make amends"
+        "clue": "Like paper in a notebook"
       },
       {
         "row": 0,
         "col": 3,
-        "clue": "Annoys"
+        "clue": "Behind the times"
       },
       {
-        "row": 0,
+        "row": 2,
         "col": 4,
-        "clue": "Low digit?"
+        "clue": "Stallone, informally"
       }
     ]
   }

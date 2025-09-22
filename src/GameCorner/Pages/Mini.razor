@@ -7,7 +7,7 @@
 @inject IJSRuntime JS
 
 <div class="container">
-    <GameCorner.Layout.DateNav BasePath="mini" MinDate="@(new DateOnly(2025, 09, 09))" />
+    <GameCorner.Layout.DateNav BasePath="mini" MinDate="@(new DateOnly(2025, 09, 22))" />
 </div>
 @if (!Vm.IsLoaded)
 {
@@ -19,7 +19,7 @@ else
     <div class="container-xl">
         <div class="row g-4 justify-content-center align-items-start mini-layout-row">
             <div class="col-auto">
-                <h1 class="title mini-header">@Vm.Title <span class="mini-timer">@Elapsed.ToString(@"mm\:ss")</span></h1>
+                <h1 class="title mini-header">@Vm.Title @* <span class="mini-timer">@Elapsed.ToString(@"mm\:ss")</span> *@</h1>
                 @if (solved)
                 {
                     @if (Vm.Revealed)
@@ -214,7 +214,7 @@ else
                 Elapsed = DateTime.UtcNow - _startTime;
                 InvokeAsync(StateHasChanged);
             };
-            _timer.Start();
+            // _timer.Start();
         }
 
         if (useOnscreenKeys && !_lastUseOnscreenKeys)

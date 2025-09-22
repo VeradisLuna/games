@@ -1,25 +1,25 @@
 {
   "date": "2025-09-09",
-  "title": "Test Mini",
+  "title": "Thursday Mini",
   "author": "Luna",
   "rows": [
-    "PLAIT",
-    "RETRO",
+    "#MAP#",
+    "ROBOT",
     "EVOKE",
-    "SINS#",
-    "SSE##"
+    "SEVEN",
+    "#DER#"
   ],
   "clues": {
     "across": [
       {
         "row": 0,
-        "col": 0,
-        "clue": "Braid of hair"
+        "col": 1,
+        "clue": "Tour guide?"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "Old-school"
+        "clue": "Might be thwarted by a CAPTCHA"
       },
       {
         "row": 2,
@@ -29,39 +29,39 @@
       {
         "row": 3,
         "col": 0,
-        "clue": "Seven things which might be deadly"
+        "clue": "Number of weekdays"
       },
       {
         "row": 4,
-        "col": 0,
-        "clue": "Opposite of NNW"
+        "col": 1,
+        "clue": "German article"
       }
     ],
     "down": [
       {
         "row": 0,
-        "col": 0,
-        "clue": "Garlic squeezer"
-      },
-      {
-        "row": 0,
         "col": 1,
-        "clue": "501s"
+        "clue": "Brought to tears, maybe"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "Make amends"
+        "clue": "Atop"
       },
       {
         "row": 0,
         "col": 3,
-        "clue": "Annoys"
+        "clue": "Game where a straight face (or hand) helps"
       },
       {
-        "row": 0,
+        "row": 1,
+        "col": 0,
+        "clue": "In medias ___"
+      },
+      {
+        "row": 1,
         "col": 4,
-        "clue": "Low digit?"
+        "clue": "Number of weekdays in ancient Egypt"
       }
     ]
   }

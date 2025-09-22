@@ -1,0 +1,68 @@
+{
+  "date": "2025-09-09",
+  "title": "Wednesday Mini",
+  "author": "Luna",
+  "rows": [
+    "#PART",
+    "RULER",
+    "EPONA",
+    "XANDY",
+    "#LESS"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Role in a play"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "English for 5-down"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Horse goddess (and Link's ride)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Axes"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Word often confused with \"fewer\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Stage after larval"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Home ___"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Tears into pieces"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Stack found in a cafeteria"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Latin for 5-across"
+      }
+    ]
+  }
+}
