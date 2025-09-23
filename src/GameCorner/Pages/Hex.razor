@@ -1,5 +1,6 @@
 ﻿@page "/hexicon"
 @page "/hexicon/{date}"
+@page "/hexicon/special/{slug}"
 @inject GameCorner.ViewModels.HexiconVm Vm
 @inject IJSRuntime JS
 
@@ -7,7 +8,10 @@
 
 <div class="container">
 
-    <GameCorner.Layout.DateNav BasePath="hexicon" MinDate="@(new DateOnly(2025, 08, 30))" />
+    @if(string.IsNullOrWhiteSpace(Vm.SpecialSlug))
+    {
+        <GameCorner.Layout.DateNav BasePath="hexicon" MinDate="@(new DateOnly(2025, 08, 30))" />
+    }
 
     <h1>
         @Vm.PuzzleDate.ToString("dddd"):
@@ -136,6 +140,7 @@
 
 @code {
     [Parameter] public string? date { get; set; }
+    [Parameter] public string? slug { get; set; }
 
     private string? _lastDate;
 
@@ -150,6 +155,10 @@
 
     protected override async Task OnInitializedAsync()
     {
+        if(slug != null)
+        {
+            Vm.SpecialSlug = slug;
+        }
         await Vm.InitAsync();
     }
 

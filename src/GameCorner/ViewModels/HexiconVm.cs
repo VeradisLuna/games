@@ -46,6 +46,7 @@ namespace GameCorner.ViewModels
         public bool Formatted { get; private set; } = false;
         public int TotalWords { get; private set; }
         public DateOnly PuzzleDate => _puzzleDate;
+        public string SpecialSlug { get; set; } = string.Empty;
 
         // Input buffer
         public string CurrentEntry { get; set; } = string.Empty;
@@ -74,8 +75,9 @@ namespace GameCorner.ViewModels
             var today = _dates.Today;
             _puzzleDate = today;
 
-            var data = await _loader.LoadAsync(today)
-                       ?? throw new InvalidOperationException($"No puzzle found for {today:yyyy-MM-dd}");
+            var data = string.IsNullOrWhiteSpace(SpecialSlug) ? 
+                (await _loader.LoadAsync(today) ?? throw new InvalidOperationException($"No puzzle found for {today:yyyy-MM-dd}")) :
+                (await _loader.LoadSpecialAsync(SpecialSlug) ?? throw new InvalidOperationException($"No special puzzle found for '{SpecialSlug}'"));
 
             // Hydrate
             _letters = (data.Letters ?? new List<char>())
@@ -113,7 +115,10 @@ namespace GameCorner.ViewModels
             TargetScore = _scoring.Total(_valid, _letterSet);
 
             // Try to restore saved state
-            var saved = await _persist.LoadAsync<SaveData>("hexicon", _puzzleDate);
+            var saved = string.IsNullOrWhiteSpace(SpecialSlug) ?
+                (await _persist.LoadAsync<SaveData>("hexicon", _puzzleDate)) :
+                (await _persist.LoadSpecialAsync<SaveData>("hexicon", SpecialSlug));
+
             if (saved is not null &&
                 saved.Pangram.Equals(data.Pangram, StringComparison.OrdinalIgnoreCase) &&
                 saved.Required == data.Required)
@@ -183,7 +188,11 @@ namespace GameCorner.ViewModels
                 Score = Score,
                 SavedAt = DateTime.UtcNow
             };
-            await _persist.SaveAsync("hexicon", _puzzleDate, save);
+
+            if(string.IsNullOrWhiteSpace(SpecialSlug))
+                await _persist.SaveAsync("hexicon", _puzzleDate, save);
+            else
+                await _persist.SaveSpecialAsync("hexicon", SpecialSlug, save);
 
             return true;
         }
@@ -191,7 +200,10 @@ namespace GameCorner.ViewModels
         public async Task ResetTodayAsync()
         {
             // Clear persisted save
-            await _persist.ClearAsync("hexicon", _puzzleDate);
+            if(string.IsNullOrWhiteSpace(SpecialSlug))
+                await _persist.ClearAsync("hexicon", _puzzleDate);
+            else
+                await _persist.ClearSpecialAsync("hexicon", SpecialSlug);
 
             // Reset in-memory state
             _found.Clear();

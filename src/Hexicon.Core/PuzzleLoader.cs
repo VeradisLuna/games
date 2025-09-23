@@ -12,6 +12,12 @@ public sealed class PuzzleLoader
         catch { return null; }
     }
 
+    public async Task<PuzzleData?> LoadSpecialAsync(string slug)
+    {
+        try { return await _http.GetFromJsonAsync<PuzzleData>($"puzzles/hexicon/special/{slug}.json?v={DateTime.UtcNow.Ticks}"); }
+        catch { return null; }
+    }
+
     public async Task<CryptiniData?> LoadCryptiniAsync(DateOnly date)
     {
         try { return await _http.GetFromJsonAsync<CryptiniData>($"puzzles/cryptini/{date:yyyy-MM-dd}.json?v={DateTime.UtcNow.Ticks}"); }
