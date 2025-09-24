@@ -56,7 +56,8 @@ else
                                                     OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
                                                     IsActive="@(idx == activeIndex)"
                                                     RequestFocusKey="@focusKey"
-                                                    DisableNativeKeyboard="useOnscreenKeys"/>
+                                                    DisableNativeKeyboard="useOnscreenKeys"
+                                                    IsHighlighted="@cell.IsHighlighted"/>
                                     }
                                 </div>
                             }

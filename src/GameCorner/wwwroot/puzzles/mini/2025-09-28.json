@@ -1,0 +1,68 @@
+{
+  "date": "2025-09-28",
+  "title": "Sunday Mini",
+  "author": "Luna",
+  "rows": [
+    "GLASS",
+    "HIPPO",
+    "OTHER",
+    "SHIER",
+    "TEDDY"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Vitreous solid, or container made from it"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Its full name comes from the Greek for \"river horse\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Turn the ___ cheek"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "More timid"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Presidential nickname"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Easy Halloween costume"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Gracefully limber"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Pest also known as greenfly"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "1994 action thriller"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"My apologies!\""
+      }
+    ]
+  }
+}

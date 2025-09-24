@@ -1,67 +1,67 @@
 {
-  "date": "2025-09-24",
-  "title": "Wednesday Mini",
+  "date": "2025-09-26",
+  "title": "Friday Mini",
   "author": "Luna",
   "rows": [
-    "#PART",
-    "RULER",
-    "EPONA",
-    "XANDY",
-    "#LESS"
+    "#APR#",
+    "BARED",
+    "ARISE",
+    "DOZEN",
+    "#NET#"
   ],
   "clues": {
     "across": [
       {
         "row": 0,
         "col": 1,
-        "clue": "Role in a play"
+        "clue": "Loan letters?"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "Monarch"
+        "clue": "Showed, as teeth"
       },
       {
         "row": 2,
         "col": 0,
-        "clue": "Horse goddess (and Link's ride)"
+        "clue": "Command for a new knight?"
       },
       {
         "row": 3,
         "col": 0,
-        "clue": "Axes"
+        "clue": "Thirteen, for a baker"
       },
       {
         "row": 4,
         "col": 1,
-        "clue": "Paradoxically, often described as \"more\"?"
+        "clue": "It follows safety, and precedes zero"
       }
     ],
     "down": [
       {
         "row": 0,
         "col": 1,
-        "clue": "Stage after larval"
+        "clue": "Hamilton's Burr"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "Home ___"
+        "clue": "Nobel or Pulitzer, say"
       },
       {
         "row": 0,
         "col": 3,
-        "clue": "Tears into pieces"
-      },
-      {
-        "row": 0,
-        "col": 4,
-        "clue": "Stack found in a cafeteria"
+        "clue": "Return to original settings"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "5-across in ancient Rome?"
+        "clue": "MJ album of '87"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Dragon's ___"
       }
     ]
   }

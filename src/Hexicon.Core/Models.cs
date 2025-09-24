@@ -39,6 +39,7 @@ namespace Hexicon.Core
         public string Title { get; set; } = "";
         public string Author { get; set; } = "";
         public List<string> Rows { get; set; } = new();
+        public List<string> Highlights { get; set; } = new();
         public MiniClueSet? Clues { get; set; }
     }
 

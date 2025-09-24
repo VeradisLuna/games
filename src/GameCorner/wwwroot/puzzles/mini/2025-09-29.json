@@ -1,0 +1,68 @@
+{
+  "date": "2025-09-29",
+  "title": "Monday Mini",
+  "author": "Luna",
+  "rows": [
+    "ALPHA",
+    "CAROB",
+    "OZONE",
+    "RIVET",
+    "NOES#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Top dog?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Chocolate substitute"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Trioxygen"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Metal jeans stud"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Rejections"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Computer company that developed BBC Micro"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Region that's home to Rome"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Conclusively demonstrate"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Improves, as a skill"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Partner of aid"
+      }
+    ]
+  }
+}

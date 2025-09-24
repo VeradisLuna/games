@@ -24,6 +24,7 @@
 @code {
     private char?[] cells = Enumerable.Repeat<char?>(null, 25).ToArray();
     private bool[] blocks = new bool[25];
+    private bool[] highlights = new bool[25];
     private int activeIndex = 0;
     private int focusKey = 0;
 

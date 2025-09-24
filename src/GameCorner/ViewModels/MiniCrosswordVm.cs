@@ -45,7 +45,7 @@ public sealed class MiniCrosswordVm
     public string Author { get; private set; } = "";
     public string Date { get; private set; } = "";
 
-    public sealed record Cell(bool IsBlock, char? Solution, int? Number)
+    public sealed record Cell(bool IsBlock, bool IsHighlighted, char? Solution, int? Number)
     {
         public char? Entry { get; set; } = null;
         public bool IsCorrect => IsBlock || Entry == Solution;
@@ -75,9 +75,13 @@ public sealed class MiniCrosswordVm
 
         // Try to restore saved state
         var saved = await _persist.LoadAsync<MiniSave>("lunamini", _puzzleDate);
-        if(saved is not null)
+        if (saved?.Grid is { Count: Cells })
         {
-            _grid = saved.Grid;
+            for (int i = 0; i < Cells; i++)
+            {
+                if (!_grid[i].IsBlock)
+                    _grid[i].Entry = saved.Grid[i].Entry;
+            }
         }
 
         IsLoaded = true;
@@ -90,7 +94,7 @@ public sealed class MiniCrosswordVm
         Author = data.Author ?? "";
         Date = data.Date ?? "";
 
-        BuildGridFromRows(data.Rows);
+        BuildGridFromRows(data.Rows, data.Highlights);
         AutoNumber();
         BuildClues(data.Clues);
         ValidateClueAnswersAgainstGrid(data.Clues); // only checks if Answer provided
@@ -99,11 +103,13 @@ public sealed class MiniCrosswordVm
             if (!_grid[i].IsBlock) _grid[i].Entry = null;
     }
 
-    private void BuildGridFromRows(List<string>? rows)
+    private void BuildGridFromRows(List<string>? rows, List<string>? highlights)
     {
         if (rows is null || rows.Count != Size || rows.Any(r => r.Length != Size))
             throw new InvalidOperationException("rows must be 5 strings of length 5.");
 
+        bool hasHighlights = highlights != null && highlights.Count == Size;
+        
         _grid.Clear();
         for (int r = 0; r < Size; r++)
         {
@@ -114,7 +120,8 @@ public sealed class MiniCrosswordVm
                 if (!isBlock && !char.IsLetter(ch))
                     throw new InvalidOperationException($"rows[{r}][{c}] must be A–Z or '#'.");
                 char? sol = isBlock ? null : char.ToUpperInvariant(ch);
-                _grid.Add(new Cell(isBlock, sol, null));
+                bool isHighlighted = hasHighlights && highlights[r][c] == '*';
+                _grid.Add(new Cell(isBlock, isHighlighted, sol, null));
             }
         }
     }

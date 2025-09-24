@@ -1,0 +1,33 @@
+{
+  "date": "2025-09-26",
+  "pangram": "dolphin",
+  "letters": [ "p", "i", "h", "n", "o", "l", "d" ],
+  "required": "p",
+  "words": [
+    "hoop",
+    "loop",
+    "pill",
+    "plod",
+    "plop",
+    "poll",
+    "polo",
+    "pond",
+    "pooh",
+    "pool",
+    "poop",
+    "hippo",
+    "lipid",
+    "polio",
+    "dollop",
+    "lollop",
+    "opioid",
+    "pinion",
+    "pippin",
+    "poplin",
+    "diploid",
+    "dolphin",
+    "opinion",
+    "pillion",
+    "lollipop"
+  ]
+}

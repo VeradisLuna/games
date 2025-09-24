@@ -7,7 +7,7 @@
 }
 else
 {
-    <div class="mini-cell @(isFocused ? "is-active" : null)" @onclick="FocusInput">
+    <div class="mini-cell @(isFocused ? "is-active" : null) @(IsHighlighted ? "is-highlighted" : null)" @onclick="FocusInput" data-hl="@IsHighlighted">
         <input @ref="inputRef"
                class="mini-cell-input"
                type="text"
@@ -34,6 +34,7 @@ else
     private bool _shouldFocus;
 
     [Parameter] public bool IsBlock { get; set; }
+    [Parameter] public bool IsHighlighted { get; set; }
 
     [Parameter] public char? Value { get; set; }
     [Parameter] public EventCallback<char?> ValueChanged { get; set; }
