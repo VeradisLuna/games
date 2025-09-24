@@ -602,3 +602,30 @@ h2, .floaty {
         border-top-right-radius: .75rem;
     }
 }
+
+:root {
+    /* Responsive key sizing */
+    --key: clamp(24px, 7vw, 44px);
+    --key-gap: clamp(2px, 1.5vw, 8px);
+}
+
+.mini-keys .keys-row {
+    justify-content: center;
+    gap: var(--key-gap);
+    flex-wrap: nowrap; /* force all keys to stay on one row */
+    max-width: 100%;
+    overflow: hidden; /* avoid spill if rounding issues */
+}
+
+.mini-keys .key {
+    flex: 0 1 var(--key);
+    min-width: var(--key);
+    width: var(--key);
+    height: calc(var(--key) * 1.18);
+}
+
+    .mini-keys .key.wide {
+        flex-basis: calc(var(--key) * 1.6);
+        min-width: calc(var(--key) * 1.6);
+        width: calc(var(--key) * 1.6);
+    }
