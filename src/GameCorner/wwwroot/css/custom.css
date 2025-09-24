@@ -624,8 +624,37 @@ h2, .floaty {
     height: calc(var(--key) * 1.18);
 }
 
+.mini-keys .key.wide {
+    flex-basis: calc(var(--key) * 1.6);
+    min-width: calc(var(--key) * 1.6);
+    width: calc(var(--key) * 1.6);
+}
+
+/* Fill the available width (no wrapping) */
+.mini-keys .keys-row {
+    justify-content: center;
+    gap: var(--key-gap); /* from previous patch */
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+
+/* Keys: shrink on small screens, grow to use remaining space,
+   and perfectly center their text/icon */
+.mini-keys .key {
+    flex: 1 1 var(--key); /* <— grows to fill the row */
+    min-width: var(--key);
+    width: var(--key);
+    height: calc(var(--key) * 1.18);
+    display: flex; /* center the label */
+    align-items: center;
+    justify-content: center;
+    line-height: 1; /* avoid baseline offset */
+    text-align: center;
+}
+
+    /* Wide keys stay proportionally wider */
     .mini-keys .key.wide {
-        flex-basis: calc(var(--key) * 1.6);
+        flex: 1.6 1 0; /* 1.6× width relative to normal keys */
         min-width: calc(var(--key) * 1.6);
         width: calc(var(--key) * 1.6);
     }

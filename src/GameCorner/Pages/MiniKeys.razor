@@ -1,5 +1,10 @@
 ﻿<div class="mini-keys">
     <div class="keys-row">
+        <button class="btn key wide" @onclick="Backspace">⌫</button>
+        <button class="btn key wide" @onclick="ToggleMode">@((DownMode ? "Down" : "Across"))</button>
+        @* <button class="btn key wide" @onclick="TabForward">Tab</button> *@
+    </div>
+    <div class="keys-row">
         @foreach (var ch in "QWERTYUIOP")
         {
             <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
@@ -12,17 +17,12 @@
         }
     </div>
     <div class="keys-row">
-        <button class="btn key wide" @onclick="PrevClue">◀︎</button>
+@*         <button class="btn key wide" @onclick="PrevClue">◀︎</button> *@
         @foreach (var ch in "ZXCVBNM")
         {
             <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
         }
-        <button class="btn key wide" @onclick="NextClue">▶︎</button>
-    </div>
-    <div class="keys-row">
-        <button class="btn key wide" @onclick="Backspace">⌫</button>
-        <button class="btn key wide" @onclick="ToggleMode">@((DownMode ? "Down" : "Across"))</button>
-        <button class="btn key wide" @onclick="TabForward">Tab</button>
+        @* <button class="btn key wide" @onclick="NextClue">▶︎</button> *@
     </div>
 </div>
 
