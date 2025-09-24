@@ -2,9 +2,17 @@
 using GameCorner.ViewModels;
 using Hexicon.Core;
 using System.Text.Json;
+using static System.Formats.Asn1.AsnWriter;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Hexicon.Mini;
+
+public sealed class MiniSave
+{
+    public string Date { get; set; } = "";
+    public List<MiniCrosswordVm.Cell> Grid { get; set; } = new();
+    public DateTime SavedAt { get; set; }
+}
 
 public sealed class MiniCrosswordVm
 {
@@ -45,7 +53,7 @@ public sealed class MiniCrosswordVm
 
     public sealed record Clue(int Number, int Row, int Col, bool IsAcross, string Text, int Length);
 
-    private readonly List<Cell> _grid = new(Cells);
+    private List<Cell> _grid = new(Cells);
     private readonly List<Clue> _across = new();
     private readonly List<Clue> _down = new();
 
@@ -65,7 +73,12 @@ public sealed class MiniCrosswordVm
 
         HydrateMiniData(data);
 
-        // TODO: try to load save, here
+        // Try to restore saved state
+        var saved = await _persist.LoadAsync<MiniSave>("lunamini", _puzzleDate);
+        if(saved is not null)
+        {
+            _grid = saved.Grid;
+        }
 
         IsLoaded = true;
     }
@@ -206,6 +219,19 @@ public sealed class MiniCrosswordVm
                 chars.Add(_grid[r * Size + col].Solution!.Value);
         }
         return new string(chars.ToArray());
+    }
+
+    public async Task SaveState()
+    {
+        // Persist progress
+        var save = new MiniSave
+        {
+            Date = _puzzleDate.ToString("yyyy-MM-dd"),
+            SavedAt = DateTime.Now,
+            Grid = _grid
+        };
+        
+        await _persist.SaveAsync("lunamini", _puzzleDate, save);
     }
 
     private static string Normalize(string s) =>

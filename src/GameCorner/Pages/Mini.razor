@@ -185,7 +185,9 @@ else
     public TimeSpan Elapsed { get; private set; }
     public bool IsRunning { get; private set; }
 
-    bool _enabledFit;
+    private int _tenSecondLoop = 0;
+    private bool _saving = false;
+    private bool _enabledFit;
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if(Vm.IsLoaded && selfRef is null)
@@ -210,13 +212,30 @@ else
             Elapsed = TimeSpan.Zero;
             IsRunning = true;
 
-            _timer = new System.Timers.Timer(1000);
-            _timer.Elapsed += (_, __) =>
+            _timer = new System.Timers.Timer(1000) { AutoReset = true };
+            _timer.Elapsed += async (_, __) =>
             {
-                Elapsed = DateTime.UtcNow - _startTime;
-                InvokeAsync(StateHasChanged);
+                await InvokeAsync(async () =>
+                {
+                    _tenSecondLoop++;
+                    Elapsed = DateTime.UtcNow - _startTime;
+
+                    if (_tenSecondLoop >= 10 && !_saving && !Vm.Solved && !Vm.Revealed)
+                    {
+                        _tenSecondLoop = 0;
+                        _saving = true;
+                        try
+                        {
+                            // Vm.ElapsedMs = (long)Elapsed.TotalMilliseconds;
+                            await Vm.SaveState();
+                        }
+                        finally { _saving = false; }
+                    }
+
+                    StateHasChanged();
+                });
             };
-            // _timer.Start();
+            _timer.Start();
         }
 
         if (useOnscreenKeys && !_lastUseOnscreenKeys)
@@ -539,6 +558,8 @@ else
         {
             solved = true;
             StopTimer();
+            //Vm.ElapsedMs = (long)Elapsed.TotalMilliseconds;
+            _ = Vm.SaveState();
         }
         else if (solved && !Vm.Solved)
         {

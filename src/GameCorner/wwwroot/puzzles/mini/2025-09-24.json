@@ -19,7 +19,7 @@
       {
         "row": 1,
         "col": 0,
-        "clue": "English for 5-down"
+        "clue": "Monarch"
       },
       {
         "row": 2,
@@ -34,7 +34,7 @@
       {
         "row": 4,
         "col": 1,
-        "clue": "Word often confused with \"fewer\""
+        "clue": "Paradoxically, often described as \"more\"?"
       }
     ],
     "down": [
@@ -61,7 +61,7 @@
       {
         "row": 1,
         "col": 0,
-        "clue": "Latin for 5-across"
+        "clue": "5-across in ancient Rome?"
       }
     ]
   }
