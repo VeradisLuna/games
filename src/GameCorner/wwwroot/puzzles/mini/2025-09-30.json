@@ -1,0 +1,75 @@
+{
+  "date": "2025-09-30",
+  "title": "I'm wanted (wanted!)",
+  "author": "Luna",
+  "rows": [
+    "DOTES",
+    "EXALT",
+    "ALIVE",
+    "DIGIT",
+    "#PASS"
+  ],
+  "highlights": [
+    "*....",
+    "*....",
+    "*****",
+    "*....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Is overly fond, with \"on\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Glorify"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ and kicking"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "One of ten"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Skip a turn"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ to rights"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pale-yellow primrose"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Biome found in Siberia (and Minecraft)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "According to Scouting for Girls, he ain't 1-down"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Leaves in, editorially"
+      }
+    ]
+  }
+}
