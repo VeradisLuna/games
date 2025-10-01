@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-01",
+  "pangram": "allegiance",
+  "letters": [ "i", "a", "c", "e", "g", "l", "n" ],
+  "required": "i",
+  "words": [
+    "gigi",
+    "nine",
+    "annie",
+    "allegiance"
+  ],
+  "formattedWords": [
+    "Gigi",
+    "Nine",
+    "Annie",
+    "Allegiance"
+  ],
+  "clues": [
+    "1958 musical that won all 9 of its Academy Award nominations (4)",
+    "Musical based on the film 8½ (4)",
+    "\"It's the Hard Knock Life\" musical (5)",
+    "Musical inspired by George Takei's childhood (10)"
+  ],
+  "themed": true,
+  "tagline": "Musicals"
+}

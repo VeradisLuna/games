@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-01",
+  "title": "Peekaboo!",
+  "author": "Luna",
+  "rows": [
+    "SPAS#",
+    "HIDES",
+    "OLDEN",
+    "REIKI",
+    "ERNST"
+  ],
+  "highlights": [
+    "...*.",
+    "****.",
+    "...*.",
+    "...*.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Relaxing retreats"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pelts"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "From days of your"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Japanese energy healing practice"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "___ Stavro Blofeld"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Beach"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "One doing laundry, maybe?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Extra ingredient"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Goes after"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Foul mood"
+      }
+    ]
+  }
+}
