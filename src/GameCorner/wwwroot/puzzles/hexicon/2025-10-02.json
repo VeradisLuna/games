@@ -1,0 +1,25 @@
+{
+  "date": "2025-10-02",
+  "pangram": "magazine",
+  "letters": [ "z", "a", "e", "g", "i", "m", "n" ],
+  "required": "z",
+  "words": [
+    "gaze",
+    "maze",
+    "zine",
+    "zing",
+    "amaze",
+    "maize",
+    "gazing",
+    "mizzen",
+    "zigzag",
+    "zinnia",
+    "amazing",
+    "zinging",
+    "magazine",
+    "minimize",
+    "mezzanine",
+    "minimizing",
+    "zigzagging"
+  ]
+}

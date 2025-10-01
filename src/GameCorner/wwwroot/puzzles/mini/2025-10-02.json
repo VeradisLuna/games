@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-02",
+  "title": "Thursday Mini",
+  "author": "Luna",
+  "rows": [
+    "FACTS",
+    "ADORN",
+    "CURIO",
+    "ELGAR",
+    "STILT"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "They fill an encyclopedia"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Decorate"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Odd souvenir"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Pomp and Circumstance\" composer"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Wooden leg?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "A cube has six"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Grown-up"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dog breed linked to Elizabeth II"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Where a \"Law & Order\" episode might end up?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Sudden expression of anger, or hilarity"
+      }
+    ]
+  }
+}
