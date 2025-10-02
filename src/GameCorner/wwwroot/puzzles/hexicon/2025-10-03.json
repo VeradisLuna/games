@@ -1,0 +1,32 @@
+{
+  "date": "2025-10-03",
+  "pangram": "swiftly",
+  "letters": [ "f", "i", "t", "w", "s", "l", "y" ],
+  "required": "f",
+  "words": [
+    "fill",
+    "fist",
+    "fits",
+    "flit",
+    "iffy",
+    "lift",
+    "sift",
+    "tiff",
+    "fifty",
+    "fills",
+    "filly",
+    "fists",
+    "fitly",
+    "flits",
+    "lifts",
+    "sifts",
+    "stiff",
+    "swift",
+    "tiffs",
+    "stiffs",
+    "swifts",
+    "swifty",
+    "stiffly",
+    "swiftly"
+  ]
+}

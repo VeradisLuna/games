@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-03",
+  "title": "Friday Mini",
+  "author": "Luna",
+  "rows": [
+    "#CAIN",
+    "LORDE",
+    "AUGER",
+    "BROAD",
+    "#TTS#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Abel's brother"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Pure Heroine\" singer-songwriter"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Boring tool?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Precedes \"way\", \"cast\", or \"band\""
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Tech that can read a page aloud"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Let's go down to the tennis ___ and talk it up like, yeah\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Insider vocabulary"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Might be symbolised by lightbulbs"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Brainbox"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Retriever... or research space"
+      }
+    ]
+  }
+}
