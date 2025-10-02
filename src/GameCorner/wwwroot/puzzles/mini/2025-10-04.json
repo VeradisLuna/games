@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-04",
+  "title": "Hidden Pokémon",
+  "author": "Luna",
+  "rows": [
+    "SCUBA",
+    "TUTOR",
+    "ERINS",
+    "MILE#",
+    "SEED#"
+  ],
+  "highlights": [
+    ".***.",
+    "...*.",
+    "...*.",
+    "..**.",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Diving gear"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "After-school helper"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Brockovich and Andrews"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Roughly 4% of a marathon"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Plant beginning"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Plant middles"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Marie, with two Nobels"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Helpful"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Prepared fish"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___ Technica"
+      }
+    ]
+  }
+}
