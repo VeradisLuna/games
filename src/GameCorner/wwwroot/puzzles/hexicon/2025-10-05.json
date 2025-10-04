@@ -1,0 +1,32 @@
+{
+  "date": "2025-10-05",
+  "pangram": "haunter",
+  "letters": [ "a", "e", "r", "u", "n", "h", "t" ],
+  "required": "a",
+  "words": [
+    "natu",
+    "hatenna",
+    "haunter",
+    "heatran",
+    "rattata",
+    "hatterene"
+  ],
+  "formattedWords": [
+    "Natu",
+    "Hatenna",
+    "Haunter",
+    "Heatran",
+    "Rattata",
+    "Hatterene"
+  ],
+  "clues": [
+    "The smallest Flying-type Pokémon",
+    "It can sense others' emotions using the protrusion on its head",
+    "Its Japanese name is ゴースト (Ghost)",
+    "The only Fire/Steel-type Pokémon",
+    "Youngster Joey's \"top percentage\" partner",
+    "According to the Pokédex, it's also known as the Forest Witch"
+  ],
+  "themed": true,
+  "tagline": "Can you catch 'em all?"
+}
