@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-06",
+  "title": "Monday Mini",
+  "author": "Luna",
+  "rows": [
+    "ACME#",
+    "NOOMI",
+    "TILED",
+    "ENTRE",
+    "#SOYA"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wile E. Coyote's go-to supplier"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rapace of \"The Girl with the Dragon Tattoo\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Like this puzzle?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ nous (between us)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Bean used for milk alternatives"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Stake before the cards are dealt"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Collect 100 for a one-up, maybe"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ allegro (very fast, in music)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Manicurist's board"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Just a thought"
+      }
+    ]
+  }
+}

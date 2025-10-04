@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-07",
+  "title": "In other words, hold my hand",
+  "author": "Luna",
+  "rows": [
+    "SUPER",
+    "TREAD",
+    "RASTA",
+    "UNTO#",
+    "MOON#"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "SUPER"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "TREAD"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "RASTA"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "UNTO"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "MOON"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "STRUM"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "URANO"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "PESTO"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "EATON"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "RDA"
+      }
+    ]
+  }
+}

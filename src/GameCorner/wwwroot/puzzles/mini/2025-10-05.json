@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-05",
+  "title": "Sunday Mini",
+  "author": "Luna",
+  "rows": [
+    "ADAM#",
+    "DIMES",
+    "ANITA",
+    "PANEM",
+    "TRES#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Would you ___ and Eve it?\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "U.S. coins that, ironically, contain nickel"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "British TV presenter Rani"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Hunger Games\" setting"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Uno + dos"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Improvise, ___, overcome\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Macedonian money"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Nitrogen compound"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Portions (out)"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Frodo's friend"
+      }
+    ]
+  }
+}
