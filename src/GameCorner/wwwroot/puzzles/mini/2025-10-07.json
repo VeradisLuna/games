@@ -21,54 +21,54 @@
       {
         "row": 0,
         "col": 0,
-        "clue": "SUPER"
+        "clue": "Start of something big?"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "TREAD"
+        "clue": "\"Don't ___ on me\""
       },
       {
         "row": 2,
         "col": 0,
-        "clue": "RASTA"
+        "clue": "Jah worshipper"
       },
       {
         "row": 3,
         "col": 0,
-        "clue": "UNTO"
+        "clue": "Biblical preposition"
       },
       {
         "row": 4,
         "col": 0,
-        "clue": "MOON"
+        "clue": "Apollo 11 goal"
       }
     ],
     "down": [
       {
         "row": 0,
         "col": 0,
-        "clue": "STRUM"
+        "clue": "Play, as a guitar"
       },
       {
         "row": 0,
         "col": 1,
-        "clue": "URANO"
+        "clue": "Prefix to do with celestial bodies"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "PESTO"
+        "clue": "Basil-based sauce"
       },
       {
         "row": 0,
         "col": 3,
-        "clue": "EATON"
+        "clue": "Bond girl Shirley"
       },
       {
         "row": 0,
         "col": 4,
-        "clue": "RDA"
+        "clue": "TLA found on U.S. nutrition labels"
       }
     ]
   }
