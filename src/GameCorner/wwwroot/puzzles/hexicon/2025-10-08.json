@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-08",
+  "pangram": "abuelita",
+  "letters": [ "a", "b", "e", "i", "l", "t", "u" ],
+  "required": "a",
+  "words": [
+    "atta",
+    "beta",
+    "libba",
+    "abuelita"
+  ],
+  "formattedWords": [
+    "Atta",
+    "Beta",
+    "Libba",
+    "Abuelita"
+  ],
+  "clues": [
+    "A Bug's Life princess",
+    "Up dog",
+    "Soul tailor",
+    "Coco grandmother"
+  ],
+  "themed": true,
+  "tagline": "What's \"Up dog\"?"
+}

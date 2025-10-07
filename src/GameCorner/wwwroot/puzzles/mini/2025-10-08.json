@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-08",
+  "title": "Platform heroes",
+  "author": "Luna",
+  "rows": [
+    "#BAND",
+    "MARIO",
+    "INTEL",
+    "EJECT",
+    "NOSES"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    ".*...",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Elastic ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Super brother?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Spy's info"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Button you might press before blowing into the cartridge"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Proboscises"
+      }
+    ],
+    "down": [
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Demeanor"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Rare bear?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Partner of ciencias"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sister's daughter"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Knuckleheads"
+      }
+    ]
+  }
+}
