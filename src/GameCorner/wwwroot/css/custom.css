@@ -69,6 +69,9 @@ h2, .floaty {
 .game-card-support {
     background: #f4eef8 !important;
 }
+.game-card-feedback {
+    background: #f4ce00 !important;
+}
 .rank-default {
     color: #444;
 }
