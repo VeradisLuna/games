@@ -404,16 +404,70 @@ h2, .floaty {
     box-shadow: 0 0 0 3px rgba(102, 51, 153, 0.25) inset;
 }
 
-.mini-cell-input {
+/* Replace the shorthand with longhand so Safari doesn't reset hidden font props */
+/*.mini-cell-input {
     width: 100%;
     height: 100%;
     border: 0;
     outline: 0;
     background: transparent;
     text-align: center;
-    font: 700 24px/1 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
     text-transform: uppercase;
-    caret-color: transparent; /* crossword vibe; no blinking caret */
+    caret-color: transparent;
+}*/
+
+/* iOS/Safari-only: disable ligature/synthesis oddities that trigger the bad glyphs */
+/*@supports (-webkit-touch-callout: none) {
+    .mini-cell-input {
+        font-variant-ligatures: no-common-ligatures;
+        font-synthesis: none;
+        -webkit-font-smoothing: antialiased;
+    }
+}*/
+
+.mini-cell {
+  position: relative;            /* give the input an anchor */
+}
+
+.mini-cell-input{
+  position: absolute;
+  inset: 0;                      /* fill the cell */
+  display: flex;                 /* center the single character */
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0;                    /* kill iOS default input padding */
+  margin: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  -webkit-appearance: none;      /* stop Safari from applying control chrome */
+  appearance: none;
+
+  /* font (longhand; avoids Safari shorthand quirks) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;            /* harmless now, but can be omitted */
+  caret-color: transparent;
+  z-index: 1;
+  /* create its own compositing layer—prevents rare clipping when zooming */
+  /*transform: translateZ(0);*/
+}
+
+/* iOS-specific polish */
+@supports (-webkit-touch-callout: none) {
+  .mini-cell-input{
+    font-variant-ligatures: no-common-ligatures;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+  }
 }
 
 .mini-cell-input:focus {
@@ -453,6 +507,7 @@ h2, .floaty {
     font: 600 10px/1 system-ui, sans-serif;
     opacity: 0.7;
     pointer-events: none;
+    z-index: 2;
 }
 
 .cluelist ol {
