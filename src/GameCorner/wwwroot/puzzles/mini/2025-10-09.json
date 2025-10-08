@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-09",
+  "title": "I put a spell on you",
+  "author": "Luna",
+  "rows": [
+    "TMEN#",
+    "SARAH",
+    "AROMA",
+    "RYDER",
+    "##EDM"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    ".*...",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Capone's foes, for short"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Youngest Sanderson sister"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pumpkin spice smell, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Winona of \"Beetlejuice\""
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Rave genre initialism"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Bygone Russian ruler"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Middle Sanderson sister"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Wear away"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Christened"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "First, do no ___"
+      }
+    ]
+  }
+}
