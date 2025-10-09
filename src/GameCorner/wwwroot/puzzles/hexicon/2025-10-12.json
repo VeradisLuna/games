@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-12",
+  "pangram": "gazerbeam",
+  "letters": [ "m", "a", "b", "e", "g", "r", "z" ],
+  "required": "m",
+  "words": [
+    "grem",
+    "ember",
+    "gamma",
+    "gazerbeam"
+  ],
+  "formattedWords": [
+    "Grem",
+    "Ember",
+    "Gamma",
+    "Gazerbeam"
+  ],
+  "clues": [
+    "Cars 2 Gremlin",
+    "Elemental hothead",
+    "Up dog",
+    "Incredibles skeleton!?"
+  ],
+  "themed": true,
+  "tagline": "What's \"Up dog\"?"
+}

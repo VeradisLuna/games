@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-10",
+  "title": "Friends of Dorothy",
+  "author": "Luna",
+  "rows": [
+    "TAUNT",
+    "INNIE",
+    "BELTS",
+    "EMIRS",
+    "TOTO#"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    ".....",
+    "**...",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Call mean names, perhaps"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Belly button type"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bible and asteroid?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gulf rulers"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"Africa\" band"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The \"roof of the world\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Prefix related to the wind"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Likely to attract a Minecraft Creeper?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "The \"N\" in TNT"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Daly of \"Strictly\""
+      }
+    ]
+  }
+}
