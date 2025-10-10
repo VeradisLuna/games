@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-11",
+  "title": "Fruit salad",
+  "author": "Luna",
+  "rows": [
+    "GRAPE",
+    "LIMED",
+    "APPLE",
+    "MELON",
+    "PRE##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "What's Eating Gilbert ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Reduced the acidity of soil"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "iPhone maker"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Noggin"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Prefix prefix"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "You might do it in a yurt next to a hot tub"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Yellower, as a banana"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "More than enough"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "You wouldn't want to find one in your ensalada de fruta"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Biblical 7-across locale"
+      }
+    ]
+  }
+}

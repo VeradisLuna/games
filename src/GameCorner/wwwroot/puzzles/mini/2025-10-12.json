@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-12",
+  "title": "Orchestra pit",
+  "author": "Luna",
+  "rows": [
+    "OBOE#",
+    "FLUTE",
+    "PITHS",
+    "ONTAP",
+    "PIANO"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "***..",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "O in WWII radio lingo"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Glass for bubbly"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Removes the white from an orange"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Available at the bar"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Forte's opposite"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Words used when describing Madonna or MJ?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Russian pancakes"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Straight ___ Compton\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Hunt in \"Mission: Impossible\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Boston Bruins legend Phil, to fans"
+      }
+    ]
+  }
+}
