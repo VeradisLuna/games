@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-13",
+  "title": "For the birds",
+  "author": "Luna",
+  "rows": [
+    "TREKS",
+    "ROBIN",
+    "USETO",
+    "STREW",
+    "TIT##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Long hikes (to add to one's life list, perhaps)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Scherbatsky of \"How I Met Your Mother\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Be of ___ (help out)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Scatter about"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "___ for tat"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Word that precedes fund or fall"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Swiss dish of grated potatoes"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "First film critic to win a Pullitzer for criticism"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "High-flying toy"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Cold shower?"
+      }
+    ]
+  }
+}

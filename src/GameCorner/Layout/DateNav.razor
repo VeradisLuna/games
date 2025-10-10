@@ -5,9 +5,9 @@
 @inject Microsoft.AspNetCore.Components.WebAssembly.Hosting.IWebAssemblyHostEnvironment HostEnv
 
 <div class="date-nav" style="display:flex; gap:.5rem; align-items:center; margin:.75rem 0;">
-    <button @onclick="GoPrev" disabled="@(!CanGoPrev)">◀︎ Prev</button>
+    <button @onclick="GoPrev" disabled="@(!CanGoPrev)">◀︎ Prev</button>
     <button @onclick="GoToday">Today</button>
-    <button @onclick="GoNext" disabled="@(!CanGoNext)">Next ▶︎</button>
+    <button @onclick="GoNext" disabled="@(!CanGoNext)">Next ▶︎</button>
     <span style="opacity:.7; margin-left:.5rem;">
         @Effective.ToString("yyyy-MM-dd")
     </span>
