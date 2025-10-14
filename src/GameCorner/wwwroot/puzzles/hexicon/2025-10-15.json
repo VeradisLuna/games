@@ -6,6 +6,8 @@
   "words": [
     "anna",
     "sons",
+    "sands",
+    "stand",
     "tintin",
     "nations",
     "station",
@@ -14,6 +16,8 @@
   "formattedWords": [
     "ANNA Karenina",
     "Fathers and SONS",
+    "The SANDS of Mars",
+    "The STAND",
     "The Adventures of TINTIN",
     "The Wealth of NATIONS",
     "STATION Island",
@@ -22,6 +26,8 @@
   "clues": [
     "___ Karenina (Tolstoy)",
     "Fathers and ___ (Turgenev)",
+    "The ___ of Mars (Clarke)",
+    "The ___ (King)",
     "The Adventures of ___ (Hergé)",
     "The Wealth of ___ (Smith)",
     "___ Island (Heaney poetry collection)",
