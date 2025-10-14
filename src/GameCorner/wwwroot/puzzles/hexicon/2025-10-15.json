@@ -1,0 +1,32 @@
+{
+  "date": "2025-10-15",
+  "pangram": "sanditon",
+  "letters": [ "n", "a", "d", "i", "o", "s", "t" ],
+  "required": "n",
+  "words": [
+    "anna",
+    "sons",
+    "tintin",
+    "nations",
+    "station",
+    "sanditon"
+  ],
+  "formattedWords": [
+    "ANNA Karenina",
+    "Fathers and SONS",
+    "The Adventures of TINTIN",
+    "The Wealth of NATIONS",
+    "STATION Island",
+    "SANDITON"
+  ],
+  "clues": [
+    "___ Karenina (Tolstoy)",
+    "Fathers and ___ (Turgenev)",
+    "The Adventures of ___ (Hergé)",
+    "The Wealth of ___ (Smith)",
+    "___ Island (Heaney poetry collection)",
+    "___ (Austen's unfinished novel)"
+  ],
+  "themed": true,
+  "tagline": "Luna's Library"
+}

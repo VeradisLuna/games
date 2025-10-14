@@ -31,6 +31,7 @@ namespace Hexicon.Core
         public string Answer { get; set; }
         public string Explanation { get; set; }
         public string Hint { get; set; }
+        public string? Author { get; set; }
     }
 
     public sealed class MiniData

@@ -12,9 +12,15 @@
     <h1 class="title">@(Vm.Solved ? @Vm.Answer : $"{Vm.PuzzleDate.ToString("dddd")}'s Cryptini")</h1>
 
     <div class="subtitle" style="margin:.25rem 0 1rem;">
-        @Vm.Clue @if (!string.IsNullOrWhiteSpace(Vm.Enumeration)) {
-        <span> (@Vm.Enumeration)</span>
-                }
+        @Vm.Clue @if (!string.IsNullOrWhiteSpace(Vm.Enumeration))
+        {
+            <span> (@Vm.Enumeration)</span>
+        }
+        @if(!string.IsNullOrWhiteSpace(Vm.Author))
+        {
+            <br />
+            <span class="byline">by @Vm.Author</span>
+        }
     </div>
 
     <div class="row g-2 align-items-center mb-3 input-area">

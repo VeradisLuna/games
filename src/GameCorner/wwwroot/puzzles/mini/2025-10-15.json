@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-15",
+  "title": "Mixed bag (themeless)",
+  "author": "Luna",
+  "rows": [
+    "METER",
+    "IRONY",
+    "CURED",
+    "SPARE",
+    "#THOR"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Poet's rhythm"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tragic device at the end of \"Romeo and Juliet\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Like ham or salmon, maybe"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "/, to a bowler"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Norse god of thunder"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "They may be dropped for emphasis"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Blow one's top"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Holy scroll"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Month after diciembre"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Space Man singer Sam"
+      }
+    ]
+  }
+}

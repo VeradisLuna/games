@@ -720,3 +720,8 @@ h2, .floaty {
         min-width: calc(var(--key) * 1.6);
         width: calc(var(--key) * 1.6);
     }
+
+.byline{
+    font-size: smaller;
+    font-style: italic;
+}

@@ -20,6 +20,7 @@ public sealed class CryptiniVm
 
     public string Clue { get; private set; } = "";
     public string Answer { get; private set; } = "";
+    public string? Author { get; private set; }
     public string Enumeration { get; private set; } = "";
     public string CurrentEntry { get; set; } = "";
     public bool Solved { get; private set; }
@@ -52,6 +53,7 @@ public sealed class CryptiniVm
         Enumeration = data.Enumeration ?? "";
         Explanation = data.Explanation;
         Answer = data.Answer;
+        Author = data.Author;
 
         _answerNorm = Norm(data.Answer ?? "");
 
