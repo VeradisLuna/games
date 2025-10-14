@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-14",
+  "title": "Next time won't you sing with me?",
+  "author": "Luna",
+  "rows": [
+    "ABCDE",
+    "NEARS",
+    "NADAL",
+    "EDIT#",
+    "XYZ##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Unusual first name shared by over 300 U.S. women"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Draws closer"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"King of Clay\" with 14 French Open titles"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Polish a draft, say"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Quirky domain name shared by over a million websites"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Building add-on"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Like suspicious eyes"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Spanish port"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Word often uttered by Dick Dastardly"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Bilingual course TLA"
+      }
+    ]
+  }
+}
