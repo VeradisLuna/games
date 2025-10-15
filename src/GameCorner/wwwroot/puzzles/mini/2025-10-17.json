@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-17",
+  "title": "Science fiction",
+  "author": "Luna",
+  "rows": [
+    "CLARA",
+    "IOWAN",
+    "XWING",
+    "IRS##",
+    "NYE##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Doctor Who's impossible girl"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Captain Kirk, by birth"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Craft that destroyed the first Death Star"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "U.S. org. in Everything Everywhere All At Once"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"Science Guy\" Bill with a Stargate Atlantis cameo"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Liu who wrote The Three-Body Problem"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Salford venue that staged The Time Machine, with \"the\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"___ man once told me...\" (sci-fi mentor words?)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Stood, as Lord Buckethead against Theresa May"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Lee who directed Gemini Man"
+      }
+    ]
+  }
+}
