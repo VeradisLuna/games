@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-16",
+  "title": "Funny bones",
+  "author": "Luna",
+  "rows": [
+    "#CITE",
+    "WAFER",
+    "ECOLE",
+    "BALL#",
+    "BODY#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Do not ___ the Deep Magic to me, Witch.\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Communion bread"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Place for French lessons?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Why didn't the skeleton go to the ___?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Because he had no ___ to go with!"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bean brewed into drinks since c. 1500BC"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Poker player's concession"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gogglebox"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Before, to Shakespeare"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mitchell's collaborator"
+      }
+    ]
+  }
+}
