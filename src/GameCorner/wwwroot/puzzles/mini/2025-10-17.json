@@ -1,67 +1,67 @@
 {
   "date": "2025-10-17",
-  "title": "Science fiction",
+  "title": "Roll initiative!",
   "author": "Luna",
   "rows": [
-    "CLARA",
-    "IOWAN",
-    "XWING",
-    "IRS##",
-    "NYE##"
+    "OGRES",
+    "GNOME",
+    "LOGON",
+    "#LUTE",
+    "#LEET"
   ],
   "clues": {
     "across": [
       {
         "row": 0,
         "col": 0,
-        "clue": "Doctor Who's impossible girl"
+        "clue": "Quick-tempered Monster Manual brutes"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "Captain Kirk, by birth"
+        "clue": "Fantasy tinkerer (or deep-dwelling svirfneblin!)"
       },
       {
         "row": 2,
         "col": 0,
-        "clue": "Craft that destroyed the first Death Star"
+        "clue": "e.g. Enter your Roll20 password to play with friends"
       },
       {
         "row": 3,
-        "col": 0,
-        "clue": "U.S. org. in Everything Everywhere All At Once"
+        "col": 1,
+        "clue": "Bard's instrument, perhaps"
       },
       {
         "row": 4,
-        "col": 0,
-        "clue": "\"Science Guy\" Bill with a Stargate Atlantis cameo"
+        "col": 1,
+        "clue": "Internet speak adopted in early MMOs"
       }
     ],
     "down": [
       {
         "row": 0,
         "col": 0,
-        "clue": "Liu who wrote The Three-Body Problem"
+        "clue": "Copyright framework linked to 2023 D&D controversy"
       },
       {
         "row": 0,
         "col": 1,
-        "clue": "Salford venue that staged The Time Machine, with \"the\""
+        "clue": "Hyena-headed humanoid"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "\"___ man once told me...\" (sci-fi mentor words?)"
+        "clue": "Fantasy class... or classic dungeon crawler game"
       },
       {
         "row": 0,
         "col": 3,
-        "clue": "Stood, as Lord Buckethead against Theresa May"
+        "clue": "Panic or headbang, in RuneScape"
       },
       {
         "row": 0,
         "col": 4,
-        "clue": "Lee who directed Gemini Man"
+        "clue": "Ancient Egyptian tabletop ancestor of all these games?"
       }
     ]
   }
