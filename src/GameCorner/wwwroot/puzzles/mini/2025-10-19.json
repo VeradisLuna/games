@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-19",
+  "title": "Double vision",
+  "author": "Luna",
+  "rows": [
+    "#WIIS",
+    "MAMMA",
+    "ISAAC",
+    "RIGGS",
+    "#TEE#"
+  ],
+  "highlights": [
+    "..**.",
+    "..**.",
+    "..**.",
+    "..**.",
+    "..**."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Devices with Nunchuks / Gender equality org."
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Mia! (musical) / Bambino's first word"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Physicist Newton / Novelist Asimov"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gibson's Lethal Weapon role / Tennis star Bobby"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Casual top / Support for a swing"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"___ a car or a cat I saw?\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "PR concern"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mental picture"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Holders of squid ink"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "International Space Station precursor"
+      }
+    ]
+  }
+}
