@@ -1,0 +1,35 @@
+{
+  "date": "2025-10-19",
+  "pangram": "scarlet",
+  "letters": [ "s", "a", "c", "e", "l", "r", "t" ],
+  "required": "s",
+  "words": [
+    "stars",
+    "tales",
+    "castle",
+    "secret",
+    "scarlet",
+    "starless",
+    "streetcar"
+  ],
+  "formattedWords": [
+    "The Fault in Our STARS",
+    "The Canterbury TALES",
+    "The Man in the High CASTLE",
+    "The SECRET Garden",
+    "A Study in SCARLET",
+    "The STARLESS Sea",
+    "A STREETCAR Named Desire"
+  ],
+  "clues": [
+    "The Fault in Our ___ (Green)",
+    "The Canterbury ___ (Chaucer)",
+    "The Man in the High ___ (Dick)",
+    "The ___ Garden (Burnett)",
+    "A Study in ___ (Doyle)",
+    "The ___ Sea (Morgenstern)",
+    "A ___ Named Desire (Williams)"
+  ],
+  "themed": true,
+  "tagline": "Luna's Library"
+}
