@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-20",
+  "title": "Breakfast special",
+  "author": "Luna",
+  "rows": [
+    "#VIC#",
+    "BACON",
+    "IRINA",
+    "DINER",
+    "EGGSY"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    ".....",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Eastenders pub nickname, with \"the\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Six degrees of Kevin ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Youngest of Chekhov's \"Three Sisters\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Where you might get pancakes for breakfast"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Kingsman's Gary Unwin"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Old airline, from \"Viação Aérea Rio-Grandense\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Added bonus on the proverbial cake"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Vessel for chips or ice cream"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "You might do it with your time"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "___ a soul (not one person)"
+      }
+    ]
+  }
+}
