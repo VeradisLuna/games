@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-21",
+  "title": "On the record",
+  "author": "Luna",
+  "rows": [
+    "DIVAS",
+    "ASIDE",
+    "MINER",
+    "STYLI",
+    "#ALEF"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Opera stars"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Hey Jude\", to \"Revolution\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "One who digs deep tracks?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Turntable needles"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Hebrew set opener?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Places for massive drops?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Crime? (Sade single)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "LP material"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"21\", \"25\", and \"30\" singer"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Baroque stroke?"
+      }
+    ]
+  }
+}
