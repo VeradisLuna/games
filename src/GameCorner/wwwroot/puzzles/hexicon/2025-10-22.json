@@ -1,0 +1,32 @@
+{
+  "date": "2025-10-22",
+  "pangram": "recital",
+  "letters": [ "a", "c", "e", "i", "l", "r", "t" ],
+  "required": "a",
+  "words": [
+    "call",
+    "rail",
+    "alter",
+    "tiara",
+    "attire",
+    "career",
+    "article",
+    "caterer",
+    "recital",
+    "electrical"
+  ],
+  "clues": [
+    "Word before sheet or after curtain",
+    "Wardrobe fixture",
+    "Adjust a costume",
+    "Regal headpiece",
+    "What to wear",
+    "Work role, such as actor",
+    "Write-up about the show",
+    "Feeds the cast and crew",
+    "Solo performance",
+    "Wired for lights and sound"
+  ],
+  "themed": true,
+  "tagline": "Backstage pass"
+}

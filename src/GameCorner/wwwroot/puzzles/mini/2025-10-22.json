@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-22",
+  "title": "Block party",
+  "author": "Luna",
+  "rows": [
+    "#CUBE",
+    "MANIA",
+    "ORLOV",
+    "SLIME",
+    "SATE#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Shape of a Minecraft melon, strangely"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Collective craze"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Large diamond once set in a Russian sceptre"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Classic gooey gaming enemy"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Replenish one's hunger meter?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Otis and ___ who covered \"Knock on Wood\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Like a cave with no torches"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Taiga, tundra, or desert, say"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Roof overhang on a village house"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It grows fat on a rollin' stone (per Don McLean)"
+      }
+    ]
+  }
+}
