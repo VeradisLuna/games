@@ -1,0 +1,33 @@
+{
+  "date": "2025-10-24",
+  "pangram": "hexagon",
+  "letters": [ "n", "a", "e", "g", "h", "o", "n" ],
+  "required": "n",
+  "words": [
+    "aeon",
+    "anon",
+    "axon",
+    "gang",
+    "gene",
+    "gone",
+    "gong",
+    "goon",
+    "hang",
+    "hone",
+    "naan",
+    "nana",
+    "neon",
+    "none",
+    "noon",
+    "oxen",
+    "annex",
+    "gonna",
+    "henna",
+    "hogan",
+    "nonna",
+    "xenon",
+    "eggnog",
+    "engage",
+    "hexagon"
+  ]
+}
