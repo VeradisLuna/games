@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-23",
+  "title": "Global hits",
+  "author": "Luna",
+  "rows": [
+    "CHINA",
+    "HONED",
+    "INDIA",
+    "LORN#",
+    "ERAS#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ Girl (Bowie)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sharpened a blade, or one's skills"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Rubber (Radiohead)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Abandoned"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Mesozoic and Paleozoic, to name two"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Voodoo ___ (Hendrix)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Smartphone brand from 1-across"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "God of thunder worshipped in 3-across"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Votes that can sink a Bundestag bill"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Countess Lovelace... or -ed in 1-down?"
+      }
+    ]
+  }
+}
