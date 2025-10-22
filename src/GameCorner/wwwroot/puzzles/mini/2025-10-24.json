@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-24",
+  "title": "Choice words",
+  "author": "Luna",
+  "rows": [
+    "TRAMS",
+    "RATEL",
+    "EVADE",
+    "AERIE",
+    "TRICK"
+  ],
+  "highlights": [
+    "*....",
+    "*....",
+    "*....",
+    "*....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Bee Network electric vehicles"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Honey badger"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Dodge (a person or a question)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lofty nest"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Half of a Halloween choice"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Half of a Halloween choice"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Glowstick-wielding clubber, often"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Pong producer"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "One giving treatment"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Glossy and smooth"
+      }
+    ]
+  }
+}
