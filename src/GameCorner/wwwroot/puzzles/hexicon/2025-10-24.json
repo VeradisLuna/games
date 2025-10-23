@@ -1,7 +1,7 @@
 {
   "date": "2025-10-24",
   "pangram": "hexagon",
-  "letters": [ "n", "a", "e", "g", "h", "o", "n" ],
+  "letters": [ "n", "a", "e", "g", "h", "o", "x" ],
   "required": "n",
   "words": [
     "aeon",
