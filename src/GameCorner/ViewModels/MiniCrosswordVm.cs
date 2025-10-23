@@ -7,6 +7,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Hexicon.Mini;
 
+public enum CheckMark { None, Correct }
+
 public sealed class MiniSave
 {
     public string Date { get; set; } = "";
@@ -49,6 +51,9 @@ public sealed class MiniCrosswordVm
     {
         public char? Entry { get; set; } = null;
         public bool IsCorrect => IsBlock || Entry == Solution;
+
+        // UI-only decoration (not used in solving logic)
+        public CheckMark Mark { get; set; } = CheckMark.None;
     }
 
     public sealed record Clue(int Number, int Row, int Col, bool IsAcross, string Text, int Length);
@@ -244,10 +249,68 @@ public sealed class MiniCrosswordVm
     private static string Normalize(string s) =>
         new string(s.Where(char.IsLetter).Select(char.ToUpperInvariant).ToArray());
 
+    private IEnumerable<int> SpanIndices(int row, int col, bool across)
+    {
+        if (across)
+        {
+            for (int c = col; c < Size; c++)
+            {
+                int idx = row * Size + c;
+                if (_grid[idx].IsBlock) yield break;
+                yield return idx;
+            }
+        }
+        else
+        {
+            for (int r = row; r < Size; r++)
+            {
+                int idx = r * Size + col;
+                if (_grid[idx].IsBlock) yield break;
+                yield return idx;
+            }
+        }
+    }
+
+    public void ClearMarks()
+    {
+        for (int i = 0; i < _grid.Count; i++)
+            _grid[i].Mark = CheckMark.None;
+    }
+
+    public void CheckAllCells()
+    {
+        // Only highlight correct cells (per your spec)
+        for (int i = 0; i < _grid.Count; i++)
+            _grid[i].Mark = (!_grid[i].IsBlock && _grid[i].Entry == _grid[i].Solution)
+                ? CheckMark.Correct
+                : CheckMark.None;
+    }
+
+    public void CheckCurrentClue(int row, int col, bool across)
+    {
+        // Clear existing marks in the clue first (so it doesn’t accumulate)
+        foreach (var i in SpanIndices(row, col, across))
+            _grid[i].Mark = CheckMark.None;
+
+        foreach (var i in SpanIndices(row, col, across))
+        {
+            var cell = _grid[i];
+            if (!cell.IsBlock && cell.Entry == cell.Solution)
+                cell.Mark = CheckMark.Correct;
+        }
+    }
+
     // --- Convenience helpers for your UI or tests ---
     public bool IsBlock(int idx) => _grid[idx].IsBlock;
     public char? GetEntry(int idx) => _grid[idx].Entry;
-    public void SetEntry(int idx, char? ch) { if (!_grid[idx].IsBlock) _grid[idx].Entry = ch; }
+    public void SetEntry(int idx, char? ch)
+    {
+        if (!_grid[idx].IsBlock)
+        {
+            _grid[idx].Entry = ch;
+            _grid[idx].Mark = CheckMark.None;
+        }
+    }
     public char? GetSolution(int idx) => _grid[idx].Solution;
     public bool Solved => _grid.All(c => c.IsBlock || c.Entry == c.Solution);
 }

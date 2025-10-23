@@ -21,18 +21,7 @@ else
     <div class="container-xl">
         <div class="row g-4 justify-content-center align-items-start mini-layout-row">
             <div class="col-auto">
-                <h1 class="title mini-header">@Vm.Title @* <span class="mini-timer">@Elapsed.ToString(@"mm\:ss")</span> *@</h1>
-                @if (solved)
-                {
-                    @if (Vm.Revealed)
-                    {
-                        <div class="rank-line pulse">Revealed!</div>
-                    }
-                    else
-                    {
-                        <div class="rank-line rank-purple pulse">Correct!</div>
-                    }
-                }
+                <h1 class="title mini-header">@Vm.Title @((Vm.Solved && !Vm.Revealed) ? "👑"@* + Elapsed.ToString(@"mm\:ss")*@ : "")</h1>
                 <div class="mini-board">
                     <div class="mini-grid" id="mini-grid">
                         @for (int r = 0; r < MiniCrosswordVm.Size; r++)
@@ -57,7 +46,8 @@ else
                                                     IsActive="@(idx == activeIndex)"
                                                     RequestFocusKey="@focusKey"
                                                     DisableNativeKeyboard="useOnscreenKeys"
-                                                    IsHighlighted="@cell.IsHighlighted"/>
+                                                    IsHighlighted="@cell.IsHighlighted"
+                                                    IsCorrectUI="@(cell.Mark == CheckMark.Correct)"/>
                                     }
                                 </div>
                             }
@@ -131,7 +121,8 @@ else
                           OnNextClue="NextClue"
                           OnPrevClue="PrevClue"
                           OnTab="@( () => { var res = nav.NextAfterInput(downMode, activeIndex); if (res.Wrapped) downMode = !downMode; Activate(res.To); })"
-                OnToggleMode="@( () => { downMode = !downMode; focusKey++; })" />
+                OnToggleMode="@( () => { downMode = !downMode; focusKey++; })"
+                OnCheckAll="OnCheckAll"/>
             }
             else
             {
@@ -561,11 +552,25 @@ else
             StopTimer();
             //Vm.ElapsedMs = (long)Elapsed.TotalMilliseconds;
             _ = Vm.SaveState();
+            OnCheckAll();
+
+            JS.InvokeVoidAsync("miniConfetti.poof", new
+            {
+                particles = 120,
+                themeIndex = 0,
+                zIndex = 10000
+            });
         }
         else if (solved && !Vm.Solved)
         {
             solved = false;
         }
+        StateHasChanged();
+    }
+
+    private void OnCheckAll()
+    {
+        Vm.CheckAllCells();
         StateHasChanged();
     }
 }

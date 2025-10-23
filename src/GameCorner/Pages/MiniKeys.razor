@@ -2,7 +2,7 @@
     <div class="keys-row">
         <button class="btn key wide" @onclick="Backspace">⌫</button>
         <button class="btn key wide" @onclick="ToggleMode">@((DownMode ? "Down" : "Across"))</button>
-        @* <button class="btn key wide" @onclick="TabForward">Tab</button> *@
+        <button class="key wide" @onclick="CheckAll">Check all</button>
     </div>
     <div class="keys-row">
         @foreach (var ch in "QWERTYUIOP")
@@ -33,6 +33,7 @@
     [Parameter] public EventCallback OnPrevClue { get; set; }
     [Parameter] public EventCallback OnTab { get; set; }
     [Parameter] public EventCallback OnToggleMode { get; set; }
+    [Parameter] public EventCallback OnCheckAll { get; set; }
     [Parameter] public bool DownMode { get; set; }
 
     private Task Press(char c) => OnLetter.InvokeAsync(c);
@@ -41,4 +42,5 @@
     private Task PrevClue() => OnPrevClue.InvokeAsync();
     private Task TabForward() => OnTab.InvokeAsync();
     private Task ToggleMode() => OnToggleMode.InvokeAsync();
+    private Task CheckAll() => OnCheckAll.InvokeAsync();
 }

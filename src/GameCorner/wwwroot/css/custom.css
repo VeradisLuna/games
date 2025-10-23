@@ -653,8 +653,8 @@ h2, .floaty {
 
     .mini-keys {
         position: fixed;
-        left: .5rem;
-        right: .5rem;
+/*        left: .5rem;
+        right: .5rem;*/
         bottom: env(safe-area-inset-bottom);
         z-index: 50;
         background: #fff;
@@ -724,4 +724,9 @@ h2, .floaty {
 .byline{
     font-size: smaller;
     font-style: italic;
+}
+
+.mini-cell.is-correct {
+    border-color: var(--rank-green);
+    transition: border-color 120ms ease;
 }

@@ -304,3 +304,198 @@ window.miniLayout = (function () {
 
     return { enable, refresh, disable };
 })();
+
+(function () {
+    'use strict';
+
+    // Respect reduced motion
+    function canCelebrate() {
+        return !window.matchMedia || !matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    // Random helpers
+    const R = Math.random, cos = Math.cos, sin = Math.sin, PI = Math.PI, PI2 = PI * 2;
+
+    // Original color themes (kept)
+    const colorThemes = [
+        () => rgb(200 * R() | 0, 200 * R() | 0, 200 * R() | 0),
+        () => { const k = 200 * R() | 0; return rgb(200, k, k); },
+        () => { const k = 200 * R() | 0; return rgb(k, 200, k); },
+        () => { const k = 200 * R() | 0; return rgb(k, k, 200); },
+        () => rgb(200, 100, 200 * R() | 0),
+        () => rgb(200 * R() | 0, 200, 200),
+        () => { const k = 256 * R() | 0; return rgb(k, k, k); },
+        () => (R() < .5 ? colorThemes[1] : colorThemes[2])(),
+        () => (R() < .5 ? colorThemes[3] : colorThemes[5])(),
+        () => (R() < .5 ? colorThemes[2] : colorThemes[4])(),
+    ];
+    function rgb(r, g, b) { return `rgb(${r},${g},${b})`; }
+
+    // Cosine interpolation
+    function interp(a, b, t) { return (1 - cos(PI * t)) / 2 * (b - a) + a; }
+
+    // 1D Poisson disc over [0,1]
+    function createPoisson(eccentricity) {
+        const radius = 1 / eccentricity, r2 = radius * 2;
+        let domain = [radius, 1 - radius];
+        let measure = 1 - r2;
+        const spline = [0, 1];
+        while (measure) {
+            let dart = measure * R(), i, l, a, b, c, d, interval;
+            for (i = 0, l = domain.length, measure = 0; i < l; i += 2) {
+                a = domain[i]; b = domain[i + 1]; interval = b - a;
+                if (dart < measure + interval) { spline.push(dart += a - measure); break; }
+                measure += interval;
+            }
+            c = dart - radius; d = dart + radius;
+
+            for (i = domain.length - 1; i > 0; i -= 2) {
+                l = i - 1; a = domain[l]; b = domain[i];
+                if (a >= c && a < d) {
+                    if (b > d) domain[l] = d; else domain.splice(l, 2);
+                } else if (a < c && b > c) {
+                    if (b <= d) domain[i] = c; else domain.splice(i, 0, c, d);
+                }
+            }
+            for (i = 0, l = domain.length, measure = 0; i < l; i += 2) measure += domain[i + 1] - domain[i];
+        }
+        return spline.sort();
+    }
+
+    function Confetto(theme, opts) {
+        const {
+            sizeMin, sizeMax, dxThetaMin, dxThetaMax,
+            dyMin, dyMax, dThetaMin, dThetaMax, deviation, eccentricity
+        } = opts;
+
+        this.frame = 0;
+        this.outer = document.createElement('div');
+        this.inner = document.createElement('div');
+        this.outer.appendChild(this.inner);
+
+        const o = this.outer.style, i = this.inner.style;
+        o.position = 'absolute';
+        o.width = (sizeMin + sizeMax * R()) + 'px';
+        o.height = (sizeMin + sizeMax * R()) + 'px';
+        i.width = '100%';
+        i.height = '100%';
+        i.backgroundColor = theme();
+
+        o.perspective = '50px';
+        o.transform = 'rotate(' + (360 * R()) + 'deg)';
+        this.axis = 'rotate3D(' + cos(360 * R()) + ',' + cos(360 * R()) + ',0,';
+        this.theta = 360 * R();
+        this.dTheta = dThetaMin + dThetaMax * R();
+        i.transform = this.axis + this.theta + 'deg)';
+
+        this.x = window.innerWidth * R();
+        this.y = -deviation;
+        this.dx = sin(dxThetaMin + dxThetaMax * R());
+        this.dy = dyMin + dyMax * R();
+        o.left = this.x + 'px';
+        o.top = this.y + 'px';
+
+        this.splineX = createPoisson(eccentricity);
+        this.splineY = [];
+        for (let k = 1, l = this.splineX.length - 1; k < l; ++k) this.splineY[k] = deviation * R();
+        this.splineY[0] = this.splineY[this.splineX.length - 1] = deviation * R();
+
+        this.update = (height, delta) => {
+            this.frame += delta;
+            this.x += this.dx * delta;
+            this.y += this.dy * delta;
+            this.theta += this.dTheta * delta;
+
+            const sx = this.splineX, sy = this.splineY;
+            let phi = this.frame % 7777 / 7777, a = 0, b = 1;
+            while (phi >= sx[b]) a = b++;
+            const rho = interp(sy[a], sy[b], (phi - sx[a]) / (sx[b] - sx[a]));
+            phi *= PI2;
+
+            o.left = this.x + rho * cos(phi) + 'px';
+            o.top = this.y + rho * sin(phi) + 'px';
+            i.transform = this.axis + this.theta + 'deg)';
+            return this.y > height + deviation;
+        };
+    }
+
+    function makeDefaults(over) {
+        return Object.assign({
+            particles: 80,
+            spread: 40,
+            sizeMin: 3,
+            sizeMax: 9,          // (original code used 12 - sizeMin; we’ll keep 9 as scalar)
+            eccentricity: 10,
+            deviation: 100,
+            dxThetaMin: -.1,
+            dxThetaMax: .2,
+            dyMin: .13,
+            dyMax: .18,
+            dThetaMin: .4,
+            dThetaMax: .3,
+            zIndex: 9999,
+            themeIndex: 0
+        }, over || {});
+    }
+
+    function poof(userOpts) {
+        if (!canCelebrate()) return;
+
+        const opts = makeDefaults(userOpts);
+        const theme = colorThemes[opts.themeIndex % colorThemes.length];
+
+        // Container
+        const container = document.createElement('div');
+        const cs = container.style;
+        cs.position = 'fixed';
+        cs.top = '0'; cs.left = '0';
+        cs.width = '100%'; cs.height = '0';
+        cs.overflow = 'visible';
+        cs.zIndex = String(opts.zIndex);
+        cs.pointerEvents = 'none';
+
+        document.body.appendChild(container);
+
+        // Build confetti gradually for a nicer wave
+        const confetti = [];
+        let timer = null, frame = null;
+
+        (function addConfetto() {
+            const c = new Confetto(theme, opts);
+            confetti.push(c);
+            container.appendChild(c.outer);
+            if (confetti.length < opts.particles) {
+                timer = setTimeout(addConfetto, opts.spread * R());
+            } else {
+                timer = null;
+            }
+        })();
+
+        // Animate
+        let prev;
+        function loop(ts) {
+            const delta = prev ? ts - prev : 0; prev = ts;
+            const height = window.innerHeight;
+
+            for (let i = confetti.length - 1; i >= 0; --i) {
+                if (confetti[i].update(height, delta)) {
+                    container.removeChild(confetti[i].outer);
+                    confetti.splice(i, 1);
+                }
+            }
+
+            if (timer || confetti.length) {
+                frame = requestAnimationFrame(loop);
+            } else {
+                cancelAnimationFrame(frame);
+                document.body.removeChild(container);
+            }
+        }
+        frame = requestAnimationFrame(loop);
+    }
+
+    // Public API
+    window.miniConfetti = {
+        poof // call: miniConfetti.poof({ particles: 120, themeIndex: 2, zIndex: 10000 })
+    };
+})();
