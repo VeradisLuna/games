@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-25",
+  "pangram": "n/a",
+  "letters": [ "N", "Al", "C", "I", "O", "Re", "Ti" ],
+  "required": "N",
+  "words": [
+    "ionic",
+    "initial",
+    "conical",
+    "retinal",
+    "notional",
+    "coalition",
+    "concoction",
+    "concretion"
+  ],
+  "clues": [
+    "Charged, as an atom or molecule",
+    "Like conditions at the start of an experiment",
+    "___ flask",
+    "Relating to a part of the eye",
+    "Theoretical",
+    "Alliance for a common goal",
+    "Mixture of various ingredients",
+    "Hardened mass formed by deposition"
+  ],
+  "themed": true,
+  "tagline": "Science lab"
+}

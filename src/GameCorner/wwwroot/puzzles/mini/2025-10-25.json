@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-25",
+  "title": "Power couple",
+  "author": "Luna",
+  "rows": [
+    "#FLAK",
+    "ALIBI",
+    "QUEEN",
+    "UNGAG",
+    "AGER#"
+  ],
+  "highlights": [
+    "....*",
+    "....*",
+    "*****",
+    "....*",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Harsh criticism"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Excuse used in court"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Most powerful chess piece"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Restore freedom of speech to"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"Teen\" ending"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Thrown with force"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Address to 6-across or 4-down: \"My ___\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Exit, pursued by ___\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Most important chess piece"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Barbie Girl band"
+      }
+    ]
+  }
+}
