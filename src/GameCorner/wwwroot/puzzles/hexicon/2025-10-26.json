@@ -1,0 +1,26 @@
+{
+  "date": "2025-10-26",
+  "pangram": "crowned",
+  "letters": [ "e", "c", "d", "n", "o", "r", "w" ],
+  "required": "e",
+  "words": [
+    "drone",
+    "order",
+    "corner",
+    "decree",
+    "crowded",
+    "crowned",
+    "cocooned"
+  ],
+  "clues": [
+    "Male bee",
+    "Hymenoptera, e.g.",
+    "It's 120° on a honeycomb cell",
+    "What a queen might issue",
+    "Swarmed?",
+    "Made queen bee?",
+    "Wrapped in silk, like a pupa"
+  ],
+  "themed": true,
+  "tagline": "Buzzwords"
+}

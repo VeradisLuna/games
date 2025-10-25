@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-26",
+  "title": "Ad astra",
+  "author": "Luna",
+  "rows": [
+    "SPACE",
+    "LAIRD",
+    "ASDOI",
+    "THEFT",
+    "EARTH"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The final frontier"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Scottish estate owner"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Words to indicate \"Me too\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Grand ___ Auto"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Third rock from the sun"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Welsh roofing material"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Strictly's Kovalev"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "First-___ (helper in an emergency)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Small farm found on 6-across's land"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Piaf who sang \"La Vie en Rose\""
+      }
+    ]
+  }
+}
