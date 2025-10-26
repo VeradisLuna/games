@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-26",
+  "title": "In the cards",
+  "author": "Luna",
+  "rows": [
+    "STAR#",
+    "EAVES",
+    "PRONE",
+    "TOWER",
+    "ATSEA"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "One of 12 on the flag of Europe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Maybe dropped if you're listening in?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Lying facedown"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Of London or Babel?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "On the ocean"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Nasal dividers that might get pierced"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Deck that often includes 1- and 8-across"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Swears"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mean Girls' Rapp"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Song word repeated after \"Que\""
+      }
+    ]
+  }
+}
