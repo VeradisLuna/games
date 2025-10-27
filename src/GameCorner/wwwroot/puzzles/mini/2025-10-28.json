@@ -1,67 +1,67 @@
 {
-  "date": "2025-10-27",
-  "title": "In the cards",
+  "date": "2025-10-28",
+  "title": "Mixed bag (themeless)",
   "author": "Luna",
   "rows": [
-    "STAR#",
-    "EAVES",
-    "PRONE",
-    "TOWER",
-    "ATSEA"
+    "AGES#",
+    "REST#",
+    "INTER",
+    "EIEIO",
+    "SERGE"
   ],
   "clues": {
     "across": [
       {
         "row": 0,
         "col": 0,
-        "clue": "One of 12 on the flag of Europe"
+        "clue": "Stone, Bronze, and Iron"
       },
       {
         "row": 1,
         "col": 0,
-        "clue": "Maybe dropped if you're listening in?"
+        "clue": "An R&R R"
       },
       {
         "row": 2,
         "col": 0,
-        "clue": "Lying facedown"
+        "clue": "___ Milan (football club)"
       },
       {
         "row": 3,
         "col": 0,
-        "clue": "Of London or Babel?"
+        "clue": "Nursery rhyme vowels?"
       },
       {
         "row": 4,
         "col": 0,
-        "clue": "On the ocean"
+        "clue": "Twilled fabric"
       }
     ],
     "down": [
       {
         "row": 0,
         "col": 0,
-        "clue": "Nasal dividers that might get pierced"
+        "clue": "Sign of the Ram"
       },
       {
         "row": 0,
         "col": 1,
-        "clue": "Deck that often includes 1- and 8-across"
+        "clue": "Granter of wishes"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "Swears"
+        "clue": "Fragrant compound"
       },
       {
         "row": 0,
         "col": 3,
-        "clue": "Mean Girls' Rapp"
+        "clue": "Shrek creator William"
       },
       {
-        "row": 1,
+        "row": 2,
         "col": 4,
-        "clue": "Song word repeated after \"Que\""
+        "clue": "Fish eggs"
       }
     ]
   }
