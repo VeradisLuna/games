@@ -1,7 +1,7 @@
 {
   "date": "2025-10-28",
-  "clue": "Fix faulty tap with cold and hot",
+  "clue": "Fix mixer tap (with cold and hot)",
   "enumeration": "5",
   "answer": "PATCH",
-  "explanation": "\"Faulty\" tells us to rearrange TAP. PAT with C and H gives PATCH, meaning \"fix\"."
+  "explanation": "\"Mixer\" implies mixing the letters of TAP. PAT with cold (C) and hot (H) gives PATCH, meaning \"fix\"."
 }
