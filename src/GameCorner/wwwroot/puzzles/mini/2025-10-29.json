@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-29",
+  "title": "XOXOXO",
+  "author": "Luna",
+  "rows": [
+    "STAMP",
+    "LUXOR",
+    "ENERO",
+    "DETOX",
+    "#SONY"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It's found stuck in a corner?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pyramid-shaped hotel in Vegas"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "First month of el año"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Get clean"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "X O ☐ ∆ company"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Toboggan, say"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Adjusts a piano, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ grind (strong gripe)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Dimwit"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Authorized substitute"
+      }
+    ]
+  }
+}
