@@ -1,0 +1,75 @@
+{
+  "date": "2025-10-30",
+  "title": "Ready to invest?",
+  "author": "Luna",
+  "rows": [
+    "ANA##",
+    "PITCH",
+    "AGREE",
+    "SHILL",
+    "STALL"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    ".*...",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Shark Tank México panellist's palindromic first name"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Word before or after perfect"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Match in opinion"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Shady accomplice"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Play for time"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Take ___ on (decline to take part)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "From dusk till dawn"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Open-plan spaces?"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "One of 25 in a 5x5 grid"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Development ___ (stagnating project status)"
+      }
+    ]
+  }
+}

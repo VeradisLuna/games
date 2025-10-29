@@ -1,0 +1,27 @@
+{
+  "date": "2025-10-30",
+  "pangram": "function",
+  "letters": [ "f", "c", "i", "n", "o", "t", "u" ],
+  "required": "f",
+  "words": [
+    "coif",
+    "cuff",
+    "font",
+    "foot",
+    "info",
+    "niff",
+    "tiff",
+    "toff",
+    "tofu",
+    "tuft",
+    "fount",
+    "futon",
+    "unfit",
+    "coffin",
+    "cutoff",
+    "outfit",
+    "fiction",
+    "function",
+    "nonfiction"
+  ]
+}
