@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-30",
+  "title": "It's all Greek to me",
+  "author": "Luna",
+  "rows": [
+    "LOTS#",
+    "ORION",
+    "ATTHE",
+    "CHAOS",
+    "HON##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Portions of fate"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hunter of Greek myth"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "The Piper ___ Gates of Dawn (Pink Floyd)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Disarray, or most ancient mythical being?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Term of endearment for bee nymph Melissa?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Cypriniform river fish with native Greek species"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Prefix from the Greek for \"straight\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Either of Zeus's parents"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "London district containing the Apollo Theatre"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"The Battle of Olympus\" retro console"
+      }
+    ]
+  }
+}

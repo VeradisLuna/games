@@ -1,0 +1,32 @@
+{
+  "date": "2025-10-31",
+  "pangram": "orpheus",
+  "letters": [ "e", "h", "o", "p", "r", "s", "u" ],
+  "required": "e",
+  "words": [
+    "eros",
+    "euro",
+    "heroes",
+    "rhesus",
+    "europe",
+    "orpheus"
+  ],
+  "formattedWords": [
+    "Eros",
+    "Euro",
+    "Heroes",
+    "Rhesus",
+    "Europe",
+    "Orpheus"
+  ],
+  "clues": [
+    "Greek god of love",
+    "Currency of Greece",
+    "They might be super?",
+    "Iliad king (or kind of monkey?)",
+    "Ionian sea's continent",
+    "Bard who returned from the underworld"
+  ],
+  "themed": true,
+  "tagline": "Echoes of Olympus"
+}
