@@ -1,0 +1,32 @@
+{
+  "date": "2025-11-01",
+  "pangram": "ketchup",
+  "letters": [ "e", "c", "h", "k", "p", "t", "u" ],
+  "required": "e",
+  "words": [
+    "cute",
+    "etch",
+    "heck",
+    "keep",
+    "kept",
+    "peck",
+    "peek",
+    "peep",
+    "puce",
+    "puke",
+    "thee",
+    "check",
+    "cheek",
+    "cheep",
+    "chute",
+    "ketch",
+    "teeth",
+    "tepee",
+    "puppet",
+    "teepee",
+    "teethe",
+    "upkeep",
+    "checkup",
+    "ketchup"
+  ]
+}

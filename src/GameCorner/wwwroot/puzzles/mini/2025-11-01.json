@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-01",
+  "title": "Greatest show (hidden phrase)",
+  "author": "Luna",
+  "rows": [
+    "#RAE#",
+    "BIGGS",
+    "ITAGO",
+    "ZZTOP",
+    "#YES#"
+  ],
+  "highlights": [
+    ".....",
+    "***..",
+    ".....",
+    "..***",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Addison, third-most followed woman on TikTok"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Wedge's colleague in Star Wars (and Final Fantasy!)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Give ___!\" (\"Try!\")"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Gimme All Your Lovin'\" band"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "What a nod might indicate"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Swanky"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Banded gemstone"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Waffles adored by Eleven of Stranger Things"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Show ___"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Soak (up)"
+      }
+    ]
+  }
+}
