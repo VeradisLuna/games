@@ -72,6 +72,13 @@ h2, .floaty {
 .game-card-feedback {
     background: #f4ce00 !important;
 }
+.game-card-halloween {
+    background: #ff8800 !important;
+}
+.halloween .game-card, .halloween .game-card p {
+    background: #9b59b6;
+    color: yellow !important;
+}
 .rank-default {
     color: #444;
 }
