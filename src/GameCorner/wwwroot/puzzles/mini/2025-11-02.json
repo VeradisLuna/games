@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-02",
+  "title": "Roman steps",
+  "author": "Luna",
+  "rows": [
+    "ITT##",
+    "OVAL#",
+    "WAXON",
+    "ADELE",
+    "##SAC"
+  ],
+  "highlights": [
+    "*....",
+    ".*...",
+    "..*..",
+    "...*.",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Addams Family cousin"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Cricket ground, with \"the\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Karate Kid command (half of a pair)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Skyfall\" singer"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Cul-de-___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Des Moines state"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "You won't find one on the BBC"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "One of life's two \"certainties\""
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "She \"walked like a woman and talked like a man\""
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Initials for large event space in Birmingham"
+      }
+    ]
+  }
+}

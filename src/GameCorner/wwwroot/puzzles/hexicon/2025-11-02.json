@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-02",
+  "pangram": "steward",
+  "letters": [ "r", "a", "d", "e", "s", "t", "w" ],
+  "required": "r",
+  "words": [
+    "rest",
+    "award",
+    "start",
+    "sweat",
+    "water",
+    "retread",
+    "steward"
+  ],
+  "clues": [
+    "It's well-earned, post-run",
+    "A medal, maybe",
+    "Where you toe the line?",
+    "Perspiration",
+    "Hydration station handout",
+    "Go back over the same path",
+    "Course marshall"
+  ],
+  "themed": true,
+  "tagline": "Fun run"
+}
