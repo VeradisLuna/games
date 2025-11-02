@@ -1,0 +1,23 @@
+{
+  "date": "2025-11-03",
+  "pangram": "countdown",
+  "letters": [ "d", "c", "n", "o", "t", "u", "w" ],
+  "required": "d",
+  "words": [
+    "dodo",
+    "down",
+    "duct",
+    "undo",
+    "wood",
+    "condo",
+    "dunno",
+    "outdo",
+    "wound",
+    "conduct",
+    "unwound",
+    "woodcut",
+    "downtown",
+    "countdown",
+    "cottonwood"
+  ]
+}

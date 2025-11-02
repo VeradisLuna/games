@@ -1,0 +1,68 @@
+{
+  "date": "2025-11-03",
+  "title": "Mixed bag (themeless)",
+  "author": "Luna",
+  "rows": [
+    "AMONG",
+    "MANOR",
+    "OLETA",
+    "SEUSS",
+    "#KPOP"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ Us (game)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Stately home"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Adams who recorded with Tears for Fears"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Cat in the Hat\" creator"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Huntr\\x genre"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "First Old Testament book alphabetically"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Rami with a Best Actor Oscar"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Extra life (green mushroom, maybe)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"That's untrue!\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Grok"
+      }
+    ]
+  }
+}
