@@ -1,0 +1,68 @@
+{
+  "date": "2025-11-04",
+  "title": "Creature feature",
+  "author": "Luna",
+  "rows": [
+    "ZEBRA",
+    "OTLEY",
+    "OHARE",
+    "#EMU#",
+    "#REN#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "African equine"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Leeds town filmed in Heartbeat and Emmerdale"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Airport name (with a rabbit relative)"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Outback bird"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Cartoon chihuahua"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Where the wild things are?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Upper atmosphere"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Where there's a ___, there's a claim\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "TV repeat"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"Yes\" (double it for a lemur)"
+      }
+    ]
+  }
+}
