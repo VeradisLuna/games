@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-05",
+  "title": "Mother of stars",
+  "author": "Luna",
+  "rows": [
+    "#ROSA",
+    "LOYAL",
+    "UMAMI",
+    "MAMAN",
+    "##ARE"
+  ],
+  "highlights": [
+    ".****",
+    "*...*",
+    "*...*",
+    "**.**",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Brooklyn Nine-Nine\" detective Diaz"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Unwavering in friendship"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Taste that isn't sweet, sour, bitter or salty"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "JoJo ___ Bébé"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Exist"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Capital of Italia"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Kanagawa mountain"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Third-largest of the Philippines"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Skirt style"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Nora ___ (Awkwafina)"
+      }
+    ]
+  }
+}
