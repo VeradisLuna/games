@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-06",
+  "title": "VI x V",
+  "author": "Luna",
+  "rows": [
+    "#VVV#",
+    "VALID",
+    "VIOLA",
+    "VOGEL",
+    "##SRI"
+  ],
+  "highlights": [
+    ".***.",
+    "*....",
+    "*....",
+    "*....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "With 4-down, gravity-flipping indie game"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sound, as an argument"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Part of a string quartet"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bird, in Berlin"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "___ Lanka"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Longtime Sony laptop line"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "YouTube journals, maybe"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "More despicable"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "See 1-across"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Surrealist with an upturned mustache"
+      }
+    ]
+  }
+}

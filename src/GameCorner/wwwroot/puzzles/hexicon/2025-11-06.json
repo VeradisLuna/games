@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-06",
+  "pangram": "virtual",
+  "letters": [ "v", "a", "i", "l", "r", "t", "u" ],
+  "required": "v",
+  "words": [
+    "lava",
+    "vial",
+    "vita",
+    "viva",
+    "avail",
+    "larva",
+    "rival",
+    "uvula",
+    "vault",
+    "villa",
+    "viral",
+    "vital",
+    "vulva",
+    "avatar",
+    "larval",
+    "trivia",
+    "uvular",
+    "arrival",
+    "travail",
+    "trivial",
+    "virtual",
+    "alluvial"
+  ]
+}
