@@ -1,0 +1,68 @@
+{
+  "date": "2025-11-07",
+  "title": "Double takes",
+  "author": "Luna",
+  "rows": [
+    "DRESS",
+    "RENAL",
+    "ABOVE",
+    "BELOW",
+    "SLAY#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Cover a person – or a salad"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Relating to the kidneys"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"As ___ ...\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"... so ___\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Take out a dragon – or a Drag Race panel"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "They pair with dribs"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "An Empire opponent, in Star Wars"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Sherlock's sister, played by Millie Bobby Brown"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Luxury hotel – or cabbage"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Past tense of 9-across"
+      }
+    ]
+  }
+}
