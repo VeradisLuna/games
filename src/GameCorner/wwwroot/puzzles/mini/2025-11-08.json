@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-08",
+  "title": "Point to point",
+  "author": "Luna",
+  "rows": [
+    "#WISE",
+    "WICCA",
+    "ELIAS",
+    "SCENT",
+    "TORT#"
+  ],
+  "highlights": [
+    "....*",
+    "*...*",
+    "*...*",
+    "*...*",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Like an owl, maybe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"The Craft\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Walt Disney's middle name"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bloodhound's trail"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Act of injury or damage covered by law"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Radio confirmation after \"roger\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Less welcoming"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Barely sufficient"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___ of Eden"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Side Story"
+      }
+    ]
+  }
+}
