@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-09",
+  "title": "Autumn's end",
+  "author": "Luna",
+  "rows": [
+    "SPAT#",
+    "TACET",
+    "ONERS",
+    "VERSA",
+    "EMBER"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "**...",
+    "*....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Petty quarrel"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Be silent\" on a music score"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Single-take shots, in film slang"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Vice ___"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Glowing remnant"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Kitchen cooker"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"The Hunger Games\" nation"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bitter or sour"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sparing with words"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Nicholas II was the last one"
+      }
+    ]
+  }
+}

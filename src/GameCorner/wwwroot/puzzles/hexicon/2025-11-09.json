@@ -1,0 +1,26 @@
+{
+  "date": "2025-11-09",
+  "pangram": "thermal",
+  "letters": [ "e", "a", "h", "l", "m", "r", "t" ],
+  "required": "e",
+  "words": [
+    "melt",
+    "tree",
+    "earth",
+    "latte",
+    "hearth",
+    "heater",
+    "thermal"
+  ],
+  "clues": [
+    "Thaw",
+    "Autumn leaf source",
+    "Autumn leaf destination",
+    "Pumpkin spice, perhaps",
+    "Fireplace floor",
+    "Keeps the room warm",
+    "Like some underwear"
+  ],
+  "themed": true,
+  "tagline": "Turning point"
+}
