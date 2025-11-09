@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-11",
+  "title": "Before and after",
+  "author": "Luna",
+  "rows": [
+    "TIDAL",
+    "HORSE",
+    "ANITA",
+    "RIVER",
+    "#CERN"
+  ],
+  "highlights": [
+    "..*..",
+    "*****",
+    "..*..",
+    "*****",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Like the motion of the ocean"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "HIGH (___) POWER"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pointer Sister"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "MOON (___) DANCE"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Home of the Large Hadron Collider"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Where she blows?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Like some chemical bonds, or Greek columns"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "THUMB (___) THROUGH"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Flower whose name means \"star\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Acquire knowledge"
+      }
+    ]
+  }
+}
