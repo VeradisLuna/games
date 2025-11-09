@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-10",
+  "title": "E pluribus unum",
+  "author": "Luna",
+  "rows": [
+    "##CVS",
+    "AVAIL",
+    "PIPPA",
+    "PEREC",
+    "#DARK"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    ".*.*.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Résumés"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "To no ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sister of the Princess of Wales"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"A Void\" author who gets all the Es in this puzzle"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Word before horse or chocolate"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Frank who directed \"It's a Wonderful Life\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Venomous snake"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Loose"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "3-down, for one"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Competed"
+      }
+    ]
+  }
+}
