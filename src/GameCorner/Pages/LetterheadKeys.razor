@@ -1,0 +1,47 @@
+﻿@using Hexicon.Letterhead
+<div class="mini-keys lh-keys">
+    <div class="keys-row">
+        <button class="btn key wide" @onclick='() => Press("BACKSPACE")'>⌫</button>
+        <button class="btn key wide" @onclick='() => Press("ENTER")'>Enter</button>
+    </div>
+    <div class="keys-row">
+        @foreach (var ch in "QWERTYUIOP")
+        {
+            <button class="btn key @KeyClass(ch)" @onclick="() => Press(ch.ToString())">@ch</button>
+        }
+    </div>
+    <div class="keys-row">
+        @foreach (var ch in "ASDFGHJKL")
+        {
+            <button class="btn key @KeyClass(ch)" @onclick="() => Press(ch.ToString())">@ch</button>
+        }
+    </div>
+    <div class="keys-row">
+        @foreach (var ch in "ZXCVBNM")
+        {
+            <button class="btn key @KeyClass(ch)" @onclick="() => Press(ch.ToString())">@ch</button>
+        }
+    </div>
+</div>
+
+
+@code {
+    [Parameter] public EventCallback<string> OnKey { get; set; }
+    [Parameter] public IReadOnlyDictionary<char, TileState>? KeyStates { get; set; }
+
+
+    private Task Press(string k) => OnKey.InvokeAsync(k);
+
+
+    private string KeyClass(char ch)
+    {
+        if (KeyStates is null) return string.Empty;
+        return KeyStates.TryGetValue(ch, out var s) ? s switch
+        {
+            TileState.Correct => "correct",
+            TileState.Present => "present",
+            TileState.Absent => "absent",
+            _ => string.Empty
+        } : string.Empty;
+    }
+}

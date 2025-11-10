@@ -737,3 +737,119 @@ h2, .floaty {
     border-color: var(--rank-green);
     transition: border-color 120ms ease;
 }
+
+/* === Letterhead board =================================================== */
+:root {
+    --lh-cell: 56px; /* tile size */
+    --lh-gap: 8px; /* spacing between tiles */
+}
+
+/* board container */
+.lh-board {
+    width: min(92vw, 420px);
+    margin: 1rem auto;
+    outline: none;
+}
+
+.lh-grid {
+    display: grid;
+    gap: var(--lh-gap);
+    justify-content: center;
+}
+
+/* if you're keeping .lh-row wrappers, make them a 5-col grid too */
+.lh-row {
+    display: grid;
+    grid-template-columns: repeat(5, var(--lh-cell));
+    gap: var(--lh-gap);
+}
+
+/* tiles */
+.lh-cell {
+    width: var(--lh-cell);
+    height: var(--lh-cell);
+    border-radius: 10px;
+    border: 2px solid #e5e7eb; /* light border like Mini */
+    background: #fff;
+    display: grid;
+    place-items: center;
+    font: 700 24px/1 system-ui, sans-serif;
+    text-transform: uppercase;
+    will-change: transform, background, border-color;
+}
+
+    /* states (match your Mini palette) */
+    .lh-cell.pending {
+        border-color: #bbb;
+    }
+
+    .lh-cell.correct {
+        background: var(--rank-green, #2ecc71);
+        color: #fff;
+        border-color: var(--rank-green, #2ecc71);
+    }
+
+    .lh-cell.present {
+        background: var(--rank-blue, #3498db);
+        color: #fff;
+        border-color: var(--rank-blue, #3498db);
+    }
+
+    .lh-cell.absent {
+        background: #787c7e;
+        color: #fff;
+        border-color: #787c7e;
+    }
+
+/* keyboard tint reuse */
+.lh-keys .key.correct {
+    background: var(--rank-green, #2ecc71);
+    color: #fff;
+}
+
+.lh-keys .key.present {
+    background: var(--rank-blue, #3498db);
+    color: #fff;
+}
+
+.lh-keys .key.absent {
+    background: #787c7e;
+    color: #fff;
+}
+
+/* animations (unchanged) */
+@keyframes lh-flip {
+    0% {
+        transform: rotateX(0)
+    }
+
+    50% {
+        transform: rotateX(90deg)
+    }
+
+    100% {
+        transform: rotateX(0)
+    }
+}
+
+@keyframes lh-shake {
+    0%,100% {
+        transform: translateX(0)
+    }
+
+    25% {
+        transform: translateX(-6px)
+    }
+
+    75% {
+        transform: translateX(6px)
+    }
+}
+
+.lh-row.shake {
+    animation: lh-shake 220ms ease;
+}
+
+.letterhead-header {
+    text-align: center;
+}

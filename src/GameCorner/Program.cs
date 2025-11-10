@@ -3,6 +3,7 @@ using GameCorner.Services;
 using GameCorner.ViewModels;
 using Hexicon.Core;
 using Hexicon.Mini;
+using Hexicon.Letterhead;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
@@ -33,5 +34,6 @@ builder.Services.AddScoped<Persistence>();
 builder.Services.AddScoped<HexiconVm>();
 builder.Services.AddScoped<CryptiniVm>();
 builder.Services.AddScoped<MiniCrosswordVm>();
+builder.Services.AddScoped<LetterheadVm>();
 
 await builder.Build().RunAsync();

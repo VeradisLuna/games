@@ -29,4 +29,16 @@ public sealed class PuzzleLoader
         try { return await _http.GetFromJsonAsync<MiniData>($"puzzles/mini/{date:yyyy-MM-dd}.json?v={DateTime.UtcNow.Ticks}"); }
         catch { return null; }
     }
+
+    public async Task<LetterheadData?> LoadLetterheadAsync(DateOnly date)
+    {
+        try { return await _http.GetFromJsonAsync<LetterheadData>($"puzzles/letterhead/{date:yyyy-MM-dd}.json?v={DateTime.UtcNow.Ticks}"); }
+        catch { return null; }
+    }
+
+    public async Task<string[]?> LoadAllowedLetterheadGuessesAsync()
+    {
+        try { return await _http.GetStringAsync($"puzzles/letterhead/allowed.txt?v={DateTime.UtcNow.Ticks}").ContinueWith(a => a.Result.Split(Environment.NewLine)); }
+        catch { return null; }
+    }
 }

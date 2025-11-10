@@ -201,6 +201,100 @@ window.miniFit = (function () {
     return { enable, fit, disable };
 })();
 
+window.letterheadFit = (function () {
+    const SEL_GRID = '.lh-grid';
+    const SEL_BOARD = '.lh-board';
+    const SEL_KEYS = '.mini-keys';
+    const MAX_CELL = 64;
+    const MIN_CELL = 36;
+    const PAD = 12;
+
+    function elementsReady() {
+        return document.querySelector(SEL_GRID) && document.querySelector(SEL_BOARD);
+    }
+    function runWhenReady(fn) {
+        if (elementsReady()) { fn(); return; }
+        const mo = new MutationObserver(() => {
+            if (elementsReady()) { mo.disconnect(); fn(); }
+        });
+        mo.observe(document.body, { childList: true, subtree: true });
+    }
+
+    function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+    function isShown(el) { return !!el && el.getClientRects().length > 0; }
+
+    function getGapPx() {
+        const val = getComputedStyle(document.documentElement)
+            .getPropertyValue('--lh-gap').trim();
+        const n = parseInt(val, 10);
+        return Number.isFinite(n) ? n : 8;
+    }
+
+    function fit() {
+        const grid = document.querySelector(SEL_GRID);
+        const board = document.querySelector(SEL_BOARD);
+        if (!grid || !board) return;
+
+        const vv = window.visualViewport;
+        const boardRect = board.getBoundingClientRect();
+
+        // width: content width of the board's parent
+        const container = board.parentElement;
+        const usableW = (container?.clientWidth ?? board.clientWidth);
+
+        // height: from board top to just above on-screen keys
+        const viewBottom = vv ? (vv.height - vv.offsetTop) : window.innerHeight;
+        const keys = document.querySelector(SEL_KEYS);
+        const keysH = isShown(keys) ? keys.getBoundingClientRect().height : 0;
+        const bottomLimit = viewBottom - keysH - PAD;
+        const usableH = bottomLimit - boardRect.top;
+
+        if (usableW <= 0 || usableH <= 0) return;
+
+        // Letterhead is 6 rows × 5 columns
+        const ROWS = 6, COLS = 5;
+        const gap = getGapPx();
+        const gapsW = (COLS - 1) * gap;
+        const gapsH = (ROWS - 1) * gap;
+
+        const cellByW = Math.floor((usableW - gapsW) / COLS);
+        const cellByH = Math.floor((usableH - gapsH) / ROWS);
+        const chosen = clamp(Math.min(cellByW, cellByH), MIN_CELL, MAX_CELL);
+
+        document.documentElement.style.setProperty('--lh-cell', chosen + 'px');
+    }
+
+    function enable() {
+        runWhenReady(() => {
+            fit();
+            window.addEventListener('resize', fit, { passive: true });
+            window.addEventListener('orientationchange', () => setTimeout(fit, 150), { passive: true });
+            if (window.visualViewport) {
+                window.visualViewport.addEventListener('resize', fit);
+                window.visualViewport.addEventListener('scroll', fit);
+            }
+            const roTargets = [SEL_KEYS].map(sel => document.querySelector(sel)).filter(Boolean);
+            if (roTargets.length) {
+                const ro = new ResizeObserver(fit);
+                roTargets.forEach(t => ro.observe(t));
+                window._letterheadFitRO = ro;
+            }
+        });
+    }
+
+    function disable() {
+        window.removeEventListener('resize', fit);
+        if (window.visualViewport) {
+            window.visualViewport.removeEventListener('resize', fit);
+            window.visualViewport.removeEventListener('scroll', fit);
+        }
+        if (window._letterheadFitRO) { window._letterheadFitRO.disconnect(); window._letterheadFitRO = null; }
+        document.documentElement.style.removeProperty('--lh-cell');
+    }
+
+    return { enable, fit, disable };
+})();
+
 window.miniClueBar = (function () {
     const SEL = '.current-clue-bar';
     const BASE = 8; // base bottom padding in px
@@ -498,4 +592,28 @@ window.miniLayout = (function () {
     window.miniConfetti = {
         poof // call: miniConfetti.poof({ particles: 120, themeIndex: 2, zIndex: 10000 })
     };
+})();
+
+// Letterhead: flip and shake row animations
+window.letterhead = (function () {
+    function revealRow(r) {
+        const row = document.getElementById(`row-${r}`);
+        if (!row) return; // defensive
+        const cells = row.querySelectorAll(".lh-cell");
+        cells.forEach((el, i) => {
+            // staggered flip
+            el.style.animation = `lh-flip 420ms ease ${i * 80}ms both`;
+        });
+    }
+
+    function shakeRow(r) {
+        const row = document.getElementById(`row-${r}`);
+        if (!row) return;
+        row.classList.remove("shake"); // restart if already applied
+        void row.offsetWidth;          // reflow
+        row.classList.add("shake");
+        setTimeout(() => row.classList.remove("shake"), 260);
+    }
+
+    return { revealRow, shakeRow };
 })();

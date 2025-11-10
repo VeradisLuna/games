@@ -57,4 +57,11 @@ namespace Hexicon.Core
         public string Clue { get; set; } = "";
         public string? Answer { get; set; }  // optional, for validation/debug
     }
+
+    public sealed class LetterheadData
+    {
+        public string Date { get; set; } = "";
+        public string Author { get; set; } = "";
+        public string Answer { get; set; } = "";
+    }
 }

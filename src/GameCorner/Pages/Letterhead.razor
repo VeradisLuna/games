@@ -1,0 +1,150 @@
+﻿@page "/letterhead"
+@page "/letterhead/{date}"
+@using GameCorner.Services
+@using Hexicon.Letterhead
+@using Microsoft.JSInterop
+@inject IJSRuntime JS
+@inject LetterheadVm Vm
+
+<PageTitle>Letterhead</PageTitle>
+
+<div class="container">
+    <GameCorner.Layout.DateNav BasePath="letterhead" MinDate="@(new DateOnly(2025, 11, 10))" />
+</div>
+
+@if (!Vm.IsLoaded)
+{
+    <p>Loading puzzle...</p>
+}
+else
+{
+    <div class="container">
+        <div class="lh-head">
+            <h1 class="title letterhead-header">@(Vm.State == GameState.Playing ? "?????" : "")@(Vm.State == GameState.Won ? "👑 " + Vm.AnswerMasked : "")@(Vm.State == GameState.Lost ? Vm.AnswerMasked : "")</h1>
+        </div>
+    </div>
+
+    <div id="lh-board" class="lh-board" tabindex="0" @onkeydown="OnKeyDown">
+        <div class="lh-grid">
+            @for (int r = 0; r < LetterheadVm.MaxRows; r++)
+            {
+                <div class="lh-row @(RowClass(r))" id=@($"row-{r}")>
+                    @for (int c = 0; c < LetterheadVm.WordLen; c++)
+                    {
+                        var cell = Vm.Grid[r][c];
+                        <div class="lh-cell @CellClass(cell)" id=@($"cell-{r}-{c}")>
+                            <span>@(cell.Ch)</span>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+
+    <LetterheadKeys OnKey="HandleKey" KeyStates="@Vm.KeyStates" />
+}
+
+@code {
+    [Parameter] public string? date { get; set; }
+    private string? _lastDate;
+    protected override async Task OnParametersSetAsync()
+    {
+        if (date != _lastDate)           // only reload if the date changed
+        {
+            _lastDate = date;
+            await Vm.InitAsync();         // provider will read new URL date
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Vm.InitAsync();
+    }
+
+    private bool _enabledFit;
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (Vm.IsLoaded)
+        {
+            if (!_enabledFit)
+            {
+                _enabledFit = true;
+                await JS.InvokeVoidAsync("letterheadFit.enable");
+            }
+        }
+
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("miniLayout.enable");
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        await JS.InvokeVoidAsync("letterheadFit.disable");
+        await JS.InvokeVoidAsync("miniLayout.disable");
+    }
+
+    private Task HandleKey(string key)
+    {
+        switch (key)
+        {
+            case "ENTER":
+                return OnEnter();
+            case "BACKSPACE":
+                Vm.Backspace();
+                StateHasChanged();
+                return Task.CompletedTask;
+        }
+
+        if(key.Length == 1)
+        {
+            Vm.TypeChar(key[0]);
+            StateHasChanged();
+            return Task.CompletedTask;
+        }
+
+        return Task.CompletedTask;
+    }
+
+    private string RowClass(int r) => r == Vm.CurrentRow && Vm.State == GameState.Playing ? "active" : string.Empty;
+
+    private string CellClass(LetterheadVm.Cell cell) => cell.State switch
+    {
+        TileState.Correct => "correct",
+        TileState.Present => "present",
+        TileState.Absent => "absent",
+        TileState.Pending => "pending",
+        _ => string.Empty
+    };
+
+    private Task OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter") return OnEnter();
+        if (e.Key == "Backspace") { Vm.Backspace(); StateHasChanged(); return Task.CompletedTask; }
+        if (e.Key?.Length == 1 && char.IsLetter(e.Key[0])) { Vm.TypeChar(e.Key[0]); StateHasChanged(); }
+        return Task.CompletedTask;
+    }
+
+    private async Task OnEnter()
+    {
+        if (!Vm.CanSubmit) { await ShakeRow(Vm.CurrentRow); return; }
+        var err = Vm.Submit();
+        if (err is not null) { await ShakeRow(Vm.CurrentRow); return; }
+
+        // reveal the row we just locked in (CurrentRow has moved unless win/lose)
+        var revealIndex = Vm.State == GameState.Playing ? Vm.CurrentRow - 1 : Vm.CurrentRow;
+        await RevealRow(revealIndex);
+
+        if (Vm.State == GameState.Won)
+        {
+            await JS.InvokeVoidAsync("miniConfetti.poof", new { particles = 120, themeIndex = 4, zIndex = 10000 });
+        }
+
+        await Vm.SaveState();
+        StateHasChanged();
+    }
+
+    private ValueTask RevealRow(int r) => JS.InvokeVoidAsync("letterhead.revealRow", r);
+    private ValueTask ShakeRow(int r) => JS.InvokeVoidAsync("letterhead.shakeRow", r);
+}
