@@ -1,0 +1,29 @@
+{
+  "date": "2025-11-12",
+  "pangram": "anything",
+  "letters": [ "i", "a", "g", "h", "n", "t", "y" ],
+  "required": "i",
+  "words": [
+    "high",
+    "again",
+    "night",
+    "thing",
+    "anything"
+  ],
+  "clues": [
+    "The Tide is ___",
+    "Whole ___",
+    "Saturday ___",
+    "I Don't Want to Miss a ___",
+    "___ Is Possible / Evergreen"
+  ],
+  "formattedWords": [
+    "The Tide is HIGH",
+    "Whole AGAIN",
+    "Saturday NIGHT",
+    "I Don't Want to Miss a THING",
+    "ANYTHING Is Possible / Evergreen"
+  ],
+  "themed": true,
+  "tagline": "UK number ones"
+}

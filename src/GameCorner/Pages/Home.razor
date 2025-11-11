@@ -5,6 +5,17 @@
     <p class="subtitle">Choose a game to play!</p>
 
     <div class="game-grid">
+        @if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 11, 12) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2024, 11, 14))
+        {
+            <div class="game-card game-card-feedback">
+                <a href="collection_music">
+                    <div class="card-content">
+                        <h2>Music Box 🎵</h2>
+                        <p>A selection of music-themed past puzzles!</p>
+                    </div>
+                </a>
+            </div>
+        }
         <div class="game-card">
             <a href="mini">
                 <div class="card-content">
@@ -38,14 +49,14 @@
                 </div>
             </a>
         </div>
-        <div class="game-card game-card-feedback">
+        <div class="game-card">
             <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer">
                 <div class="card-content">
                     <p><span class="fw-bold" style="text-decoration: underline;">Do you have feedback?</span><br />Get in touch with me using this super simple form!</p>
                 </div>
             </a>
         </div>
-        <div class="game-card game-card-support">
+        <div class="game-card">
             <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer">
                 <div class="card-content">
                     <p><span class="fw-bold" style="color:#3366cc; text-decoration: underline;">Like these puzzles?</span> 🍵<br />Support me on <span class="fw-bold">Ko-Fi</span> to help keep this free project going!</p>

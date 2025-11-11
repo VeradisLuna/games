@@ -1,0 +1,151 @@
+﻿@page "/collection_music"
+
+<div class="homepage">
+    <h1 class="title">LUNA MINI &amp; friends</h1>
+    <p class="subtitle">Music Box 🎵</p>
+
+    <div class="game-grid">
+        <div class="game-card">
+            <a href="hexicon/2025-09-21">
+                <div class="card-content">
+                    <h2>UK Number Ones I</h2>
+                    <p>Hexicon</p>
+                </div>
+            </a>
+        </div>
+        @if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 11, 13))
+        {
+            <div class="game-card">
+                <a href="hexicon/2025-09-28">
+                    <div class="card-content">
+                        <h2>UK Number Ones II</h2>
+                        <p>Hexicon</p>
+                    </div>
+                </a>
+            </div>
+            <div class="game-card">
+                <a href="mini/2025-11-12">
+                    <div class="card-content">
+                        <h2>UK Number Ones III</h2>
+                        <p>Hexicon</p>
+                    </div>
+                </a>
+            </div>
+        }
+        <div class="game-card">
+            <a href="hexicon/2025-10-01">
+                <div class="card-content">
+                    <h2>Musicals</h2>
+                    <p>Hexicon</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="mini/2025-10-23">
+                <div class="card-content">
+                    <h2>Global hits</h2>
+                    <p>Luna Mini</p>
+                </div>
+            </a>
+        </div>
+        @if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 11, 13))
+        {
+            <div class="game-card">
+                <a href="mini/2025-10-21">
+                    <div class="card-content">
+                        <h2>On the record</h2>
+                        <p>Luna Mini</p>
+                    </div>
+                </a>
+            </div>
+            <div class="game-card">
+                <a href="mini/2025-10-12">
+                    <div class="card-content">
+                        <h2>Orchestra pit</h2>
+                        <p>Luna Mini</p>
+                    </div>
+                </a>
+            </div>
+        }
+        <div class="game-card">
+            <a href="cryptini/2025-11-01">
+                <div class="card-content">
+                    <h2>Tap dances</h2>
+                    <p>Cryptini</p>
+                </div>
+            </a>
+        </div>
+        @if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 11, 13))
+        {
+            <div class="game-card">
+                <a href="cryptini/2025-09-27">
+                    <div class="card-content">
+                        <h2>Unholy?</h2>
+                        <p>Cryptini</p>
+                    </div>
+                </a>
+            </div>
+        }
+        @if (DateOnly.FromDateTime(DateTime.Now) < new DateOnly(2025, 11, 13))
+        {
+            <div class="game-card disabled">
+                <div class="card-content">
+                    <h2>More tomorrow!</h2>
+                    <p>Come back tomorrow for more music-themed puzzles</p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .homepage {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 0.25rem;
+    }
+    .subtitle {
+        color: #6b7280;
+        margin-bottom: 2rem;
+    }
+    .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1.5rem;
+    }
+    .game-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 1rem;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .game-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+    .game-card a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .card-content {
+        padding: 1.25rem;
+    }
+    .card-content h2 {
+        margin-bottom: 0.5rem;
+    }
+    .card-content p {
+        color: #374151;
+        font-size: 0.95rem;
+    }
+    .disabled {
+        opacity: 0.6;
+        pointer-events: none;
+    }
+</style>

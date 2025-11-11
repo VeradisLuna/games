@@ -1,0 +1,68 @@
+{
+  "date": "2025-11-12",
+  "title": "Precious pair",
+  "author": "Luna",
+  "rows": [
+    "BILBO",
+    "ADEUX",
+    "FRODO",
+    "TINS#",
+    "ASA##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The Hobbit"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Joker: Folie ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Shares a birthday with 1-across"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Despite the name, they're often aluminium"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Butterfield of \"Sex Education\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Mask of movie merit?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cadair ___ (Welsh mountain)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Lewis who sang \"Bleeding Love\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Pals"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Stock cube producer"
+      }
+    ]
+  }
+}
