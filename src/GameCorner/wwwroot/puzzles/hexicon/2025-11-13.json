@@ -1,7 +1,7 @@
 {
   "date": "2025-11-13",
   "pangram": "harmony",
-  "letters": [ "n", "a", "h", "m", "n", "o", "y" ],
+  "letters": [ "n", "a", "h", "m", "o", "r", "y" ],
   "required": "n",
   "words": [
     "anon",
@@ -30,7 +30,6 @@
     "nanny",
     "nonna",
     "rayon",
-    "roman",
     "mammon",
     "maroon",
     "harmony",
