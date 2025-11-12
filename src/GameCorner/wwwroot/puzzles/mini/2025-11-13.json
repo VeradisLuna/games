@@ -1,0 +1,68 @@
+{
+  "date": "2025-11-13",
+  "title": "Pride of place",
+  "author": "Luna",
+  "rows": [
+    "LGBTQ",
+    "AEIOU",
+    "MOOSE",
+    "AIMEE",
+    "#DEAR"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Initials often followed by a plus?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Alphabet quintet found in \"sequoia\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bullwinkle, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sister of Jack and Kelly Osbourne"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "___ Evan Hansen"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dalai ___"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Earth-shaped"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Desert or tundra"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Where the Owl and the Pussy-cat went"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___ as Folk"
+      }
+    ]
+  }
+}
