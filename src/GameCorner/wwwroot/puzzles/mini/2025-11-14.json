@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-14",
+  "title": "Shirt you might wear...",
+  "author": "Luna",
+  "rows": [
+    "POLO#",
+    "IDIOT",
+    "LIVRE",
+    "ELITE",
+    "RED##"
+  ],
+  "highlights": [
+    "****.",
+    "....*",
+    "....*",
+    "....*",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "...for a round of golf?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "American ___ (Green Day)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Found in a bibliothèque"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Top-tier"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "...as a doomed Star Trek ensign?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Stacker"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Black swan in \"Swan Lake\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Really angry"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ cloud (cosmic debris)"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "...to the office on casual Friday?"
+      }
+    ]
+  }
+}

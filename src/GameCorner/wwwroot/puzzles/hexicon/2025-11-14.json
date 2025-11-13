@@ -1,0 +1,23 @@
+{
+  "date": "2025-11-14",
+  "pangram": "harmful",
+  "letters": [ "f", "a", "h", "l", "m", "r", "u" ],
+  "required": "f",
+  "words": [
+    "afar",
+    "faff",
+    "fall",
+    "farm",
+    "full",
+    "furl",
+    "half",
+    "huff",
+    "luff",
+    "muff",
+    "ruff",
+    "fluff",
+    "armful",
+    "alfalfa",
+    "harmful"
+  ]
+}
