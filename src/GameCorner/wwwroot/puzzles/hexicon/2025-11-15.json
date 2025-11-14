@@ -1,0 +1,23 @@
+{
+  "date": "2025-11-15",
+  "pangram": "quilted",
+  "letters": [ "q", "d", "e", "i", "l", "t", "u" ],
+  "required": "q",
+  "words": [
+    "quid",
+    "quit",
+    "quell",
+    "queue",
+    "quiet",
+    "quill",
+    "quilt",
+    "quite",
+    "liquid",
+    "queued",
+    "quelled",
+    "quieted",
+    "quilted",
+    "quietude",
+    "etiquette"
+  ]
+}

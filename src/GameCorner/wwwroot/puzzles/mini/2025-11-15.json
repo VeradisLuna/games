@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-15",
+  "title": "AIR DROP",
+  "author": "Luna",
+  "rows": [
+    "IMAGE",
+    "MALLS",
+    "PRIES",
+    "ELSE#",
+    "DOT##"
+  ],
+  "highlights": [
+    "*.*..",
+    "*.*..",
+    "*****",
+    "*.*..",
+    "*.*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Spitting ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "US shopping centres"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "...Large areas of grassland?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Otherwise"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Branning (formerly Cotton) of EastEnders"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "...Diminished in function?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The Wire crime boss"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "...Scottish first name?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "TV show that had 30 UK Top 40 Singles"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Letter for making plurals"
+      }
+    ]
+  }
+}
