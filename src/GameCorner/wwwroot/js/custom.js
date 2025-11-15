@@ -236,11 +236,13 @@ window.letterheadFit = (function () {
         if (!grid || !board) return;
 
         const vv = window.visualViewport;
+        const vw = vv ? vv.width : window.innerWidth;
         const boardRect = board.getBoundingClientRect();
 
         // width: content width of the board's parent
         const container = board.parentElement;
-        const usableW = (container?.clientWidth ?? board.clientWidth);
+        //const usableW = (container?.clientWidth ?? board.clientWidth);
+        const usableW = Math.min(vw, (container?.clientWidth ?? vw));
 
         // height: from board top to just above on-screen keys
         const viewBottom = vv ? (vv.height - vv.offsetTop) : window.innerHeight;
