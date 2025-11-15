@@ -3,5 +3,11 @@
   "clue": "New circuit, right time, hairpin leader... pole position!",
   "enumeration": "5",
   "answer": "NORTH",
-  "explanation": "N (new) O (circuit), R (right) T (time), H (hairpin leader). NORTH. Pole position!"
+  "explanation": "N (new) O (circuit), R (right) T (time), H (hairpin leader). NORTH. Pole position!",
+  "hints": [
+    "For the most part, we're building this answer from abbreviations.",
+    "An O is a kind of circuit (a circular shape).",
+    "The leader of a word is its first letter.",
+    "The definition is \"pole position\", but we may need to think a little laterally."
+  ]
 }

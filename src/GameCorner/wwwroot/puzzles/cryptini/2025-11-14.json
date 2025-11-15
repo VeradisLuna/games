@@ -3,5 +3,10 @@
   "clue": "Badly Drawn Boy covered by Andy and Joe Bloggs?",
   "enumeration": "7",
   "answer": "ANYBODY",
-  "explanation": "BOY is \"badly drawn\" (anagrammed). ANDY covers badly drawn BOY, giving us AN(YBO)DY. ANYBODY. Joe Bloggs is a term used to refer to a non-specific person, or \"anybody\"."
+  "explanation": "BOY is \"badly drawn\" (anagrammed). ANDY covers badly drawn BOY, giving us AN(YBO)DY. ANYBODY. Joe Bloggs is a term used to refer to a non-specific person, or \"anybody\".",
+  "hints": [
+    "In this clue, \"badly drawn\" is signalling that one of the words needs to be rearranged.",
+    "If something is \"covered\", it goes inside another word.",
+    "The definition is \"Joe Bloggs\", a phrase meaning an ordinary, unspecifed person."
+  ]
 }

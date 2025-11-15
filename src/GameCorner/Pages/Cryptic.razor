@@ -9,7 +9,7 @@
 
     <GameCorner.Layout.DateNav BasePath="cryptini" MinDate="@(new DateOnly(2025, 09, 02))" />
 
-    <h1 class="title">@(Vm.Solved ? @Vm.Answer : $"{Vm.PuzzleDate.ToString("dddd")}'s Cryptini")</h1>
+    <h1 class="title">@((Vm.Solved && !Vm.Revealed) ? "👑 " + Vm.Answer : "")@((Vm.Solved && Vm.Revealed) ? Vm.Answer : "")@((!Vm.Solved) ? MaskAnswer(Vm.Answer) : "")</h1>
 
     <div class="subtitle" style="margin:.25rem 0 1rem;">
         @Vm.Clue @if (!string.IsNullOrWhiteSpace(Vm.Enumeration))
@@ -36,19 +36,38 @@
     </div>
 
     <div class="bar">
-        <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reveal solution</button>
+        @if (Vm.HasMoreHints)
+        {
+            <button class="btn btn-outline-secondary" @onclick="RevealHintClicked" disabled="@(Vm.Solved)">Get a hint</button>
+        }
+        else
+        {
+            <button class="btn btn-outline-danger" @onclick="OpenConfirm" disabled="@(Vm.Solved)">Reveal solution</button>
+        }
     </div>
+
+    @if (Vm.HintsRevealed > 0)
+    {
+     <div class="mb-3">
+         <ul class="mt-2 ps-3">
+            @foreach (var hint in Vm.VisibleHints)
+            {
+                <li>@hint</li>
+            }
+        </ul>
+     </div>   
+    }
 
     @if (Vm.Solved)
     {
-        @if (Vm.Revealed)
+@*         @if (Vm.Revealed)
         {
             <div class="rank-line pulse">Revealed!</div>
         }
         else
         {
             <div class="rank-line rank-purple pulse">Correct!</div>
-        }
+        } *@
         @if (!string.IsNullOrWhiteSpace(Vm.Explanation))
         {
             <div class="found-box" style="margin-top:.5rem;">
@@ -95,7 +114,14 @@
     }
 
     protected override async Task OnInitializedAsync() => await Vm.InitAsync();
-    private async Task Submit() => await Vm.SubmitAsync();
+    private async Task Submit()
+    {
+        await Vm.SubmitAsync();
+        if(Vm.Solved && !Vm.Revealed)
+        {
+            await JS.InvokeVoidAsync("miniConfetti.poof", new { particles = 120, themeIndex = 1, zIndex = 10000 });
+        }
+    }
 
     private async Task HandleKeyDown(KeyboardEventArgs e)
     {
@@ -103,8 +129,15 @@
 
         if (key == "Enter")
         {
-            await Vm.SubmitAsync();
-            StateHasChanged();
+            if (!Vm.Solved)
+            {
+                await Vm.SubmitAsync();
+                if (Vm.Solved && !Vm.Revealed)
+                {
+                    await JS.InvokeVoidAsync("miniConfetti.poof", new { particles = 120, themeIndex = 1, zIndex = 10000 });
+                }
+                StateHasChanged();
+            }
             return;
         }
 
@@ -135,5 +168,23 @@
             await Vm.RevealAsync();
             StateHasChanged(); // force the UI to update
         }
+    }
+
+    private async Task RevealHintClicked()
+    {
+        await Vm.RevealHintAsync();
+        StateHasChanged(); // force the UI to update
+    }
+
+    public static string MaskAnswer(string answer)
+    {
+        if (string.IsNullOrWhiteSpace(answer))
+            return "";
+
+        return string.Concat(answer.Select(c =>
+            char.IsLetter(c) ? '?' :
+            c == ' ' ? ' ' :
+            c         // leave punctuation unchanged
+        ));
     }
 }

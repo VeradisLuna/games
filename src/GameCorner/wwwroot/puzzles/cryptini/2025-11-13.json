@@ -3,5 +3,10 @@
   "clue": "Remove small slip!",
   "enumeration": "5",
   "answer": "STRIP",
-  "explanation": "Small = S. Slip = TRIP. To STRIP, is to remove."
+  "explanation": "Small = S. Slip = TRIP. To STRIP, is to remove.",
+  "hints": [
+    "Common abbreviations often appear in clues. For example, \"small\" can be shortened to S.",
+    "The definition is \"remove\".",
+    "Think of a word meaning \"slip\", and put it after S."
+  ]
 }
