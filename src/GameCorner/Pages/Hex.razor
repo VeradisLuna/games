@@ -81,7 +81,7 @@
         <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset this puzzle</button>
     </div>
 
-    @if (Vm.Themed || CurrentRank.levelIndex == 7)
+    @if (Vm.Themed || CurrentRank.levelIndex >= 5)
     {
         <h4 class="mt-4">Found words (@Vm.Found.Count / @Vm.TotalWords)</h4>
     }
@@ -228,6 +228,10 @@
         {
             _lastLevelIndex = cur;
             _ = TriggerPulse();
+            if(cur == 5)
+            {
+                JS.InvokeVoidAsync("miniConfetti.poof", new { particles = 120, themeIndex = 2, zIndex = 10000 });
+            }
         }
         else
         {
