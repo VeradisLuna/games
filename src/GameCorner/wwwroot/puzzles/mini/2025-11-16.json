@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-16",
+  "title": "Things you can catch",
+  "author": "Luna",
+  "rows": [
+    "#MBE#",
+    "BURNT",
+    "ARENA",
+    "TRAIN",
+    "EEKS#"
+  ],
+  "highlights": [
+    "..*..",
+    "..*.*",
+    "..*.*",
+    "*****",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "John Lennon returned his"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Singed"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Big concert venue"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Hey, Soul Sister\" band"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Cartoon squeals"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Seabird in the auk family"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Word that can go before or after dance"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Heptathlete Jessica ___-Hill"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hold, as one's breath"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Trig function"
+      }
+    ]
+  }
+}
