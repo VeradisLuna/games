@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-17",
+  "title": "Hit the deck",
+  "author": "Luna",
+  "rows": [
+    "#SNAP",
+    "#COMO",
+    "SHOOK",
+    "OMBRE",
+    "POSER"
+  ],
+  "highlights": [
+    ".****",
+    "....*",
+    "....*",
+    "*****",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Partner of Crackle and Pop"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Lake seen in Casino Royale"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "All ___ Up"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Hair colour blending technique"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Wannabe"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Foolish person, in US slang"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Inexperienced gamers, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "That Dean Martin feeling?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Hearth tool"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Soak (up)"
+      }
+    ]
+  }
+}

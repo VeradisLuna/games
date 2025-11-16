@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-18",
+  "pangram": "honeydew",
+  "letters": [ "y", "d", "e", "h", "n", "o", "w" ],
+  "required": "y",
+  "words": [
+    "deny",
+    "dewy",
+    "dyed",
+    "eddy",
+    "eyed",
+    "whey",
+    "dowdy",
+    "downy",
+    "doyen",
+    "honey",
+    "hooey",
+    "howdy",
+    "needy",
+    "noddy",
+    "weedy",
+    "weeny",
+    "woody",
+    "doyenne",
+    "honeyed",
+    "honeydew"
+  ]
+}
