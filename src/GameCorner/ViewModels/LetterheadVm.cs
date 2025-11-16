@@ -40,6 +40,13 @@ public sealed class LetterheadVm
     public int CurrentRow { get; private set; } = 0;
     public int CurrentCol { get; private set; } = 0;
 
+    public void SetActive(int row, int col)
+    {
+        if (State != GameState.Playing) return;
+        if (row != CurrentRow) return;           // only current row is editable
+        if (col < 0 || col >= WordLen) return;
+        CurrentCol = col;
+    }
 
     public sealed record Cell(char? Ch, TileState State);
     private readonly Cell[][] _grid =
@@ -181,7 +188,6 @@ public sealed class LetterheadVm
     // Allows Enter button to know if the row is full
     public bool CanSubmit =>
         State == GameState.Playing &&
-        CurrentCol == WordLen &&
         _grid[CurrentRow].All(c => c.Ch is char);
 
     // Called when Enter is pressed
@@ -205,15 +211,28 @@ public sealed class LetterheadVm
 
         _grid[CurrentRow][CurrentCol] =
             _grid[CurrentRow][CurrentCol] with { Ch = ch, State = TileState.Pending };
-        CurrentCol++;
+
+        if (CurrentCol < WordLen - 1)
+            CurrentCol++;
     }
 
     // Called for backspace
     public void Backspace()
     {
-        if (State != GameState.Playing || CurrentCol == 0) return;
-        CurrentCol--;
-        _grid[CurrentRow][CurrentCol] = new Cell(null, TileState.Empty);
+       if (State != GameState.Playing) return;
+
+        if (_grid[CurrentRow][CurrentCol].Ch is not null)
+        {
+            _grid[CurrentRow][CurrentCol] = new Cell(null, TileState.Empty);
+            return;
+        }
+
+        if(CurrentCol > 0)
+        {
+            CurrentCol--;
+            _grid[CurrentRow][CurrentCol] = new Cell(null, TileState.Empty);
+            return;
+        }
     }
 
     private void ResetState()

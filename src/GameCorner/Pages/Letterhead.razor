@@ -28,11 +28,13 @@ else
         <div class="lh-grid">
             @for (int r = 0; r < LetterheadVm.MaxRows; r++)
             {
+                var rowIndex = r;
                 <div class="lh-row @(RowClass(r))" id=@($"row-{r}")>
                     @for (int c = 0; c < LetterheadVm.WordLen; c++)
                     {
+                        var colIndex = c;
                         var cell = Vm.Grid[r][c];
-                        <div class="lh-cell @CellClass(cell)" id=@($"cell-{r}-{c}")>
+                        <div class="lh-cell @CellClass(cell) @((r == Vm.CurrentRow && c == Vm.CurrentCol && Vm.State == GameState.Playing) ? "is-active" : "")" id=@($"cell-{r}-{c}") @onclick="() => OnCellClick(rowIndex, colIndex)">
                             <span>@(cell.Ch)</span>
                         </div>
                     }
@@ -143,6 +145,13 @@ else
 
         await Vm.SaveState();
         StateHasChanged();
+    }
+
+    private async Task OnCellClick(int row, int col)
+    {
+        Vm.SetActive(row, col);
+        StateHasChanged();
+        await JS.InvokeVoidAsync("lunaFocus.focus", "lh-board"); // same helper Mini uses
     }
 
     private ValueTask RevealRow(int r) => JS.InvokeVoidAsync("letterhead.revealRow", r);

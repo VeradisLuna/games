@@ -409,7 +409,7 @@ h2, .floaty {
     transition: border-color 120ms ease, box-shadow 120ms ease;
 }
 
-.mini-cell.is-active {
+.mini-cell.is-active, .lh-cell.is-active {
     border-color: rebeccapurple;
     box-shadow: 0 0 0 3px rgba(102, 51, 153, 0.25) inset;
 }
