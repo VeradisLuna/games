@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-18",
+  "title": "Pulling strings",
+  "author": "Luna",
+  "rows": [
+    "#HAM#",
+    "RESOD",
+    "DAKAR",
+    "ARENA",
+    "STRAW"
+  ],
+  "highlights": [
+    ".***.",
+    ".*..*",
+    ".*..*",
+    ".*..*",
+    ".*..*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It goes with green eggs"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Do over, as a lawn"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Senegal's capital"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gladiatorial combat venue"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "First little pig's building material"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "What the Tin Man wants"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Questioner"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "She set sail in search of Maui"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "US food label figures"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Verb for duellists and dealers"
+      }
+    ]
+  }
+}
