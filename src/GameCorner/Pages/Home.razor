@@ -1,7 +1,21 @@
 ﻿@page "/"
 
 <div class="homepage">
-    <h1 class="title">LUNA MINI &amp; friends</h1>
+    <h1 class="title">LunaMini.io</h1>
+    <nav class="top-bar">
+        <div class="top-row">
+            <a href="https://instagram.com/lunamini.io" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <span class="divider">|</span>
+            <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer" title="Support me on Ko-Fi to help keep this free project going!">buy me a cuppa!</a>
+            <span class="divider">|</span>
+            <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
+        </div>
+@*         <div class="bottom-row">
+            <a href="/collections">play past puzzles</a>
+            <a href="/notes">behind the scenes</a>
+            <a href="/privacy">privacy</a>
+        </div> *@
+    </nav>
     <p class="subtitle">Choose a game to play!</p>
 
     <div class="game-grid">
@@ -20,7 +34,7 @@
             <a href="mini">
                 <div class="card-content">
                     <h2>Luna Mini</h2>
-                    <p>Daily mini crossword!</p>
+                    <p>Daily mini crossword</p>
                 </div>
             </a>
         </div>
@@ -29,7 +43,6 @@
                 <div class="card-content">
                     <h2>Letterhead</h2>
                     <p>Guess the word!</p>
-                    <p><span class="fw-bold">(Beta/New!)</span></p>
                 </div>
             </a>
         </div>
@@ -37,7 +50,7 @@
             <a href="hexicon">
                 <div class="card-content">
                     <h2>Hexicon</h2>
-                    <p>Find words that use the central letter.</p>
+                    <p>Find words that use the central letter</p>
                 </div>
             </a>
         </div>
@@ -49,7 +62,7 @@
                 </div>
             </a>
         </div>
-        <div class="game-card">
+@*         <div class="game-card">
             <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer">
                 <div class="card-content">
                     <p><span class="fw-bold" style="text-decoration: underline;">Do you have feedback?</span><br />Get in touch with me using this super simple form!</p>
@@ -68,14 +81,14 @@
                 <h2>Coming Soon</h2>
                 <p>More games will appear here!</p>
             </div>
-        </div>
+        </div> *@
     </div>
 </div>
 
 <style>
     .homepage {
-        max-width: 800px;
-        margin: 2rem auto;
+        max-width: 1200px;
+        margin: 1rem auto;
         padding: 0 1rem;
         text-align: center;
     }
@@ -85,7 +98,8 @@
     }
     .subtitle {
         color: #6b7280;
-        margin-bottom: 2rem;
+        font-weight: 700;
+        font-size: 1.7rem;
     }
     .game-grid {
         display: grid;
@@ -121,5 +135,48 @@
     .disabled {
         opacity: 0.6;
         pointer-events: none;
+    }
+
+    .top-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+        letter-spacing: 0.3px;
+        color: #9b59b6;
+        margin: 0.75rem 0 1rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+        .top-bar a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.2s ease;
+        }
+
+            .top-bar a:hover {
+                color: #111;
+            }
+
+    .top-row, .bottom-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .top-row {
+        margin-bottom: 0.35rem;
+    }
+
+    .icon-link img {
+        vertical-align: middle;
+        opacity: 0.7;
+        transition: opacity 0.2s ease;
+    }
+
+    .icon-link:hover img {
+        opacity: 1;
     }
 </style>
