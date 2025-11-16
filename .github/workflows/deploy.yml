@@ -48,6 +48,10 @@ jobs:
       - name: Add SPA 404 fallback
         run: cp out/wwwroot/index.html out/wwwroot/404.html
 
+      - name: Generate RSS
+        run: |
+          bash .github/scripts/generate-rss.sh out/wwwroot src/GameCorner/wwwroot/puzzles/mini
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
