@@ -18,7 +18,7 @@
 }
 else
 {
-    <div class="container">
+    <div class="container no-margin">
         <div class="lh-head">
             <h1 class="title letterhead-header">@(Vm.State == GameState.Playing ? "?????" : "")@(Vm.State == GameState.Won ? "👑 " + Vm.AnswerMasked : "")@(Vm.State == GameState.Lost ? Vm.AnswerMasked : "")</h1>
         </div>
