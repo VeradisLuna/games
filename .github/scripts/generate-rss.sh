@@ -10,6 +10,8 @@ CHANNEL_TITLE="LunaMini.io"
 CHANNEL_LINK="https://lunamini.io/mini"
 CHANNEL_DESC="Daily mini crossword from LunaMini.io"
 
+today=$(date -u +"%Y-%m-%d")
+
 mkdir -p "$OUT_DIR"
 
 cat > "$OUT" <<EOF
@@ -30,6 +32,12 @@ mapfile -t FILES < <(
 
 for f in "${FILES[@]}"; do
   date=$(jq -r '.date' "$f")
+
+  # Skip future puzzles
+  if [[ "$date" > "$today" ]]; then
+    continue
+  fi
+
   title=$(jq -r '.title' "$f")
   author=$(jq -r '.author' "$f")
 
