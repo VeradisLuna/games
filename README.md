@@ -1,2 +1,2 @@
-# Games
-Luna's Game Corner. Come and play Hexicon!
+# LunaMini.io
+Daily word puzzles!
