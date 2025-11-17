@@ -3,6 +3,8 @@ name: Deploy GameCorner to GitHub Pages
 on:
   push:
     branches: [ main ]
+  schedule:
+    - cron: "0 6 * * *"   # every day at 06:00 UTC (so RSS.xml stays up-to-date)
   workflow_dispatch:
 
 permissions:
