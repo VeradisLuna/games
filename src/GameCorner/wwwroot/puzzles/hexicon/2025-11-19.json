@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-19",
+  "pangram": "folkloric",
+  "letters": [ "r", "c", "f", "i", "k", "l", "o" ],
+  "required": "r",
+  "words": [
+    "coir",
+    "cork",
+    "fork",
+    "rick",
+    "riff",
+    "rill",
+    "rock",
+    "roil",
+    "roll",
+    "roof",
+    "rook",
+    "color",
+    "crick",
+    "crock",
+    "crook",
+    "floor",
+    "frill",
+    "frock",
+    "krill",
+    "frolic",
+    "rollick",
+    "folkloric"
+  ]
+}

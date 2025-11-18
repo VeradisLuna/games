@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-19",
+  "title": "Written in the stars",
+  "author": "Luna",
+  "rows": [
+    "LEO##",
+    "IRMA#",
+    "BRAID",
+    "RONDO",
+    "ARIES"
+  ],
+  "highlights": [
+    "***..",
+    "*....",
+    "*....",
+    "*....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pride symbol?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Name found in \"airmail\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Plait"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Musical form with recurring theme"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Sign of the horns?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pound sign?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"404 not found\", say"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Yemeni neighbour"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "PM's assistant"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Half of cuatro"
+      }
+    ]
+  }
+}
