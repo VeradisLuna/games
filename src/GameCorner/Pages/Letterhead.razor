@@ -7,6 +7,12 @@
 @inject LetterheadVm Vm
 
 <PageTitle>Letterhead</PageTitle>
+<HeadContent>
+    <meta property="og:title" content="Letterhead — Daily word-guessing game" />
+    <meta property="og:description" content="Solve Letterhead by guessing the hidden word in, at most, six guesses. Each guess must be a valid word. After each guess, the colour of the tiles will change to show how close your guess was to the solution." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LunaMini.io" />
+</HeadContent>
 
 <div class="container">
     <GameCorner.Layout.DateNav BasePath="letterhead" MinDate="@(new DateOnly(2025, 11, 10))" />

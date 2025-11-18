@@ -7,6 +7,12 @@
 @inject IJSRuntime JS
 
 <PageTitle>Luna Mini</PageTitle>
+<HeadContent>
+    <meta property="og:title" content="Luna Mini — Daily mini crossword" />
+    <meta property="og:description" content="New 5x5 themed crossword to play every day! Can you solve Luna Mini?" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LunaMini.io" />
+</HeadContent>
 
 <div class="container">
     <GameCorner.Layout.DateNav BasePath="mini" MinDate="@(new DateOnly(2025, 09, 22))" />
