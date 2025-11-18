@@ -278,6 +278,11 @@ namespace GameCorner.ViewModels
             UpdateClearedStarts();
         }
 
+        public string BuildShareTitle()
+        {
+            return $"Hexicon {PuzzleDate:yyyy-MM-dd}";
+        }
+
         public string BuildShareText(string rank)
         {
             var date = PuzzleDate.ToString("yyyy-MM-dd");

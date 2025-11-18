@@ -314,6 +314,11 @@ public sealed class MiniCrosswordVm
     public char? GetSolution(int idx) => _grid[idx].Solution;
     public bool Solved => _grid.All(c => c.IsBlock || c.Entry == c.Solution);
 
+    public string BuildShareTitle()
+    {
+        return $"Luna Mini {PuzzleDate:yyyy-MM-dd}";
+    }
+
     public string BuildShareText()
     {
         var date = PuzzleDate.ToString("yyyy-MM-dd");

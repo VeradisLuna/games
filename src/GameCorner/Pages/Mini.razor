@@ -596,7 +596,7 @@ else
     public async Task SharePuzzle()
     {
         var text = Vm.BuildShareText();
-        var shared = await JS.InvokeAsync<bool>("sharePuzzle.share");
+        var shared = await JS.InvokeAsync<bool>("sharePuzzle.share", text, Vm.BuildShareTitle());
         if (!shared)
         {
             await JS.InvokeAsync<bool>("sharePuzzle.copy", text);

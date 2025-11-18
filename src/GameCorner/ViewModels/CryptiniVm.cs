@@ -154,6 +154,11 @@ public sealed class CryptiniVm
     private static string Norm(string s) =>
         new string(s.Trim().ToLowerInvariant().Where(char.IsLetter).ToArray());
 
+    public string BuildShareTitle()
+    {
+        return $"Cryptini {PuzzleDate:yyyy-MM-dd}";
+    }
+
     public string BuildShareText()
     {
         var date = PuzzleDate.ToString("yyyy-MM-dd");

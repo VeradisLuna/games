@@ -253,6 +253,11 @@ public sealed class LetterheadVm
         IsLoaded = false;
     }
 
+    public string BuildShareTitle()
+    {
+        return $"Letterhead {_puzzleDate:yyyy-MM-dd}";
+    }
+
     public string BuildShareText()
     {
         var date = _puzzleDate.ToString("yyyy-MM-dd");
