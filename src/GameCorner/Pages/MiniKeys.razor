@@ -1,26 +1,26 @@
-﻿<div class="mini-keys">
+﻿<div class="mini-keys no-left-right @(Disabled ? "mini-keys-disabled" : "")">
     <div class="keys-row">
-        <button class="btn key wide" @onclick="Backspace">⌫</button>
-        <button class="btn key wide" @onclick="ToggleMode">@((DownMode ? "Down" : "Across"))</button>
-        <button class="key wide" @onclick="CheckAll">Check all</button>
+        <button class="btn key wide" disabled="@Disabled" @onclick="Backspace">⌫</button>
+        <button class="btn key wide" disabled="@Disabled" @onclick="ToggleMode">@((DownMode ? "Down" : "Across"))</button>
+        <button class="key wide" disabled="@Disabled" @onclick="CheckAll">Check all</button>
     </div>
     <div class="keys-row">
         @foreach (var ch in "QWERTYUIOP")
         {
-            <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
+            <button class="btn key" disabled="@Disabled" @onclick="@(() => Press(ch))">@ch</button>
         }
     </div>
     <div class="keys-row">
         @foreach (var ch in "ASDFGHJKL")
         {
-            <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
+            <button class="btn key" disabled="@Disabled" @onclick="@(() => Press(ch))">@ch</button>
         }
     </div>
     <div class="keys-row">
 @*         <button class="btn key wide" @onclick="PrevClue">◀︎</button> *@
         @foreach (var ch in "ZXCVBNM")
         {
-            <button class="btn key" @onclick="@(() => Press(ch))">@ch</button>
+            <button class="btn key" disabled="@Disabled" @onclick="@(() => Press(ch))">@ch</button>
         }
         @* <button class="btn key wide" @onclick="NextClue">▶︎</button> *@
     </div>
@@ -35,6 +35,8 @@
     [Parameter] public EventCallback OnToggleMode { get; set; }
     [Parameter] public EventCallback OnCheckAll { get; set; }
     [Parameter] public bool DownMode { get; set; }
+
+    [Parameter] public bool Disabled { get; set; }
 
     private Task Press(char c) => OnLetter.InvokeAsync(c);
     private Task Backspace() => OnBackspace.InvokeAsync();

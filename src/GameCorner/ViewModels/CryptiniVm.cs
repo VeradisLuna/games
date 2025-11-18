@@ -153,4 +153,43 @@ public sealed class CryptiniVm
 
     private static string Norm(string s) =>
         new string(s.Trim().ToLowerInvariant().Where(char.IsLetter).ToArray());
+
+    public string BuildShareText()
+    {
+        var date = PuzzleDate.ToString("yyyy-MM-dd");
+        var url = $"https://lunamini.io/cryptini/{date}?share=1";
+        var status = "";
+        if (Revealed)
+        {
+            switch(HintsRevealed)
+            {
+                case 0:
+                    status = "gave up without using hints!";
+                    break;
+                case 1:
+                    status = "gave up after 1 hint!";
+                    break;
+                default:
+                    status = $"gave up after {HintsRevealed} hints!";
+                    break;
+            }
+        }
+        else
+        {
+            switch (HintsRevealed)
+            {
+                case 0:
+                    status = "solved without using hints! ⭐";
+                    break;
+                case 1:
+                    status = "solved after 1 hint!";
+                    break;
+                default:
+                    status = $"solved after {HintsRevealed} hints!";
+                    break;
+            }
+        }
+
+            return $"Cryptini {date} — {status}{Environment.NewLine}{url}";
+    }
 }

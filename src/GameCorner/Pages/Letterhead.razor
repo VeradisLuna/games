@@ -43,7 +43,15 @@ else
         </div>
     </div>
 
-    <LetterheadKeys OnKey="HandleKey" KeyStates="@Vm.KeyStates" />
+    <div class="lh-keys-wrapper">
+        <LetterheadKeys OnKey="HandleKey" KeyStates="@Vm.KeyStates" Disabled=@(Vm.State != GameState.Playing) />
+        @if(Vm.State != GameState.Playing)
+        {
+            <div class="lh-share-overlay">
+                <button class="btn btn-primary" @onclick="SharePuzzle">@(copiedPuzzleToClipboard ? "Copied!" : "Share with friends")</button>
+            </div>
+        }
+    </div>
 }
 
 @code {
@@ -51,6 +59,7 @@ else
     private string? _lastDate;
     protected override async Task OnParametersSetAsync()
     {
+        copiedPuzzleToClipboard = false;
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -60,6 +69,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        copiedPuzzleToClipboard = false;
         await Vm.InitAsync();
     }
 
@@ -156,4 +166,16 @@ else
 
     private ValueTask RevealRow(int r) => JS.InvokeVoidAsync("letterhead.revealRow", r);
     private ValueTask ShakeRow(int r) => JS.InvokeVoidAsync("letterhead.shakeRow", r);
+
+    private bool copiedPuzzleToClipboard = false;
+    public async Task SharePuzzle()
+    {
+        var text = Vm.BuildShareText();
+        var shared = await JS.InvokeAsync<bool>("sharePuzzle.share");
+        if (!shared)
+        {
+            await JS.InvokeAsync<bool>("sharePuzzle.copy", text);
+            copiedPuzzleToClipboard = true;
+        }
+    }
 }

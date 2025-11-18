@@ -78,7 +78,11 @@
 
     <div class="bar">
         <button class="btn btn-outline-secondary" @onclick="Vm.Shuffle">Shuffle</button>
-        <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset this puzzle</button>
+        <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset</button>
+        @if(CurrentRank.levelIndex > 0)
+        {
+            <button class="btn btn-primary" @onclick="SharePuzzle">@(copiedPuzzleToClipboard ? "Copied!" : "Share with friends")</button>
+        }
     </div>
 
     @if (Vm.Themed || CurrentRank.levelIndex >= 5)
@@ -146,6 +150,7 @@
 
     protected override async Task OnParametersSetAsync()
     {
+        copiedPuzzleToClipboard = false;
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -155,6 +160,7 @@
 
     protected override async Task OnInitializedAsync()
     {
+        copiedPuzzleToClipboard = false;
         if(slug != null)
         {
             Vm.SpecialSlug = slug;
@@ -315,6 +321,7 @@
         var ok = await Vm.SubmitAsync();
         if (ok)
         {
+            copiedPuzzleToClipboard = false;
             StateHasChanged(); // force refresh UI after persistence
         }
     }
@@ -335,6 +342,7 @@
         var ok = await JS.InvokeAsync<bool>("confirm", "Reset today's progress? This cannot be undone!");
         if (ok)
         {
+            copiedPuzzleToClipboard = false;
             await Vm.ResetTodayAsync();
             StateHasChanged(); // force the UI to update
         }
@@ -370,5 +378,17 @@
     public void Dispose()
     {
         Vm.OnScored -= HandleScored;
+    }
+
+    private bool copiedPuzzleToClipboard = false;
+    public async Task SharePuzzle()
+    {
+        var text = Vm.BuildShareText(CurrentRank.label);
+        var shared = await JS.InvokeAsync<bool>("sharePuzzle.share");
+        if (!shared)
+        {
+            await JS.InvokeAsync<bool>("sharePuzzle.copy", text);
+            copiedPuzzleToClipboard = true;
+        }
     }
 }

@@ -277,5 +277,16 @@ namespace GameCorner.ViewModels
             _found.Add(word);
             UpdateClearedStarts();
         }
+
+        public string BuildShareText(string rank)
+        {
+            var date = PuzzleDate.ToString("yyyy-MM-dd");
+            var url = $"https://lunamini.io/hexicon/{date}?share=1";
+            var foundTitlePangram = TitleRevealed;
+            var wordsFound = Found.Count;
+            var pangramsFound = Found.Where(w => IsPangram(w)).Count();
+
+            return $"Hexicon {date} — {rank} {(foundTitlePangram ? "⭐" : "")}{Environment.NewLine}{wordsFound} word{(wordsFound == 1 ? "" : "s")} found{(pangramsFound > 0 ? $"· {pangramsFound} hexicon{(pangramsFound == 1 ? "" : "s")}" : "")}{Environment.NewLine}{url}";
+        }
     }
 }

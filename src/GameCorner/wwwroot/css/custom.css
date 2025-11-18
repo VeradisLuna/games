@@ -627,7 +627,7 @@ h2, .floaty {
     min-width: 3.4rem;
 }
 
-.show-keys-btn {
+.show-keys-btn, .mini-share-button {
     position: sticky;
     bottom: 0;
     margin: .5rem auto 0;
@@ -822,6 +822,10 @@ h2, .floaty {
     right: 0;
 }
 
+.lh-keys-disabled, .mini-keys-disabled {
+    opacity: 0.5;
+}
+
 .no-left-right {
     left: 0;
     right: 0;
@@ -862,6 +866,34 @@ h2, .floaty {
 
 .lh-row.shake {
     animation: lh-shake 220ms ease;
+}
+
+.lh-keys-wrapper, .mini-keys-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.lh-share-overlay, .mini-share-overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 100;
+    width: 100%;
+}
+
+/* for now! better solution - nest inside keyboard! */
+.mini-share-overlay {
+    left: 0;
+    right: 0;
+    bottom: env(safe-area-inset-bottom);
+    height: 320px;
+}
+
+.lh-share-overlay button, .mini-share-overlay button {
+    pointer-events: auto;
 }
 
 .letterhead-header {

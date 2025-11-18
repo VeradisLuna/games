@@ -252,4 +252,35 @@ public sealed class LetterheadVm
 
         IsLoaded = false;
     }
+
+    public string BuildShareText()
+    {
+        var date = _puzzleDate.ToString("yyyy-MM-dd");
+        var url = $"https://lunamini.io/letterhead/{date}?share=1";
+        var status = "";
+        if (State == GameState.Won)
+        {
+            status = $"solved in {CurrentRow + 1}/{MaxRows} tries! ⭐";
+        }
+        else if (State == GameState.Lost)
+        {
+            status = "defeated!";
+        }
+
+        foreach (var row in _grid.Take(CurrentRow + 1))
+        {
+            status += Environment.NewLine;
+            foreach (var cell in row)
+            {
+                status += cell.State switch
+                {
+                    TileState.Correct => "🟩",
+                    TileState.Present => "🟦",
+                    _ => "⬜"
+                };
+            }
+        }
+
+        return $"Letterhead {date} — {status}{Environment.NewLine}{url}";
+    }
 }

@@ -313,4 +313,14 @@ public sealed class MiniCrosswordVm
     }
     public char? GetSolution(int idx) => _grid[idx].Solution;
     public bool Solved => _grid.All(c => c.IsBlock || c.Entry == c.Solution);
+
+    public string BuildShareText()
+    {
+        var date = PuzzleDate.ToString("yyyy-MM-dd");
+        var title = Title;
+        var url = $"https://lunamini.io/mini/{date}?share=1";
+        var status = "solved! ⭐";
+
+        return $"Luna Mini {date} — {status}{Environment.NewLine}{title}{Environment.NewLine}{url}";
+    }
 }

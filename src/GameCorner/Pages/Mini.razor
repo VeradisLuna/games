@@ -115,22 +115,38 @@ else
             </div>
             @if (useOnscreenKeys)
             {
-                <MiniKeys DownMode="downMode"
-                          OnLetter="@(c => { Vm.SetEntry(activeIndex, c); OnCellInput(activeIndex, c); AfterEntryChanged(); })"
-                          OnBackspace="@( () => { if (Vm.GetEntry(activeIndex) is null) Activate(nav.PrevOnBackspace(downMode, activeIndex).To); Vm.SetEntry(activeIndex, null); AfterEntryChanged(); })"
-                          OnNextClue="NextClue"
-                          OnPrevClue="PrevClue"
-                          OnTab="@( () => { var res = nav.NextAfterInput(downMode, activeIndex); if (res.Wrapped) downMode = !downMode; Activate(res.To); })"
-                OnToggleMode="@( () => { downMode = !downMode; focusKey++; })"
-                OnCheckAll="OnCheckAll"/>
+                <div class="mini-keys-wrapper">
+                    <MiniKeys DownMode="downMode"
+                              Disabled=@(Vm.Solved)
+                              OnLetter="@(c => { Vm.SetEntry(activeIndex, c); OnCellInput(activeIndex, c); AfterEntryChanged(); })"
+                              OnBackspace="@( () => { if (Vm.GetEntry(activeIndex) is null) Activate(nav.PrevOnBackspace(downMode, activeIndex).To); Vm.SetEntry(activeIndex, null); AfterEntryChanged(); })"
+                              OnNextClue="NextClue"
+                              OnPrevClue="PrevClue"
+                              OnTab="@( () => { var res = nav.NextAfterInput(downMode, activeIndex); if (res.Wrapped) downMode = !downMode; Activate(res.To); })"
+                              OnToggleMode="@( () => { downMode = !downMode; focusKey++; })"
+                              OnCheckAll="OnCheckAll" />
+                    @if (Vm.Solved)
+                    {
+                        <div class="mini-share-overlay">
+                            <button class="btn btn-primary" @onclick="SharePuzzle">@(copiedPuzzleToClipboard ? "Copied!" : "Share with friends")</button>
+                        </div>
+                    }
+                </div>
             }
             else
             {
-                <button type="button"
-                        class="btn btn-outline-secondary btn-sm show-keys-btn"
-                        @onclick="ShowOnscreenKeyboard">
-                    Show on-screen keyboard
-                </button>
+                @if (Vm.Solved)
+                {
+                    <button class="btn btn-primary mini-share-button" @onclick="SharePuzzle">@(copiedPuzzleToClipboard ? "Copied!" : "Share with friends")</button>
+                }
+                else
+                {
+                    <button type="button"
+                            class="btn btn-outline-secondary btn-sm show-keys-btn"
+                            @onclick="ShowOnscreenKeyboard">
+                        Show on-screen keyboard
+                    </button>
+                }
             }
         </div>
     </div>
@@ -145,6 +161,7 @@ else
     private string? _lastDate;
     protected override async Task OnParametersSetAsync()
     {
+        copiedPuzzleToClipboard = false;
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -162,6 +179,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
+        copiedPuzzleToClipboard = false;
         await Vm.InitAsync();
 
         nav = new MiniNavigator(MiniCrosswordVm.Size, idx => Vm.IsBlock(idx));
@@ -572,5 +590,17 @@ else
     {
         Vm.CheckAllCells();
         StateHasChanged();
+    }
+
+    private bool copiedPuzzleToClipboard = false;
+    public async Task SharePuzzle()
+    {
+        var text = Vm.BuildShareText();
+        var shared = await JS.InvokeAsync<bool>("sharePuzzle.share");
+        if (!shared)
+        {
+            await JS.InvokeAsync<bool>("sharePuzzle.copy", text);
+            copiedPuzzleToClipboard = true;
+        }
     }
 }

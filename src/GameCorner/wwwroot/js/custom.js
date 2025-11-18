@@ -619,3 +619,46 @@ window.letterhead = (function () {
 
     return { revealRow, shakeRow };
 })();
+
+window.sharePuzzle = {
+    copy: async function (text) {
+        try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                return true;
+            } else {
+                // Fallback
+                const textarea = document.createElement("textarea");
+                textarea.value = text;
+                textarea.style.position = "fixed";
+                textarea.style.left = "-9999px";
+                document.body.appendChild(textarea);
+                textarea.focus();
+                textarea.select();
+                const ok = document.execCommand("copy");
+                document.body.removeChild(textarea);
+                return ok;
+            }
+        } catch (e) {
+            console.error("copy failed", e);
+            return false;
+        }
+    },
+
+    share: async function (text, title) {
+        if (!navigator.share) {
+            return false; // signal to Blazor to fall back to copy
+        }
+
+        try {
+            await navigator.share({
+                title: title,
+                text: text
+            });
+            return true;
+        } catch (e) {
+            console.error("share failed", e);
+            return false;
+        }
+    }
+};

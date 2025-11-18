@@ -36,13 +36,20 @@
     </div>
 
     <div class="bar">
-        @if (Vm.HasMoreHints)
+        @if(Vm.Solved || Vm.Revealed)
         {
-            <button class="btn btn-outline-secondary" @onclick="RevealHintClicked" disabled="@(Vm.Solved)">Get a hint</button>
+            <button class="btn btn-primary" @onclick="SharePuzzle">@(copiedPuzzleToClipboard ? "Copied!" : "Share with friends")</button>
         }
         else
         {
-            <button class="btn btn-outline-danger" @onclick="OpenConfirm" disabled="@(Vm.Solved)">Reveal solution</button>
+            @if (Vm.HasMoreHints)
+            {
+                <button class="btn btn-outline-secondary" @onclick="RevealHintClicked" disabled="@(Vm.Solved)">Get a hint</button>
+            }
+            else
+            {
+                <button class="btn btn-outline-danger" @onclick="OpenConfirm" disabled="@(Vm.Solved)">Reveal solution</button>
+            }
         }
     </div>
 
@@ -103,6 +110,7 @@
 
     protected override async Task OnParametersSetAsync()
     {
+        copiedPuzzleToClipboard = false;
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -113,7 +121,12 @@
         }
     }
 
-    protected override async Task OnInitializedAsync() => await Vm.InitAsync();
+    protected override async Task OnInitializedAsync()
+    {
+        copiedPuzzleToClipboard = false;
+        await Vm.InitAsync();
+    }
+
     private async Task Submit()
     {
         await Vm.SubmitAsync();
@@ -165,6 +178,7 @@
         var ok = await JS.InvokeAsync<bool>("confirm", "Reveal today's solution? This cannot be undone!");
         if (ok)
         {
+            copiedPuzzleToClipboard = false;
             await Vm.RevealAsync();
             StateHasChanged(); // force the UI to update
         }
@@ -186,5 +200,17 @@
             c == ' ' ? ' ' :
             c         // leave punctuation unchanged
         ));
+    }
+
+    private bool copiedPuzzleToClipboard = false;
+    public async Task SharePuzzle()
+    {
+        var text = Vm.BuildShareText();
+        var shared = await JS.InvokeAsync<bool>("sharePuzzle.share");
+        if (!shared)
+        {
+            await JS.InvokeAsync<bool>("sharePuzzle.copy", text);
+            copiedPuzzleToClipboard = true;
+        }
     }
 }

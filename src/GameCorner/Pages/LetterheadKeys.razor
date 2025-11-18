@@ -1,25 +1,25 @@
 ﻿@using Hexicon.Letterhead
-<div class="mini-keys lh-keys">
+<div class="mini-keys lh-keys @(Disabled ? "lh-keys-disabled" : "")">
     <div class="keys-row">
-        <button class="btn key wide" @onclick='() => Press("BACKSPACE")'>⌫</button>
-        <button class="btn key wide" @onclick='() => Press("ENTER")'>Enter</button>
+        <button class="btn key wide" disabled="@Disabled" @onclick='() => Press("BACKSPACE")'>⌫</button>
+        <button class="btn key wide" disabled="@Disabled" @onclick='() => Press("ENTER")'>Enter</button>
     </div>
     <div class="keys-row">
         @foreach (var ch in "QWERTYUIOP")
         {
-            <button class="btn key @KeyClass(ch)" @onclick="() => Press(ch.ToString())">@ch</button>
+            <button class="btn key @KeyClass(ch)" disabled="@Disabled" @onclick="() => Press(ch.ToString())">@ch</button>
         }
     </div>
     <div class="keys-row">
         @foreach (var ch in "ASDFGHJKL")
         {
-            <button class="btn key @KeyClass(ch)" @onclick="() => Press(ch.ToString())">@ch</button>
+            <button class="btn key @KeyClass(ch)" disabled="@Disabled" @onclick="() => Press(ch.ToString())">@ch</button>
         }
     </div>
     <div class="keys-row">
         @foreach (var ch in "ZXCVBNM")
         {
-            <button class="btn key @KeyClass(ch)" @onclick="() => Press(ch.ToString())">@ch</button>
+            <button class="btn key @KeyClass(ch)" disabled="@Disabled" @onclick="() => Press(ch.ToString())">@ch</button>
         }
     </div>
 </div>
@@ -29,6 +29,7 @@
     [Parameter] public EventCallback<string> OnKey { get; set; }
     [Parameter] public IReadOnlyDictionary<char, TileState>? KeyStates { get; set; }
 
+    [Parameter] public bool Disabled { get; set; }
 
     private Task Press(string k) => OnKey.InvokeAsync(k);
 
