@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-20",
+  "title": "Branching out",
+  "author": "Luna",
+  "rows": [
+    "ALDER",
+    "SIETE",
+    "PLANE",
+    "ELLAS",
+    "NYT##"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*****",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Water-loving birch relative"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Cinco plus dos"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "London's most common tree"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Fitzgerald and Henderson, say"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "In brief, US paper famed for its crossword"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It's often described as quaking"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "One of the Wachowskis, who directed The Matrix"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Handed out cards"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sicilian volcano"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Tory politician Jacob ___-Mogg"
+      }
+    ]
+  }
+}
