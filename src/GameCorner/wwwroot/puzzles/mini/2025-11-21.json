@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-21",
+  "title": "Mixed veg",
+  "author": "Luna",
+  "rows": [
+    "#BLOC",
+    "CEELO",
+    "EATER",
+    "ONION",
+    "SSN##"
+  ],
+  "highlights": [
+    ".*..*",
+    ".*..*",
+    ".*..*",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Group that votes together"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Green (but not a vegetable - Crazy!)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Picky ___"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "An ogre is like one, if you ask Shrek"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "US tax ID"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "You might spill them, or be full of them"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Admit entry"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Vegetable oil-based spread"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "It's husky, can be sweet, and goes in an ear"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bigwigs"
+      }
+    ]
+  }
+}
