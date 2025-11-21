@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-22",
+  "title": "Adverse conditions",
+  "author": "Luna",
+  "rows": [
+    "#EGOS",
+    "FROST",
+    "ORTHO",
+    "GONER",
+    "#ROAM"
+  ],
+  "highlights": [
+    "....*",
+    "*****",
+    "*...*",
+    "*...*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "You might stroke them to gain favour"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "A Touch of ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Could be -paedic or -dontic"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Someone who's finished"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Wander around"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cause for correction"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"I've ___ Strings\" (Pinnocchio)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Straight Outta Compton's Jackson Jr."
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "It may be in a teacup?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "London ___ – it may be in a teacup!"
+      }
+    ]
+  }
+}
