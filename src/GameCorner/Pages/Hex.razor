@@ -157,6 +157,16 @@
     protected override async Task OnParametersSetAsync()
     {
         copiedPuzzleToClipboard = false;
+
+        if (slug != null)
+        {
+            Vm.SpecialSlug = slug;
+        }
+        else
+        {
+            Vm.SpecialSlug = null;
+        }
+
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -170,6 +180,10 @@
         if(slug != null)
         {
             Vm.SpecialSlug = slug;
+        }
+        else
+        {
+            Vm.SpecialSlug = null;
         }
         await Vm.InitAsync();
     }

@@ -28,6 +28,8 @@ public sealed class MiniCrosswordVm
     public DateOnly PuzzleDate => _puzzleDate;
     private DateOnly _puzzleDate = new();
 
+    public string SpecialSlug { get; set; } = string.Empty;
+
     public bool IsLoaded { get; set; } = false;
     public bool Revealed { get; private set; } // the puzzle was revealed (i.e. the player didn't solve the puzzle)
 
@@ -73,13 +75,17 @@ public sealed class MiniCrosswordVm
         var today = _dates.Today;
         _puzzleDate = today;
 
-        var data = await _loader.LoadMiniAsync(today)
-                   ?? throw new InvalidOperationException($"No puzzle found for {today:yyyy-MM-dd}");
+        var data = string.IsNullOrWhiteSpace(SpecialSlug) ?
+            (await _loader.LoadMiniAsync(today) ?? throw new InvalidOperationException($"No puzzle found for {today:yyyy-MM-dd}")) :
+            (await _loader.LoadSpecialMiniAsync(SpecialSlug) ?? throw new InvalidOperationException($"No special puzzle found for '{SpecialSlug}'"));
 
         HydrateMiniData(data);
 
         // Try to restore saved state
-        var saved = await _persist.LoadAsync<MiniSave>("lunamini", _puzzleDate);
+        var saved = string.IsNullOrWhiteSpace(SpecialSlug) ?
+            (await _persist.LoadAsync<MiniSave>("lunamini", _puzzleDate)) :
+            (await _persist.LoadSpecialAsync<MiniSave>("lunamini", SpecialSlug));
+
         if (saved?.Grid is { Count: Cells })
         {
             for (int i = 0; i < Cells; i++)
@@ -242,8 +248,11 @@ public sealed class MiniCrosswordVm
             SavedAt = DateTime.Now,
             Grid = _grid
         };
-        
-        await _persist.SaveAsync("lunamini", _puzzleDate, save);
+
+        if (string.IsNullOrWhiteSpace(SpecialSlug))
+            await _persist.SaveAsync("lunamini", _puzzleDate, save);
+        else
+            await _persist.SaveSpecialAsync("lunamini", SpecialSlug, save);
     }
 
     private static string Normalize(string s) =>

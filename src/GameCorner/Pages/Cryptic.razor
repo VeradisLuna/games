@@ -1,5 +1,6 @@
 ﻿@page "/cryptini"
 @page "/cryptini/{date}"
+@page "/cryptini/special/{slug}"
 @inject GameCorner.ViewModels.CryptiniVm Vm
 @inject IJSRuntime JS
 
@@ -13,7 +14,10 @@
 
 <div class="container">
 
-    <GameCorner.Layout.DateNav BasePath="cryptini" MinDate="@(new DateOnly(2025, 09, 02))" />
+    @if (string.IsNullOrWhiteSpace(Vm.SpecialSlug))
+    {
+        <GameCorner.Layout.DateNav BasePath="cryptini" MinDate="@(new DateOnly(2025, 09, 02))" />
+    }
 
     <h1 class="title">@((Vm.Solved && !Vm.Revealed) ? "👑 " + Vm.Answer : "")@((Vm.Solved && Vm.Revealed) ? Vm.Answer : "")@((!Vm.Solved) ? MaskAnswer(Vm.Answer) : "")</h1>
 
@@ -108,6 +112,7 @@
 
 @code {
     [Parameter] public string? date { get; set; }
+    [Parameter] public string? slug { get; set; }
 
     private string? _lastDate;
 
@@ -117,6 +122,16 @@
     protected override async Task OnParametersSetAsync()
     {
         copiedPuzzleToClipboard = false;
+
+        if (slug != null)
+        {
+            Vm.SpecialSlug = slug;
+        }
+        else
+        {
+            Vm.SpecialSlug = null;
+        }
+
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -130,6 +145,14 @@
     protected override async Task OnInitializedAsync()
     {
         copiedPuzzleToClipboard = false;
+        if (slug != null)
+        {
+            Vm.SpecialSlug = slug;
+        }
+        else
+        {
+            Vm.SpecialSlug = null;
+        }
         await Vm.InitAsync();
     }
 

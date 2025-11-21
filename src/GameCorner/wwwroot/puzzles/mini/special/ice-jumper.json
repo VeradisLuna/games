@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-04",
+  "title": "Not on a Christmas jumper",
+  "author": "Luna",
+  "rows": [
+    "MAYA#",
+    "IMAMS",
+    "NIHIL",
+    "ISONE",
+    "#HOOD"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Rudolph you won't find on a Christmas jumper?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Prayer leaders in a mosque"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "From Latin for nothing; a meaningless -ism?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Genius ___ percent inspiration\" (Edison)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Robin you won't find on a Christmas jumper?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "5x5 crossword, say"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Powerless people?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Yippee!\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Protein-building acid"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Vehicle for sliding over snow"
+      }
+    ]
+  }
+}

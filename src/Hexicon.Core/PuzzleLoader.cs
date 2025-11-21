@@ -24,15 +24,33 @@ public sealed class PuzzleLoader
         catch { return null; }
     }
 
+    public async Task<CryptiniData?> LoadSpecialCryptiniAsync(string slug)
+    {
+        try { return await _http.GetFromJsonAsync<CryptiniData>($"puzzles/cryptini/special/{slug}.json?v={DateTime.UtcNow.Ticks}"); }
+        catch { return null; }
+    }
+
     public async Task<MiniData?> LoadMiniAsync(DateOnly date)
     {
         try { return await _http.GetFromJsonAsync<MiniData>($"puzzles/mini/{date:yyyy-MM-dd}.json?v={DateTime.UtcNow.Ticks}"); }
         catch { return null; }
     }
 
+    public async Task<MiniData?> LoadSpecialMiniAsync(string slug)
+    {
+        try { return await _http.GetFromJsonAsync<MiniData>($"puzzles/mini/special/{slug}.json?v={DateTime.UtcNow.Ticks}"); }
+        catch { return null; }
+    }
+
     public async Task<LetterheadData?> LoadLetterheadAsync(DateOnly date)
     {
         try { return await _http.GetFromJsonAsync<LetterheadData>($"puzzles/letterhead/{date:yyyy-MM-dd}.json?v={DateTime.UtcNow.Ticks}"); }
+        catch { return null; }
+    }
+
+    public async Task<LetterheadData?> LoadSpecialLetterheadAsync(string slug)
+    {
+        try { return await _http.GetFromJsonAsync<LetterheadData>($"puzzles/letterhead/special/{slug}.json?v={DateTime.UtcNow.Ticks}"); }
         catch { return null; }
     }
 

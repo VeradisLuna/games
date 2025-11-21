@@ -1,0 +1,151 @@
+﻿@page "/ice-jumper"
+
+<div class="homepage">
+    <h1 class="title">LunaMini.io</h1>
+    <nav class="top-bar">
+        <div class="top-row">
+            <a href="https://instagram.com/lunamini.io" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <span class="divider">|</span>
+            <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer" title="Support me on Ko-Fi to help keep this free project going!">buy me a cuppa!</a>
+            <span class="divider">|</span>
+            <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
+        </div>
+@*         <div class="bottom-row">
+            <a href="/collections">play past puzzles</a>
+            <a href="/notes">behind the scenes</a>
+            <a href="/privacy">privacy</a>
+        </div> *@
+    </nav>
+    <p class="subtitle">Welsh ICE Christmas Jumper Day puzzles!</p>
+
+    <div class="game-grid">
+        <div class="game-card">
+            <a href="mini/special/ice-jumper">
+                <div class="card-content">
+                    <h2>Not on a Christmas jumper</h2>
+                    <p>Luna Mini</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="letterhead/special/ice-jumper">
+                <div class="card-content">
+                    <h2>?????</h2>
+                    <p>Letterhead</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="hexicon/special/ice-jumper">
+                <div class="card-content">
+                    <h2>???????</h2>
+                    <p>Hexicon</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="cryptini/special/ice-jumper">
+                <div class="card-content">
+                    <h2>Nicer</h2>
+                    <p>Cryptini</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .homepage {
+        max-width: 1200px;
+        margin: 1rem auto;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 0.25rem;
+    }
+    .subtitle {
+        color: #6b7280;
+        font-weight: 700;
+        font-size: 1.7rem;
+    }
+    .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1.5rem;
+    }
+    .game-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 1rem;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .game-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+    .game-card a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .card-content {
+        padding: 1.25rem;
+    }
+    .card-content h2 {
+        margin-bottom: 0.5rem;
+    }
+    .card-content p {
+        color: #374151;
+        font-size: 0.95rem;
+    }
+    .disabled {
+        opacity: 0.6;
+        pointer-events: none;
+    }
+
+    .top-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+        letter-spacing: 0.3px;
+        color: #9b59b6;
+        margin: 0.75rem 0 1rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+        .top-bar a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.2s ease;
+        }
+
+            .top-bar a:hover {
+                color: #111;
+            }
+
+    .top-row, .bottom-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .top-row {
+        margin-bottom: 0.35rem;
+    }
+
+    .icon-link img {
+        vertical-align: middle;
+        opacity: 0.7;
+        transition: opacity 0.2s ease;
+    }
+
+    .icon-link:hover img {
+        opacity: 1;
+    }
+</style>

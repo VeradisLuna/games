@@ -29,6 +29,7 @@ public sealed class CryptiniVm
     public bool Revealed { get; private set; } // the puzzle was revealed (i.e. the player didn't solve the puzzle)
     public string? Explanation { get; private set; }
     public DateOnly PuzzleDate { get; private set; }
+    public string SpecialSlug { get; set; } = string.Empty;
 
     private string _answerNorm = "";
     private HashSet<string> _alts = new(StringComparer.Ordinal);
@@ -55,8 +56,9 @@ public sealed class CryptiniVm
         Solved = false;
         Revealed = false;
 
-        var data = await _loader.LoadCryptiniAsync(today)
-                   ?? throw new InvalidOperationException($"No cryptic for {today:yyyy-MM-dd}");
+        var data = string.IsNullOrWhiteSpace(SpecialSlug) ?
+            (await _loader.LoadCryptiniAsync(today) ?? throw new InvalidOperationException($"No cryptic found for {today:yyyy-MM-dd}")) :
+            (await _loader.LoadSpecialCryptiniAsync(SpecialSlug) ?? throw new InvalidOperationException($"No special cryptic found for '{SpecialSlug}'"));
 
         Clue = data.Clue ?? "";
         Enumeration = data.Enumeration ?? "";
@@ -73,7 +75,11 @@ public sealed class CryptiniVm
                 _hints.Add(h);
         }
 
-        var saved = await _persist.LoadAsync<CryptiniSave>("cryptini", PuzzleDate);
+
+        var saved = string.IsNullOrWhiteSpace(SpecialSlug) ?
+            (await _persist.LoadAsync<CryptiniSave>("cryptini", PuzzleDate)) :
+            (await _persist.LoadSpecialAsync<CryptiniSave>("cryptini", SpecialSlug));
+
         if (saved is not null)
         {
             Solved = saved.Solved;
@@ -102,7 +108,7 @@ public sealed class CryptiniVm
         var ok = norm == _answerNorm || _alts.Contains(norm);
         if (ok) Solved = true;
 
-        await _persist.SaveAsync("cryptini", PuzzleDate, new CryptiniSave
+        var save = new CryptiniSave
         {
             Date = PuzzleDate.ToString("yyyy-MM-dd"),
             Solved = Solved,
@@ -110,7 +116,12 @@ public sealed class CryptiniVm
             //LastGuess = CurrentEntry,
             SavedAt = DateTime.UtcNow,
             HintsRevealed = HintsRevealed
-        });
+        };
+
+        if (string.IsNullOrWhiteSpace(SpecialSlug))
+            await _persist.SaveAsync("cryptini", PuzzleDate, save);
+        else
+            await _persist.SaveSpecialAsync("cryptini", SpecialSlug, save);
 
         CurrentEntry = ""; // clear down on submit
         return ok;
@@ -126,7 +137,11 @@ public sealed class CryptiniVm
 
     public async Task ResetAsync()
     {
-        await _persist.ClearAsync("cryptini", _dates.Today);
+        if (string.IsNullOrWhiteSpace(SpecialSlug))
+            await _persist.ClearAsync("cryptini", _dates.Today);
+        else
+            await _persist.ClearSpecialAsync("cryptini", SpecialSlug);
+
         Solved = false;
         Revealed = false;
         CurrentEntry = "";
@@ -140,7 +155,7 @@ public sealed class CryptiniVm
 
         HintsRevealed++;
 
-        await _persist.SaveAsync("cryptini", PuzzleDate, new CryptiniSave
+        var save = new CryptiniSave
         {
             Date = PuzzleDate.ToString("yyyy-MM-dd"),
             Solved = Solved,
@@ -148,7 +163,12 @@ public sealed class CryptiniVm
             //LastGuess = CurrentEntry,
             SavedAt = DateTime.UtcNow,
             HintsRevealed = HintsRevealed
-        });
+        };
+
+        if (string.IsNullOrWhiteSpace(SpecialSlug))
+            await _persist.SaveAsync("cryptini", PuzzleDate, save);
+        else
+            await _persist.SaveSpecialAsync("cryptini", SpecialSlug, save);
     }
 
     private static string Norm(string s) =>

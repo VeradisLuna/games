@@ -1,5 +1,6 @@
 ﻿@page "/letterhead"
 @page "/letterhead/{date}"
+@page "/letterhead/special/{slug}"
 @using GameCorner.Services
 @using Hexicon.Letterhead
 @using Microsoft.JSInterop
@@ -15,7 +16,10 @@
 </HeadContent>
 
 <div class="container">
-    <GameCorner.Layout.DateNav BasePath="letterhead" MinDate="@(new DateOnly(2025, 11, 10))" />
+    @if (string.IsNullOrWhiteSpace(Vm.SpecialSlug))
+    {
+        <GameCorner.Layout.DateNav BasePath="letterhead" MinDate="@(new DateOnly(2025, 11, 10))" />
+    }
 </div>
 
 @if (!Vm.IsLoaded)
@@ -62,10 +66,21 @@ else
 
 @code {
     [Parameter] public string? date { get; set; }
+    [Parameter] public string? slug { get; set; }
     private string? _lastDate;
     protected override async Task OnParametersSetAsync()
     {
         copiedPuzzleToClipboard = false;
+
+        if (slug != null)
+        {
+            Vm.SpecialSlug = slug;
+        }
+        else
+        {
+            Vm.SpecialSlug = null;
+        }
+
         if (date != _lastDate)           // only reload if the date changed
         {
             _lastDate = date;
@@ -76,6 +91,14 @@ else
     protected override async Task OnInitializedAsync()
     {
         copiedPuzzleToClipboard = false;
+        if (slug != null)
+        {
+            Vm.SpecialSlug = slug;
+        }
+        else
+        {
+            Vm.SpecialSlug = null;
+        }
         await Vm.InitAsync();
     }
 

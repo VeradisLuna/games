@@ -1,4 +1,5 @@
 ﻿using GameCorner.Services; // Persistence, IDateProvider, PuzzleLoader live here in your app
+using GameCorner.ViewModels;
 using Hexicon.Core;
 using Hexicon.Mini;
 using System.Collections.ObjectModel;
@@ -31,7 +32,7 @@ public sealed class LetterheadVm
 
 
     private DateOnly _puzzleDate;
-
+    public string SpecialSlug { get; set; } = string.Empty;
 
     public bool IsLoaded { get; private set; }
     public GameState State { get; private set; } = GameState.Playing;
@@ -82,8 +83,9 @@ public sealed class LetterheadVm
         var today = _dates.Today;
         _puzzleDate = today;
 
-        var data = await _loader.LoadLetterheadAsync(_puzzleDate)
-        ?? throw new InvalidOperationException($"No Letterhead for {_puzzleDate:yyyy-MM-dd}");
+        var data = string.IsNullOrWhiteSpace(SpecialSlug) ?
+            (await _loader.LoadLetterheadAsync(_puzzleDate) ?? throw new InvalidOperationException($"No Letterhead found for {_puzzleDate:yyyy-MM-dd}")) :
+            (await _loader.LoadSpecialLetterheadAsync(SpecialSlug) ?? throw new InvalidOperationException($"No special Letterhead found for '{SpecialSlug}'"));
 
         Author = data.Author ?? string.Empty;
         Date = data.Date ?? _puzzleDate.ToString("yyyy-MM-dd");
@@ -91,7 +93,9 @@ public sealed class LetterheadVm
 
         _valid = await LoadAllowedLetterheadGuessesAsync();
 
-        var saved = await _persist.LoadAsync<LetterheadSave>("letterhead", _puzzleDate);
+        var saved = string.IsNullOrWhiteSpace(SpecialSlug) ?
+            (await _persist.LoadAsync<LetterheadSave>("letterhead", _puzzleDate)) :
+            (await _persist.LoadSpecialAsync<LetterheadSave>("letterhead", SpecialSlug));
         if (saved is { Guesses.Count: > 0 })
         {
             foreach (var g in saved.Guesses) ApplyGuess(g, restore: true);
@@ -182,7 +186,10 @@ public sealed class LetterheadVm
                                    .ToList()
         };
 
-        await _persist.SaveAsync("letterhead", _puzzleDate, save);
+        if (string.IsNullOrWhiteSpace(SpecialSlug))
+            await _persist.SaveAsync("letterhead", _puzzleDate, save);
+        else
+            await _persist.SaveSpecialAsync("letterhead", SpecialSlug, save);
     }
 
     // Allows Enter button to know if the row is full
