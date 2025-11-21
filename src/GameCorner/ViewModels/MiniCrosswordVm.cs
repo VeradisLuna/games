@@ -14,6 +14,7 @@ public sealed class MiniSave
     public string Date { get; set; } = "";
     public List<MiniCrosswordVm.Cell> Grid { get; set; } = new();
     public DateTime SavedAt { get; set; }
+    public bool Solved { get; set; }
 }
 
 public sealed class MiniCrosswordVm
@@ -246,7 +247,8 @@ public sealed class MiniCrosswordVm
         {
             Date = _puzzleDate.ToString("yyyy-MM-dd"),
             SavedAt = DateTime.Now,
-            Grid = _grid
+            Grid = _grid,
+            Solved = _grid.ToArray().All(c => c.IsBlock || c.Entry == c.Solution)
         };
 
         if (string.IsNullOrWhiteSpace(SpecialSlug))

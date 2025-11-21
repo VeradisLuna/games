@@ -15,6 +15,7 @@ namespace GameCorner.ViewModels
         public char Required { get; set; }
         public List<string> Found { get; set; } = new();
         public int Score { get; set; }
+        public int TargetScore { get; set; }
         public DateTime SavedAt { get; set; }
     }
 
@@ -186,6 +187,7 @@ namespace GameCorner.ViewModels
                 Required = Required,
                 Found = _found.OrderBy(x => x.Length).ThenBy(x => x).ToList(),
                 Score = Score,
+                TargetScore = TargetScore,
                 SavedAt = DateTime.UtcNow
             };
 

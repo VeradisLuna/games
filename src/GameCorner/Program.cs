@@ -31,6 +31,7 @@ builder.Services.AddSingleton<PuzzleGenerator>();
 
 builder.Services.AddScoped<PuzzleLoader>();
 builder.Services.AddScoped<Persistence>();
+builder.Services.AddScoped<ProgressChecker>();
 builder.Services.AddScoped<HexiconVm>();
 builder.Services.AddScoped<CryptiniVm>();
 builder.Services.AddScoped<MiniCrosswordVm>();

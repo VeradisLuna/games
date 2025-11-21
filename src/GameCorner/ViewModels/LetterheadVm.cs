@@ -17,6 +17,7 @@ public sealed class LetterheadSave
     public string Date { get; set; } = "";
     public List<string> Guesses { get; set; } = new(); // normalized A–Z
     public DateTime SavedAt { get; set; }
+    public string Letterhead { get; set; } = "";
 }
 
 
@@ -183,7 +184,8 @@ public sealed class LetterheadVm
             Guesses = _grid.Take(CurrentRow + (State != GameState.Playing ? 1 : 0))
                                    .Select(row => new string(row.Select(c => c.Ch ?? ' ').ToArray()).Trim())
                                    .Where(g => g.Length == WordLen)
-                                   .ToList()
+                                   .ToList(),
+            Letterhead = _answer
         };
 
         if (string.IsNullOrWhiteSpace(SpecialSlug))

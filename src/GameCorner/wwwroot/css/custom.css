@@ -899,3 +899,41 @@ h2, .floaty {
 .letterhead-header {
     text-align: center;
 }
+
+.game-card {
+    position: relative; /* for badge positioning */
+}
+
+.progress-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.18);
+    pointer-events: none;
+}
+
+/* States */
+.badge-hidden {
+    display: none;
+}
+
+.badge-started {
+    background: #9ca3af;
+}
+
+.badge-done {
+    background: limegreen;
+}
+
+.badge-failed {
+    background: #dc7171; /* unused - we just use done for complete AND failed */
+}

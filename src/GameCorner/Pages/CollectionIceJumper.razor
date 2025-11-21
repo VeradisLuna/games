@@ -1,4 +1,6 @@
 ﻿@page "/ice-jumper"
+@using GameCorner.Services
+@inject ProgressChecker ProgressChecker
 
 <div class="homepage">
     <h1 class="title">LunaMini.io</h1>
@@ -20,6 +22,9 @@
 
     <div class="game-grid">
         <div class="game-card">
+            <div class="progress-badge @BadgeClass(miniProgress)">
+                @BadgeSymbol(miniProgress)
+            </div>
             <a href="mini/special/ice-jumper">
                 <div class="card-content">
                     <h2>Not on a Christmas jumper</h2>
@@ -28,22 +33,31 @@
             </a>
         </div>
         <div class="game-card">
+            <div class="progress-badge @BadgeClass(letterheadProgress)">
+                @BadgeSymbol(letterheadProgress)
+            </div>
             <a href="letterhead/special/ice-jumper">
                 <div class="card-content">
-                    <h2>?????</h2>
+                    <h2>@letterheadTitle</h2>
                     <p>Letterhead</p>
                 </div>
             </a>
         </div>
         <div class="game-card">
+            <div class="progress-badge @BadgeClass(hexiconProgress)">
+                @BadgeSymbol(hexiconProgress)
+            </div>
             <a href="hexicon/special/ice-jumper">
                 <div class="card-content">
-                    <h2>???????</h2>
+                    <h2>@hexiconTitle</h2>
                     <p>Hexicon</p>
                 </div>
             </a>
         </div>
         <div class="game-card">
+            <div class="progress-badge @BadgeClass(cryptiniProgress)">
+                @BadgeSymbol(cryptiniProgress)
+            </div>
             <a href="cryptini/special/ice-jumper">
                 <div class="card-content">
                     <h2>Nicer</h2>
@@ -54,6 +68,58 @@
     </div>
 </div>
 
+@code {
+    private const string Slug = "ice-jumper";
+
+    private int miniProgress;
+    private int letterheadProgress;
+    private int hexiconProgress;
+    private int cryptiniProgress;
+
+    private string letterheadTitle = "?????";
+    private string hexiconTitle = "???????";
+
+    protected override async Task OnInitializedAsync()
+    {
+        (miniProgress, _) = await ProgressChecker.GetProgressAsync("lunamini", Slug);
+
+        var letterheadResult = await ProgressChecker.GetProgressAsync("letterhead", Slug);
+        letterheadProgress = letterheadResult.progress;
+        if (letterheadResult.showTitle)
+            letterheadTitle = "GRUMP";
+
+        var hexiconResult = await ProgressChecker.GetProgressAsync("hexicon", Slug);
+        hexiconProgress = hexiconResult.progress;
+        if (hexiconResult.showTitle)
+            hexiconTitle = "NAUGHTY";
+
+        (cryptiniProgress, _) = await ProgressChecker.GetProgressAsync("cryptini", Slug);
+    }
+
+    private string BadgeClass(int progress) => progress switch
+    {
+        3 => "badge-done",
+        2 => "badge-done",
+        1 => "badge-started",
+        _ => "badge-hidden"
+    };
+
+    private string BadgeSymbol(int progress) => progress switch
+    {
+        3 => "✔",
+        2 => "✔",
+        1 => "…",
+        _ => ""
+    };
+
+    private static string Indicator(int p) => p switch
+    {
+        3 => " (✔)",
+        2 => " (✔)",
+        1 => " (…)",
+        _ => ""
+    };
+}
 <style>
     .homepage {
         max-width: 1200px;
@@ -100,6 +166,12 @@
     .card-content p {
         color: #374151;
         font-size: 0.95rem;
+    }
+
+    .status {
+        display: inline-block;
+        text-align: left;
+        font-weight: 400;
     }
     .disabled {
         opacity: 0.6;
