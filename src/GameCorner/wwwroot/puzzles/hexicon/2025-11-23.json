@@ -1,0 +1,29 @@
+{
+  "date": "2025-11-23",
+  "pangram": "bewitch",
+  "letters": [ "e", "b", "c", "h", "i", "t", "w" ],
+  "required": "e",
+  "words": [
+    "beet",
+    "bite",
+    "chew",
+    "cite",
+    "etch",
+    "thee",
+    "twee",
+    "whee",
+    "whet",
+    "whew",
+    "beech",
+    "ethic",
+    "teeth",
+    "tithe",
+    "tweet",
+    "twice",
+    "white",
+    "hectic",
+    "techie",
+    "teethe",
+    "bewitch"
+  ]
+}

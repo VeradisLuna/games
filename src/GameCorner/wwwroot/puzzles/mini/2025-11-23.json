@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-23",
+  "title": "Jump start",
+  "author": "Luna",
+  "rows": [
+    "SUITS",
+    "CLARE",
+    "ANNIE",
+    "RATED",
+    "EROS#"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "♠️♥️♣️♦️"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Olympics presenter Balding"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Tomorrow\" musical"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gave three stars, perhaps"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "God known to the Romans as Cupid"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Close call"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cousin of radial"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Beloved Torchwood character with a shrine"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "In rugby, they might lead to conversions"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Future flower"
+      }
+    ]
+  }
+}
