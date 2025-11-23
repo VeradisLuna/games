@@ -1,0 +1,32 @@
+{
+  "date": "2025-11-24",
+  "pangram": "notification",
+  "letters": [ "f", "a", "c", "i", "n", "o", "t" ],
+  "required": "f",
+  "words": [
+    "caff",
+    "coif",
+    "fact",
+    "faff",
+    "fiat",
+    "font",
+    "foot",
+    "info",
+    "naff",
+    "naif",
+    "tiff",
+    "toff",
+    "afoot",
+    "faint",
+    "caftan",
+    "coffin",
+    "infant",
+    "nonfat",
+    "faction",
+    "fanatic",
+    "fiction",
+    "officiant",
+    "nonfiction",
+    "notification"
+  ]
+}
