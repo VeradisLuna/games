@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-24",
+  "title": "World wrestling alliance",
+  "author": "Luna",
+  "rows": [
+    "#BOUT",
+    "TERSE",
+    "SLAMS",
+    "ATLAS",
+    "##SPA"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Wrestling match"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Straight to the point"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Wrestling moves"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Travel book full of charts"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Relaxing retreat"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Wrestling prize"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Spoken exams"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Travel guide with 50 states (found in 7-across?)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "MCU's Valkyrie actress, Thompson"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Travel agency? (initials)"
+      }
+    ]
+  }
+}
