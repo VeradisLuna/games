@@ -50,7 +50,7 @@ public sealed class MiniCrosswordVm
     public string Author { get; private set; } = "";
     public string Date { get; private set; } = "";
 
-    public sealed record Cell(bool IsBlock, bool IsHighlighted, char? Solution, int? Number)
+    public sealed record Cell(bool IsBlock, bool IsHighlighted, char? Solution, int? Number, string? HighlightType)
     {
         public char? Entry { get; set; } = null;
         public bool IsCorrect => IsBlock || Entry == Solution;
@@ -132,8 +132,22 @@ public sealed class MiniCrosswordVm
                 if (!isBlock && !char.IsLetter(ch))
                     throw new InvalidOperationException($"rows[{r}][{c}] must be A–Z or '#'.");
                 char? sol = isBlock ? null : char.ToUpperInvariant(ch);
-                bool isHighlighted = hasHighlights && highlights[r][c] == '*';
-                _grid.Add(new Cell(isBlock, isHighlighted, sol, null));
+                bool isHighlighted = hasHighlights && (highlights[r][c] == '*' || highlights[r][c] == 'a' || highlights[r][c] == 'b' || highlights[r][c] == 'c');
+                
+                string? highlightType = null;
+                if (isHighlighted)
+                {
+                    if (highlights[r][c] == '*')
+                        highlightType = "normal";
+                    else if (highlights[r][c] == 'a')
+                        highlightType = "a";
+                    else if (highlights[r][c] == 'b')
+                        highlightType = "b";
+                    else if (highlights[r][c] == 'c')
+                        highlightType = "c";
+                }
+
+                _grid.Add(new Cell(isBlock, isHighlighted, sol, null, highlightType));
             }
         }
     }

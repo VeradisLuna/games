@@ -1,6 +1,6 @@
 {
   "date": "2025-11-24",
-  "title": "World wrestling alliance",
+  "title": "World* wrestling† alliance",
   "author": "Luna",
   "rows": [
     "#BOUT",
@@ -9,19 +9,12 @@
     "ATLAS",
     "##SPA"
   ],
-  "highlights": [
-    ".....",
-    ".....",
-    ".....",
-    ".....",
-    "....."
-  ],
   "clues": {
     "across": [
       {
         "row": 0,
         "col": 1,
-        "clue": "Wrestling match"
+        "clue": "Wrestling match †"
       },
       {
         "row": 1,
@@ -31,12 +24,12 @@
       {
         "row": 2,
         "col": 0,
-        "clue": "Wrestling moves"
+        "clue": "Wrestling moves †"
       },
       {
         "row": 3,
         "col": 0,
-        "clue": "Travel book full of charts"
+        "clue": "Travel book full of charts *"
       },
       {
         "row": 4,
@@ -48,7 +41,7 @@
       {
         "row": 0,
         "col": 1,
-        "clue": "Wrestling prize"
+        "clue": "Wrestling prize †"
       },
       {
         "row": 0,
@@ -58,7 +51,7 @@
       {
         "row": 0,
         "col": 3,
-        "clue": "Travel guide with 50 states (found in 7-across?)"
+        "clue": "Travel guide with 50 states *"
       },
       {
         "row": 0,
@@ -68,7 +61,7 @@
       {
         "row": 1,
         "col": 0,
-        "clue": "Travel agency? (initials)"
+        "clue": "Travel agency? (initials) *"
       }
     ]
   }

@@ -7,7 +7,7 @@
 }
 else
 {
-    <div class="mini-cell @(isFocused ? "is-active" : null) @(IsHighlighted ? "is-highlighted" : null) @(IsCorrectUI ? "is-correct" : null)" @onclick="FocusInput" data-hl="@IsHighlighted">
+    <div class="mini-cell @(isFocused ? "is-active" : null) @(IsHighlighted ? "is-highlighted" : null) @(!string.IsNullOrWhiteSpace(HighlightType) ? $"highlight-type-{HighlightType}" : null) @(IsCorrectUI ? "is-correct" : null)" @onclick="FocusInput" data-hl="@IsHighlighted">
         <input @ref="inputRef"
                class="mini-cell-input"
                type="text"
@@ -36,6 +36,8 @@ else
     [Parameter] public bool IsBlock { get; set; }
     [Parameter] public bool IsHighlighted { get; set; }
     [Parameter] public bool IsCorrectUI { get; set; }
+
+    [Parameter] public string HighlightType { get; set; } = "";
 
     [Parameter] public char? Value { get; set; }
     [Parameter] public EventCallback<char?> ValueChanged { get; set; }
