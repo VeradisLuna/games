@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-26",
+  "title": "Negative space",
+  "author": "Luna",
+  "rows": [
+    "CHAI#",
+    "YARNS",
+    "BLANK",
+    "ELREY",
+    "REAR#"
+  ],
+  "highlights": [
+    "*..*.",
+    "*..*.",
+    "*****",
+    "*..*.",
+    "*..*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Spiced brew (its name literally means \"tea\"!)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Fabric fibres... or fabrications"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Elvis, to Spanish fans?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Derrière"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ Monday (Dec 1, 2025)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Oscar-winning Berry"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Palindromic parrot"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Word before peace, or turmoil!"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Place between ground and space"
+      }
+    ]
+  }
+}

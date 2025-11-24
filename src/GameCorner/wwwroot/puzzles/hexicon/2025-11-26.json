@@ -1,0 +1,32 @@
+{
+  "date": "2025-11-26",
+  "pangram": "birdbath",
+  "letters": [ "i", "a", "b", "d", "h", "r", "t" ],
+  "required": "i",
+  "words": [
+    "aria",
+    "arid",
+    "bait",
+    "bird",
+    "dirt",
+    "hair",
+    "raid",
+    "birth",
+    "braid",
+    "briar",
+    "habit",
+    "rabbi",
+    "rabid",
+    "radii",
+    "third",
+    "tiara",
+    "tibia",
+    "trait",
+    "triad",
+    "rabbit",
+    "tidbit",
+    "titbit",
+    "habitat",
+    "birdbath"
+  ]
+}
