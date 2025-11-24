@@ -49,6 +49,7 @@ public sealed class MiniCrosswordVm
     public string Title { get; private set; } = "";
     public string Author { get; private set; } = "";
     public string Date { get; private set; } = "";
+    public string SpecialURL { get; private set; } = "";
 
     public sealed record Cell(bool IsBlock, bool IsHighlighted, char? Solution, int? Number, string? HighlightType)
     {
@@ -81,6 +82,8 @@ public sealed class MiniCrosswordVm
             (await _loader.LoadSpecialMiniAsync(SpecialSlug) ?? throw new InvalidOperationException($"No special puzzle found for '{SpecialSlug}'"));
 
         HydrateMiniData(data);
+
+        SpecialURL = data.SpecialURL;
 
         // Try to restore saved state
         var saved = string.IsNullOrWhiteSpace(SpecialSlug) ?
@@ -348,7 +351,7 @@ public sealed class MiniCrosswordVm
     {
         var date = PuzzleDate.ToString("yyyy-MM-dd");
         var title = Title;
-        var url = $"https://lunamini.io/mini/{date}?share=1";
+        var url = string.IsNullOrWhiteSpace(SpecialURL) ? $"https://lunamini.io/mini/{date}?share=1" : SpecialURL;
         var status = "solved! ⭐";
 
         return $"Luna Mini {date} — {status}{Environment.NewLine}{title}{Environment.NewLine}{url}";

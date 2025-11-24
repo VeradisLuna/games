@@ -23,6 +23,7 @@ public sealed class CryptiniVm
     public string Clue { get; private set; } = "";
     public string Answer { get; private set; } = "";
     public string? Author { get; private set; }
+    public string SpecialURL { get; private set; } = "";
     public string Enumeration { get; private set; } = "";
     public string CurrentEntry { get; set; } = "";
     public bool Solved { get; private set; }
@@ -65,6 +66,8 @@ public sealed class CryptiniVm
         Explanation = data.Explanation;
         Answer = data.Answer;
         Author = data.Author;
+
+        SpecialURL = data.SpecialURL;
 
         _answerNorm = Norm(data.Answer ?? "");
 
@@ -182,7 +185,7 @@ public sealed class CryptiniVm
     public string BuildShareText()
     {
         var date = PuzzleDate.ToString("yyyy-MM-dd");
-        var url = $"https://lunamini.io/cryptini/{date}?share=1";
+        var url = string.IsNullOrWhiteSpace(SpecialURL) ? $"https://lunamini.io/cryptini/{date}?share=1" : SpecialURL;
         var status = "";
         if (Revealed)
         {

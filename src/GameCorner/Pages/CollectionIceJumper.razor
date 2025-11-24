@@ -1,6 +1,8 @@
 ﻿@page "/ice-jumper"
 @using GameCorner.Services
 @inject ProgressChecker ProgressChecker
+@inject Persistence Persistence
+@inject NavigationManager Nav
 
 <div class="homepage">
     <h1 class="title">LunaMini.io</h1>
@@ -11,6 +13,8 @@
             <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer" title="Support me on Ko-Fi to help keep this free project going!">buy me a cuppa!</a>
             <span class="divider">|</span>
             <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
+            <span class="divider">|</span>
+            <a href="/ice-jumper" title="Play the special Welsh ICE Christmas Jumper Day puzzles!">Christmas Jumper Day</a>
         </div>
 @*         <div class="bottom-row">
             <a href="/collections">play past puzzles</a>
@@ -81,6 +85,17 @@
 
     protected override async Task OnInitializedAsync()
     {
+        if (HasQrParam())
+        {
+            await Persistence.UnlockCollectionAsync("ice-jumper");
+            Nav.NavigateTo("/ice-jumper", replace: true);
+        }
+
+        if(!await Persistence.CollectionUnlocked("ice-jumper"))
+        {
+            Nav.NavigateTo("/", replace: true);
+        }
+
         (miniProgress, _) = await ProgressChecker.GetProgressAsync("lunamini", Slug);
 
         var letterheadResult = await ProgressChecker.GetProgressAsync("letterhead", Slug);
@@ -119,6 +134,25 @@
         1 => " (…)",
         _ => ""
     };
+
+    private bool HasQrParam()
+    {
+        var uri = new Uri(Nav.Uri);
+        var query = uri.Query; // e.g. "?from=qr"
+
+        if (string.IsNullOrWhiteSpace(query)) return false;
+
+        var parts = query.TrimStart('?')
+                         .Split('&', StringSplitOptions.RemoveEmptyEntries);
+
+        foreach (var part in parts)
+        {
+            var kv = part.Split('=', 2);
+            if (kv.Length == 2 && kv[0] == "from" && kv[1] == "qr")
+                return true;
+        }
+        return false;
+    }
 }
 <style>
     .homepage {

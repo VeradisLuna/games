@@ -41,6 +41,7 @@ namespace GameCorner.ViewModels
         public string PangramTitle { get; private set; } = string.Empty;
         public bool TitleRevealed { get; private set; }
 
+        public string? SpecialURL { get; private set; } = "";
         public bool Themed { get; private set; } = false;
         public string? Tagline { get; private set; }
         public bool HasClues { get; private set; } = false;
@@ -104,6 +105,8 @@ namespace GameCorner.ViewModels
             Themed = data.Themed;
             Tagline = data.Tagline;
             TotalWords = (data.Words ?? []).Count;
+
+            SpecialURL = data.SpecialURL;
 
             HasClues = (data.Clues ?? []).Any();
             Formatted = (data.FormattedWords ?? []).Any();
@@ -288,7 +291,7 @@ namespace GameCorner.ViewModels
         public string BuildShareText(string rank)
         {
             var date = PuzzleDate.ToString("yyyy-MM-dd");
-            var url = $"https://lunamini.io/hexicon/{date}?share=1";
+            var url = string.IsNullOrWhiteSpace(SpecialURL) ? $"https://lunamini.io/hexicon/{date}?share=1" : SpecialURL;
             var foundTitlePangram = TitleRevealed;
             var wordsFound = Found.Count;
             var pangramsFound = Found.Where(w => IsPangram(w)).Count();

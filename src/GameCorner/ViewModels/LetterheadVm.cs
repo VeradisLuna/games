@@ -39,6 +39,7 @@ public sealed class LetterheadVm
     public GameState State { get; private set; } = GameState.Playing;
     public string Author { get; private set; } = "";
     public string Date { get; private set; } = "";
+    public string SpecialURL { get; private set; } = "";
     public int CurrentRow { get; private set; } = 0;
     public int CurrentCol { get; private set; } = 0;
 
@@ -91,6 +92,7 @@ public sealed class LetterheadVm
         Author = data.Author ?? string.Empty;
         Date = data.Date ?? _puzzleDate.ToString("yyyy-MM-dd");
         _answer = Normalize(data.Answer!);
+        SpecialURL = data.SpecialURL;
 
         _valid = await LoadAllowedLetterheadGuessesAsync();
 
@@ -270,7 +272,7 @@ public sealed class LetterheadVm
     public string BuildShareText()
     {
         var date = _puzzleDate.ToString("yyyy-MM-dd");
-        var url = $"https://lunamini.io/letterhead/{date}?share=1";
+        var url = string.IsNullOrWhiteSpace(SpecialURL) ? $"https://lunamini.io/letterhead/{date}?share=1" : SpecialURL;
         var status = "";
         if (State == GameState.Won)
         {

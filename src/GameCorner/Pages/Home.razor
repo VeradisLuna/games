@@ -1,4 +1,6 @@
 ﻿@page "/"
+@using GameCorner.Services
+@inject Persistence Persistence
 
 <div class="homepage">
     <h1 class="title">LunaMini.io</h1>
@@ -9,6 +11,11 @@
             <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer" title="Support me on Ko-Fi to help keep this free project going!">buy me a cuppa!</a>
             <span class="divider">|</span>
             <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
+            @if (iceJumperUnlocked)
+            {
+                <span class="divider">|</span>
+                <a class="@(DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 13) ? "shimmer shimmer-link" : "")" href="/ice-jumper" title="Play the special Welsh ICE Christmas Jumper Day puzzles!">Christmas Jumper Day</a>
+            }
         </div>
 @*         <div class="bottom-row">
             <a href="/collections">play past puzzles</a>
@@ -19,13 +26,13 @@
     <p class="subtitle">Choose a game to play!</p>
 
     <div class="game-grid">
-        @if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 11, 12) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 11, 14))
+        @if (iceJumperUnlocked && DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 11) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 11))
         {
-            <div class="game-card game-card-feedback">
-                <a href="collection_music">
+            <div class="game-card shimmer shimmer-card">
+                <a href="ice-jumper">
                     <div class="card-content">
-                        <h2>Music Box 🎵</h2>
-                        <p>A selection of music-themed past puzzles!</p>
+                        <h2>Welsh ICE Christmas Jumper Day</h2>
+                        <p>A selection of special puzzles. Thanks for donating!</p>
                     </div>
                 </a>
             </div>
@@ -84,7 +91,13 @@
         </div> *@
     </div>
 </div>
-
+@code{
+    bool iceJumperUnlocked;
+    protected override async Task OnInitializedAsync()
+    {
+        iceJumperUnlocked = await Persistence.CollectionUnlocked("ice-jumper");
+    }
+}
 <style>
     .homepage {
         max-width: 1200px;
@@ -178,5 +191,25 @@
 
     .icon-link:hover img {
         opacity: 1;
+    }
+
+    .shimmer {
+        background: linear-gradient(45deg, #ab74c2, #c274bd, #c27496, #c28174, #c29a74, #c2b574, #b0c274, #75c274, #74c298, #74c2bb, #74abc2, #7482c2, #8674c2);
+        background-size: 200% 100%;
+        animation: shimmer 5s ease-in-out infinite;
+    }
+
+    .shimmer-link {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .shimmer-card {
+        color: black;
+        grid-column: 1 / -1;
+    }
+
+    .shimmer-card p{
+        color: black;
     }
 </style>

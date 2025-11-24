@@ -1,5 +1,6 @@
-﻿using System.Text.Json;
-using Microsoft.JSInterop;
+﻿using Microsoft.JSInterop;
+using System.Text.Json;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace GameCorner.Services;
 
@@ -41,4 +42,15 @@ public sealed class Persistence
 
     public Task ClearSpecialAsync(string gamePrefix, string slug) =>
     _js.InvokeVoidAsync("hexiconStore.remove", $"{gamePrefix}:{slug}").AsTask();
+
+    public async Task UnlockCollectionAsync(string collectionPrefix)
+    {
+        await _js.InvokeVoidAsync("hexiconStore.set", $"collection:{collectionPrefix}", "1");
+    }
+
+    public async Task<bool> CollectionUnlocked (string collectionPrefix)
+    {
+        var json = await _js.InvokeAsync<string?>("hexiconStore.get", $"collection:{collectionPrefix}");
+        return string.IsNullOrWhiteSpace(json) ? false : true;
+    }
 }

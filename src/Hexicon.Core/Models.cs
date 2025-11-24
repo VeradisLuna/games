@@ -21,6 +21,7 @@ namespace Hexicon.Core
         public string? Tagline { get; set; }
         public List<string> Clues { get; set; } = new List<string>();
         public List<string> FormattedWords { get; set; } = new List<string>();
+        public string SpecialURL { get; set; } = "";
     }
 
     public sealed class CryptiniData
@@ -32,6 +33,7 @@ namespace Hexicon.Core
         public string Explanation { get; set; }
         public List<string>? Hints { get; set; }
         public string? Author { get; set; }
+        public string SpecialURL { get; set; } = "";
     }
 
     public sealed class MiniData
@@ -42,6 +44,7 @@ namespace Hexicon.Core
         public List<string> Rows { get; set; } = new();
         public List<string> Highlights { get; set; } = new();
         public MiniClueSet? Clues { get; set; }
+        public string SpecialURL { get; set; } = "";
     }
 
     public sealed class MiniClueSet
@@ -63,5 +66,6 @@ namespace Hexicon.Core
         public string Date { get; set; } = "";
         public string Author { get; set; } = "";
         public string Answer { get; set; } = "";
+        public string SpecialURL { get; set; } = "";
     }
 }
