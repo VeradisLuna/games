@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-25",
+  "title": "Drop out",
+  "author": "Luna",
+  "rows": [
+    "#STOP",
+    "DWELL",
+    "RONDA",
+    "OLSEN",
+    "PEER#"
+  ],
+  "highlights": [
+    ".****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___! In the Name of Love"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Linger"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "UFC Hall of Famer Rousey"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Mary-Kate or Ashley"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "House of Lords member"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hench?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "It could be imperfect, or conditional"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Having had more birthdays"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Something you hatch"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "What the bass might do in a Skrillex track"
+      }
+    ]
+  }
+}
