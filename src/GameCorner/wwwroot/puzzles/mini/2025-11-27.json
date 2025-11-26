@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-27",
+  "title": "To Kill a Mockingbird",
+  "author": "Luna",
+  "rows": [
+    "#FIT#",
+    "PINOT",
+    "INTRA",
+    "SCOUT",
+    "#HOSE"
+  ],
+  "highlights": [
+    ".*...",
+    ".*..*",
+    ".*..*",
+    "*****",
+    ".*..*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Like a fiddle?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ grigio (wine)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "The \"I\" in IV"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Somebody looking for talent"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Pool-filling tool"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Small songbird"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ Deep (Sum 41)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Shape of a doughnut"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Magnum and Sherlock, for short"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "___ Modern (London gallery)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2025-11-27",
+  "pangram": "pixelate",
+  "letters": [ "x", "a", "e", "i", "l", "p", "t" ],
+  "required": "x",
+  "words": [
+    "apex",
+    "axel",
+    "axle",
+    "exit",
+    "taxi",
+    "text",
+    "axial",
+    "exalt",
+    "exile",
+    "expat",
+    "expel",
+    "latex",
+    "pixel",
+    "pixie",
+    "telex",
+    "ataxia",
+    "expiate",
+    "textile",
+    "pixelate",
+    "teletext",
+    "expatiate"
+  ]
+}
