@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-28",
+  "title": "Found near chips?",
+  "author": "Luna",
+  "rows": [
+    "CARDS",
+    "OPERA",
+    "METAL",
+    "#SIPS",
+    "##EEA"
+  ],
+  "highlights": [
+    "*****",
+    "....*",
+    "....*",
+    "....*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "You might get them for birthdays"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "The Phantom of the ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Headbanger's genre"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Drinks a little"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Group that includes Norway and Iceland"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Common address ending"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Mimics"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Tighten your laces, maybe"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Arrange loosely"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Latin dance"
+      }
+    ]
+  }
+}
