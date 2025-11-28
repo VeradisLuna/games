@@ -1,0 +1,30 @@
+{
+  "date": "2025-11-29",
+  "pangram": "gravity",
+  "letters": [ "t", "a", "g", "i", "r", "v", "y" ],
+  "required": "t",
+  "words": [
+    "arty",
+    "gait",
+    "grit",
+    "tart",
+    "tray",
+    "trig",
+    "atria",
+    "attar",
+    "ratty",
+    "taiga",
+    "tarry",
+    "tarty",
+    "tatty",
+    "tiara",
+    "trait",
+    "avatar",
+    "gritty",
+    "ragtag",
+    "rarity",
+    "tartar",
+    "trivia",
+    "gravity"
+  ]
+}

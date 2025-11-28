@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-29",
+  "title": "Colour-coded?",
+  "author": "Luna",
+  "rows": [
+    "GREEN",
+    "LETBY",
+    "ADHOC",
+    "CYAN#",
+    "EENY#"
+  ],
+  "highlights": [
+    "dddfd",
+    "...f.",
+    "...f.",
+    "eeef.",
+    "...f."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Inexperienced"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Allowed through"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Makeshift"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "The C of CMYK"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "___, meeny..."
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Preserved as, say, a cherry"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Change colours?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Actor Hawke"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Wood once used for piano keys"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Big Apple (initials)"
+      }
+    ]
+  }
+}

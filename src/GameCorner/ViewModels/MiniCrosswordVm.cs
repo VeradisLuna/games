@@ -135,19 +135,15 @@ public sealed class MiniCrosswordVm
                 if (!isBlock && !char.IsLetter(ch))
                     throw new InvalidOperationException($"rows[{r}][{c}] must be A–Z or '#'.");
                 char? sol = isBlock ? null : char.ToUpperInvariant(ch);
-                bool isHighlighted = hasHighlights && (highlights[r][c] == '*' || highlights[r][c] == 'a' || highlights[r][c] == 'b' || highlights[r][c] == 'c');
+                bool isHighlighted = hasHighlights && (highlights[r][c] == '*' || "abcdefghijklmnopqrstuvwxyz".Contains(highlights[r][c]));
                 
                 string? highlightType = null;
                 if (isHighlighted)
                 {
                     if (highlights[r][c] == '*')
                         highlightType = "normal";
-                    else if (highlights[r][c] == 'a')
-                        highlightType = "a";
-                    else if (highlights[r][c] == 'b')
-                        highlightType = "b";
-                    else if (highlights[r][c] == 'c')
-                        highlightType = "c";
+                    else if ("abcdefghijklmnopqrstuvwxyz".Contains(highlights[r][c]))
+                        highlightType = highlights[r][c].ToString();
                 }
 
                 _grid.Add(new Cell(isBlock, isHighlighted, sol, null, highlightType));
