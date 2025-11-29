@@ -1,0 +1,32 @@
+{
+  "date": "2025-11-30",
+  "pangram": "cabinet",
+  "letters": [ "b", "a", "c", "e", "i", "n", "t" ],
+  "required": "b",
+  "words": [
+    "abet",
+    "babe",
+    "bait",
+    "bane",
+    "bate",
+    "bean",
+    "beat",
+    "been",
+    "beet",
+    "bent",
+    "beta",
+    "bite",
+    "abate",
+    "cabin",
+    "tibia",
+    "banana",
+    "batten",
+    "beanie",
+    "beaten",
+    "bitten",
+    "cabana",
+    "titbit",
+    "cabinet",
+    "ciabatta"
+  ]
+}

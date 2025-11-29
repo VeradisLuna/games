@@ -1,0 +1,75 @@
+{
+  "date": "2025-11-30",
+  "title": "Piece of cake",
+  "author": "Luna",
+  "rows": [
+    "#PLUM",
+    "MOIRA",
+    "FUNGI",
+    "ANGEL",
+    "#DOD#"
+  ],
+  "highlights": [
+    ".****",
+    ".*...",
+    ".*...",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Each Peach Pear ___ (book)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Catherine O'Hara's \"Schitt's Creek\" role"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "What a mycologist studies"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Perfectly behaved child?"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Former initials for rebranded Pentagon division"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "16 ounces"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Jargon"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Strongly encouraged"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Word that follows e or G"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Postgrad course for creatives"
+      }
+    ]
+  }
+}
