@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-01",
+  "title": "Prime time",
+  "author": "Luna",
+  "rows": [
+    "#CEST",
+    "THREE",
+    "WEAVE",
+    "OFTEN",
+    "#SONY"
+  ],
+  "highlights": [
+    "...*.",
+    "*****",
+    "*..*.",
+    "*..*.",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ la vie"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "That's the magic number (yes it is!)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Interlace"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Frequently"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "PlayStation producer"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They work in kitchens"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Muse of lyric poetry"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "It links sins, dwarfs and netball players"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Itty-bitty"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "What it takes to tango"
+      }
+    ]
+  }
+}
