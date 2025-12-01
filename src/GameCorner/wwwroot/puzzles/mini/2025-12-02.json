@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-02",
+  "title": "Moon landing",
+  "author": "Luna",
+  "rows": [
+    "SMALL",
+    "TAKEA",
+    "EDITS",
+    "PARIS",
+    "#MAN#"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    ".***."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Petite"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Words before break or chance"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Manuscript modifications"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lees who wrote What It Feels Like for a Girl"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Operate, as machinery"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Part of a dance"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Palindromic term of address"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Seven Samurai's Kurosawa"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Admit"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Bonnie young woman?"
+      }
+    ]
+  }
+}
