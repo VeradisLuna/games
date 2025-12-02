@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-03",
+  "title": "\"Delete the kisses at the end\"",
+  "author": "Luna",
+  "rows": [
+    "DOT##",
+    "UNISE",
+    "LENNO",
+    "LATIN",
+    "##OPS"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    "*****",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Word after polka, or before matrix"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Gender-neutral clothing term"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Eurythmics' Annie"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gender-neutral cultural identity term"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Missions, in brief"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Lost its lustre"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fun fact about this grid?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Vino that isn't blanco"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Trim – or what to do with X in this puzzle"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Ages and ages"
+      }
+    ]
+  }
+}

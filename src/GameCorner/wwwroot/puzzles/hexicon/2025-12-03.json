@@ -1,0 +1,13 @@
+{
+  "date": "2025-12-03",
+  "pangram": "quizzical",
+  "letters": [ "q", "a", "c", "i", "l", "u", "z" ],
+  "required": "q",
+  "words": [
+    "aqua",
+    "quiz",
+    "quail",
+    "quill",
+    "quizzical"
+  ]
+}
