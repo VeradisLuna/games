@@ -90,7 +90,7 @@
         }
     </div>
 
-    @if (Vm.Themed || CurrentRank.levelIndex >= 5)
+    @if (Vm.Themed || CurrentRank.levelIndex >= 5 || Vm.TotalWords <= 5)
     {
         <h4 class="mt-4">Found words (@Vm.Found.Count / @Vm.TotalWords)</h4>
     }
