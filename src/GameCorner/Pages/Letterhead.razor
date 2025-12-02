@@ -99,6 +99,10 @@ else
         {
             Vm.SpecialSlug = null;
         }
+
+        await JS.InvokeVoidAsync("setWinterTheme", false);
+        await JS.InvokeVoidAsync("miniConfetti.stopSnow");
+
         await Vm.InitAsync();
     }
 

@@ -404,6 +404,9 @@ window.miniLayout = (function () {
 (function () {
     'use strict';
 
+    let snowRunning = false;
+    let snowStopFn = null;
+
     // Respect reduced motion
     function canCelebrate() {
         return !window.matchMedia || !matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -412,7 +415,7 @@ window.miniLayout = (function () {
     // Random helpers
     const R = Math.random, cos = Math.cos, sin = Math.sin, PI = Math.PI, PI2 = PI * 2;
 
-    // Original color themes (kept)
+    // Color themes (unchanged)
     const colorThemes = [
         () => rgb(200 * R() | 0, 200 * R() | 0, 200 * R() | 0),
         () => { const k = 200 * R() | 0; return rgb(200, k, k); },
@@ -428,7 +431,9 @@ window.miniLayout = (function () {
     function rgb(r, g, b) { return `rgb(${r},${g},${b})`; }
 
     // Cosine interpolation
-    function interp(a, b, t) { return (1 - cos(PI * t)) / 2 * (b - a) + a; }
+    function interp(a, b, t) {
+        return (1 - cos(PI * t)) / 2 * (b - a) + a;
+    }
 
     // 1D Poisson disc over [0,1]
     function createPoisson(eccentricity) {
@@ -453,7 +458,9 @@ window.miniLayout = (function () {
                     if (b <= d) domain[i] = c; else domain.splice(i, 0, c, d);
                 }
             }
-            for (i = 0, l = domain.length, measure = 0; i < l; i += 2) measure += domain[i + 1] - domain[i];
+            for (i = 0, l = domain.length, measure = 0; i < l; i += 2) {
+                measure += domain[i + 1] - domain[i];
+            }
         }
         return spline.sort();
     }
@@ -461,8 +468,11 @@ window.miniLayout = (function () {
     function Confetto(theme, opts) {
         const {
             sizeMin, sizeMax, dxThetaMin, dxThetaMax,
-            dyMin, dyMax, dThetaMin, dThetaMax, deviation, eccentricity
+            dyMin, dyMax, dThetaMin, dThetaMax,
+            deviation, eccentricity
         } = opts;
+
+        const isSnow = opts.kind === 'snow';
 
         this.frame = 0;
         this.outer = document.createElement('div');
@@ -471,18 +481,37 @@ window.miniLayout = (function () {
 
         const o = this.outer.style, i = this.inner.style;
         o.position = 'absolute';
-        o.width = (sizeMin + sizeMax * R()) + 'px';
-        o.height = (sizeMin + sizeMax * R()) + 'px';
+
+        const size = (sizeMin + sizeMax * R());
+        o.width = size + 'px';
+        o.height = size + 'px';
         i.width = '100%';
         i.height = '100%';
-        i.backgroundColor = theme();
 
-        o.perspective = '50px';
-        o.transform = 'rotate(' + (360 * R()) + 'deg)';
-        this.axis = 'rotate3D(' + cos(360 * R()) + ',' + cos(360 * R()) + ',0,';
-        this.theta = 360 * R();
-        this.dTheta = dThetaMin + dThetaMax * R();
-        i.transform = this.axis + this.theta + 'deg)';
+        if (isSnow) {
+            i.backgroundColor = 'white';
+            i.borderRadius = '50%';
+            o.opacity = 0.7 + 0.3 * R();
+            o.boxShadow = '0 0 6px rgba(255,255,255,0.8)';
+        } else {
+            i.backgroundColor = theme();
+        }
+
+        if (isSnow) {
+            // Simple 2D-ish rotation
+            this.axis = 'rotate3D(0,0,1,';
+            this.theta = 360 * R();
+            this.dTheta = (dThetaMin != null ? dThetaMin : 0.01) + (dThetaMax != null ? dThetaMax : 0.02) * R();
+            i.transform = this.axis + this.theta + 'deg)';
+        } else {
+            // Original 3D-style rotation
+            o.perspective = '50px';
+            o.transform = 'rotate(' + (360 * R()) + 'deg)';
+            this.axis = 'rotate3D(' + cos(360 * R()) + ',' + cos(360 * R()) + ',0,';
+            this.theta = 360 * R();
+            this.dTheta = dThetaMin + dThetaMax * R();
+            i.transform = this.axis + this.theta + 'deg)';
+        }
 
         this.x = window.innerWidth * R();
         this.y = -deviation;
@@ -493,8 +522,13 @@ window.miniLayout = (function () {
 
         this.splineX = createPoisson(eccentricity);
         this.splineY = [];
-        for (let k = 1, l = this.splineX.length - 1; k < l; ++k) this.splineY[k] = deviation * R();
+        for (let k = 1, l = this.splineX.length - 1; k < l; ++k) {
+            this.splineY[k] = deviation * R();
+        }
         this.splineY[0] = this.splineY[this.splineX.length - 1] = deviation * R();
+
+        // Snow sway seed
+        this.seed = R() * PI2;
 
         this.update = (height, delta) => {
             this.frame += delta;
@@ -502,25 +536,38 @@ window.miniLayout = (function () {
             this.y += this.dy * delta;
             this.theta += this.dTheta * delta;
 
-            const sx = this.splineX, sy = this.splineY;
-            let phi = this.frame % 7777 / 7777, a = 0, b = 1;
-            while (phi >= sx[b]) a = b++;
-            const rho = interp(sy[a], sy[b], (phi - sx[a]) / (sx[b] - sx[a]));
-            phi *= PI2;
+            if (isSnow) {
+                // Gentle horizontal sway for snow
+                const t = this.frame * 0.0005;
+                const sway = deviation * 0.5 * sin(t + this.seed);
+                o.left = (this.x + sway) + 'px';
+                o.top = this.y + 'px';
+                i.transform = this.axis + this.theta + 'deg)';
+            } else {
+                // Original confetti path
+                const sx = this.splineX, sy = this.splineY;
+                let phi = this.frame % 7777 / 7777, a = 0, b = 1;
+                while (phi >= sx[b]) a = b++;
+                const rho = interp(sy[a], sy[b], (phi - sx[a]) / (sx[b] - sx[a]));
+                phi *= PI2;
 
-            o.left = this.x + rho * cos(phi) + 'px';
-            o.top = this.y + rho * sin(phi) + 'px';
-            i.transform = this.axis + this.theta + 'deg)';
+                o.left = this.x + rho * cos(phi) + 'px';
+                o.top = this.y + rho * sin(phi) + 'px';
+                i.transform = this.axis + this.theta + 'deg)';
+            }
+
+            // Remove when far below viewport
             return this.y > height + deviation;
         };
     }
 
+    // Confetti defaults (kept as-is)
     function makeDefaults(over) {
         return Object.assign({
             particles: 80,
             spread: 40,
             sizeMin: 3,
-            sizeMax: 9,          // (original code used 12 - sizeMin; we’ll keep 9 as scalar)
+            sizeMax: 9,          // original scalar
             eccentricity: 10,
             deviation: 100,
             dxThetaMin: -.1,
@@ -534,6 +581,27 @@ window.miniLayout = (function () {
         }, over || {});
     }
 
+    // Snow defaults (new)
+    function makeSnowDefaults(over) {
+        return Object.assign({
+            kind: 'snow',
+            particles: 200,     // max flakes on screen
+            spread: 200,        // ms range between new flakes
+            sizeMin: 2,
+            sizeMax: 5,
+            eccentricity: 5,
+            deviation: 40,
+            dxThetaMin: -.05,
+            dxThetaMax: .05,
+            dyMin: .03,
+            dyMax: .06,
+            dThetaMin: 0.01,
+            dThetaMax: 0.02,
+            zIndex: 9999
+        }, over || {});
+    }
+
+    // Original "burst" confetti
     function poof(userOpts) {
         if (!canCelebrate()) return;
 
@@ -590,11 +658,92 @@ window.miniLayout = (function () {
         frame = requestAnimationFrame(loop);
     }
 
+    // Continuous snowfall
+    function snow(userOpts) {
+        if (!canCelebrate()) return;
+
+        // Prevent multiple snow instances
+        if (snowRunning) {
+            return;
+        }
+        snowRunning = true;
+
+        const opts = makeSnowDefaults(userOpts || {});
+        opts.kind = 'snow'; // force kind
+
+        const container = document.createElement('div');
+        const cs = container.style;
+        cs.position = 'fixed';
+        cs.top = '0'; cs.left = '0';
+        cs.width = '100%'; cs.height = '0';
+        cs.overflow = 'visible';
+        cs.zIndex = String(opts.zIndex);
+        cs.pointerEvents = 'none';
+        document.body.appendChild(container);
+
+        const confetti = [];
+        let frame = null;
+        let running = true;
+
+        function addConfetto() {
+            if (!running) return;
+            if (confetti.length < opts.particles) {
+                const c = new Confetto(() => 'white', opts);
+                confetti.push(c);
+                container.appendChild(c.outer);
+            }
+            setTimeout(addConfetto, opts.spread * R());
+        }
+        addConfetto();
+
+        let prev;
+        function loop(ts) {
+            const delta = prev ? ts - prev : 0; prev = ts;
+            const height = window.innerHeight;
+
+            for (let i = confetti.length - 1; i >= 0; --i) {
+                if (confetti[i].update(height, delta)) {
+                    container.removeChild(confetti[i].outer);
+                    confetti.splice(i, 1);
+                }
+            }
+
+            if (running) {
+                frame = requestAnimationFrame(loop);
+            } else {
+                cancelAnimationFrame(frame);
+                document.body.removeChild(container);
+            }
+        }
+        frame = requestAnimationFrame(loop);
+
+        function stop() {
+            running = false;
+            snowRunning = false;
+        }
+
+        snowStopFn = stop;
+
+        return {
+            stop
+        };
+    }
+
     // Public API
     window.miniConfetti = {
-        poof // call: miniConfetti.poof({ particles: 120, themeIndex: 2, zIndex: 10000 })
+        poof,
+        snow,
+        stopSnow: function () {
+            if (typeof snowStopFn === 'function') {
+                snowStopFn();
+            }
+        }
     };
 })();
+
+window.setWinterTheme = function (enabled) {
+    document.body.classList.toggle("winter-theme", enabled === true);
+};
 
 // Letterhead: flip and shake row animations
 window.letterhead = (function () {

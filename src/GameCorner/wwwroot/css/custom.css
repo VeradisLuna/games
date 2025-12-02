@@ -977,3 +977,8 @@ h2, .floaty {
         background-position: 0% 50%;
     }
 }
+
+body.winter-theme {
+    background: #eeddff;
+    transition: background 1s ease;
+}

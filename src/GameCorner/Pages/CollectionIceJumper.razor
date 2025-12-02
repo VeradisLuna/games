@@ -3,6 +3,7 @@
 @inject ProgressChecker ProgressChecker
 @inject Persistence Persistence
 @inject NavigationManager Nav
+@inject IJSRuntime JS
 
 <div class="homepage">
     <h1 class="title">LunaMini.io</h1>
@@ -94,6 +95,12 @@
         if(!await Persistence.CollectionUnlocked("ice-jumper"))
         {
             Nav.NavigateTo("/", replace: true);
+        }
+
+        if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 1) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 31))
+        {
+            await JS.InvokeVoidAsync("setWinterTheme", true);
+            await JS.InvokeVoidAsync("miniConfetti.snow");
         }
 
         (miniProgress, _) = await ProgressChecker.GetProgressAsync("lunamini", Slug);

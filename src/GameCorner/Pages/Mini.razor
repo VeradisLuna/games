@@ -212,6 +212,9 @@ else
             Vm.SpecialSlug = null;
         }
 
+        await JS.InvokeVoidAsync("setWinterTheme", false);
+        await JS.InvokeVoidAsync("miniConfetti.stopSnow");
+
         await Vm.InitAsync();
 
         nav = new MiniNavigator(MiniCrosswordVm.Size, idx => Vm.IsBlock(idx));

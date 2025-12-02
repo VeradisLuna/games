@@ -1,6 +1,7 @@
 ﻿@page "/"
 @using GameCorner.Services
 @inject Persistence Persistence
+@inject IJSRuntime JS
 
 <div class="homepage">
     <h1 class="title">LunaMini.io</h1>
@@ -96,6 +97,12 @@
     protected override async Task OnInitializedAsync()
     {
         iceJumperUnlocked = await Persistence.CollectionUnlocked("ice-jumper");
+
+        if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 1) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 31))
+        {
+            await JS.InvokeVoidAsync("setWinterTheme", true);
+            await JS.InvokeVoidAsync("miniConfetti.snow");
+        }
     }
 }
 <style>
