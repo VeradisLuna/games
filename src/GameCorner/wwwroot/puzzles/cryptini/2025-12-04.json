@@ -1,0 +1,12 @@
+{
+  "date": "2025-12-04",
+  "clue": "Even-handed ICT enthusiast",
+  "enumeration": "6",
+  "answer": "ADDICT",
+  "explanation": "Take the even letters of \"handed\" to get ADD. ADD+ICT = ADDICT. We might describe an enthusiast as an \"addict\".",
+  "hints": [
+    "The definition is \"enthusiast\".",
+    "\"Even-handed\" is giving us both an instruction and some letters.",
+    "We can use ICT as-is!"
+  ]
+}

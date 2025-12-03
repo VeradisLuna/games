@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-04",
+  "title": "Old expressions",
+  "author": "Luna",
+  "rows": [
+    "#DAMP",
+    "HANOI",
+    "ALINE",
+    "TIMER",
+    "#SAYS"
+  ],
+  "highlights": [
+    "...*.",
+    "*..*.",
+    "*..*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Squib descriptor"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Capital of Vietnam"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Letter-shaped dress style"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Clock"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "What Simon does"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"The Persistence of Memory\" and \"Cabaret Scene\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Jungian feminine side"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Currency"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Bond actor Brosnan"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Cap"
+      }
+    ]
+  }
+}
