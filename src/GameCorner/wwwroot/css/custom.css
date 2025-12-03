@@ -536,6 +536,15 @@ h2, .floaty {
 .mini-cell.highlight-type-f .mini-cell-input {
     color: white;
 }
+.mini-cell.highlight-type-g {
+    background: #aae6fe;
+}
+.mini-cell.highlight-type-h {
+    background: #ffffff;
+}
+.mini-cell.highlight-type-i {
+    background: #fbd4dc;
+}
 .cluenumber {
     position: absolute;
     top: 3px;

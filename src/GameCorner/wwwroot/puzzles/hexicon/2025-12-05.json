@@ -1,0 +1,22 @@
+{
+  "date": "2025-12-05",
+  "pangram": "hickory",
+  "letters": [ "r", "c", "h", "i", "k", "o", "y" ],
+  "required": "r",
+  "words": [
+    "coir",
+    "cork",
+    "rich",
+    "rick",
+    "rock",
+    "rook",
+    "choir",
+    "crick",
+    "crock",
+    "crook",
+    "rocky",
+    "horror",
+    "chicory",
+    "hickory"
+  ]
+}

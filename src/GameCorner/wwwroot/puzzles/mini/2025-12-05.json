@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-05",
+  "title": "Guiding principle",
+  "author": "Luna",
+  "rows": [
+    "BBCTV",
+    "RELET",
+    "AFINE",
+    "WOMEN",
+    "LGBT#"
+  ],
+  "highlights": [
+    "ggggg",
+    "iiiii",
+    "hhhhh",
+    "iiiii",
+    "gggg."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "UK service offered since 1927"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Lease to a new tenant"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Words before \"line\" (subtle distinction)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "What trans women are"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"No ___ without the _\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Melee"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cloud over"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Move up, say, a mountain"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Guiding principle"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Powerful engine"
+      }
+    ]
+  }
+}
