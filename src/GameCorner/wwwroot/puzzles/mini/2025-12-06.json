@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-06",
+  "title": "Bird is the ordw",
+  "author": "Luna",
+  "rows": [
+    "##LAI",
+    "#HAGS",
+    "MEDAL",
+    "SALVE",
+    "GREET"
+  ],
+  "highlights": [
+    ".....",
+    ".****",
+    ".*...",
+    ".*...",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Old French love poem"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "lacBk eabsird (witches)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Olympics reward"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Balm"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "adiWng irdb (say hi to)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Soup spoon"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Tequila plant"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Tiny bit of land in the ocean"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "ligFhtless irdb (perceive by ear)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Umami enhancer"
+      }
+    ]
+  }
+}
