@@ -1,12 +1,12 @@
 {
   "date": "2025-12-05",
-  "clue": "Grubby and grotesque study",
-  "enumeration": "5",
-  "answer": "DUSTY",
-  "explanation": "STUDY is grotesque, that is, distorted, to give us DUSTY, a word meaning grubby.",
+  "clue": "Ends justify the means, certainly",
+  "enumeration": "3",
+  "answer": "YES",
+  "explanation": "The ends of \"justify\", \"the\", and \"means\" are Y, E, and S. YES - certainly.",
   "hints": [
-    "\"Grotesque\" can mean distorted.",
-    "Our definition is \"grubby\".",
-    "What do we need to do with \"study\", to get our answer?"
+    "Which word in this clue is likely to be a wordplay instruction?",
+    "The definition is \"certainly\".",
+    "We need to do something with \"justify\", \"the\", and \"means\", to find the answer."
   ]
 }
