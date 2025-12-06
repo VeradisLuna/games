@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-07",
+  "title": "Suits",
+  "author": "Luna",
+  "rows": [
+    "HASTA",
+    "ALPEN",
+    "HEART",
+    "AUDRE",
+    "#TEAS"
+  ],
+  "highlights": [
+    "..*..",
+    "..*..",
+    "*****",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "¡___ luego!"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Muesli brand"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Crux"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lorde who wrote on race, gender, and sexuality"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Breakfast, Earl Grey, Assam"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "lol"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Native Alaskan"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "You might call it what it is"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Earth, in some sci-fi"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Forced bets in poker"
+      }
+    ]
+  }
+}
