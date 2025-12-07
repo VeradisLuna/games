@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-08",
+  "title": "The blues",
+  "author": "Luna",
+  "rows": [
+    "TEAL#",
+    "ISLAM",
+    "ETAPE",
+    "DENIM",
+    "#EASE"
+  ],
+  "highlights": [
+    "****.",
+    "...*.",
+    "...*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Freshwater duck"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Faith with a holy site in Mecca"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Tour de France stage"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Jeans fabric"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Simplicity"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Even"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Lauder"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "De la Garza of \"Law & Order\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ lazuli"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Image with Impact text overlaid, perhaps"
+      }
+    ]
+  }
+}

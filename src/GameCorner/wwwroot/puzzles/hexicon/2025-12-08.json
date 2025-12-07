@@ -1,0 +1,33 @@
+{
+  "date": "2025-12-08",
+  "pangram": "faculty",
+  "letters": [ "u", "a", "c", "f", "l", "t", "y" ],
+  "required": "u",
+  "words": [
+    "cuff",
+    "cull",
+    "cult",
+    "full",
+    "luau",
+    "luff",
+    "lull",
+    "lulu",
+    "taut",
+    "tuft",
+    "tutu",
+    "fault",
+    "fluff",
+    "fully",
+    "yucca",
+    "actual",
+    "faulty",
+    "fluffy",
+    "tautly",
+    "factual",
+    "faculty",
+    "tactful",
+    "actually",
+    "factually",
+    "tactfully"
+  ]
+}
