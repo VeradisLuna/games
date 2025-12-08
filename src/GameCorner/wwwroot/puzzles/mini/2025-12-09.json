@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-09",
+  "title": "Double cross",
+  "author": "Luna",
+  "rows": [
+    "LATHE",
+    "ARRAS",
+    "ROADS",
+    "SMITE",
+    "#ANON"
+  ],
+  "highlights": [
+    "..*..",
+    "..*..",
+    "*****",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wood-shaping tool"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "What Hamlet stabs through"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "They all lead to Rome, it's said"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Strike down, biblically"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Shortly"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Ulrich of Metallica"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pleasant smell"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Wedding dress feature"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Was left with no other choice"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "German steel centre"
+      }
+    ]
+  }
+}
