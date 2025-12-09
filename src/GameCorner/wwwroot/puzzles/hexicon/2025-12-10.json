@@ -1,0 +1,29 @@
+{
+  "date": "2025-12-10",
+  "pangram": "vacation",
+  "letters": [ "v", "a", "c", "i", "o", "n", "t" ],
+  "required": "v",
+  "words": [
+    "nova",
+    "vain",
+    "vino",
+    "vita",
+    "viva",
+    "avian",
+    "civic",
+    "vacant",
+    "convict",
+    "ovation",
+    "aviation",
+    "vacation",
+    "vocation",
+    "avocation",
+    "activation",
+    "conviction",
+    "innovation",
+    "invitation",
+    "invocation",
+    "convocation",
+    "vaccination"
+  ]
+}
