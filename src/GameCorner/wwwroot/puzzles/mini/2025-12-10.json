@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-10",
+  "title": "Mid-air",
+  "author": "Luna",
+  "rows": [
+    "RACER",
+    "IMAGE",
+    "FAIRY",
+    "THREE",
+    "SLOTS"
+  ],
+  "highlights": [
+    ".....",
+    "..*..",
+    ".***.",
+    "..*..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Mario Kart competitor"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Picture"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Titania, or Tinker Bell"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Liu Cixin's \"The ___-Body Problem\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Game you might play in Vegas"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Schisms"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Title role in a Christmas opera"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Night Boat to ___"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Wading bird"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Spanish kings"
+      }
+    ]
+  }
+}
