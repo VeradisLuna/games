@@ -1,0 +1,12 @@
+{
+  "date": "2025-12-11",
+  "clue": "Install monarch in strange nation",
+  "enumeration": "6",
+  "answer": "ANOINT",
+  "explanation": "To ANOINT a monarch is to install them. Making NATION \"strange\" gives us an anagram: ANOINT.",
+  "hints": [
+    "\"Strange\" is probably telling us to rearrange something...",
+    "The definition is \"install monarch\".",
+    "We need to rearrange the letters in NATION."
+  ]
+}

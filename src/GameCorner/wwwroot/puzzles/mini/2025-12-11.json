@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-11",
+  "title": "Time out",
+  "author": "Luna",
+  "rows": [
+    "#FACE",
+    "WILLI",
+    "AVOID",
+    "REINE",
+    "POSER"
+  ],
+  "highlights": [
+    ".****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "iPhone video call"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "How ___ Know (Whitney Houston)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stay away from"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Most powerful piece in échecs"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Wannabe"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hawaii ___"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dr. Alzheimer"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Ernest who wrote \"Ready Player One\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Duck known for its soft down"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It's just a jump to the left (and some other steps)"
+      }
+    ]
+  }
+}

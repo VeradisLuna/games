@@ -1,0 +1,17 @@
+{
+  "date": "2025-12-11",
+  "pangram": "calzone",
+  "letters": [ "z", "a", "c", "e", "l", "o", "n" ],
+  "required": "z",
+  "words": [
+    "laze",
+    "ooze",
+    "zeal",
+    "zone",
+    "ozone",
+    "zonal",
+    "azalea",
+    "nozzle",
+    "calzone"
+  ]
+}
