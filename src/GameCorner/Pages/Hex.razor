@@ -83,6 +83,7 @@
 
     <div class="bar">
         <button class="btn btn-outline-secondary" @onclick="Vm.Shuffle">Shuffle</button>
+        <button class="btn btn-outline-secondary" @onclick="OpenHelp" aria-label="How to play Hexicon">How to play</button>
         <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset</button>
         @if(CurrentRank.levelIndex > 0)
         {
@@ -145,6 +146,36 @@
             </div>
         </div>
     }
+
+    @if (_helpOpen)
+    {
+        <div class="hx-modal-backdrop" @onclick="CloseHelp" />
+
+        <div class="hx-modal"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="hx-help-title"
+             tabindex="0"
+             @onkeydown="HandleKeyDown">
+
+            <h3 id="hx-help-title">How to play Hexicon</h3>
+
+            <p>Find as many words as you can using the letters on the tiles.</p>
+
+            <ul>
+                <li>Each word must include the <strong>central letter</strong> at least once.</li>
+                <li>You can use any letter <strong>as many times as you like</strong>.</li>
+                <li>Words must be <strong>at least four letters long</strong>.</li>
+            </ul>
+
+            <p>Try to find the hexicon — a word that uses <strong>all</strong> the letters!</p>
+
+            <div class="hx-modal-actions">
+                <button class="btn btn-primary" @onclick="CloseHelp">Okay!</button>
+            </div>
+        </div>
+    }
+
 </div>
 
 @code {
@@ -310,6 +341,13 @@
             return;
         }
 
+        if (_helpOpen && key == "Escape")
+        {
+            CloseHelp();
+            StateHasChanged();
+            return;
+        }
+
         if (key == "Enter")
         {
             await Vm.SubmitAsync();
@@ -352,6 +390,10 @@
     private bool _confirmOpen;
     private void OpenConfirm() => _confirmOpen = true;
     private void CloseConfirm() => _confirmOpen = false;
+
+    private bool _helpOpen;
+    private void OpenHelp() => _helpOpen = true;
+    private void CloseHelp() => _helpOpen = false;
 
     private async Task ConfirmResetAsync()
     {
