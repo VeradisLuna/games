@@ -62,6 +62,42 @@ else
             </div>
         }
     </div>
+
+    <button class="help-fab help-fab-lh"
+            @onclick="OpenHelp"
+            aria-label="How to play Letterhead">
+        ?
+    </button>
+
+    @if (_helpOpen)
+    {
+        <div class="hx-modal-backdrop" @onclick="CloseHelp" />
+
+        <div class="hx-modal"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="lh-help-title"
+             tabindex="0"
+             @onkeydown="HandleKeyDown">
+
+            <h3 id="lh-help-title">How to play Letterhead</h3>
+
+            <p>Guess the <strong>five-letter word</strong>.</p>
+
+            <p>After each guess:</p>
+            <ul>
+                <li>Letters in the <strong>correct position</strong> appear <strong>green</strong>.</li>
+                <li>Letters in the <strong>word but in the wrong position</strong> appear <strong>blue</strong>.</li>
+                <li>Letters <strong>not in the word</strong> appear <strong>grey</strong>.</li>
+            </ul>
+
+            <p>You have <strong>six guesses</strong>. Good luck!</p>
+
+            <div class="hx-modal-actions">
+                <button class="btn btn-primary" @onclick="CloseHelp">Okay!</button>
+            </div>
+        </div>
+    }
 }
 
 @code {
@@ -151,6 +187,22 @@ else
 
         return Task.CompletedTask;
     }
+
+    private async Task HandleKeyDown(KeyboardEventArgs e)
+    {
+        var key = e.Key ?? "";
+
+        if (_helpOpen && key == "Escape")
+        {
+            CloseHelp();
+            StateHasChanged();
+            return;
+        }
+    }
+
+    private bool _helpOpen;
+    private void OpenHelp() => _helpOpen = true;
+    private void CloseHelp() => _helpOpen = false;
 
     private string RowClass(int r) => r == Vm.CurrentRow && Vm.State == GameState.Playing ? "active" : string.Empty;
 

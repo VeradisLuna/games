@@ -790,6 +790,7 @@ h2, .floaty {
     display: grid;
     gap: var(--lh-gap);
     justify-content: center;
+    position: relative;
 }
 
 /* if you're keeping .lh-row wrappers, make them a 5-col grid too */
@@ -990,4 +991,38 @@ h2, .floaty {
 body.winter-theme {
     background: #eeddff;
     transition: background 1s ease;
+}
+
+.help-fab {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    cursor: pointer;
+    z-index: 11000;
+}
+
+.help-fab-hx {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+}
+
+.help-fab-lh {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.25rem;
+}
+
+.help-fab-lm {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.25rem;
 }

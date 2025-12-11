@@ -83,7 +83,7 @@
 
     <div class="bar">
         <button class="btn btn-outline-secondary" @onclick="Vm.Shuffle">Shuffle</button>
-        <button class="btn btn-outline-secondary" @onclick="OpenHelp" aria-label="How to play Hexicon">How to play</button>
+@*         <button class="btn btn-outline-secondary" @onclick="OpenHelp" aria-label="How to play Hexicon">How to play</button> *@
         <button class="btn btn-outline-danger" @onclick="OpenConfirm">Reset</button>
         @if(CurrentRank.levelIndex > 0)
         {
@@ -131,6 +131,12 @@
             }
         </ul>
     </div>
+
+    <button class="help-fab help-fab-hx"
+            @onclick="OpenHelp"
+            aria-label="How to play Hexicon">
+        ?
+    </button>
 
     @if (_confirmOpen)
     {

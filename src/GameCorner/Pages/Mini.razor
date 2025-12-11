@@ -64,6 +64,11 @@ else
                     </div>
                 </div>
                 <div class="current-clue-spacer d-lg-none"></div>
+@*                 <button class="help-fab help-fab-lm"
+                        @onclick="OpenHelp"
+                        aria-label="How to play Luna Mini">
+                    ?
+                </button> *@
             </div>
             @{
                 var curInfo = CurrentClueInfo();
@@ -159,6 +164,34 @@ else
             }
         </div>
     </div>
+
+    @if (_helpOpen)
+    {
+        <div class="hx-modal-backdrop" @onclick="CloseHelp" />
+
+        <div class="hx-modal"
+             role="dialog"
+             aria-modal="true"
+             aria-labelledby="lm-help-title"
+             tabindex="0"
+             @onkeydown="HandleKeyDown">
+
+            <h3 id="lm-help-title">How to play Luna Mini</h3>
+
+            <p>Fill the grid by solving the clues.</p>
+
+            <ul>
+                <li>The puzzle's <strong>title</strong> often hints at a theme.</li>
+                <li><strong>Highlighted cells</strong> usually relate to the theme.</li>
+            </ul>
+
+            <p>Have fun!</p>
+
+            <div class="hx-modal-actions">
+                <button class="btn btn-primary" @onclick="CloseHelp">Okay</button>
+            </div>
+        </div>
+    }
 }
 
 @code {
@@ -417,6 +450,22 @@ else
                 }
         }
     }
+
+    private async Task HandleKeyDown(KeyboardEventArgs e)
+    {
+        var key = e.Key ?? "";
+
+        if (_helpOpen && key == "Escape")
+        {
+            CloseHelp();
+            StateHasChanged();
+            return;
+        }
+    }
+
+    private bool _helpOpen;
+    private void OpenHelp() => _helpOpen = true;
+    private void CloseHelp() => _helpOpen = false;
 
     private void Activate(int idx)
     {
