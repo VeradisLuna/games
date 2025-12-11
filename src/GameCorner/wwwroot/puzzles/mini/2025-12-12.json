@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-12",
+  "title": "Tree toppers",
+  "author": "Luna",
+  "rows": [
+    "STAR#",
+    "PINED",
+    "EAGER",
+    "CRESS",
+    "SALE#"
+  ],
+  "highlights": [
+    "****.",
+    "..*..",
+    "..*..",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Orion, for one"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Longed (for)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Keen"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Mustard relative"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Black Friday offering"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Design particulars – or glasses"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Shiny topper, but not for a tree"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Buffy the Vampire Slayer spinoff"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Actress Witherspoon"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "They work alongside RNs"
+      }
+    ]
+  }
+}
