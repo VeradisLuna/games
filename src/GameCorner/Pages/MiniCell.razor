@@ -22,7 +22,11 @@ else
                @bind-value:after="OnTextChanged"
                @onfocus="OnFocus"
                @onblur="() => isFocused = false"
-               @onkeydown="HandleKeyDown" />
+               @onkeydown="HandleKeyDown"
+               @oncontextmenu:preventDefault
+               @oncopy:preventDefault
+               @oncut:preventDefault
+               @onpaste:preventDefault />
     </div>
 }
 
