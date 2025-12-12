@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-13",
+  "title": "From humble origins",
+  "author": "Luna",
+  "rows": [
+    "#OAK#",
+    "UPLIT",
+    "STATE",
+    "TIMER",
+    "ACORN"
+  ],
+  "highlights": [
+    ".***.",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pokémon Professor"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Illuminated from below"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Solid, liquid, or gas, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Clock"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "BBC Micro computer company"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fibre ___"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Texan battle site, with \"the\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Park visitor on a windy day?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Org that runs the Billie Jean King Center"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Beach bird"
+      }
+    ]
+  }
+}
