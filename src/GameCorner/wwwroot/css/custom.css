@@ -1010,7 +1010,7 @@ body.winter-theme {
     background: lightblue;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     cursor: pointer;
-    z-index: 11000;
+    z-index: 100;
 }
 
 .help-fab-hx {
@@ -1027,6 +1027,14 @@ body.winter-theme {
 
 .help-fab-lm {
     position: absolute;
-    bottom: 0.25rem;
+    bottom: 0;
     right: 0.25rem;
+}
+
+.no-max-width{
+    max-width: none;
+}
+
+.lh-head{
+    position: relative;
 }
