@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-14",
+  "title": "Coffee shop",
+  "author": "Luna",
+  "rows": [
+    "#MAC#",
+    "BOBA#",
+    "ICONS",
+    "LHASA",
+    "LATTE"
+  ],
+  "highlights": [
+    ".*...",
+    "****.",
+    ".*...",
+    ".*...",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Non-PC?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tea with bubbles"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Floppy disk or trash can, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Tibetan capital; its name means \"place of gods\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Coffee with steamed milk"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Chocolatey drink"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"I'm on ___\" (Lonely Island song)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Art able"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Beak"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Reply facilitator (inits.)"
+      }
+    ]
+  }
+}
