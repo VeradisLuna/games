@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-15",
+  "title": "Super Smash Bros.",
+  "author": "Luna",
+  "rows": [
+    "#EMIR",
+    "IVANA",
+    "KIRBY",
+    "ELIAS",
+    "#SOD#"
+  ],
+  "highlights": [
+    "..*..",
+    "*.*..",
+    "*****",
+    "*.*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Arab ruler"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Ex-Mrs. Trump"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pink puffball from Planet Popstar"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Biblical prophet"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Turf"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Lesser of two ___"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Moustachioed Mushroom Kingdom plumber"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Out of favour (with)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "You might catch some at the beach"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mercenary swordfighter of Fire Emblem"
+      }
+    ]
+  }
+}
