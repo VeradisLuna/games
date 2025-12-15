@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-16",
+  "title": "Twelve Days",
+  "author": "Luna",
+  "rows": [
+    "PEAR#",
+    "ALLI#",
+    "SWANS",
+    "TENGO",
+    "#SASS"
+  ],
+  "highlights": [
+    "****.",
+    "...*.",
+    "*****",
+    "...*.",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Tree for a partridge"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Want for Christmas Is You"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "They're a-swimming on day seven"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "I have, en español"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Cheek"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Ghost of Christmas ___"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The Princess Bride's Cary"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "One of HAIM's Haims"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Five aureate items of jewellery"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "••• --- •••"
+      }
+    ]
+  }
+}
