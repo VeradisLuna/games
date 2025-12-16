@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-17",
+  "title": "Double check",
+  "author": "Luna",
+  "rows": [
+    "CHECK",
+    "HAGUE",
+    "EDATE",
+    "COLIN",
+    "KNEE#"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Examine"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "International court site (with \"The\")"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Virtual meeting?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Actor Firth"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Patella position"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Threat to a king"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Strung along"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "French equal"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Like sweetie, it precedes pie"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Eager"
+      }
+    ]
+  }
+}
