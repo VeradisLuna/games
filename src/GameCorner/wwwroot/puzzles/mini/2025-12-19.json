@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-19",
+  "title": "The Winter's Tale",
+  "author": "Luna",
+  "rows": [
+    "BCCED",
+    "ALEXA",
+    "FOLIO",
+    "TWIT#",
+    "ANA##"
+  ],
+  "highlights": [
+    ".*.*.",
+    ".*.*.",
+    "*****",
+    ".*.*.",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Quietly kept in the loop"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Voice with an Echo"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "First ___ (Shakespeare collection)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Nincompoop"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Prefix for gram and phase"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "UK movie award"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Comic role in The Winter's Tale"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Imrie of stage and screen"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"___, pursued by a bear\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Chinese way"
+      }
+    ]
+  }
+}
