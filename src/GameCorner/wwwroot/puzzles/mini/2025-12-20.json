@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-20",
+  "title": "Coming or going?",
+  "author": "Luna",
+  "rows": [
+    "DECAL",
+    "EVERI",
+    "VENEV",
+    "INAWE",
+    "LACED"
+  ],
+  "highlights": [
+    "*****",
+    "*...*",
+    "*...*",
+    "*...*",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Car decoration"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"The First Time ___ Saw Your Face\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Palindromic English name for Russian town Венёв"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Flabbergasted"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Tied (as shoes)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It's in the details, they say"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Not a creature was stirring, not ___ mouse"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "American comedian Wyatt"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Words before \"there yet\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "What they did happily ever after"
+      }
+    ]
+  }
+}
