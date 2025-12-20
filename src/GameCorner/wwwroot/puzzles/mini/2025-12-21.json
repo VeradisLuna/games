@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-21",
+  "title": "Odder occurrences",
+  "author": "Luna",
+  "rows": [
+    "AHOOT",
+    "VECNA",
+    "INTER",
+    "ORE##",
+    "NYT##"
+  ],
+  "highlights": [
+    ".*.*.",
+    "*****",
+    ".*.*.",
+    ".*...",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"What ___!\" (\"So funny!\")"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Big bad villain in Dungeons & Dragons"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bury"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Unrefined metal"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Company that bought Wordle (inits.)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "French plane"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Name for eight kings"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Name for eight things"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Together"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Substance on roads and in cigarettes"
+      }
+    ]
+  }
+}

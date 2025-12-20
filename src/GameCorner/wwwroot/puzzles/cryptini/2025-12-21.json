@@ -1,0 +1,12 @@
+{
+  "date": "2025-12-21",
+  "clue": "Ma's shed is wonky and broken",
+  "enumeration": "7",
+  "answer": "SMASHED",
+  "explanation": "MAS SHED is wonky. Anagram it to get SMASHED, meaning broken.",
+  "hints": [
+    "\"Wonky\" is likely an anagram indicator.",
+    "The definition probably isn't \"ma's shed\", so it must be \"broken\".",
+    "We need to anagram all of MASSHED."
+  ]
+}
