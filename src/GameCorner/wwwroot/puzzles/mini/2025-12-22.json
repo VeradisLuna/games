@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-22",
+  "title": "Square foot",
+  "author": "Luna",
+  "rows": [
+    "##GEL",
+    "ALIBI",
+    "DAFOE",
+    "ANTON",
+    "MASKS"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "..**.",
+    "..**.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Word after shower, or before pen"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Cover story?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Nosferatu actor Willem"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Chekhov who wrote Uncle Vanya"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Conceals true self"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Gold, frankincense and myrrh, famously"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Literary download"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Some property claims"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Madam, I'm ___\""
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Singer Del Rey"
+      }
+    ]
+  }
+}
