@@ -1,0 +1,32 @@
+{
+  "date": "2025-12-23",
+  "pangram": "inhalation",
+  "letters": [ "h", "a", "i", "l", "n", "o", "t" ],
+  "required": "h",
+  "words": [
+    "hail",
+    "hall",
+    "halo",
+    "halt",
+    "hath",
+    "hill",
+    "hilt",
+    "hint",
+    "hoot",
+    "lath",
+    "oath",
+    "than",
+    "that",
+    "thin",
+    "aloha",
+    "halal",
+    "loath",
+    "ninth",
+    "tooth",
+    "hallo",
+    "anthill",
+    "inhalant",
+    "inhalation",
+    "annihilation"
+  ]
+}
