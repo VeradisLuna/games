@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-24",
+  "title": "Numbers game",
+  "author": "Luna",
+  "rows": [
+    "PRIME",
+    "HEMAL",
+    "OLOGY",
+    "NAVI#",
+    "EXEC#"
+  ],
+  "highlights": [
+    "*****",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "*..*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Like some top-quality cuts"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Blood-related (US)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Study suffix"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Race and language in Avatar"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bigwig, in brief"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"E.T. ___ home\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "What Frankie says"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words introducing a parliamentary proposal"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sorcery"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Cambridgeshire cathedral city"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2025-12-24",
+  "pangram": "backward",
+  "letters": [ "c", "a", "b", "d", "k", "r", "w" ],
+  "required": "c",
+  "words": [
+    "back",
+    "card",
+    "crab",
+    "craw",
+    "rack",
+    "wack",
+    "aback",
+    "crack",
+    "wrack",
+    "barrack",
+    "crawdad",
+    "backward",
+    "drawback",
+    "abracadabra"
+  ]
+}
