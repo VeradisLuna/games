@@ -1,0 +1,27 @@
+{
+  "date": "2025-12-25",
+  "pangram": "chimney",
+  "letters": [ "m", "c", "e", "h", "i", "n", "y" ],
+  "required": "m",
+  "words": [
+    "hymn",
+    "meme",
+    "mice",
+    "mien",
+    "mime",
+    "mine",
+    "mini",
+    "chime",
+    "emcee",
+    "enemy",
+    "hymen",
+    "mimic",
+    "mince",
+    "minim",
+    "icemen",
+    "chimney",
+    "eminence",
+    "henchmen",
+    "imminence"
+  ]
+}

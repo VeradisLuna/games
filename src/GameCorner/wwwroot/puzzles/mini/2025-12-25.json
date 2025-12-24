@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-25",
+  "title": "Whamhalla",
+  "author": "Luna",
+  "rows": [
+    "EMOS#",
+    "LAST#",
+    "INCAS",
+    "#GAVE",
+    "#ORES"
+  ],
+  "highlights": [
+    ".....",
+    "****.",
+    ".....",
+    ".****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Some wear skinny jeans and \"guyliner\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Christmas..."
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Early Peruvians"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "...I ___ you my heart"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Many Minecraft blocks"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"The Book of ___\" (2010 film)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "National fruit of India"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "The O in EGOT"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Fend (off)"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Its in French"
+      }
+    ]
+  }
+}
