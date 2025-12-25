@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-26",
+  "title": "Boxing day",
+  "author": "Luna",
+  "rows": [
+    "MAC##",
+    "AMIR#",
+    "NIGEL",
+    "NGAIO",
+    "YARNS"
+  ],
+  "highlights": [
+    "*....",
+    "****.",
+    "*****",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Raincoat (for short)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Khan who won Olympic silver at 17"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Two-weight world champion Benn"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Writer Marsh, one of the \"Queens of Crime\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Tall tales"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pacquiao, world champ in four decades"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Classic Commodore computer"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Close, but no ___\""
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Sleigh driver's need"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Section of L.A."
+      }
+    ]
+  }
+}
