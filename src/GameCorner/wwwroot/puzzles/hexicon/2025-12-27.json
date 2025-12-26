@@ -1,0 +1,23 @@
+{
+  "date": "2025-12-27",
+  "pangram": "explicit",
+  "letters": [ "x", "c", "e", "i", "l", "p", "t" ],
+  "required": "x",
+  "words": [
+    "exec",
+    "exit",
+    "text",
+    "excel",
+    "exile",
+    "expel",
+    "pixel",
+    "pixie",
+    "telex",
+    "except",
+    "excite",
+    "expect",
+    "textile",
+    "explicit",
+    "teletext"
+  ]
+}
