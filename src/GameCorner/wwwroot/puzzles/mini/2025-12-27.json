@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-27",
+  "title": "Elementary",
+  "author": "Luna",
+  "rows": [
+    "##SAM",
+    "METRE",
+    "CLUES",
+    "ELDEN",
+    "DOYLE"
+  ],
+  "highlights": [
+    "..*..",
+    "..*..",
+    "*****",
+    "..*..",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Yosemite ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Measure once based on pole-to-equator distance"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "You need them to solve cases and crosswords"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ Ring (hit FromSoftware game)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Creator of Holmes"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "A ___ in Scarlet"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Spinning or moving unsteadily"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Intermediate, in law"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hosted (for short)"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Repeated greeting from a bobby?"
+      }
+    ]
+  }
+}
