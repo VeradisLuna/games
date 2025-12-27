@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-28",
+  "title": "Hidden Pokémon",
+  "author": "Luna",
+  "rows": [
+    "BARON",
+    "ABONE",
+    "BRUNO",
+    "EATON",
+    "#MEWS"
+  ],
+  "highlights": [
+    ".caaa",
+    ".b...",
+    ".b...",
+    ".b...",
+    ".ddd."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "One addressed as \"lord\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"I've got ___ to pick with you...\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "In Encanto, \"we don't talk about\" him"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bond girl Shirley"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "London streets that were once stables"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Gallant \"sheep-pig\" in children's literature"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Biblical figure whose name was later lengthened"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Numbered road in the US (and most Pokémon regions)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Currently airing"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Bright highlighter colours"
+      }
+    ]
+  }
+}
