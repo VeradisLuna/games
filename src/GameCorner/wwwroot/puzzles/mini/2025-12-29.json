@@ -1,0 +1,68 @@
+{
+  "date": "2025-12-29",
+  "title": "Mixed bag (themeless)",
+  "author": "Luna",
+  "rows": [
+    "##AOL",
+    "GONZO",
+    "RIZZO",
+    "ALAIN",
+    "##CES"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dial-up service that shut down in 2025"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Muppet who portrayed Dickens"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Light the lamp, not the rat!\" rat"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "The School of Life co-founder, de Botton"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Annual US trade show that unveiled the NES"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ Day (Down Under holiday)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "A person from Down Under, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Birds on dollar coins in Canada"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Irish love, or with 7-across, polite ways to behave"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Word before rig or drum"
+      }
+    ]
+  }
+}
