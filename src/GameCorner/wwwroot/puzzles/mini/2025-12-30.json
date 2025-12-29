@@ -1,0 +1,75 @@
+{
+  "date": "2025-12-30",
+  "title": "Top of the Pops 2025",
+  "author": "Luna",
+  "rows": [
+    "SAJA#",
+    "WHARF",
+    "IONIA",
+    "FREDO",
+    "TATE#"
+  ],
+  "highlights": [
+    "****.",
+    "*....",
+    "*....",
+    "*....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Fictional Boys with two very real UK top-ten hits"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Place for ships to unload"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Ancient Greek region where Pythagoras was born"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Corleone brother in The Godfather"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "McRae with four top tens in 2025"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Taylor who topped UK charts again in 2025"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Right now, in Spain"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "She married Brad in The Rocky Horror Picture Show"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Take for ___ (hoodwink)"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "___ Schwarz, famous toy store featured in Big"
+      }
+    ]
+  }
+}
