@@ -1,14 +1,12 @@
 {
   "date": "2025-12-30",
-  "clue": "Side note - change hang-out time",
-  "enumeration": "6",
+  "clue": "Fact about electronic component",
+  "enumeration": "5",
   "answer": "FACET",
-  "explanation": "Tricky one! CHANGE with HANG out is CE. Time is T. A two-letter note could be FA. FA+CE+T = FACET, meaning \"side\".",
+  "explanation": "FACT about electronic (E) gives FACET, meaning \"component\".",
   "hints": [
-    "Time can be replaced with a T.",
-    "\"-out\" is being used as a deletion indicator.",
-    "What letters can we get from \"change hang-out\"?",
-    "\"Note\" often refers to a musical note. This could be A through G, or it could be solfège. (Do Re Mi etc...)",
-    "The definition is \"side\", as in a plane (perhaps of something that has many sides)."
+    "\"About\" can be used to tell us to put the letters of one word around something else.",
+    "The definition is \"component\".",
+    "\"Electronic\" can be substituted for the letter E."
   ]
 }
