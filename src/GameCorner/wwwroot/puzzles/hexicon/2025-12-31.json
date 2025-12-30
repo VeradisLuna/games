@@ -1,0 +1,23 @@
+{
+  "date": "2025-12-31",
+  "pangram": "firework",
+  "letters": [ "k", "e", "f", "i", "o", "r", "w" ],
+  "required": "k",
+  "words": [
+    "fork",
+    "kiwi",
+    "kook",
+    "reek",
+    "rook",
+    "week",
+    "wiki",
+    "woke",
+    "work",
+    "rework",
+    "rookie",
+    "worker",
+    "kookier",
+    "firework",
+    "workweek"
+  ]
+}
