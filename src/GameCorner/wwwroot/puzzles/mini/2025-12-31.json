@@ -1,0 +1,68 @@
+{
+  "date": "2025-12-31",
+  "title": "Happy New Year!",
+  "author": "Luna",
+  "rows": [
+    "JANUS",
+    "OVINE",
+    "OATHS",
+    "LIRA#",
+    "SLOT#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "God of endings and beginnings"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sheepish?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Resolutions"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Turkish money"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Interval of time"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Hootenanny's Holland"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "To no ___ (without success)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "TNT N"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Doff one's cap?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Parisian possessive"
+      }
+    ]
+  }
+}
