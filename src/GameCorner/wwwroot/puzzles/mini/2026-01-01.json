@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-01",
+  "title": "2026",
+  "author": "Luna",
+  "rows": [
+    "TWEED",
+    "MONTY",
+    "ZONES",
+    "#SIX#",
+    "#HOT#"
+  ],
+  "highlights": [
+    "***..",
+    "..***",
+    ".....",
+    ".***.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Traditional woollen fabric"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Hall problem (classic probability puzzle)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Areas"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Musical starring Henry VIII's wives"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Like some dogs or sauce"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "US celeb gossip site"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sound of the joke going over your head?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "The Good, the Bad, and the Ugly composer Morricone"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Digital writing"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Bad start?"
+      }
+    ]
+  }
+}
