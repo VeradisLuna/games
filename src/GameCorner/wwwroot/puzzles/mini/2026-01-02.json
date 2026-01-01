@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-02",
+  "title": "Luna's resolution",
+  "author": "Luna",
+  "rows": [
+    "ATTA#",
+    "READ#",
+    "CAROL",
+    "#MORE",
+    "#STEM"
+  ],
+  "highlights": [
+    ".....",
+    "****.",
+    ".....",
+    ".****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "A Bug's Life princess"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Text message status"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Deck the Halls, say"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Oliver Twist's request"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Flower part"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Shape of a rainbow"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Slack alternative, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Diviner's deck"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Love to bits"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Polish writer Stanisław"
+      }
+    ]
+  }
+}
