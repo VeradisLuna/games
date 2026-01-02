@@ -1,0 +1,23 @@
+{
+  "date": "2026-01-03",
+  "pangram": "vagabond",
+  "letters": [ "g", "a", "b", "d", "n", "o", "v" ],
+  "required": "g",
+  "words": [
+    "agog",
+    "bang",
+    "bong",
+    "dang",
+    "dong",
+    "gaga",
+    "gang",
+    "goad",
+    "gong",
+    "good",
+    "goon",
+    "bongo",
+    "gonad",
+    "gonna",
+    "vagabond"
+  ]
+}
