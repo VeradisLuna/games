@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-03",
+  "title": "NATO phonetic alphabet",
+  "author": "Luna",
+  "rows": [
+    "HOTEL",
+    "ASICE",
+    "ISTHE",
+    "KILO#",
+    "UAE##"
+  ],
+  "highlights": [
+    "*****",
+    "...*.",
+    "...*.",
+    "****.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Big money Monopoly building"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Cold ___ (Foreigner hit)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Love–Drug connectors"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "About 2 and a quarter pounds, for short"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Burj Khalifa country (inits.)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "17-syllable poem"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Alternatively, in music"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"NATO phonetic alphabet\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"NATO phonetic alphabet\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Harper who wrote To Kill a Mockingbird"
+      }
+    ]
+  }
+}
