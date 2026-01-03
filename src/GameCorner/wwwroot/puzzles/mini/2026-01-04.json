@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-04",
+  "title": "Game night",
+  "author": "Luna",
+  "rows": [
+    "EGO##",
+    "POKER",
+    "ITISI",
+    "CHESS",
+    "##SEK"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    "....*",
+    "*****",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sense of self-importance"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Fire iron"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"___, Leclerc!\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "One Night in Bangkok musical"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "100 öre"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Homeric piece, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Somebody with a dark fashion sense?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cutesy affirmative (or those from the Sooner State!)"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Latin \"to be\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Gamble"
+      }
+    ]
+  }
+}
