@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-05",
+  "title": "The Doctor",
+  "author": "Luna",
+  "rows": [
+    "DALEK",
+    "ADORN",
+    "VERDI",
+    "ENDON",
+    "##SSE"
+  ],
+  "highlights": [
+    "*****",
+    "..*.*",
+    "..*.*",
+    "..*.*",
+    "..*.*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Exterminate!\" baddie of Who"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Decorate"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Rigoletto composer"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ a high note"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Direction encompassed in ENCOMPASSED"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Foo Fighters' Grohl"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Yemen port"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Time ___ (they're from Gallifrey)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Hungarian mathematician Paul"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "The Doctor's robotic dog"
+      }
+    ]
+  }
+}
