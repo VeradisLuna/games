@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-06",
+  "title": "Square numbers",
+  "author": "Luna",
+  "rows": [
+    "##DMS",
+    "#FOIE",
+    "IRULE",
+    "SEGNI",
+    "SEHEN"
+  ],
+  "highlights": [
+    ".....",
+    ".**..",
+    ".**..",
+    "...**",
+    "...**"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Private communications"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "___ gras"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Go me!\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Musical signs (𝄋𝄋)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "To look, in Leipzig"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Moolah"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Author of Winnie-the-Pooh"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Welcome at the door"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Complimentary"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Outpost for astronauts (inits.)"
+      }
+    ]
+  }
+}
