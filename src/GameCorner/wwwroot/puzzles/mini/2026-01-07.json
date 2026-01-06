@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-07",
+  "title": "Convenience stores?",
+  "author": "Luna",
+  "rows": [
+    "SHEA#",
+    "PODGE",
+    "ENIAC",
+    "WELSH",
+    "#REPO"
+  ],
+  "highlights": [
+    "**...",
+    "**...",
+    ".....",
+    "...**",
+    "...**"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Kind of butter, but not for eating"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hodge's partner"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Historic American machine of the 1940s"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cymraeg"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Where you might keep your code"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Erupt"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Skill sharpener"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ancient Roman official"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Flabbergasted"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "It's found between Delta and Foxtrot"
+      }
+    ]
+  }
+}
