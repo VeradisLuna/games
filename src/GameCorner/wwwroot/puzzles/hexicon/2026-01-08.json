@@ -1,0 +1,25 @@
+{
+  "date": "2026-01-08",
+  "pangram": "alchemy",
+  "letters": [ "y", "a", "c", "e", "h", "l", "m" ],
+  "required": "y",
+  "words": [
+    "achy",
+    "ally",
+    "clay",
+    "lacy",
+    "yeah",
+    "yell",
+    "allay",
+    "alley",
+    "cycle",
+    "hammy",
+    "mammy",
+    "mealy",
+    "calmly",
+    "clammy",
+    "lamely",
+    "mayhem",
+    "alchemy"
+  ]
+}
