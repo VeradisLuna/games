@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-08",
+  "title": "Full house",
+  "author": "Luna",
+  "rows": [
+    "DUCKS",
+    "IRENA",
+    "SALON",
+    "CLICK",
+    "OSAKA"
+  ],
+  "highlights": [
+    "*****",
+    "...*.",
+    "...*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Two little ___ [22]"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Name from Greek for \"peace\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Place for a perm"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Clickety ___ [66]"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Third-largest city in Japan"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Saturday Night Fever genre"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Russian range"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Imrie of Bridget Jones"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ at the door [4]"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Cool Runnings pushcart champ"
+      }
+    ]
+  }
+}
