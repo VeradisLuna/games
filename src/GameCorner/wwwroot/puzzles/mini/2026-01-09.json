@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-09",
+  "title": "On the mend",
+  "author": "Luna",
+  "rows": [
+    "#AMOK",
+    "#DARN",
+    "FUNGI",
+    "EBOAT",
+    "YARN#"
+  ],
+  "highlights": [
+    "....*",
+    ".****",
+    "....*",
+    "....*",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bad way to run"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Mend using 8-across"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Mushrooms, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "W.W. II non-submerging craft"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Fibre strand that rhymes with 5-across"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Uzo of Orange Is the New Black"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "House of lords?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Church instrument"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Work with needles"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Enchanted, otherworldly"
+      }
+    ]
+  }
+}
