@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-10",
+  "title": "Seaside",
+  "author": "Luna",
+  "rows": [
+    "TATAS",
+    "SHORE",
+    "POWER",
+    "#REEF",
+    "#ALL#"
+  ],
+  "highlights": [
+    "..*..",
+    "*****",
+    "..*..",
+    ".****",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Toodle-oos!"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Beach"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Word before point or plant"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Home for a clownfish"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "100%"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Medicinal dose, say (approx. 5ml)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Right now, in Bilbao"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Territory marker on a beach?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Dizzy"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Feudal worker (not seashore foam!)"
+      }
+    ]
+  }
+}
