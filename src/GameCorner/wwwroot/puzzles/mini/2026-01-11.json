@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-11",
+  "title": "A win for O",
+  "author": "Luna",
+  "rows": [
+    "MEANA",
+    "EXXON",
+    "SCORN",
+    "TONGA",
+    "ANSEL"
+  ],
+  "highlights": [
+    ".....",
+    ".aaa.",
+    ".bab.",
+    ".abb.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It don't ___ thing (if it ain't got that swing)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "BP competitor"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Contempt"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Island nation near Fiji"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Baby Driver's Elgort"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "American socialite Perle"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Former inmate"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Neural transmitters"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Norway, natively"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Yearly record"
+      }
+    ]
+  }
+}
