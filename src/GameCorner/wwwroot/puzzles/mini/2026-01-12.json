@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-12",
+  "title": "Put a pin in it",
+  "author": "Luna",
+  "rows": [
+    "#MAT#",
+    "IANA#",
+    "ONAIR",
+    "NACLE",
+    "##ESS"
+  ],
+  "highlights": [
+    "...*.",
+    "*..*.",
+    "*..*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It may welcome you home"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Ending for Louis... or Victor"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Live now"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Apex *"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "It's found before tee"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Magic points in a video game, say"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "You might have it up your sleeve"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Out-of-control downturn *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Part of a bird's wing *"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Image quality - often hi or lo"
+      }
+    ]
+  }
+}
