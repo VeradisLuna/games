@@ -1,0 +1,17 @@
+{
+  "date": "2026-01-13",
+  "pangram": "genderqueer",
+  "letters": [ "q", "d", "e", "g", "n", "r", "u" ],
+  "required": "q",
+  "words": [
+    "queen",
+    "queer",
+    "queue",
+    "queued",
+    "enqueue",
+    "queened",
+    "queerer",
+    "enqueued",
+    "genderqueer"
+  ]
+}
