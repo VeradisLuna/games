@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-13",
+  "title": "Backssssslash",
+  "author": "Luna",
+  "rows": [
+    "SAPID",
+    "ASIDE",
+    "TASER",
+    "CHASM",
+    "HINTS"
+  ],
+  "highlights": [
+    "*....",
+    ".*...",
+    "..*..",
+    "...*.",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Palatable"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Remark to the audience"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stun gun"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Great divide"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "They go with tips"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Nickname for Louis Armstrong"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Popular Japanese beer"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Fibonacci or Galileo"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Often-abbreviated Latin phrase"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Skin specialists, briefly"
+      }
+    ]
+  }
+}
