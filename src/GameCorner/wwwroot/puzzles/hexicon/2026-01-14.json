@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-14",
+  "pangram": "antique",
+  "letters": [ "q", "a", "e", "i", "n", "t", "u" ],
+  "required": "q",
+  "words": [
+    "aqua",
+    "quin",
+    "quit",
+    "queen",
+    "queue",
+    "quiet",
+    "quint",
+    "quite",
+    "equate",
+    "equine",
+    "quaint",
+    "quanta",
+    "unique",
+    "antique",
+    "enqueue",
+    "quieten",
+    "quinine",
+    "quintet",
+    "unquiet",
+    "aquanaut",
+    "aquatint",
+    "antiquate",
+    "etiquette"
+  ]
+}
