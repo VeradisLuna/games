@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-14",
+  "title": "Book ends",
+  "author": "Luna",
+  "rows": [
+    "SHELF",
+    "TALIA",
+    "OTOMI",
+    "RIPER",
+    "ENE##"
+  ],
+  "highlights": [
+    "*****",
+    "*...*",
+    "*...*",
+    "*...*",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Area near the shore"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ al Ghul (Batman villain)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "People of central Mexico"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Less green, as a banana"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Chemical suffix"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Put away"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Throw one's ___ the ring (accept a challenge)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Run away to Gretna Green, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "This fruit might be Key"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"All is ___ in love and war\""
+      }
+    ]
+  }
+}
