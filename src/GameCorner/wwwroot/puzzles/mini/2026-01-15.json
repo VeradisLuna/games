@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-15",
+  "title": "Today's the day!",
+  "author": "Luna",
+  "rows": [
+    "FIFTH",
+    "IVIES",
+    "JANET",
+    "INAN#",
+    "#SLY#"
+  ],
+  "highlights": [
+    "aaaa.",
+    "...a.",
+    "bbba.",
+    "...a.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The ___ Element (sci-fi film)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Climbing plants"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Leigh, of Psycho"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ instant (quickly)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Like a fox"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Neighbour of Tonga"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The Fair and the Terrible, to name two"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Last match of a tournament"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Itty-bitty"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "F.D.R. follower"
+      }
+    ]
+  }
+}
