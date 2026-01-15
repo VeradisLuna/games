@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-16",
+  "title": "Onomatopoeia",
+  "author": "Luna",
+  "rows": [
+    "##THA",
+    "ACHOO",
+    "HERON",
+    "ENOTE",
+    "MEW##"
+  ],
+  "highlights": [
+    "...*.",
+    "*****",
+    "*..*.",
+    "*..*.",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "You in Yorkshire?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "*sneezes*"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Wading bird"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Digital memo"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "*cries like a kitten*"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cosy accessory for a couch"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "*emulates an owl*"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Tip-top"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "*clears throat*"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "End of an epoch?"
+      }
+    ]
+  }
+}
