@@ -1,0 +1,26 @@
+{
+  "date": "2026-01-16",
+  "pangram": "acquire",
+  "letters": [ "u", "a", "c", "e", "i", "q", "r" ],
+  "required": "u",
+  "words": [
+    "aqua",
+    "aura",
+    "cure",
+    "ecru",
+    "urea",
+    "uric",
+    "curer",
+    "curie",
+    "queer",
+    "queue",
+    "quire",
+    "recur",
+    "accrue",
+    "cirque",
+    "acquire",
+    "queerer",
+    "require",
+    "reacquire"
+  ]
+}
