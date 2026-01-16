@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-17",
+  "pangram": "mightily",
+  "letters": [ "g", "h", "i", "l", "m", "t", "y" ],
+  "required": "g",
+  "words": [
+    "gill",
+    "gilt",
+    "high",
+    "light",
+    "might",
+    "thigh",
+    "tight",
+    "giggly",
+    "highly",
+    "mighty",
+    "lightly",
+    "tightly",
+    "mightily",
+    "highlight"
+  ]
+}
