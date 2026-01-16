@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-17",
+  "title": "Hidden proverb",
+  "author": "Luna",
+  "rows": [
+    "BOATS",
+    "LANES",
+    "ARDEN",
+    "RIEN#",
+    "TNS##"
+  ],
+  "highlights": [
+    "aaaaa",
+    "...b.",
+    "..b..",
+    ".b...",
+    "b...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Canoes and catamarans"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "They're found in bowling alleys and swimming pools"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Elizabeth, of cosmetics"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Non, je ne regrette ___\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "They're heavier than lbs"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Paul ___: Mall Cop"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Stick your ___ (meddle!)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Peruvian peaks"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Adolescent"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "US ID #"
+      }
+    ]
+  }
+}
