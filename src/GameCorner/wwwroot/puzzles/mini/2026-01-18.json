@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-18",
+  "title": "Split ends",
+  "author": "Luna",
+  "rows": [
+    "BAN##",
+    "ADOBO",
+    "RAKES",
+    "EMIRS",
+    "##ANA"
+  ],
+  "highlights": [
+    "***..",
+    ".....",
+    ".....",
+    ".....",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Blacklist"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mexican marinade"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Tools for yards or casinos"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Arab leaders"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Actress de Armas"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Like Old Mother Hubbard's cupboard"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Madam, I'm ___\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Finnish telecom company"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Capital of Switzerland"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Peak in the Odyssey"
+      }
+    ]
+  }
+}
