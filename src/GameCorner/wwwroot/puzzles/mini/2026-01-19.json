@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-19",
+  "title": "Face-off",
+  "author": "Luna",
+  "rows": [
+    "POWER",
+    "LEOVI",
+    "USEIN",
+    "STICK",
+    "#EST#"
+  ],
+  "highlights": [
+    "*****",
+    "....*",
+    "....*",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ play (numerical advantage)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "John X's successor"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"___ case of emergency\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "It's used to move the puck"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Dulce et decorum ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "And another thing"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Opposite of este"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words before \"me\" in a despairing idiom"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Kick out"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Ice hockey venue"
+      }
+    ]
+  }
+}
