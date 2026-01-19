@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-20",
+  "title": "They might be square",
+  "author": "Luna",
+  "rows": [
+    "MESS#",
+    "ALTER",
+    "TOOLE",
+    "SPUME",
+    "#ETAL"
+  ],
+  "highlights": [
+    "**...",
+    "**...",
+    ".....",
+    "...**",
+    "...**"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Eton ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Change, as clothes"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "A Confederacy of Dunces author"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sea foam"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Latin list shortener (abbr.)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Yoga equipment"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hastily get hitched"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Guinness, say"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "2014 Oscar-nominated civil rights film"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Equipment for a fisher or a projectionist"
+      }
+    ]
+  }
+}
