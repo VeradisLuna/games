@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-19",
+  "title": "💕",
+  "author": "Luna",
+  "rows": [
+    "ADMIT",
+    "CRATE",
+    "AURAL",
+    "#MIL#",
+    "#SOY#"
+  ],
+  "highlights": [
+    ".....",
+    "*...*",
+    "*...*",
+    ".***.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Allow"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Vessel for Wumpa fruit?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Related to hearing"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "1000 Gs (it's cool)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Sauce for sushi, say"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Obamacare initials"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They take a beating"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "He hails from the Mushroom Kingdom..."
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "...but his name and accent are from ___"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Abbreviation found on a business card"
+      }
+    ]
+  }
+}
