@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-21",
+  "title": "Capitals",
+  "author": "Luna",
+  "rows": [
+    "#TIP#",
+    "LIMA#",
+    "OPERA",
+    "APAIR",
+    "MINSK"
+  ],
+  "highlights": [
+    "...*.",
+    "****.",
+    "...*.",
+    "...*.",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Money left on the table?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Peru *"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "The Phantom of the ___"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "It's better than ace high"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Belarus *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Actress Hedren, of The Birds"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words before a clarification"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "France *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rich soil"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Biblical boat"
+      }
+    ]
+  }
+}
