@@ -1,0 +1,18 @@
+{
+  "date": "2026-01-21",
+  "pangram": "quality",
+  "letters": [ "y", "a", "i", "l", "q", "t", "u" ],
+  "required": "y",
+  "words": [
+    "ally",
+    "lily",
+    "quay",
+    "allay",
+    "laity",
+    "tally",
+    "tatty",
+    "tautly",
+    "quality",
+    "utility"
+  ]
+}
