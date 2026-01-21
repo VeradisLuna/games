@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-22",
+  "title": "Or, The Whale",
+  "author": "Luna",
+  "rows": [
+    "MOBY#",
+    "ENROL",
+    "GAUGE",
+    "ANNIE",
+    "#DICK"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Mononymous techno artist"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sign up"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Get a sense for"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Tomorrow\" musical"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Centenarian Van Dyke"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Prefix meaning \"million\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ off (intermittent)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Frozen II salamander"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Relating to some meditative exercises"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Vegetable that's a national symbol of Wales"
+      }
+    ]
+  }
+}
