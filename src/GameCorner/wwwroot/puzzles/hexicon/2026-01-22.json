@@ -1,0 +1,25 @@
+{
+  "date": "2026-01-22",
+  "pangram": "vegetable",
+  "letters": [ "v", "a", "b", "e", "g", "l", "t" ],
+  "required": "v",
+  "words": [
+    "eave",
+    "gave",
+    "lava",
+    "vale",
+    "veal",
+    "agave",
+    "bevel",
+    "gavel",
+    "leave",
+    "levee",
+    "level",
+    "valet",
+    "valve",
+    "velvet",
+    "elevate",
+    "vegetate",
+    "vegetable"
+  ]
+}
