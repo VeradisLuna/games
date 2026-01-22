@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-23",
+  "title": "Arcade classic",
+  "author": "Luna",
+  "rows": [
+    "##PAC",
+    "#DIVA",
+    "MANOR",
+    "ARKIN",
+    "CLYDE"
+  ],
+  "highlights": [
+    "..caa",
+    "..b..",
+    "aac..",
+    "..b..",
+    "jjbjj"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "US super group?"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Demanding entertainer"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Downton Abbey, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Alan, of Argo"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bonnie's partner in crime"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Little finger"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Stay away from"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Chili con ___"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Beaut"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Non-PC?"
+      }
+    ]
+  }
+}
