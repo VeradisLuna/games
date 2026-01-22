@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-23",
+  "pangram": "hologram",
+  "letters": [ "g", "a", "h", "l", "m", "o", "r" ],
+  "required": "g",
+  "words": [
+    "agar",
+    "agog",
+    "alga",
+    "gaga",
+    "gala",
+    "gall",
+    "glam",
+    "goal",
+    "gram",
+    "grog",
+    "logo",
+    "raga",
+    "aggro",
+    "algal",
+    "gamma",
+    "gloom",
+    "groom",
+    "largo",
+    "magma",
+    "amalgam",
+    "grammar",
+    "hologram",
+    "mammogram"
+  ]
+}
