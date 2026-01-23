@@ -1,0 +1,12 @@
+{
+  "date": "2025-01-24",
+  "clue": "Take a nap at noon (twelve)",
+  "enumeration": "5",
+  "answer": "DOZEN",
+  "explanation": "Take a nap = DOZE, at noon = N. DOZE+N = DOZEN (twelve).",
+  "hints": [
+    "In cryptics, \"noon\" can be substituted for the letter N.",
+    "We're looking for a word meaning \"twelve\", which narrows the search space considerably!",
+    "What word can we make by adding N to a word meaning \"take a nap\"?"
+  ]
+}
