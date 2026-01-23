@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-24",
+  "title": "D-pad",
+  "author": "Luna",
+  "rows": [
+    "#AUK#",
+    "ATSEA",
+    "LATER",
+    "TRENT",
+    "#IDS#"
+  ],
+  "highlights": [
+    "..a..",
+    "..k..",
+    "akkka",
+    "..k..",
+    "..a.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Great\" penguin"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "On the ocean"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"See ya!\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ Crimm, The Independent"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Passports and driving licences"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"2600\" console, with an infamous Pac-Man port"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Formal \"you\", in Spanish"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Wails mournfully"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Ctrl-___-Del"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "It might be found in a gallery"
+      }
+    ]
+  }
+}

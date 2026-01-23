@@ -552,6 +552,9 @@ h2, .floaty {
 .mini-cell.highlight-type-j {
     background: #ffdbbb;
 }
+.mini-cell.highlight-type-k {
+    background: #eeeeee;
+}
 .cluenumber {
     position: absolute;
     top: 3px;
