@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-25",
+  "title": "A couple of classics",
+  "author": "Luna",
+  "rows": [
+    "#TLA#",
+    "PRIDE",
+    "WENDY",
+    "NADIR",
+    "#DANE"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    "....*",
+    "....*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"OMG\", \"LOL\", or itself"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ and Prejudice *"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Peter Pan girl"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lowest point"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Hans Christian Andersen, say"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It gives a tyre traction"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Wings keyboardist McCartney"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Extra something"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Utterly defeat some noobs"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Jane ___ *"
+      }
+    ]
+  }
+}
