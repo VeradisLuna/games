@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-26",
+  "title": "Baby animals",
+  "author": "Luna",
+  "rows": [
+    "##PUP",
+    "CLASS",
+    "AIDES",
+    "LAMB#",
+    "FREY#"
+  ],
+  "highlights": [
+    "..***",
+    "*....",
+    "*....",
+    "****.",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Guinea pig *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Word before action or act"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "They help around the House"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sheep *"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "The Eagles' Glenn"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Queen Amidala, of Star Wars"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Date found on milk, say"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Additional thoughts at the end of some letters"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rhinoceros *"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Make-up artist?"
+      }
+    ]
+  }
+}
