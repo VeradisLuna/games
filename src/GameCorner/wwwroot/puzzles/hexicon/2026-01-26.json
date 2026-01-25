@@ -1,0 +1,31 @@
+{
+  "date": "2026-01-26",
+  "pangram": "quadrant",
+  "letters": [ "r", "a", "d", "n", "q", "t", "u" ],
+  "required": "r",
+  "words": [
+    "aura",
+    "darn",
+    "dart",
+    "drat",
+    "rand",
+    "rant",
+    "runt",
+    "tarn",
+    "tart",
+    "trad",
+    "turd",
+    "turn",
+    "attar",
+    "quart",
+    "radar",
+    "arrant",
+    "rattan",
+    "tantra",
+    "tartan",
+    "tartar",
+    "truant",
+    "tundra",
+    "quadrant"
+  ]
+}
