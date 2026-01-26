@@ -1,0 +1,12 @@
+{
+  "date": "2025-01-27",
+  "clue": "Cover unopened dish like paella, say",
+  "enumeration": "7",
+  "answer": "SPANISH",
+  "explanation": "Cover = SPAN, unopened dish = ISH (remove dish's open). SPAN+ISH = SPANISH, like paella, say.",
+  "hints": [
+    "\"Unopened\" is telling us to remove a word's \"open\", or, its first letter.",
+    "We need to find a synonym for \"cover\".",
+    "The definition is \"like paella, say\"."
+  ]
+}
