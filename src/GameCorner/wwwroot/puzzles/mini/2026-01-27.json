@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-27",
+  "title": "Bouquet",
+  "author": "Luna",
+  "rows": [
+    "TULIP",
+    "ASONE",
+    "RUNTO",
+    "SAGEN",
+    "#LILY"
+  ],
+  "highlights": [
+    "*****",
+    "....*",
+    "....*",
+    "....*",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dutch bloom"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "In unison"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Song title lead-in for Bryan Adams or Iron Maiden"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "To say, in Saxony"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Flower in several Monet paintings"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Damages (somebody's reputation)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Adjective for some suspects"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "It's found twice in high tide"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "What a spy gathers"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "State flower of Indiana"
+      }
+    ]
+  }
+}
