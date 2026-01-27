@@ -1,0 +1,68 @@
+{
+  "date": "2026-01-28",
+  "title": "Hair",
+  "author": "Luna",
+  "rows": [
+    "#ENS#",
+    "#TEAT",
+    "LOWLY",
+    "ENDOR",
+    "ASONE"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Dashes that are shorter than ems"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Milk source"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Humble"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Star Wars forest moon"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "All together"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Some short jackets"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Hairstyle change"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Where one might go for a hairstyle change"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "You might have a spare in the boot"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Salonga, of Broadway"
+      }
+    ]
+  }
+}
