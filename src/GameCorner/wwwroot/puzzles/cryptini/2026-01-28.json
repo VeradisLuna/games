@@ -1,0 +1,12 @@
+{
+  "date": "2025-01-28",
+  "clue": "Remove mark from blueprint?",
+  "enumeration": "6",
+  "answer": "DESIGN",
+  "explanation": "A blueprint is a DESIGN. To remove a mark could be... to DE-SIGN?",
+  "hints": [
+    "This one is a double definition, but the question mark is telling us that one of the definitions is a little stretchy.",
+    "We need a word that means \"blueprint\".",
+    "We need the same word to represent removing a mark - but we'll need to think outside the box a little bit."
+  ]
+}
