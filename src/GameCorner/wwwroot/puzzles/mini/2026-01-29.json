@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-29",
+  "title": "Missing Link",
+  "author": "Luna",
+  "rows": [
+    "PRAM#",
+    "RUBIK",
+    "EPONA",
+    "ZELDA",
+    "#ETS#"
+  ],
+  "highlights": [
+    ".*...",
+    ".*...",
+    "*****",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Baby buggy"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Noted cubist?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Celtic horse goddess"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Novelist Fitzgerald"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "UFO crew"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Veep boss"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "₹"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Like ___ from the blue"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Great ___ think alike"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "The Jungle Book snake"
+      }
+    ]
+  }
+}
