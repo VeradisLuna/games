@@ -1,0 +1,25 @@
+{
+  "date": "2026-01-30",
+  "pangram": "journal",
+  "letters": [ "r", "a", "j", "l", "n", "o", "u" ],
+  "required": "r",
+  "words": [
+    "ajar",
+    "aura",
+    "lorn",
+    "oral",
+    "roan",
+    "roar",
+    "roll",
+    "aural",
+    "juror",
+    "lunar",
+    "rural",
+    "ulnar",
+    "aurora",
+    "journo",
+    "unroll",
+    "annular",
+    "journal"
+  ]
+}
