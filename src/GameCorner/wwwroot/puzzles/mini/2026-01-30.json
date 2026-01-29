@@ -1,0 +1,68 @@
+{
+  "date": "2026-01-30",
+  "title": "Mixed bag (themeless)",
+  "author": "Luna",
+  "rows": [
+    "##LAS",
+    "MOANA",
+    "ELIOT",
+    "XANDY",
+    "#VEER"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Vegas leader"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Polynesian Disney heroine"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Middlemarch author"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Axes"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Swerve"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cleo of jazz"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Counterpart to a cathode"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Faun-like sylvan spirit"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tex's partner"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Patron saint of Norway"
+      }
+    ]
+  }
+}
