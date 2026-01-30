@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-31",
+  "pangram": "forthright",
+  "letters": [ "f", "g", "h", "i", "o", "r", "t" ],
+  "required": "f",
+  "words": [
+    "foot",
+    "fort",
+    "frog",
+    "gift",
+    "goof",
+    "hoof",
+    "riff",
+    "rift",
+    "roof",
+    "tiff",
+    "toff",
+    "fifth",
+    "fight",
+    "firth",
+    "forgo",
+    "forth",
+    "froth",
+    "forgot",
+    "fright",
+    "thrift",
+    "hotfoot",
+    "forthright"
+  ]
+}
