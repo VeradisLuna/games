@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-31",
+  "title": "Seeing red",
+  "author": "Luna",
+  "rows": [
+    "HAT##",
+    "ARICA",
+    "METAL",
+    "UNARM",
+    "PANDA"
+  ],
+  "highlights": [
+    "bbb..",
+    "...b.",
+    "...b.",
+    "...b.",
+    "bbbbb"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Bowler or beanie"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Chile's northernmost city"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Genre for headbangers 🤘"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Take weapons from"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Mascot for the 2008 Beijing Olympics"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Really chew the scenery"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Big concert venue"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Saturn's largest moon"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Joker, say"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "___ mater"
+      }
+    ]
+  }
+}
