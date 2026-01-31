@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-01",
+  "title": "The worm",
+  "author": "Luna",
+  "rows": [
+    "BOOK#",
+    "ALLAH",
+    "SISTO",
+    "KNEEL",
+    "SENSE"
+  ],
+  "highlights": [
+    "****.",
+    "....*",
+    "....*",
+    "....*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Arrange"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "God, in Islam"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Italian papal name"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Prepare to pop the question"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "You can talk it, and it might be common"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Soaks up the sun"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "American football blockers, in brief"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Scarlet Witch portrayer Elizabeth"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Upton and Moss, say"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "One of 18 on a golf course"
+      }
+    ]
+  }
+}
