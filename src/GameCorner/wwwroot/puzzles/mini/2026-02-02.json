@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-02",
+  "title": "It's all Greek to me",
+  "author": "Luna",
+  "rows": [
+    "#CASH",
+    "PLATO",
+    "HAREM",
+    "DROVE",
+    "SANER"
+  ],
+  "highlights": [
+    "....*",
+    "*****",
+    "....*",
+    "....*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Money in coins or notes"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Student of Socrates"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Kind of pants that are baggy"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Herd being moved together"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "More reasonable"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bow of the Roaring Twenties"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ Burr, Sir (Hamilton song)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Jack Black's \"A Minecraft Movie\" role"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "The Iliad poet"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Degrees of magnitude?"
+      }
+    ]
+  }
+}
