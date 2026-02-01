@@ -1,0 +1,23 @@
+{
+  "date": "2026-02-01",
+  "pangram": "prickly",
+  "letters": [ "c", "i", "k", "l", "p", "r", "y" ],
+  "required": "c",
+  "words": [
+    "clip",
+    "icky",
+    "kick",
+    "lick",
+    "pick",
+    "rick",
+    "click",
+    "crick",
+    "icily",
+    "kicky",
+    "lyric",
+    "picky",
+    "prick",
+    "cyclic",
+    "prickly"
+  ]
+}
