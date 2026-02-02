@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-04",
+  "title": "Wuthering Heights",
+  "author": "Luna",
+  "rows": [
+    "#SNOB",
+    "#PERU",
+    "ELLIS",
+    "WALSH",
+    "STY##"
+  ],
+  "highlights": [
+    "..*.*",
+    "..*.*",
+    "*****",
+    "..*.*",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pretentious type"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "\"Darkest\" Paddington place"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Bell, Emily Brontë's pen name"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Joe of the Eagles"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Pig's place"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sound of a soggy smack"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dean, narrator for much of Wuthering Heights"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Swiss watch brand"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Kate who sang \"It's me, I'm Cathy...\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Disgusted reactions"
+      }
+    ]
+  }
+}
