@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-04",
+  "pangram": "amplify",
+  "letters": [ "f", "a", "i", "l", "m", "p", "y" ],
+  "required": "f",
+  "words": [
+    "faff",
+    "fail",
+    "fall",
+    "fill",
+    "film",
+    "flap",
+    "flay",
+    "flip",
+    "iffy",
+    "miff",
+    "filly",
+    "filmy",
+    "flail",
+    "mafia",
+    "pilaf",
+    "family",
+    "filial",
+    "fillip",
+    "mayfly",
+    "alfalfa",
+    "amplify",
+    "familial",
+    "flimflam"
+  ]
+}
