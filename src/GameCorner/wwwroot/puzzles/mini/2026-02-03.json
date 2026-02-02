@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-03",
+  "title": "Worlds apart",
+  "author": "Luna",
+  "rows": [
+    "IDIOM",
+    "HILDA",
+    "ANAIR",
+    "VENUS",
+    "EDAM#"
+  ],
+  "highlights": [
+    "....*",
+    "....*",
+    "....*",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Easy as pie\" or \"piece of cake\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "One of Sabrina the Teenage Witch's aunts"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Have ___ (seem distinct in some way)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Roman goddess of love"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Dutch cheese"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"___ a dream...\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Enjoyed a nice meal"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Broad City's Glazer"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Detestation"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Roman god of war"
+      }
+    ]
+  }
+}
