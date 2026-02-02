@@ -1,0 +1,12 @@
+{
+  "date": "2025-02-04",
+  "clue": "Robot internals natural base for slender instrument",
+  "enumeration": "4",
+  "answer": "OBOE",
+  "explanation": "A slender instrument is an OBOE. OBO (\"robot internals\") plus E, which is the base of natural logs (\"natural base\").",
+  "hints": [
+    "In maths, the \"natural base\" of logs is E.",
+    "The definition we're looking for is \"slender instrument\".",
+    "What are the internals of \"robot\"?"
+  ]
+}
