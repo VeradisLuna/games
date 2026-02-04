@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-05",
+  "title": "The archer",
+  "author": "Luna",
+  "rows": [
+    "ARABS",
+    "HARRY",
+    "IMRAN",
+    "#BOW#",
+    "#OWL#"
+  ],
+  "highlights": [
+    "..a..",
+    "..a..",
+    "..a..",
+    ".bbb.",
+    "..a.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Emiratis, say"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Styles, who topped the charts with Aperture"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Former Pakistani prime minister Khan"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "You're talented if yours has many strings"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "\"Wise\" bird"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Type of tuna"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Classic role for Sylvester Stallone"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "You're honest if you're as straight as one"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Melee"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"Together\" prefix (with tax or thesis?)"
+      }
+    ]
+  }
+}
