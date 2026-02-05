@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-06",
+  "title": "Howl at the moon",
+  "author": "Luna",
+  "rows": [
+    "#WERE",
+    "#AWOL",
+    "BREWS",
+    "TILL#",
+    "WOLF#"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    ".....",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Used to be"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Missing letters?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pub or coffee shop orders"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cash register"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Eat quickly"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Mario baddie turned microgame mogul"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "To Kill A Mockingbird villain Bob"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "The Muppet Show pianist"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Legal limits?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Incidentally...\" via text"
+      }
+    ]
+  }
+}
