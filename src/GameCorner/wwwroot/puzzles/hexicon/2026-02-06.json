@@ -1,0 +1,14 @@
+{
+  "date": "2026-02-06",
+  "pangram": "executive",
+  "letters": [ "x", "c", "e", "i", "t", "u", "v" ],
+  "required": "x",
+  "words": [
+    "exec",
+    "exit",
+    "text",
+    "excite",
+    "execute",
+    "executive"
+  ]
+}
