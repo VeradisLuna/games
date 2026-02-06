@@ -1,0 +1,68 @@
+{
+  "date": "2026-02-07",
+  "title": "Plant calendar",
+  "author": "Luna",
+  "rows": [
+    "##GLI",
+    "TRAIL",
+    "HOLLY",
+    "ISAYA",
+    "SEX##"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Los\" (Spanish) : \"___\" (Italian)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hang down, as a vine"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Christmas greenery"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Dionne Warwick's \"___ Little Prayer\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"Birds and bees\" topic"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Evergreen with a cosmic-sounding name"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Easter bloom"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Rozanov, of Heated Rivalry"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It's right here"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Valentine's Day flower"
+      }
+    ]
+  }
+}
