@@ -1,0 +1,32 @@
+{
+  "date": "2026-02-08",
+  "pangram": "habitation",
+  "letters": [ "h", "a", "b", "i", "n", "o", "t" ],
+  "required": "h",
+  "words": [
+    "baht",
+    "bath",
+    "both",
+    "hath",
+    "hint",
+    "hobo",
+    "hoot",
+    "oath",
+    "than",
+    "that",
+    "thin",
+    "booth",
+    "habit",
+    "ninth",
+    "tooth",
+    "boohoo",
+    "hobbit",
+    "hobnob",
+    "habitat",
+    "inhabit",
+    "inhibit",
+    "habitation",
+    "inhabitant",
+    "inhibition"
+  ]
+}
