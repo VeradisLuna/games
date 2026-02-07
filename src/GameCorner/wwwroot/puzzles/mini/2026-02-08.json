@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-08",
+  "title": "Winter Olympics",
+  "author": "Luna",
+  "rows": [
+    "#OSLO",
+    "#RHEE",
+    "MILAN",
+    "BEEP#",
+    "ALPS#"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    "*****",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "1952 Winter Olympics city (Norway)"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Syngman, South Korea's first president"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "2026 Winter Olympics city (Italy)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sound that R2-D2 makes"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "French ___, 2030 Winter Olympics region"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bay window"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Term from Yiddish, meaning to haul"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "They accompany bounds in an idiom"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "-ology for winemakers"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Degree held by Shaq and George W. Bush"
+      }
+    ]
+  }
+}
