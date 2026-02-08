@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-09",
+  "title": "Heelers",
+  "author": "Luna",
+  "rows": [
+    "BLUEY",
+    "ITPRO",
+    "NYLON",
+    "GRID#",
+    "OSTE#"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Colourful puppy (and TV show named for her)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Computer whizz"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stocking material"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Crossword canvas"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bone prefix"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Younger sister of 1-across"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Astronomical distances (abbr.)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Illuminated from below"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Wear away"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Over there, poetically"
+      }
+    ]
+  }
+}
