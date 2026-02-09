@@ -1,0 +1,31 @@
+{
+  "date": "2026-02-10",
+  "pangram": "quandary",
+  "letters": [ "a", "d", "n", "q", "r", "u", "y" ],
+  "required": "a",
+  "words": [
+    "aqua",
+    "aura",
+    "darn",
+    "dray",
+    "naan",
+    "nana",
+    "nary",
+    "quad",
+    "quay",
+    "rand",
+    "yard",
+    "yarn",
+    "yuan",
+    "array",
+    "daddy",
+    "dandy",
+    "dryad",
+    "nanny",
+    "radar",
+    "randy",
+    "unary",
+    "quarry",
+    "quandary"
+  ]
+}
