@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-10",
+  "title": "Celebrate!",
+  "author": "Luna",
+  "rows": [
+    "ADOSE",
+    "PARTY",
+    "ANGIE",
+    "#CARD",
+    "#ENS#"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    ".****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It might be of your own medicine?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "D&D group, say"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "1973 Rolling Stones addressee"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Jack or 10"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Tennis doubles?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Academic writing style inits."
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Move to the rhythm"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Instrument for a church"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Awakens"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Looked at with interest"
+      }
+    ]
+  }
+}
