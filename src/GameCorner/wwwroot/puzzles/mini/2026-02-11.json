@@ -1,0 +1,68 @@
+{
+  "date": "2026-02-11",
+  "title": "A&E",
+  "author": "Luna",
+  "rows": [
+    "MATE#",
+    "ABET#",
+    "KESHA",
+    "ELLAS",
+    "#LANE"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Deck officer"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Assist with a crime"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Singer with 2025 album called ."
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Fitzgerald and Henderson"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Nathan who played Albert in The Birdcage"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Car brand"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Does that ring ___?\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Car brand"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Hunt, in Mission: Impossible"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Peer Gynt widow"
+      }
+    ]
+  }
+}
