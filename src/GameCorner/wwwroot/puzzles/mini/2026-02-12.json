@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-12",
+  "title": "Cooked breakfast",
+  "author": "Luna",
+  "rows": [
+    "#BAEZ",
+    "SARGE",
+    "ECIGS",
+    "TOAST",
+    "INS##"
+  ],
+  "highlights": [
+    ".*.*.",
+    ".*.*.",
+    ".*.*.",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Joan who sang at Woodstock"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Drill conductor, informally"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Vapes"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Finished"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Useful connections"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Six degrees of Kevin ___\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Operatic solos"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Encourages, with \"on\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Citrus peel"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Org. looking for alien life"
+      }
+    ]
+  }
+}
