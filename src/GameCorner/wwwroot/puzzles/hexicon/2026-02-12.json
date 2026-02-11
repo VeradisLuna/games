@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-12",
+  "pangram": "lockdown",
+  "letters": [ "k", "c", "d", "l", "n", "o", "w" ],
+  "required": "k",
+  "words": [
+    "cock",
+    "conk",
+    "cook",
+    "dock",
+    "know",
+    "kook",
+    "lock",
+    "look",
+    "nook",
+    "wonk",
+    "clock",
+    "clonk",
+    "knock",
+    "knoll",
+    "known",
+    "lockdown",
+    "woodcock",
+    "knockdown"
+  ]
+}
