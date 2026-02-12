@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-13",
+  "title": "Fictional dogs",
+  "author": "Luna",
+  "rows": [
+    "#DIP#",
+    "TOTOP",
+    "ADANA",
+    "BINGO",
+    "#EDO#"
+  ],
+  "highlights": [
+    "...*.",
+    "****.",
+    ".*.*.",
+    "*****",
+    ".*.*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Brief swim"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "From bottom ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Turkish city"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Game with two little ducks?"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Japanese period (1603-1868)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The Hundred and One Dalmatians author Smith"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Suck ___ See (Arctic Monkeys)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Father of 15, adoptive father of 84"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Indent key"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Kung ___ chicken"
+      }
+    ]
+  }
+}
