@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-14",
+  "title": "Change",
+  "author": "Luna",
+  "rows": [
+    "##TAD",
+    "#POLE",
+    "SENOR",
+    "PAIN#",
+    "FROG#"
+  ],
+  "highlights": [
+    "..***",
+    ".****",
+    ".....",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Smidge"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Lead (position)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Title with a tilde"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Discomfort"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Throat problem?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Pagliacci clown"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"All ___ the Watchtower\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "German article"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Tree in a Christmas carol"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Block letters?"
+      }
+    ]
+  }
+}
