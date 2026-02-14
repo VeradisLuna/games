@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-15",
+  "pangram": "pawprint",
+  "letters": [ "w", "a", "i", "n", "p", "r", "t" ],
+  "required": "w",
+  "words": [
+    "pawn",
+    "twin",
+    "twit",
+    "wain",
+    "wait",
+    "want",
+    "warn",
+    "warp",
+    "wart",
+    "watt",
+    "wrap",
+    "writ",
+    "await",
+    "prawn",
+    "twain",
+    "wanna",
+    "nitwit",
+    "pawpaw",
+    "wapiti",
+    "warrant",
+    "pawprint",
+    "warpaint"
+  ]
+}
