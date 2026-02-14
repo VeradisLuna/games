@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-14",
+  "title": "High time",
+  "author": "Luna",
+  "rows": [
+    "CHEAT",
+    "HORSE",
+    "AURIC",
+    "ISIAH",
+    "RES##"
+  ],
+  "highlights": [
+    "*...*",
+    "*****",
+    "*...*",
+    "*...*",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Act dishonestly to get the upper hand"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Stable animal"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Goldfinger (Bond villain)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "N.B.A. great Thomas"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "In medias ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Somewhere to sit"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Roulette opponent"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"To ___ human\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Thailand's continent"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Informally, the T in STEM"
+      }
+    ]
+  }
+}
