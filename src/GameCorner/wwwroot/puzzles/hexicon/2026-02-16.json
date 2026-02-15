@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-16",
+  "pangram": "punctual",
+  "letters": [ "p", "a", "c", "l", "n", "t", "u" ],
+  "required": "p",
+  "words": [
+    "clap",
+    "pact",
+    "pall",
+    "pant",
+    "papa",
+    "plan",
+    "pull",
+    "pulp",
+    "punt",
+    "pupa",
+    "putt",
+    "appal",
+    "cuppa",
+    "cutup",
+    "papal",
+    "plant",
+    "pupal",
+    "uncap",
+    "alpaca",
+    "appall",
+    "catnap",
+    "catalpa",
+    "palatal",
+    "catapult",
+    "punctual"
+  ]
+}
