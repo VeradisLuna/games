@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-16",
+  "title": "Martial arts",
+  "author": "Luna",
+  "rows": [
+    "JIG##",
+    "UMEKI",
+    "MOTIF",
+    "PUNCH",
+    "#TOKE"
+  ],
+  "highlights": [
+    "*....",
+    "*..*.",
+    "*..*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dance to a fiddle, maybe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Sayonara\" Oscar winner Miyoshi"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Recurring theme"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Drink in a big bowl"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Take a hit?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Kris Kross #1 hit in the US"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"And for that reason... ___\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"I can't ___ satisfaction\" (Stones lyric)"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Bit of spice, perhaps"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"___ dies...\" (opening to a Rocky IV line)"
+      }
+    ]
+  }
+}
