@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-18",
+  "pangram": "commodify",
+  "letters": [ "m", "c", "d", "f", "i", "o", "y" ],
+  "required": "m",
+  "words": [
+    "doom",
+    "midi",
+    "miff",
+    "mood",
+    "comfy",
+    "comic",
+    "idiom",
+    "mimic",
+    "mommy",
+    "moody",
+    "modify",
+    "commodify"
+  ]
+}
