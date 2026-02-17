@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-18",
+  "title": "Lunar New Year",
+  "author": "Luna",
+  "rows": [
+    "FIRE#",
+    "IDEAS",
+    "SIFTS",
+    "HORSE",
+    "#MYA#"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Passion"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "They might be represented by lightbulbs"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Prepares flour, say, for baking"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gymnastics apparatus"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Grammy winner for 2001's \"Lady Marmalade\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ and chips (British dish)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Over the moon\" or \"under the weather\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cook again, as beans perhaps"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ hole in (corrodes)"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Direction encompassed in ENCOMPASSED"
+      }
+    ]
+  }
+}
