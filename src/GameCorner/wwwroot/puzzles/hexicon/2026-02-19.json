@@ -1,0 +1,20 @@
+{
+  "date": "2026-02-19",
+  "pangram": "caribou",
+  "letters": [ "u", "a", "b", "c", "i", "o", "r" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "burr",
+    "curb",
+    "uric",
+    "burro",
+    "cubic",
+    "curio",
+    "occur",
+    "arbour",
+    "aurora",
+    "rubric",
+    "caribou"
+  ]
+}
