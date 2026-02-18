@@ -1,0 +1,68 @@
+{
+  "date": "2026-02-19",
+  "title": "Abandon ship!",
+  "author": "Luna",
+  "rows": [
+    "WHARF",
+    "RAMIE",
+    "ETAPE",
+    "CORAL",
+    "KNOTS"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Where a voyage might start"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Strong Chinese fibre used for fishing nets"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Tour de France stage"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Reef material"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Speed units for a ship"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Ship ruined at sea"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"You Can Leave Your ___\" (Randy Newman)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bitter Italian liqueur"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Try to open, say, a gift"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Senses"
+      }
+    ]
+  }
+}
