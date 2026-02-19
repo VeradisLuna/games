@@ -1,0 +1,12 @@
+{
+  "date": "2025-02-20",
+  "clue": "Zoo opens with adapted biomes for undead creatures",
+  "enumeration": "7",
+  "answer": "ZOMBIES",
+  "explanation": "Zoo opens (Z) with adapted (anagram) BIOMES = ZOMBIES, undead creatures.",
+  "hints": [
+    "\"Adapted\" is an anagram indicator, telling us to rearrange BIOMES.",
+    "What letter can we get from \"zoo opens\"?",
+    "The definition is \"undead creatures\"."
+  ]
+}
