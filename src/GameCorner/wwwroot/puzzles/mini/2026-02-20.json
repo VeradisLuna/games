@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-20",
+  "title": "Put it out!",
+  "author": "Luna",
+  "rows": [
+    "WATER",
+    "AFIRE",
+    "VILLA",
+    "ENDER",
+    "SEA##"
+  ],
+  "highlights": [
+    "eeeee",
+    "ebbbb",
+    "e....",
+    "e....",
+    "eee.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dihydrogen monoxide?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "In flames"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Love Island location"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Orson Scott Card sci-fi protagonist"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "It's \"wine-dark\" in the Odyssey"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Silent goodbyes"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Chance would be ___ thing...\" (It's unlikely!)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Oscar winner Swinton"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ Stanley Gardner, of detective fiction"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "What a startled horse might do"
+      }
+    ]
+  }
+}
