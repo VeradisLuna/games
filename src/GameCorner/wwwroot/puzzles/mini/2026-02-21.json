@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-21",
+  "title": "Red ___ to a ___",
+  "author": "Luna",
+  "rows": [
+    "#AHAB",
+    "#RAGU",
+    "EGIRL",
+    "MOREL",
+    "OSSE#"
+  ],
+  "highlights": [
+    "....a",
+    ".bbba",
+    "....a",
+    "....a",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Moby Dick's pursuer"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Meaty Italian sauce"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Gen-Z alt-style online persona"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gourmet mushroom type"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bone prefix"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Odysseus' faithful dog"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Let's not split them"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Concur"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Taurus symbol"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Punk-inspired music genre"
+      }
+    ]
+  }
+}
