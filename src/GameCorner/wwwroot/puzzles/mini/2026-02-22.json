@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-22",
+  "title": "Easy as...",
+  "author": "Luna",
+  "rows": [
+    "SHOVE",
+    "TAROS",
+    "ALBUM",
+    "SLICE",
+    "HOTH#"
+  ],
+  "highlights": [
+    ".....",
+    ".*...",
+    "..*..",
+    "...*.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Push"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tropical tubers"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Brat\" or \"Wuthering Heights\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Pizza portion"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Star Wars ice planet"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Trove"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Winnie-the-Pooh greeting"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Take a round trip"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Testify (for)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Lemony Snicket antagonist, or Twilight vampire"
+      }
+    ]
+  }
+}
