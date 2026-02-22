@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-23",
+  "title": "Simple as...",
+  "author": "Luna",
+  "rows": [
+    "DONT#",
+    "ARIEL",
+    "TIGRE",
+    "UBEND",
+    "MIL##"
+  ],
+  "highlights": [
+    "**...",
+    ".....",
+    "...**",
+    ".....",
+    "**..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"___ Worry, Be Happy\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Disney mermaid"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Gato grande"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Letter-shaped piping piece"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"Cool\" amount"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Piece of info"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Small African antelope"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Stanley Tucci's \"The Devil Wears Prada\" role"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gull relative"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Spearheaded"
+      }
+    ]
+  }
+}
