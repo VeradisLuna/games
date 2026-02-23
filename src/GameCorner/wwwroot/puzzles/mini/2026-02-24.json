@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-24",
+  "title": "Hidden path",
+  "author": "Luna",
+  "rows": [
+    "LAB##",
+    "SLYAS",
+    "ATRIA",
+    "TOONS",
+    "##NTH"
+  ],
+  "highlights": [
+    "*....",
+    ".....",
+    ".....",
+    ".....",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Chocolate\" breed?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ a fox (simile)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Chambers of the heart"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Roger and Jessica Rabbit, say"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "To the ___ degree"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Exam on which Elle Woods scored 179"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Kind of sax"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Don Juan poet"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Am not; are not; is not"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"Bride to be\" accessory, perhaps"
+      }
+    ]
+  }
+}
