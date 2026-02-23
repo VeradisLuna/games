@@ -1,0 +1,25 @@
+{
+  "date": "2026-02-24",
+  "pangram": "checkbox",
+  "letters": [ "k", "b", "c", "e", "h", "o", "x" ],
+  "required": "k",
+  "words": [
+    "beck",
+    "bock",
+    "book",
+    "cock",
+    "coke",
+    "cook",
+    "heck",
+    "hock",
+    "hook",
+    "kook",
+    "check",
+    "cheek",
+    "chock",
+    "choke",
+    "checkbox",
+    "cookbook",
+    "checkbook"
+  ]
+}
