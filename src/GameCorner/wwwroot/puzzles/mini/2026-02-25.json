@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-25",
+  "title": "Head start",
+  "author": "Luna",
+  "rows": [
+    "DAIS#",
+    "RUSH#",
+    "ERDOS",
+    "SAUTE",
+    "SEEST"
+  ],
+  "highlights": [
+    "a..b.",
+    "cbbb.",
+    "a..ba",
+    "a..ba",
+    "a..ba"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Politician's platform"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hurry"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Hungarian mathematician Paul"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Fry in a shallow pan"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Look at, in the Bible"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "What one might wear to a prom"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Mysterious glows"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Should get here any time now"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"You miss 100% of the ___ you don't take\""
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Cry between \"Ready\" and \"Go!\""
+      }
+    ]
+  }
+}
