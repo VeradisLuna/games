@@ -1,0 +1,12 @@
+{
+  "date": "2025-02-25",
+  "clue": "Famous statue loses top of head. Try to repair it!",
+  "enumeration": "6",
+  "answer": "TINKER",
+  "explanation": "The THINKER is a famous statue. Top of HEAD is H. THINKER loses H to become TINKER. \"Try to repair it!\"",
+  "hints": [
+    "What is the top of \"head\"?",
+    "We'll need to come up with the name of a famous statue.",
+    "The definition is \"try to repair it\"."
+  ]
+}
