@@ -1,0 +1,30 @@
+{
+  "date": "2026-02-25",
+  "pangram": "vaguely",
+  "letters": [ "u", "a", "e", "g", "l", "u", "y" ],
+  "required": "u",
+  "words": [
+    "ague",
+    "glue",
+    "gull",
+    "luau",
+    "luge",
+    "lull",
+    "lulu",
+    "ugly",
+    "yule",
+    "gauge",
+    "gluey",
+    "guava",
+    "gulag",
+    "gully",
+    "uvula",
+    "vague",
+    "value",
+    "vulva",
+    "league",
+    "vulvae",
+    "luggage",
+    "vaguely"
+  ]
+}
