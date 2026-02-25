@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-26",
+  "title": "Scottish isles",
+  "author": "Luna",
+  "rows": [
+    "ABBA#",
+    "MULL#",
+    "ATEAT",
+    "LEWIS",
+    "##ANA"
+  ],
+  "highlights": [
+    ".*...",
+    "****.",
+    ".*...",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Super Trouper group"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Contemplate"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Patronised?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "F1 driver Hamilton"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Actress de Armas"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Clooney, human rights lawyer"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Racehorse drug, briefly"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ fuse (erupted)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Essays in Love\" writer de Botton"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "US airport screening initialism"
+      }
+    ]
+  }
+}
