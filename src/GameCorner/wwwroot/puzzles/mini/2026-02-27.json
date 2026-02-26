@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-27",
+  "title": "Building blocks",
+  "author": "Luna",
+  "rows": [
+    "ROSAS",
+    "ADOBE",
+    "NICER",
+    "GULLS",
+    "OME##"
+  ],
+  "highlights": [
+    "**...",
+    "**...",
+    "..**.",
+    "..**.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "14 de febrero bouquet"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Photoshop company"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "More pleasant"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Some shore birds"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Romeo: \"___! What fray was here?\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Gore Verbinski film and titular chameleon"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Detestation"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Base for a pedestal"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Cain's brother"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Game of Thrones knights"
+      }
+    ]
+  }
+}
