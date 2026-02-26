@@ -1,0 +1,25 @@
+{
+  "date": "2026-02-27",
+  "pangram": "kingdom",
+  "letters": [ "k", "d", "i", "g", "m", "n", "o" ],
+  "required": "k",
+  "words": [
+    "kind",
+    "king",
+    "kink",
+    "kook",
+    "mink",
+    "monk",
+    "nook",
+    "oink",
+    "kiddo",
+    "ginkgo",
+    "inking",
+    "kimono",
+    "miking",
+    "kidding",
+    "kingdom",
+    "kinking",
+    "oinking"
+  ]
+}
