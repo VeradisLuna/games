@@ -1,0 +1,75 @@
+{
+  "date": "2026-02-28",
+  "title": "Right on time",
+  "author": "Luna",
+  "rows": [
+    "EVADE",
+    "MORAL",
+    "CLOCK",
+    "EASES",
+    "ERE##"
+  ],
+  "highlights": [
+    ".....",
+    "aaaaa",
+    "bbbbb",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dodge"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Aesop's lesson"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Take notice of"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Soothes"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Before, poetically"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Role in Cabaret"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Related to the palm of the hand"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Came up"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Small freshwater fish"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Animals with antlers"
+      }
+    ]
+  }
+}
