@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-01",
+  "title": "Ways to pronounce flough?",
+  "author": "Luna",
+  "rows": [
+    "FLOOR",
+    "LITHO",
+    "UBAHN",
+    "FERIA",
+    "FLU##"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Base"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Collectible art print, briefly"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Underground railway\" in Berlin"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Spanish festival"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Vaccine target, in short"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Teddy bear stuffing"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Written defamation"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Take A TOUR around this Japanese port"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Hey, fancy seeing you here!\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Vaccine target, in short"
+      }
+    ]
+  }
+}
