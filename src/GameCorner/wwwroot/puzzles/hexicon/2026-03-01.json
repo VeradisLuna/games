@@ -1,0 +1,20 @@
+{
+  "date": "2026-03-01",
+  "pangram": "jasmine",
+  "letters": [ "j", "a", "e", "i", "m", "n", "s" ],
+  "required": "j",
+  "words": [
+    "jams",
+    "jean",
+    "jinn",
+    "jeans",
+    "jinni",
+    "jinns",
+    "ninja",
+    "ninjas",
+    "jasmine",
+    "jennies",
+    "jimmies",
+    "jasmines"
+  ]
+}
