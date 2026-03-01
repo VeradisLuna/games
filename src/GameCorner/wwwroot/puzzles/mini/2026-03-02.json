@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-02",
+  "title": "Surfing Pikachu",
+  "author": "Luna",
+  "rows": [
+    "WINDS",
+    "AWAIT",
+    "VANCE",
+    "ENNEA",
+    "STARK"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Gales"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hang around for"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "US VP J.D."
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Prefix meaning nine"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Sansa, Arya, or Bran"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Breakers"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Song archetype in musicals"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Grammy"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Kitchen cutting tool"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "A red one is rare"
+      }
+    ]
+  }
+}
