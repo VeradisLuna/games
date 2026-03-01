@@ -1,0 +1,12 @@
+{
+  "date": "2025-03-02",
+  "clue": "Racing vehicle to backtrack less than a kilometer",
+  "enumeration": "4",
+  "answer": "CART",
+  "explanation": "CART is a kind of racing vehicle. Backtrack \"less than a kilometer\" - take kilometer (K) from TRACK going back = CART.",
+  "hints": [
+    "\"Less than a\" is a removal indicator in this puzzle, telling us to remove part of the wordplay from another.",
+    "The definition is \"racing vehicle\".",
+    "BACKTRACK is both an instruction and some letters to act on."
+  ]
+}
