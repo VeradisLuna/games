@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-03",
+  "title": "Neat puzzle!",
+  "author": "Luna",
+  "rows": [
+    "MORAL",
+    "UMAMI",
+    "SEVEN",
+    "KNINE",
+    "####S"
+  ],
+  "highlights": [
+    "....*",
+    "....*",
+    "....*",
+    "....*",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Kind of compass?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "So-called \"fifth taste\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Number of unique Tetris pieces"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Doctor Who robot dog"
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "clue": "A name for a Tetris piece"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Scent"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Superstitious sign"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Sitarist Shankar who taught George Harrison"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Prayer ender"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "You clear them in Tetris"
+      }
+    ]
+  }
+}
