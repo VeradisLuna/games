@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-03",
+  "pangram": "factoid",
+  "letters": [ "d", "a", "c", "f", "i", "o", "t" ],
+  "required": "d",
+  "words": [
+    "acid",
+    "coda",
+    "daft",
+    "data",
+    "dodo",
+    "doff",
+    "food",
+    "toad",
+    "dicta",
+    "ditto",
+    "idiot",
+    "acidic",
+    "addict",
+    "cicada",
+    "doodad",
+    "factoid",
+    "idiotic",
+    "didactic"
+  ]
+}
