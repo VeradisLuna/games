@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-04",
+  "title": "Oops! Oll Os",
+  "author": "Luna",
+  "rows": [
+    "YOGO#",
+    "OOOOO",
+    "BONGO",
+    "BOZOS",
+    "OOORT"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    ".*...",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Boo-Boo's bro"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Vowol groop"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Gomo of chonco"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Formor Omozon boss Joff"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Robo 'toon?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"___ dobbo doo!\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "MocDonold's jonglo?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Groot\" Moppot"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Hot to trot!"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"O\", on o composs"
+      }
+    ]
+  }
+}
