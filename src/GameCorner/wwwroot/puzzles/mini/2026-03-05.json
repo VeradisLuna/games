@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-05",
+  "title": "Hard lines",
+  "author": "Luna",
+  "rows": [
+    "WORK#",
+    "ANEAR",
+    "ITPRO",
+    "NOELS",
+    "#PLAY"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "9 to 5 activity"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "You might lend it or bend it"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Computer whizz"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Christmas carols"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Make music"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Farm wagon"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Good way to come out"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ward off"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "John le Carré Soviet spymaster"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Like flushed cheeks"
+      }
+    ]
+  }
+}
