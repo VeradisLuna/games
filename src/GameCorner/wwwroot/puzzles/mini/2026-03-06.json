@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-06",
+  "title": "Misprint",
+  "author": "Luna",
+  "rows": [
+    "#TOP#",
+    "BURRS",
+    "ANAIS",
+    "HEMAN",
+    "#RAM#"
+  ],
+  "highlights": [
+    ".aa..",
+    ".bbb.",
+    "...aa",
+    "bbbbb",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Where this entry is found"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Prickly seed cases"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Mitchell, Hadestown creator"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Skeletor's foe"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Aries animal"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Radio part"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Suffix akin to -apalooza"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Trojan War king"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"___, humbug!\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "US nine digit ID"
+      }
+    ]
+  }
+}
