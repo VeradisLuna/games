@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-06",
+  "pangram": "photograph",
+  "letters": [ "g", "a", "h", "o", "p", "r", "t" ],
+  "required": "g",
+  "words": [
+    "agar",
+    "agog",
+    "gaga",
+    "goat",
+    "goop",
+    "gorp",
+    "goth",
+    "grog",
+    "raga",
+    "toga",
+    "aggro",
+    "argot",
+    "gator",
+    "gotta",
+    "graph",
+    "groat",
+    "ragga",
+    "grotto",
+    "ragtag",
+    "paragraph",
+    "photograph",
+    "propagator"
+  ]
+}
