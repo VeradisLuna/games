@@ -1,0 +1,14 @@
+{
+  "date": "2025-03-06",
+  "clue": "Odd satyr and girl entertain popular collection of characters",
+  "enumeration": "6",
+  "answer": "STRING",
+  "explanation": "Odd SATYR is STR. Girl is G. A word for \"popular\" is IN. STR and G entertain IN to give STRING, which in computer science, is a collection of characters.",
+  "hints": [
+    "To \"entertain\" is to contain or accept, and tells us that one part of the wordplay will contain another part.",
+    "What is odd SATYR?",
+    "The definition is \"collection of characters\", but we're not talking about people...",
+    "What is a short common word that means \"popular\"?",
+    "Girl can be substituted for the letter G."
+  ]
+}
