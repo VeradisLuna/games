@@ -51,9 +51,7 @@ jobs:
           index_path = root / "index.html"
           template = index_path.read_text(encoding="utf-8")
 
-          # First-pass test window: generate pages up to this cutoff date only
-          # Adjust later (or switch to date.today()) once verified.
-          cutoff = date(2025, 10, 5)
+          cutoff = date.today() + timedelta(days=1)
 
           puzzle_types = {
               "mini": date(2025, 9, 22),
