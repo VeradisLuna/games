@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-07",
+  "title": "An octopus's garden",
+  "author": "Luna",
+  "rows": [
+    "##SPA",
+    "#OHOS",
+    "WHELK",
+    "ONLY#",
+    "KELP#"
+  ],
+  "highlights": [
+    "..bb.",
+    "..bb.",
+    "aacca",
+    "..bb.",
+    "aacc."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Relaxing retreat"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Cries of discovery"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sea snail"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sole"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Underwater forest"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Conch, say"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Coral organism"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Pose, as a question"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Die Frau ___ Schatten (Straus opera)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stir-fry pan"
+      }
+    ]
+  }
+}
