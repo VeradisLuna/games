@@ -39,14 +39,104 @@ jobs:
       - name: Publish Blazor WASM
         run: dotnet publish src/GameCorner/GameCorner.csproj -c Release -o out
 
-      # Adjust <base href> for GitHub Pages (/<repo-name>/)
-      #- name: Fix base href for Pages
-      #  run: |
-      #    REPO="/${{ github.event.repository.name }}/"
-      #    INDEX="out/wwwroot/index.html"
-      #    sed -i "s|<base href=\"/\"|<base href=\"${REPO}\"|g" "$INDEX"
+      # Test rollout: generate about a month of real dated pages for each puzzle type
+      - name: Generate static puzzle route pages
+        run: |
+          python3 <<'PY'
+          from pathlib import Path
+          from datetime import date, timedelta
+          import re
 
-      # SPA fallback so deep-links work on Pages
+          root = Path("out/wwwroot")
+          index_path = root / "index.html"
+          template = index_path.read_text(encoding="utf-8")
+
+          # First-pass test window: generate pages up to this cutoff date only
+          # Adjust later (or switch to date.today()) once verified.
+          cutoff = date(2025, 10, 5)
+
+          puzzle_types = {
+              "mini": date(2025, 9, 22),
+              "cryptini": date(2025, 9, 2),
+              "hexicon": date(2025, 8, 31),
+              "letterhead": date(2025, 11, 10),
+          }
+
+          pretty_names = {
+              "mini": "Luna Mini",
+              "cryptini": "Cryptini",
+              "hexicon": "Hexicon",
+              "letterhead": "Letterhead",
+          }
+
+          def daterange(start, end):
+              d = start
+              while d <= end:
+                  yield d
+                  d += timedelta(days=1)
+
+          def patch_html(html: str, title: str, description: str, canonical: str) -> str:
+              updated = html
+
+              updated = re.sub(
+                  r"<title>.*?</title>",
+                  f"<title>{title}</title>",
+                  updated,
+                  count=1,
+                  flags=re.IGNORECASE | re.DOTALL
+              )
+
+              if re.search(r'<meta\s+name="description"\s+content=".*?"\s*/?>', updated, flags=re.IGNORECASE):
+                  updated = re.sub(
+                      r'<meta\s+name="description"\s+content=".*?"\s*/?>',
+                      f'<meta name="description" content="{description}" />',
+                      updated,
+                      count=1,
+                      flags=re.IGNORECASE
+                  )
+              else:
+                  updated = updated.replace(
+                      "</head>",
+                      f'  <meta name="description" content="{description}" />\n</head>',
+                      1
+                  )
+
+              if re.search(r'<link\s+rel="canonical"\s+href=".*?"\s*/?>', updated, flags=re.IGNORECASE):
+                  updated = re.sub(
+                      r'<link\s+rel="canonical"\s+href=".*?"\s*/?>',
+                      f'<link rel="canonical" href="{canonical}" />',
+                      updated,
+                      count=1,
+                      flags=re.IGNORECASE
+                  )
+              else:
+                  updated = updated.replace(
+                      "</head>",
+                      f'  <link rel="canonical" href="{canonical}" />\n</head>',
+                      1
+                  )
+
+              return updated
+
+          for slug, start_date in puzzle_types.items():
+              if start_date > cutoff:
+                  continue
+
+              for d in daterange(start_date, cutoff):
+                  ds = d.isoformat()
+                  route = f"/{slug}/{ds}"
+                  canonical = f"https://lunamini.io{route}"
+                  title = f"{pretty_names[slug]} — Daily Puzzle for {ds}"
+                  description = f"Play the {pretty_names[slug]} daily puzzle for {ds} on LunaMini.io"
+
+                  out_dir = root / slug / ds
+                  out_dir.mkdir(parents=True, exist_ok=True)
+
+                  html = patch_html(template, title, description, canonical)
+                  (out_dir / "index.html").write_text(html, encoding="utf-8")
+          PY
+
+      # Keep current SPA fallback for all routes you haven't generated yet
       - name: Add SPA 404 fallback
         run: cp out/wwwroot/index.html out/wwwroot/404.html
 
@@ -54,13 +144,13 @@ jobs:
         run: |
           bash .github/scripts/generate-rss.sh out/wwwroot src/GameCorner/wwwroot/puzzles/mini
 
+      - name: Disable Jekyll
+        run: touch out/wwwroot/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: out/wwwroot
-
-      - name: Disable Jekyll
-        run: touch out/wwwroot/.nojekyll
 
   deploy:
     needs: build
