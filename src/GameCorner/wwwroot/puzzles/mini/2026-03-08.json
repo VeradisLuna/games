@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-08",
+  "title": "Ups and downs",
+  "author": "Luna",
+  "rows": [
+    "TIERS",
+    "ADDIN",
+    "LAILA",
+    "CHEEK",
+    "#OSSE"
+  ],
+  "highlights": [
+    "..aab",
+    ".aa.b",
+    "aa..b",
+    "....b",
+    "....b"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wedding cake levels"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Extra ingredient"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Undefeated Ali"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gall"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Prefix meaning \"bone\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Light white powder"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "US ID?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Actresses Adams and Falco"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Angers"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Landing on one may cost you the game"
+      }
+    ]
+  }
+}
