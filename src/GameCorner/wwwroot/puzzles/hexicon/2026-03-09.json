@@ -1,0 +1,24 @@
+{
+  "date": "2026-03-09",
+  "pangram": "yoghurt",
+  "letters": [ "y", "g", "h", "o", "r", "t", "u" ],
+  "required": "y",
+  "words": [
+    "gory",
+    "gyro",
+    "orgy",
+    "troy",
+    "tyro",
+    "your",
+    "yurt",
+    "hurry",
+    "rutty",
+    "youth",
+    "groggy",
+    "grotty",
+    "toothy",
+    "tryout",
+    "yogurt",
+    "yoghurt"
+  ]
+}
