@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-10",
+  "title": "No pain, no gain",
+  "author": "Luna",
+  "rows": [
+    "OVERT",
+    "FINER",
+    "GOSEE",
+    "ALOVE",
+    "BARED"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Add a layer of colour (NO PAIN)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "More exquisite"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Look for yourself!\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "It's ___ Thing (The Whispers)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Negotiated terms of trade (NO GAIN)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Gift ___ (a way with words)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "String quartet instrument"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Belgian painter James"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Christopher, of Superman"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Wooded"
+      }
+    ]
+  }
+}
