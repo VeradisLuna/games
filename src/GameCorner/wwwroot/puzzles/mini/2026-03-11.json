@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-11",
+  "title": "Little Women",
+  "author": "Luna",
+  "rows": [
+    "JABAT",
+    "OMEGA",
+    "BYTES",
+    "#LHR#",
+    "#SES#"
+  ],
+  "highlights": [
+    "abe..",
+    "ad.d.",
+    ".b...",
+    "..e..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Poke"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Ω (first daughter)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Digital data"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Busiest airport in Europe"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Its in French"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Occupation (second daughter)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Some chemicals (fourth daughter)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"You ___ judge\" (third daughter)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Golden ___ (retirees)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Thank-yous"
+      }
+    ]
+  }
+}
