@@ -1,0 +1,33 @@
+{
+  "date": "2026-03-13",
+  "pangram": "councillor",
+  "letters": [ "r", "c", "i", "l", "n", "o", "u" ],
+  "required": "r",
+  "words": [
+    "coir",
+    "corn",
+    "curl",
+    "iron",
+    "lorn",
+    "lour",
+    "rill",
+    "roil",
+    "roll",
+    "ruin",
+    "uric",
+    "color",
+    "croon",
+    "curio",
+    "incur",
+    "occur",
+    "runic",
+    "colour",
+    "concur",
+    "ironic",
+    "uncurl",
+    "unroll",
+    "unicorn",
+    "councilor",
+    "councillor"
+  ]
+}
