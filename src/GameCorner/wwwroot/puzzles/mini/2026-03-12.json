@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-12",
+  "title": "High time",
+  "author": "Luna",
+  "rows": [
+    "#INC#",
+    "#NOON",
+    "BURRO",
+    "ASSET",
+    "REESE"
+  ],
+  "highlights": [
+    ".....",
+    ".****",
+    "*...*",
+    "*...*",
+    "*...*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pixar's \"Monsters, ___\""
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Midday"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Grand Canyon pack animal"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Something valuable"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Actress Witherspoon"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Occupied"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Like Thor and Loki"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Parts of computers and reactors"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Memo"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Setting for a joke, perhaps"
+      }
+    ]
+  }
+}
