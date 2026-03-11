@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-13",
+  "title": "Feeling blue",
+  "author": "Luna",
+  "rows": [
+    "#UMM#",
+    "BLOOD",
+    "ENVOY",
+    "LAINE",
+    "LEN##"
+  ],
+  "highlights": [
+    "...e.",
+    "eeeee",
+    "e..e.",
+    "e..e.",
+    "e...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Let me think...\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "A positive, perhaps"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Diplomat"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cleo, of jazz"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"It's a ten from ___\" Goodman"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Some arm bones"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"___ On Up\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Apollo program destination"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Big Ben, for one"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Indigo, or Prussian blue"
+      }
+    ]
+  }
+}
