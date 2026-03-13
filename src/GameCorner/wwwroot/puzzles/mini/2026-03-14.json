@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-14",
+  "title": "The offing",
+  "author": "Luna",
+  "rows": [
+    "#SKY#",
+    "CELEB",
+    "AMINO",
+    "MINTY",
+    "#SEA#"
+  ],
+  "highlights": [
+    ".eee.",
+    ".....",
+    ".....",
+    ".....",
+    ".eee."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Blue expanse"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "A-lister"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Protein-building acid"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Like some toothpaste"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Blue expanse"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They're after quarters"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Kevin of A Fish Called Wanda"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gossip spreader, from Yiddish"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rotating machine part"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "The Horse and His ___ (C.S. Lewis)"
+      }
+    ]
+  }
+}
