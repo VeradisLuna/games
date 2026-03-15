@@ -1,0 +1,19 @@
+{
+  "date": "2026-03-16",
+  "pangram": "audacity",
+  "letters": [ "y", "a", "c", "d", "i", "t", "u" ],
+  "required": "y",
+  "words": [
+    "city",
+    "duty",
+    "tidy",
+    "catty",
+    "daddy",
+    "ditty",
+    "tatty",
+    "yucca",
+    "acuity",
+    "acidity",
+    "audacity"
+  ]
+}
