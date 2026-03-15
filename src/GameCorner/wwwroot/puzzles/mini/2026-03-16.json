@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-16",
+  "title": "Me in the corner",
+  "author": "Luna",
+  "rows": [
+    "#ACLU",
+    "#LOON",
+    "MILLA",
+    "IBEAM",
+    "NITTI"
+  ],
+  "highlights": [
+    "...**",
+    "....*",
+    "*...*",
+    "*....",
+    "**..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "US rights advocacy org."
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Bird on Canadian dollar coin"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Jovovich of Resident Evil"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Letter-shaped girder"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Al Capone henchman, Frank"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Tale that might let you off the hook"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Humanist John of Tudor England"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "React to a joke online, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "A friend in France"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sixty secs"
+      }
+    ]
+  }
+}
