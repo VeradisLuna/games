@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-17",
+  "title": "Data bases",
+  "author": "Luna",
+  "rows": [
+    "#FARM",
+    "HIDEO",
+    "CLOUD",
+    "HESSE",
+    "##EEL"
+  ],
+  "highlights": [
+    ".****",
+    ".*..*",
+    "*****",
+    ".*..*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Old MacDonald had one"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Kojima, of Metal Gear Solid"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "It could be cumulus"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Steppenwolf author"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Proverbially slippery creature"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "You may find it next to Edit and View"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Get ___ of reality"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "One of three environmentally friendly Rs"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Runway worker"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "FDR predecessor"
+      }
+    ]
+  }
+}
