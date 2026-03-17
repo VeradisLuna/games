@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-18",
+  "title": "Can you repeat that?",
+  "author": "Luna",
+  "rows": [
+    "WARD#",
+    "ASEA#",
+    "TIANA",
+    "EDICT",
+    "ROMEO"
+  ],
+  "highlights": [
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Protect (against)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "On the ocean"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "New Orleans Disney princess"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "It might come after \"Hear ye, hear ye!\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"O ___, ___, wherefore art thou, ___?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"___, ___ everywhere...\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"In my manner\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Prepare to fire, again"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"___, ___, we're falling apart to half time\""
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "\"From ___ Z\""
+      }
+    ]
+  }
+}
