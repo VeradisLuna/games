@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-19",
+  "title": "Directionless",
+  "author": "Luna",
+  "rows": [
+    "SPORT",
+    "HOREB",
+    "OUTTA",
+    "OCHO#",
+    "SHOW#"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Backing *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Biblical peak"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Straight ___ Compton\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cinco + tres"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Final confrontation *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Drives off"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Holder for tobacco or joey"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Lead-in to -dontist"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Haul away again"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Initials on an unfinished schedule"
+      }
+    ]
+  }
+}
