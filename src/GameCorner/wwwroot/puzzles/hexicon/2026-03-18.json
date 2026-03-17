@@ -1,0 +1,33 @@
+{
+  "date": "2026-03-18",
+  "pangram": "vocative",
+  "letters": [ "v", "a", "c", "e", "i", "o", "t" ],
+  "required": "v",
+  "words": [
+    "cave",
+    "cove",
+    "eave",
+    "veto",
+    "vice",
+    "viva",
+    "vote",
+    "civet",
+    "civic",
+    "covet",
+    "evict",
+    "ovate",
+    "voice",
+    "active",
+    "caveat",
+    "octave",
+    "octavo",
+    "vacate",
+    "vivace",
+    "votive",
+    "vitiate",
+    "activate",
+    "titivate",
+    "vocative",
+    "evocative"
+  ]
+}
