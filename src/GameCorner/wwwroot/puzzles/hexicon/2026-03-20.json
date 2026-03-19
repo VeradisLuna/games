@@ -1,0 +1,27 @@
+{
+  "date": "2026-03-20",
+  "pangram": "prodigy",
+  "letters": [ "y", "d", "g", "i", "o", "p", "r" ],
+  "required": "v",
+  "words": [
+    "dory",
+    "gory",
+    "gyro",
+    "orgy",
+    "ropy",
+    "yogi",
+    "dippy",
+    "dodgy",
+    "doggy",
+    "giddy",
+    "goody",
+    "piggy",
+    "poppy",
+    "porgy",
+    "drippy",
+    "droopy",
+    "groggy",
+    "priory",
+    "prodigy"
+  ]
+}
