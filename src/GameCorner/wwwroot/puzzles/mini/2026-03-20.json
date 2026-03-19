@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-20",
+  "title": "Doodle implement",
+  "author": "Luna",
+  "rows": [
+    "#FELT",
+    "#LAIR",
+    "TUTTI",
+    "IKEA#",
+    "PEN##"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    "*....",
+    "*....",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sensed"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Villain's hideout"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___-frutti"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Store that sells meatballs (and furniture)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Farm enclosure"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Surprising stroke of luck"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Consumed"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Rock guitarist Ford"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Swim-bike-run race, familiarly"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bit of advice"
+      }
+    ]
+  }
+}
