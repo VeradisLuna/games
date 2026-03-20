@@ -1,0 +1,85 @@
+{
+  "date": "2026-03-21",
+  "title": "Bearings in brief",
+  "author": "Luna",
+  "rows": [
+    "#RUM#",
+    "EAPOE",
+    "LT#RT",
+    "LEDES",
+    "#SNL#"
+  ],
+  "highlights": [
+    "..*..",
+    "..*..",
+    "**.**",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Captain's quaff"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "The Raven writer"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Slight left?"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "clue": "Not all right?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "In journalism, they might be buried"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Sketch show now coming to the UK"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They're lower for mates (or maybe not!)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Bottled\" direction?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gourmet mushroom"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "90° bend"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "UFO pilots, for short"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "clue": "Packed down?"
+      }
+    ]
+  }
+}
