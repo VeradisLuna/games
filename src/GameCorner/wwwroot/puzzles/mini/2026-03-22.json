@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-22",
+  "title": "Shorts for sports!",
+  "author": "Luna",
+  "rows": [
+    "##BOO",
+    "SKORT",
+    "AWAIT",
+    "CARGO",
+    "SID##"
+  ],
+  "highlights": [
+    "..*..",
+    "*****",
+    "..*..",
+    "*****",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Monsters, Inc. kid"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ (tennis wear)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Hang around for"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ shorts (fishing wear)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Ice Age sloth"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ shorts (surf wear)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Init."
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Quattro e quattro"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Holders of squid ink"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "River named in a Best Picture title"
+      }
+    ]
+  }
+}
