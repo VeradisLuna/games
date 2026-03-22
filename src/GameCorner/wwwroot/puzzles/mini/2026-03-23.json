@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-23",
+  "title": "Cockney conundrum",
+  "author": "Luna",
+  "rows": [
+    "#MAT#",
+    "MONEY",
+    "AUDRA",
+    "STINK",
+    "#HES#"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Yoga equipment"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bread and honey"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "McDonald with six Tony Awards"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Pen and ink"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "\"___ dead, Jim\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "North and South"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "MacDowell of Groundhog Day"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gull relatives"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "More, in Madrid"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Natter"
+      }
+    ]
+  }
+}
