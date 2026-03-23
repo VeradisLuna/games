@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-24",
+  "title": "Party games?",
+  "author": "Luna",
+  "rows": [
+    "#ASMR",
+    "ATLUS",
+    "QUEST",
+    "AREI#",
+    "#NPC#"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "**...",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Video genre for brain-tingling feeling"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Developer that put Persona \"on the map\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Adventurer's mission"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Whose woods these ___ think I know\" (Frost)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "6-across giver, for short"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "You have one in battle (unless it's real-time!)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Status effect where you may miss 1-down"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "What Nobuo Uematsu makes"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "They connect the highlighted letters"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Palindromic UK exam board"
+      }
+    ]
+  }
+}
