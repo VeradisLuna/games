@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-25",
+  "title": "Letters and numbers",
+  "author": "Luna",
+  "rows": [
+    "TWO##",
+    "TOFF#",
+    "ERWIN",
+    "STAVE",
+    "THREE"
+  ],
+  "highlights": [
+    "***..",
+    "...*.",
+    "...*.",
+    "...*.",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "3-letter number"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Georgia who won I'm a Celeb"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Physicist Schrödinger"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lines for music composition"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "5-letter number"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Statistician's tool for checking means"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Value"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words that follow fog, man, or god"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "4-letter number"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Maiden name preceder"
+      }
+    ]
+  }
+}
