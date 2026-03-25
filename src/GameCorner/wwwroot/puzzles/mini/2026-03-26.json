@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-26",
+  "title": "Coast to coast",
+  "author": "Luna",
+  "rows": [
+    "BEACH",
+    "ADDLE",
+    "BIDES",
+    "ETTAS",
+    "SHORE"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Volleyball venue"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bewilder"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ one's time (waits)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "James and Jones of jazz"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Place to wash up?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sweethearts"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Piaf who sang \"Non, je ne regrette rien\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Increase"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Without a cloud"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Steppenwolf author"
+      }
+    ]
+  }
+}
