@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-26",
+  "pangram": "pharmacy",
+  "letters": [ "m", "a", "c", "h", "p", "r", "y" ],
+  "required": "m",
+  "words": [
+    "army",
+    "camp",
+    "cram",
+    "harm",
+    "mama",
+    "pram",
+    "ramp",
+    "campy",
+    "champ",
+    "charm",
+    "cramp",
+    "hammy",
+    "mamma",
+    "mammy",
+    "march",
+    "marry",
+    "myrrh",
+    "maraca",
+    "mammary",
+    "pharmacy"
+  ]
+}
