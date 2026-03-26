@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-27",
+  "title": "Spoons",
+  "author": "Luna",
+  "rows": [
+    "#TEA#",
+    "SALSA",
+    "OBAMA",
+    "ULTRA",
+    "PEE##"
+  ],
+  "highlights": [
+    ".***.",
+    "**...",
+    "**...",
+    "**...",
+    "**..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Brewed beverage"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Dance or dip"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"A Promised Land\" author"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Very, very"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Capital of Peru?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Tennis surface, maybe"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Thrill"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sensation that may be triggered by a whisper"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Gazpacho or borscht"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Small battery"
+      }
+    ]
+  }
+}
