@@ -1,0 +1,11 @@
+{
+  "date": "2025-03-28",
+  "clue": "Bird found in the museum",
+  "enumeration": "3",
+  "answer": "EMU",
+  "explanation": "EMU is a bird. EMU is found in \"thE MUseum\".",
+  "hints": [
+    "The definition is \"bird\".",
+    "What bird can be found in \"the museum\"?"
+  ]
+}
