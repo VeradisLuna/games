@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-28",
+  "pangram": "fountain",
+  "letters": [ "f", "a", "i", "n", "o", "t", "u" ],
+  "required": "f",
+  "words": [
+    "faff",
+    "faun",
+    "fiat",
+    "font",
+    "foot",
+    "info",
+    "naff",
+    "naif",
+    "tiff",
+    "toff",
+    "tofu",
+    "tuft",
+    "afoot",
+    "faint",
+    "fauna",
+    "fount",
+    "futon",
+    "unfit",
+    "infant",
+    "nonfat",
+    "outfit",
+    "fountain",
+    "infatuation"
+  ]
+}
