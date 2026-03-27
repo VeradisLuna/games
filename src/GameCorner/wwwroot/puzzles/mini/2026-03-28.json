@@ -1,0 +1,68 @@
+{
+  "date": "2026-03-28",
+  "title": "Here we go again!",
+  "author": "Luna",
+  "rows": [
+    "PANKO",
+    "ATOOL",
+    "REORG",
+    "MAMMA",
+    "#MIA#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Kind of bread crumb coating"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"You're such ___\" (childish insult)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Corporate shuffle, for short"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bambino's first word"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Paper Planes rapper"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Chicken ___ (Italian dish, informally)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Group featuring Mr. T"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Rapace, of The Girl With the Dragon Tattoo"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Another chicken dish – this one's from South Asia"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "One of Chekhov's Three Sisters"
+      }
+    ]
+  }
+}
