@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-29",
+  "title": "Better wizards",
+  "author": "Luna",
+  "rows": [
+    "HOWL#",
+    "STRAW",
+    "TOITY",
+    "#ENTR",
+    "##GED"
+  ],
+  "highlights": [
+    "****.",
+    "....*",
+    "....*",
+    "#...*",
+    "##***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wizard with a moving castle"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Material for a witch's broom?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Hoity-___"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Start of an intermission?"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "A wizard of Earthsea"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "FDR's successor"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Siouan tribe"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Squeeze, as a mop"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Drink that may be \"pumpkin spice\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "___ Sisters (Discworld witches)"
+      }
+    ]
+  }
+}
