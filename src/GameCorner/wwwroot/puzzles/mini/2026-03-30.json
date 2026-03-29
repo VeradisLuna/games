@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-30",
+  "title": "Make a reservation",
+  "author": "Luna",
+  "rows": [
+    "CHECK",
+    "HODOR",
+    "ATIME",
+    "RENEW",
+    "#LATE"
+  ],
+  "highlights": [
+    "*****",
+    ".*...",
+    ".*...",
+    ".*...",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"-in\" or \"-out\" verb at reception"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Game of Thrones servant of House Stark"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Words that follow \"Once upon\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Extend, say a membership"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Type of fee for staying past 11am?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Cuppa"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It's found between Golf and India"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ab Fab mum"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Cupid's teammate"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "US Mardi Gras group"
+      }
+    ]
+  }
+}
