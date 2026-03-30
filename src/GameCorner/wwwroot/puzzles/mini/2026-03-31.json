@@ -1,0 +1,68 @@
+{
+  "date": "2026-03-31",
+  "title": "Four elements",
+  "author": "Luna",
+  "rows": [
+    "#TIN#",
+    "#IRON",
+    "SMITE",
+    "HONDO",
+    "ARGON"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cat on a Hot ___ Roof"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Original Monopoly token, retired in 2013"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Divine\" Paladin feature, in D&D"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "1953 John Wayne title role"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "It lights up when it's excited"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___-Leste"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Infuriating"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Abstain from"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Like some highlighter colours"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "La la lead-in"
+      }
+    ]
+  }
+}
