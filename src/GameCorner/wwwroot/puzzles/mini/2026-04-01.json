@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-01",
+  "title": "Bump!",
+  "author": "Luna",
+  "rows": [
+    "#AHA#",
+    "#LED#",
+    "SPIED",
+    "TESLA",
+    "ANTED"
+  ],
+  "highlights": [
+    ".....",
+    "..*..",
+    "**.**",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Eureka!\""
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Brutus's \"but\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Used a peephole, perhaps"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Inventor Nikola"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Paid into the pot"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Ski town that shares its name with a tree"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ocean's Eleven focus"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Skyfall singer"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Come ___?\" (Italian greeting)"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Papa"
+      }
+    ]
+  }
+}
