@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-01",
+  "pangram": "uniform",
+  "letters": [ "i", "f", "m", "n", "o", "r", "u" ],
+  "required": "i",
+  "words": [
+    "firm",
+    "info",
+    "iron",
+    "miff",
+    "mini",
+    "riff",
+    "ruin",
+    "minim",
+    "minor",
+    "onion",
+    "union",
+    "infirm",
+    "inform",
+    "minion",
+    "mirror",
+    "muffin",
+    "minimum",
+    "uniform"
+  ]
+}
