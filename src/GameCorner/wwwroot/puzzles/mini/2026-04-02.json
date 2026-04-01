@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-02",
+  "title": "Bump!!",
+  "author": "Luna",
+  "rows": [
+    "#AHS#",
+    "IMOUT",
+    "GORSE",
+    "GRAIN",
+    "YESES"
+  ],
+  "highlights": [
+    ".....",
+    "..*..",
+    "**.**",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sounds of satisfaction"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Poker player's concession"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Spiny shrub"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Wood feature"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Some RSVPs"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Moon hits your eye like a big pizza pie\" feeling"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bar mitzvah dances"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Dictionary Corner's Dent"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pop of rock"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"___ across the board!\""
+      }
+    ]
+  }
+}
