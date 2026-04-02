@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-03",
+  "title": "Back words",
+  "author": "Luna",
+  "rows": [
+    "#JAR#",
+    "REPAP",
+    "ANITA",
+    "EGATS",
+    "#ANY#"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    ".....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pickle container"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Softcover book *"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "R&B singer Baker"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Behind the scenes *"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Whatever amount"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Tower-building game"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Related to bees"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Dilapidated"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Addison who sang Fame Is a Gun"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Faux ___"
+      }
+    ]
+  }
+}
