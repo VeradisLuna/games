@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-03",
+  "pangram": "antipathy",
+  "letters": [ "h", "a", "i", "n", "p", "t", "y" ],
+  "required": "h",
+  "words": [
+    "hath",
+    "hint",
+    "hiya",
+    "path",
+    "phat",
+    "pith",
+    "than",
+    "that",
+    "thin",
+    "happy",
+    "hippy",
+    "ninth",
+    "pithy",
+    "apathy",
+    "hatpin",
+    "antipathy"
+  ]
+}
