@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-04",
+  "pangram": "unmatch",
+  "letters": [ "h", "a", "c", "m", "n", "t", "u" ],
+  "required": "h",
+  "words": [
+    "chat",
+    "chum",
+    "hath",
+    "hunt",
+    "math",
+    "much",
+    "than",
+    "that",
+    "catch",
+    "chant",
+    "hatch",
+    "haunt",
+    "human",
+    "hunch",
+    "hutch",
+    "match",
+    "munch",
+    "natch",
+    "attach",
+    "haunch",
+    "thatch",
+    "mahatma",
+    "manhunt",
+    "unmatch",
+    "nuthatch"
+  ]
+}
