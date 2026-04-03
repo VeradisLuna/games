@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-04",
+  "title": "Highs and lows",
+  "author": "Luna",
+  "rows": [
+    "##UPS",
+    "#KNIT",
+    "RESSA",
+    "IMEAN",
+    "DOWNS"
+  ],
+  "highlights": [
+    "..***",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "DHL competitor"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Put in stitches"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Nobel Peace Prize journalist Maria"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"That is to say...\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Half of this crossword's clues"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Take out stitches"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Tower city resident"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Is a really big fan of"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "___ Sabe (the Lone Ranger, to Tonto)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Purge"
+      }
+    ]
+  }
+}
