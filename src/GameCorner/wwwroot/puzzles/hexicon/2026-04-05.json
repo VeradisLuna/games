@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-05",
+  "pangram": "complex",
+  "letters": [ "m", "c", "e", "l", "o", "p", "x" ],
+  "required": "m",
+  "words": [
+    "come",
+    "loom",
+    "meme",
+    "memo",
+    "mole",
+    "moll",
+    "mope",
+    "poem",
+    "pomp",
+    "clomp",
+    "emcee",
+    "lemme",
+    "compel",
+    "pommel",
+    "pompom",
+    "complex"
+  ]
+}
