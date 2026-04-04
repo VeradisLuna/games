@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-05",
+  "title": "Come as You Are",
+  "author": "Luna",
+  "rows": [
+    "GOLD#",
+    "ISIAH",
+    "ALONE",
+    "SONAR",
+    "##SEE"
+  ],
+  "highlights": [
+    "****.",
+    "....*",
+    "*****",
+    "....*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"You are ___\" (Spandau Ballet line)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Basketball great Thomas"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "You Are Not ___ (Michal Jackson)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Submarine detector"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Perceive"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Model Carangi, and director Coppola"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Norway's capital"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Members of a pride"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mother of Perseus"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"Wish You Were ___\" (Pink Floyd album)"
+      }
+    ]
+  }
+}
