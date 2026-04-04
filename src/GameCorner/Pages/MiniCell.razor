@@ -5,6 +5,30 @@
 {
     <div class="mini-cell is-block"></div>
 }
+else if (IsRebus)
+{
+    <div class="mini-cell @(isFocused ? "is-active" : null) @(IsHighlighted ? "is-highlighted" : null) @(!string.IsNullOrWhiteSpace(HighlightType) ? $"highlight-type-{HighlightType}" : null) @(IsCorrectUI ? "is-correct" : null)" @onclick="FocusInput" data-hl="@IsHighlighted">
+        <input @ref="inputRef"
+               class="mini-cell-input"
+               type="text"
+               maxlength="1"
+               inputmode="@((DisableNativeKeyboard ? "none" : "latin"))"
+               autocomplete="off"
+               autocorrect="off"
+               autocapitalize="characters"
+               spellcheck="false"
+               @bind-value="Text"
+               @bind-value:event="oninput"
+               @bind-value:after="OnTextChanged"
+               @onfocus="OnFocus"
+               @onblur="() => isFocused = false"
+               @onkeydown="HandleKeyDown"
+               @oncontextmenu:preventDefault
+               @oncopy:preventDefault
+               @oncut:preventDefault
+               @onpaste:preventDefault />
+    </div>
+}
 else
 {
     <div class="mini-cell @(isFocused ? "is-active" : null) @(IsHighlighted ? "is-highlighted" : null) @(!string.IsNullOrWhiteSpace(HighlightType) ? $"highlight-type-{HighlightType}" : null) @(IsCorrectUI ? "is-correct" : null)" @onclick="FocusInput" data-hl="@IsHighlighted">
@@ -40,6 +64,9 @@ else
     [Parameter] public bool IsBlock { get; set; }
     [Parameter] public bool IsHighlighted { get; set; }
     [Parameter] public bool IsCorrectUI { get; set; }
+
+    [Parameter] public bool IsRebus { get; set; }
+    [Parameter] public string RebusLetters { get; set; } = "";
 
     [Parameter] public string HighlightType { get; set; } = "";
 

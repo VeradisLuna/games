@@ -51,10 +51,10 @@ public sealed class MiniCrosswordVm
     public string Date { get; private set; } = "";
     public string SpecialURL { get; private set; } = "";
 
-    public sealed record Cell(bool IsBlock, bool IsHighlighted, char? Solution, int? Number, string? HighlightType)
+    public sealed record Cell(bool IsBlock, bool IsHighlighted, char? Solution, int? Number, string? HighlightType, bool? IsRebus, string? RebusLetters)
     {
         public char? Entry { get; set; } = null;
-        public bool IsCorrect => IsBlock || Entry == Solution;
+        public bool IsCorrect => IsBlock || (Entry == Solution) || (IsRebus ?? false);
 
         // UI-only decoration (not used in solving logic)
         public CheckMark Mark { get; set; } = CheckMark.None;
@@ -109,7 +109,7 @@ public sealed class MiniCrosswordVm
         Author = data.Author ?? "";
         Date = data.Date ?? "";
 
-        BuildGridFromRows(data.Rows, data.Highlights);
+        BuildGridFromRows(data.Rows, data.Highlights, data.Rebus);
         AutoNumber();
         BuildClues(data.Clues);
         ValidateClueAnswersAgainstGrid(data.Clues); // only checks if Answer provided
@@ -118,7 +118,7 @@ public sealed class MiniCrosswordVm
             if (!_grid[i].IsBlock) _grid[i].Entry = null;
     }
 
-    private void BuildGridFromRows(List<string>? rows, List<string>? highlights)
+    private void BuildGridFromRows(List<string>? rows, List<string>? highlights, string rebus)
     {
         if (rows is null || rows.Count != Size || rows.Any(r => r.Length != Size))
             throw new InvalidOperationException("rows must be 5 strings of length 5.");
@@ -132,8 +132,9 @@ public sealed class MiniCrosswordVm
             {
                 char ch = rows[r][c];
                 bool isBlock = ch == '#';
-                if (!isBlock && !char.IsLetter(ch))
-                    throw new InvalidOperationException($"rows[{r}][{c}] must be A–Z or '#'.");
+                bool isRebus = ch == '_';
+                if (!isBlock && !isRebus && !char.IsLetter(ch))
+                    throw new InvalidOperationException($"rows[{r}][{c}] must be A–Z or '#' or '_'.");
                 char? sol = isBlock ? null : char.ToUpperInvariant(ch);
                 bool isHighlighted = hasHighlights && (highlights[r][c] == '*' || "abcdefghijklmnopqrstuvwxyz".Contains(highlights[r][c]));
                 
@@ -144,9 +145,11 @@ public sealed class MiniCrosswordVm
                         highlightType = "normal";
                     else if ("abcdefghijklmnopqrstuvwxyz".Contains(highlights[r][c]))
                         highlightType = highlights[r][c].ToString();
+                    else if (isRebus)
+                        highlightType = "rebus";
                 }
 
-                _grid.Add(new Cell(isBlock, isHighlighted, sol, null, highlightType));
+                _grid.Add(new Cell(isBlock, isHighlighted, sol, null, highlightType, isRebus, rebus));
             }
         }
     }
@@ -308,6 +311,15 @@ public sealed class MiniCrosswordVm
             _grid[i].Mark = (!_grid[i].IsBlock && _grid[i].Entry == _grid[i].Solution)
                 ? CheckMark.Correct
                 : CheckMark.None;
+    }
+
+    public void ShowLetter(int index)
+    {
+        if (!_grid[index].IsBlock)
+        {
+            _grid[index].Entry = _grid[index].Solution;
+            _grid[index].Mark = CheckMark.Correct;
+        }
     }
 
     public void CheckCurrentClue(int row, int col, bool across)

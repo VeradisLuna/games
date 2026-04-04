@@ -45,6 +45,7 @@ namespace Hexicon.Core
         public List<string> Highlights { get; set; } = new();
         public MiniClueSet? Clues { get; set; }
         public string SpecialURL { get; set; } = "";
+        public string Rebus { get; set; } = "";
     }
 
     public sealed class MiniClueSet

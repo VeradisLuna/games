@@ -47,16 +47,32 @@ else
                                     else
                                     {
                                         <div class="cluenumber">@cell.Number</div>
-                                        <MiniCell Value="@(cell.Entry)"
-                                                    ValueChanged="@(ch => Vm.SetEntry(idx, ch))"
-                                                    OnInput="@(ch => OnCellInput(idx, ch))"
-                                                    OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
-                                                    IsActive="@(idx == activeIndex)"
-                                                    RequestFocusKey="@focusKey"
-                                                    DisableNativeKeyboard="useOnscreenKeys"
-                                                    IsHighlighted="@cell.IsHighlighted"
-                                                    HighlightType="@cell.HighlightType"
-                                                    IsCorrectUI="@(cell.Mark == CheckMark.Correct)"/>
+                                        @if(cell.IsRebus ?? false)
+                                        {
+                                            <MiniCell Value="@(cell.Entry)"
+                                                      ValueChanged="@(ch => Vm.SetEntry(idx, ch))"
+                                                      OnInput="@(ch => OnCellInput(idx, ch))"
+                                                      OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
+                                                      IsActive="@(idx == activeIndex)"
+                                                      RequestFocusKey="@focusKey"
+                                                      DisableNativeKeyboard="useOnscreenKeys"
+                                                      IsHighlighted="@cell.IsHighlighted"
+                                                      HighlightType="@cell.HighlightType"
+                                                      IsCorrectUI="@(cell.Mark == CheckMark.Correct)" />
+                                        }
+                                        else
+                                        {
+                                            <MiniCell Value="@(cell.Entry)"
+                                                      ValueChanged="@(ch => Vm.SetEntry(idx, ch))"
+                                                      OnInput="@(ch => OnCellInput(idx, ch))"
+                                                      OnKeyDownFromCell="@(e => OnCellKey(idx, e))"
+                                                      IsActive="@(idx == activeIndex)"
+                                                      RequestFocusKey="@focusKey"
+                                                      DisableNativeKeyboard="useOnscreenKeys"
+                                                      IsHighlighted="@cell.IsHighlighted"
+                                                      HighlightType="@cell.HighlightType"
+                                                      IsCorrectUI="@(cell.Mark == CheckMark.Correct)" />
+                                        }
                                     }
                                 </div>
                             }
@@ -138,7 +154,8 @@ else
                               OnPrevClue="PrevClue"
                               OnTab="@( () => { var res = nav.NextAfterInput(downMode, activeIndex); if (res.Wrapped) downMode = !downMode; Activate(res.To); })"
                               OnToggleMode="@( () => { downMode = !downMode; focusKey++; })"
-                              OnCheckAll="OnCheckAll" />
+                              OnCheckAll="OnCheckAll"
+                              OnShowLetter="OnShowLetter" />
                     @if (Vm.Solved)
                     {
                         <div class="mini-share-overlay">
@@ -673,6 +690,13 @@ else
     private void OnCheckAll()
     {
         Vm.CheckAllCells();
+        StateHasChanged();
+    }
+
+    private void OnShowLetter()
+    {
+        Vm.ShowLetter(activeIndex);
+        AfterEntryChanged();
         StateHasChanged();
     }
 
