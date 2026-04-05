@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-06",
+  "title": "Drum roll, please",
+  "author": "Luna",
+  "rows": [
+    "SOAPY",
+    "ANDRE",
+    "FEMUR",
+    "ERIN#",
+    "SATE#"
+  ],
+  "highlights": [
+    ".....",
+    "..aa.",
+    "..aa.",
+    ".....",
+    "bbbb."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "All lathered up"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"The Giant\" who played Fezzik in The Princess Bride"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Biggest bone in the body"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Whistleblower Brokovich"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Quench"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Some have combinations"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Burdens"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Own up to"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Become wrinkled after a soak"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___ Blues (Beatles song)"
+      }
+    ]
+  }
+}
