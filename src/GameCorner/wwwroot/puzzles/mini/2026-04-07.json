@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-07",
+  "title": "Square root",
+  "author": "Luna",
+  "rows": [
+    "BRA##",
+    "LANAI",
+    "IMIND",
+    "MATTE",
+    "PLAZA"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Garment with straps"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hawaiian porch"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"It matters to me\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Not glossy"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Actress Aubrey"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Small airship"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Branch-like"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "British TV presenter Rani"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "DreamWorks's first animated film"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Mental spark"
+      }
+    ]
+  }
+}
