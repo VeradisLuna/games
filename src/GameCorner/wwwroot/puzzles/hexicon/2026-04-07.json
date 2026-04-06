@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-07",
+  "pangram": "payment",
+  "letters": [ "y", "a", "e", "m", "n", "p", "t" ],
+  "required": "y",
+  "words": [
+    "many",
+    "myna",
+    "type",
+    "empty",
+    "enemy",
+    "mammy",
+    "matey",
+    "meany",
+    "meaty",
+    "nanny",
+    "nappy",
+    "natty",
+    "pappy",
+    "patty",
+    "payee",
+    "peaty",
+    "penny",
+    "peppy",
+    "petty",
+    "tatty",
+    "teeny",
+    "papaya",
+    "payment"
+  ]
+}
