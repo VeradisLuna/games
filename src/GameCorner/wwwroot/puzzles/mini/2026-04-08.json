@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-08",
+  "title": "Blank canvas",
+  "author": "Luna",
+  "rows": [
+    "#MOE#",
+    "MACAW",
+    "BRUSH",
+    "ALLEY",
+    "#OIL#"
+  ],
+  "highlights": [
+    "...*.",
+    "...*.",
+    "*****",
+    "...*.",
+    ".***."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Simpsons bartender"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Talkative bird"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stroke"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bowling locale"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Word with drum or rig"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Kelly of \"3 Body Problem\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Eyelike openings"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Supporter of the arts?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Wall St. credential"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Question for toddlers and philosophers"
+      }
+    ]
+  }
+}
