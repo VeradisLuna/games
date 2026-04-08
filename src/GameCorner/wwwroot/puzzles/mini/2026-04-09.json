@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-09",
+  "title": "Drop by",
+  "author": "Luna",
+  "rows": [
+    "WHERE",
+    "AURIC",
+    "FLIPA",
+    "TOKER",
+    "STAND"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Through which *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Goldfinger's first name"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ coin (decide by chance)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"I'm a joker, I'm a smoker, I'm a midnight ___\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Ready to go, with \"on\" *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Floats through the air"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Monsieur who inspired \"Mr. Bean\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dropout regular and voice actor Ishii"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gain maturity"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Digital greeting"
+      }
+    ]
+  }
+}
