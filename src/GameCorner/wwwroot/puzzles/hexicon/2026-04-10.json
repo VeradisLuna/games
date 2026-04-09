@@ -1,0 +1,29 @@
+{
+  "date": "2026-04-10",
+  "pangram": "varsity",
+  "letters": [ "v", "a", "i", "r", "s", "t", "y" ],
+  "required": "v",
+  "words": [
+    "vary",
+    "vast",
+    "vats",
+    "visa",
+    "vita",
+    "viva",
+    "avast",
+    "savvy",
+    "vasts",
+    "visas",
+    "visit",
+    "vista",
+    "vivas",
+    "avatar",
+    "aviary",
+    "trivia",
+    "visits",
+    "vistas",
+    "avatars",
+    "varsity",
+    "vivaria"
+  ]
+}
