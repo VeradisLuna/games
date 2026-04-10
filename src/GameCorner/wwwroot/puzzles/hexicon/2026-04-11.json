@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-11",
+  "pangram": "anxiety",
+  "letters": [ "y", "a", "e", "i", "n", "t", "x" ],
+  "required": "y",
+  "words": [
+    "tiny",
+    "yeti",
+    "nanny",
+    "natty",
+    "ninny",
+    "tatty",
+    "teeny",
+    "tinny",
+    "entity",
+    "ninety",
+    "anxiety",
+    "inanity"
+  ]
+}
