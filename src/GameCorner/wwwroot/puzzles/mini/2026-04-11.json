@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-11",
+  "title": "No added Sugar",
+  "author": "Luna",
+  "rows": [
+    "#ALAN",
+    "#DEVO",
+    "OWNIT",
+    "MATEO",
+    "BROWN"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The boss on BBC's The Apprentice *"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "New wave band that wear \"energy domes\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Take full responsibility"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Drag queen Alexis ___"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "First track on Sticky Fingers *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Mac vs. PC in the 2000s, say"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Slowly, in sheet music"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ From the Bridge (Arthur Miller play)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Unacceptable"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "US government fiscal group"
+      }
+    ]
+  }
+}
