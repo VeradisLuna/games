@@ -1,0 +1,12 @@
+{
+  "date": "2025-04-12",
+  "clue": "Launch eggshells into bin",
+  "enumeration": "5",
+  "answer": "BEGIN",
+  "explanation": "The \"shells\" of \"egg\" are the outer letters, E and G. Put EG into BIN to get BEGIN, meaning \"launch\".",
+  "hints": [
+    "The definition is \"launch\".",
+    "What letters are the \"shells\" of \"egg\"?",
+    "Put those letters into BIN."
+  ]
+}
