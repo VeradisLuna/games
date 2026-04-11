@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-12",
+  "title": "US states",
+  "author": "Luna",
+  "rows": [
+    "MISS#",
+    "EDWIN",
+    "MAINE",
+    "OHSAY",
+    "#OHIO"
+  ],
+  "highlights": [
+    ".*...",
+    ".*...",
+    "*****",
+    ".*...",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Fail to catch"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Astronomer Hubble"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Setting for many Stephen King novels"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Words that precede \"can you see\""
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Birthplace of Neil Armstrong"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Office reminder"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "US ID?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Sound of a perfect basketball shot"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mount associated with Moses"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Hyphenated R&B star"
+      }
+    ]
+  }
+}
