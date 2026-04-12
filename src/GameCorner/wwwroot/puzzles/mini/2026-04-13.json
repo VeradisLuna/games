@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-13",
+  "title": "Super",
+  "author": "Luna",
+  "rows": [
+    "##MAN",
+    "#SOSO",
+    "STOAT",
+    "PARDO",
+    "FREAK"
+  ],
+  "highlights": [
+    "..***",
+    ".*...",
+    ".*...",
+    ".*...",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Geez!\""
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Nothing special"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Weasel relative"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Longtime SNL announcer Don"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Extremely unlikely"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Alan who wrote Watchmen"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Carne ___"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Unacceptable"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Twinkle Twinkle Little ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Lotion letters"
+      }
+    ]
+  }
+}
