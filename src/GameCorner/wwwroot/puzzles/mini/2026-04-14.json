@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-14",
+  "title": "Colour sounds",
+  "author": "Luna",
+  "rows": [
+    "REA##",
+    "ENDBY",
+    "ADDLE",
+    "DOTER",
+    "#ROWS"
+  ],
+  "highlights": [
+    "*....",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Stephen of V for Vendetta"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Not extend beyond"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Flummox"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "One who is overly fond"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "There are five in this puzzle"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Enjoyed a book"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Star Wars forest moon"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Supplement"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Huffed and puffed"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Informal plural pronoun"
+      }
+    ]
+  }
+}
