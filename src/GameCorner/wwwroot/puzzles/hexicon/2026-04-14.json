@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-14",
+  "pangram": "bandwagon",
+  "letters": [ "w", "a", "b", "d", "g", "n", "o" ],
+  "required": "w",
+  "words": [
+    "bawd",
+    "dawn",
+    "down",
+    "gaga",
+    "gawd",
+    "gnaw",
+    "gown",
+    "wand",
+    "woad",
+    "wood",
+    "wagon",
+    "wanna",
+    "dogwood",
+    "bandwagon"
+  ]
+}
