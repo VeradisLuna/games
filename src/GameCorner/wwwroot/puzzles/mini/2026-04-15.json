@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-15",
+  "title": "Better ___ than ___",
+  "author": "Luna",
+  "rows": [
+    "#BLAB",
+    "#LATE",
+    "NEVER",
+    "SWEAR",
+    "WARTY"
+  ],
+  "highlights": [
+    ".....",
+    ".aaaa",
+    "bbbbb",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Spill the beans"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "After the due date"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Not even once"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Turn the air blue"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Toadlike"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ fuse (erupted)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Edible seaweed in traditional Welsh dish"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Patronised"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Soft fruit"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sydney's state, for short"
+      }
+    ]
+  }
+}
