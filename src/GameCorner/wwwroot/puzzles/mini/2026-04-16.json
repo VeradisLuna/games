@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-16",
+  "title": "Open and shut",
+  "author": "Luna",
+  "rows": [
+    "CIRCA",
+    "ASAHI",
+    "DECAL",
+    "GEESE",
+    "EASES"
+  ],
+  "highlights": [
+    "a...a",
+    ".....",
+    "..bb.",
+    "..bb.",
+    "a...a"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "More or less"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Popular Japanese beer"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sticker for a car"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Flock that honks"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Soothes"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Mooch"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"___ little silhouetto of a man...\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Marathons, say"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Go after, as in tag"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Modern dance pioneer Gilmour"
+      }
+    ]
+  }
+}
