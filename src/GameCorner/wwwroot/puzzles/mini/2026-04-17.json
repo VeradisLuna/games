@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-17",
+  "title": "Diamond ring",
+  "author": "Luna",
+  "rows": [
+    "#RTX#",
+    "SORTA",
+    "AGAIN",
+    "DANNY",
+    "#NSA#"
+  ],
+  "highlights": [
+    ".....",
+    "..*..",
+    ".*.*.",
+    "..*..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "NVIDIA tech initialism"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Kinda"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Once more"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Actor DeVito"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "US intelligence organisation"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ josh (curry dish)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Lead-in to form or gender"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Aguilera nickname"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Blue"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Unspecified amount"
+      }
+    ]
+  }
+}
