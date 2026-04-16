@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-17",
+  "pangram": "breakaway",
+  "letters": [ "k", "a", "b", "e", "r", "w", "y" ],
+  "required": "k",
+  "words": [
+    "bake",
+    "bark",
+    "beak",
+    "kerb",
+    "rake",
+    "reek",
+    "wake",
+    "weak",
+    "week",
+    "awake",
+    "baker",
+    "brake",
+    "break",
+    "kayak",
+    "kebab",
+    "raker",
+    "wreak",
+    "bakery",
+    "barker",
+    "beaker",
+    "weaker",
+    "breaker",
+    "kayaker",
+    "breakaway"
+  ]
+}
