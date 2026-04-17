@@ -1,0 +1,85 @@
+{
+  "date": "2026-04-18",
+  "title": "Plus one?",
+  "author": "Luna",
+  "rows": [
+    "#BAA#",
+    "ELSIE",
+    "BE#ON",
+    "BALLS",
+    "#TAI#"
+  ],
+  "highlights": [
+    ".....",
+    "..*..",
+    ".*.*.",
+    "..*..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sheepish sound?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Hughes, Downton Abbey's housekeeper"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Let It ___"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "clue": "Forward"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Masquerades, perhaps"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Word before chi or after mai"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sheepish sound?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ You Like It"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Garlicky sauce"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Wane"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Tennis duos?"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "clue": "Singing syllable"
+      }
+    ]
+  }
+}
