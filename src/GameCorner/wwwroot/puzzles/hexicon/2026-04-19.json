@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-19",
+  "pangram": "flagrant",
+  "letters": [ "r", "a", "f", "g", "l", "n", "t" ],
+  "required": "r",
+  "words": [
+    "afar",
+    "agar",
+    "fart",
+    "frat",
+    "gran",
+    "raft",
+    "raga",
+    "rang",
+    "rant",
+    "tart",
+    "altar",
+    "attar",
+    "gnarl",
+    "graft",
+    "grant",
+    "ragga",
+    "arrant",
+    "raglan",
+    "ragtag",
+    "rattan",
+    "tantra",
+    "tartan",
+    "tartar",
+    "flagrant",
+    "fragrant"
+  ]
+}
