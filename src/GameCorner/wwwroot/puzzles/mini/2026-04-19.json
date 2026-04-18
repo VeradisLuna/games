@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-19",
+  "title": "Monochrome mammals",
+  "author": "Luna",
+  "rows": [
+    "#LOOP",
+    "ZEBRA",
+    "IMEAN",
+    "GUARD",
+    "#RHEA"
+  ],
+  "highlights": [
+    ".*..*",
+    "*****",
+    ".*..*",
+    ".*..*",
+    ".*..*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Circuit"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "African equine"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Uh, well...\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sentry"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Large flightless bird"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Madagascar's King Julien, for one"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "West Indian sorcery"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"___ we dancer?\" (Killers lyric)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "It spends up to 16 hours a day eating"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Change direction sharply"
+      }
+    ]
+  }
+}
