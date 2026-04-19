@@ -1,0 +1,27 @@
+{
+  "date": "2026-04-20",
+  "pangram": "nickname",
+  "letters": [ "k", "a", "c", "e", "i", "m", "n" ],
+  "required": "k",
+  "words": [
+    "akin",
+    "cake",
+    "kana",
+    "keen",
+    "kick",
+    "kine",
+    "kink",
+    "knee",
+    "make",
+    "meek",
+    "mick",
+    "mike",
+    "mink",
+    "neck",
+    "nick",
+    "knack",
+    "manikin",
+    "nickname",
+    "knickknack"
+  ]
+}
