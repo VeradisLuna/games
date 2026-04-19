@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-20",
+  "title": "Green things",
+  "author": "Luna",
+  "rows": [
+    "THUMB",
+    "ROPER",
+    "OUTIE",
+    "USONE",
+    "TEA##"
+  ],
+  "highlights": [
+    "*****",
+    ".*...",
+    ".*...",
+    ".*...",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Handy digit"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Lasso wielder"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Type of belly button"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Longest N-S American route"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Mad Hatter's drink"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Rainbow\" fish"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It always wins"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ point (somewhat)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "German possessive"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Prancing Pony locale in The Lord of the Rings"
+      }
+    ]
+  }
+}
