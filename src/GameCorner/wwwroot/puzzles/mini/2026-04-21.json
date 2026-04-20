@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-21",
+  "title": "Close to you",
+  "author": "Luna",
+  "rows": [
+    "#NEAR",
+    "CARTA",
+    "ADRAG",
+    "VIOLS",
+    "YALL#"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    ".....",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Getting warm"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Magna ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Something boring"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Baroque string instruments"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Youse"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Petrova, of tennis"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Swashbuckling Flynn"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Even just slightly"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___ to riches"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "South American rodent"
+      }
+    ]
+  }
+}
