@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-22",
+  "title": "Sun's out",
+  "author": "Luna",
+  "rows": [
+    "#WHIT",
+    "ARENA",
+    "DIALM",
+    "ENLAI",
+    "RGS##"
+  ],
+  "highlights": [
+    ".****",
+    "*...*",
+    "*...*",
+    "*...*",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pentecostal holiday *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Big gig venue"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "What to do, \"for murder\"?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Zhou of Chinese history"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Some protectors of QBs"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Squeeze, say, a mop"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Gets better"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"To Live and Die ___\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Coastal hazard (literally, \"harbour wave\") *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Into pieces *"
+      }
+    ]
+  }
+}
