@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-22",
+  "pangram": "liturgy",
+  "letters": [ "u", "g", "i", "l", "r", "t", "y" ],
+  "required": "u",
+  "words": [
+    "glut",
+    "gull",
+    "guru",
+    "lull",
+    "lulu",
+    "tutu",
+    "ugly",
+    "yurt",
+    "guilt",
+    "gully",
+    "lurgy",
+    "rutty",
+    "truly",
+    "tutti",
+    "guilty",
+    "liturgy",
+    "utility",
+    "guiltily"
+  ]
+}
