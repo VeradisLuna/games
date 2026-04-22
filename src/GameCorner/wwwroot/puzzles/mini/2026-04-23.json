@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-23",
+  "title": "Calendar girls",
+  "author": "Luna",
+  "rows": [
+    "##MAY",
+    "#JUNE",
+    "TURGS",
+    "AJAR#",
+    "JULY#"
+  ],
+  "highlights": [
+    "..aaa",
+    ".bbbb",
+    ".....",
+    ".....",
+    "aaaa."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Peter Parker's aunt, in Spider-Man"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Regina George's mother, in Mean Girls"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Theatre editors, slangily"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Slightly open"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Rachel Berry's dance teacher Cassandra, in Glee"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Banksy work, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "12 ___ Men"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"Affirmative!\""
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Lucky charm"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Mahal"
+      }
+    ]
+  }
+}
