@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-24",
+  "title": "Puzzling",
+  "author": "Luna",
+  "rows": [
+    "#SKY#",
+    "HANOI",
+    "AMOUR",
+    "RUBIK",
+    "#SSN#"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    ".....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Tricky area on a jigsaw puzzle, maybe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tower of ___ (puzzle with disks)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Secret lover"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cube puzzle inventor"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Nine-digit US ID"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Metroid bounty hunter"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "An Etch A Sketch has two of these"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Wanna join?\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sarcastic laugh syllable"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Rub the wrong way"
+      }
+    ]
+  }
+}
