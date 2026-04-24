@@ -1,0 +1,24 @@
+{
+  "date": "2026-04-25",
+  "pangram": "quenched",
+  "letters": [ "c", "d", "e", "h", "n", "q", "u" ],
+  "required": "c",
+  "words": [
+    "cede",
+    "cued",
+    "ceded",
+    "deuce",
+    "dunce",
+    "educe",
+    "hence",
+    "hunch",
+    "cheque",
+    "deduce",
+    "educed",
+    "eunuch",
+    "quench",
+    "deduced",
+    "hunched",
+    "quenched"
+  ]
+}
