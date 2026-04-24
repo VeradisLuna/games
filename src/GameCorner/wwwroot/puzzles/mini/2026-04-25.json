@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-25",
+  "title": "Poser poses?",
+  "author": "Luna",
+  "rows": [
+    "##NPR",
+    "SPORE",
+    "TATOS",
+    "ALIST",
+    "ROPES"
+  ],
+  "highlights": [
+    "...*.",
+    "*****",
+    "...*.",
+    "...*.",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Tiny Desk airer"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mushroom-to-be"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Hybrid vegetables, in Fallout"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Most famous people"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "What someone new might learn, with \"the\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Poor service indicator"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Plain writing"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Takes a breather"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Most famous person"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "___ Alto, California"
+      }
+    ]
+  }
+}
