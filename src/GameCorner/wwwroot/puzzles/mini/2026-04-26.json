@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-26",
+  "title": "S-curve",
+  "author": "Luna",
+  "rows": [
+    "#PAS#",
+    "OASES",
+    "SISTA",
+    "TSENG",
+    "#ADO#"
+  ],
+  "highlights": [
+    "...*.",
+    "..*.*",
+    "*.*..",
+    ".*...",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Faux ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Desert havens"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "R&B group that featured Missy Elliott"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Yani, youngest golfer to win five major championships"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "\"Much ___ About Nothing\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "One hundredth of a rupee"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Half-___ (not much effort went into it!)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ store by (have no faith in)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "East, in Essen"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Droop"
+      }
+    ]
+  }
+}
