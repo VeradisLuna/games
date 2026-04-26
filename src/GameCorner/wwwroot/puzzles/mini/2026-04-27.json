@@ -1,0 +1,70 @@
+{
+  "date": "2026-04-27",
+  "title": "Letters",
+  "author": "Luna",
+  "rows": [
+    "AGAME",
+    "#AREA",
+    "BTEAM",
+    "#EURO",
+    "CSPAN"
+  ],
+  "highlights": [
+    "*....",
+    ".....",
+    "*....",
+    ".....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Best thing to bring to a competition"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Width times length, maybe"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Reserves"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Coin with twelve stars"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "US politics channel"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pearly ___ (way to heaven)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Your gamblin' days ___\" (Bob Dylan)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Comedian Anne who was nominated for four Emmys"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"I Don't Want You Back\" singer"
+      }
+    ]
+  }
+}
