@@ -1,0 +1,70 @@
+{
+  "date": "2026-04-28",
+  "title": "Doubling up",
+  "author": "Luna",
+  "rows": [
+    "##TWO",
+    "#FOUR",
+    "MENSA",
+    "EIGHT",
+    "ENSUE"
+  ],
+  "highlights": [
+    "..aaa",
+    ".bbbb",
+    ".....",
+    "aaaaa",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "What it takes to tango"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Number of suits in a deck of playing cards"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "High IQ group"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Black ball"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Follow as a result"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Salad grabbers"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Chinese martial art"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Sinn ___ (Irish political party)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "English writer and journalist Arthur ___"
+      }
+    ]
+  }
+}
