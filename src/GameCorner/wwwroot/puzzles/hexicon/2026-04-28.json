@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-28",
+  "pangram": "foxglove",
+  "letters": [ "f", "e", "g", "l", "o", "v", "x" ],
+  "required": "f",
+  "words": [
+    "feel",
+    "fell",
+    "flee",
+    "flex",
+    "floe",
+    "flog",
+    "fool",
+    "golf",
+    "goof",
+    "foxglove"
+  ]
+}
