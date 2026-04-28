@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-29",
+  "pangram": "nitpicky",
+  "letters": [ "k", "c", "i", "n", "p", "t", "y" ],
+  "required": "k",
+  "words": [
+    "icky",
+    "inky",
+    "kick",
+    "kink",
+    "knit",
+    "nick",
+    "pick",
+    "pink",
+    "tick",
+    "kicky",
+    "kinky",
+    "kitty",
+    "picky",
+    "nitpick",
+    "nitpicky"
+  ]
+}
