@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-29",
+  "title": "Mono-grammatic",
+  "author": "Luna",
+  "rows": [
+    "TONY#",
+    "ONEOF",
+    "OTAKU",
+    "TATER",
+    "#POLY"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Quarter of an EGOT"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ a kind (unique)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Anime fan, maybe"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Spud"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Colloquially, having multiple relationships"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Trumpet sound"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Not in a bottle or can"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Sweet!\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Bumpkin"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "One of the Greco-Roman goddesses of vengeance"
+      }
+    ]
+  }
+}
