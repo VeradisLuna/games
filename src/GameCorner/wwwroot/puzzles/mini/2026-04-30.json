@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-30",
+  "title": "World's end",
+  "author": "Luna",
+  "rows": [
+    "#MAP#",
+    "RENEW",
+    "UTERI",
+    "MRRED",
+    "PEACE"
+  ],
+  "highlights": [
+    ".***.",
+    "....*",
+    "....*",
+    "....*",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"You are here\" diagram"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Subscribe for another year"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Wombs"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cincinnati mascot (not found in Reservoir Dogs!)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "✌️"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "One of 42,195 in the London Marathon"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "End of ___ (watershed moment)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Georges who wrote the lipogrammatic \"A Void\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rear end"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Broad"
+      }
+    ]
+  }
+}
