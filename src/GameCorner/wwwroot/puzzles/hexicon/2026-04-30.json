@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-30",
+  "pangram": "adulthood",
+  "letters": [ "u", "a", "d", "h", "l", "o", "t" ],
+  "required": "u",
+  "words": [
+    "auto",
+    "dual",
+    "dull",
+    "haul",
+    "hula",
+    "hull",
+    "laud",
+    "loud",
+    "lout",
+    "luau",
+    "ludo",
+    "lull",
+    "lulu",
+    "taut",
+    "thou",
+    "thud",
+    "tout",
+    "tutu",
+    "adult",
+    "aloud",
+    "outdo",
+    "outta",
+    "holdout",
+    "adulthood"
+  ]
+}
