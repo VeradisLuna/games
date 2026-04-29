@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-01",
+  "title": "Types of Al?",
+  "author": "Luna",
+  "rows": [
+    "#BIG#",
+    "#EARS",
+    "CAMEL",
+    "ALBEE",
+    "WEIRD"
+  ],
+  "highlights": [
+    ".***.",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "With 4-across, Noddy's best friend"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "See 1-across"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Dromedary, say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Edward who wrote Who's Afraid of Virginia Woolf?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Peculiar"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "EastEnders family name"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Metrical feet found in Shakespeare's sonnets"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Actress Judy of Arrested Development"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Rosebud, for one"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sound a crow makes"
+      }
+    ]
+  }
+}
