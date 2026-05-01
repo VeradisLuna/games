@@ -1,0 +1,13 @@
+{
+  "date": "2025-05-01",
+  "clue": "\"Top of the morning\", according to doctor",
+  "enumeration": "6",
+  "answer": "TAMPER",
+  "explanation": "Top of THE = T, morning = AM, according to = PER. TAMPER = doctor.",
+  "hints": [
+    "Morning can be represented by two letters.",
+    "We need a short word meaning \"according to\".",
+    "Our definition is \"doctor\", but not as a noun...",
+    "What's the top of \"the\"?"
+  ]
+}
