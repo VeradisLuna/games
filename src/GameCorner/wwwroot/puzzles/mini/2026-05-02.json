@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-02",
+  "title": "Costas",
+  "author": "Luna",
+  "rows": [
+    "BRAVA",
+    "LIVER",
+    "ADORN",
+    "NEWDO",
+    "CASE#"
+  ],
+  "highlights": [
+    "*****",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "**.*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Well done!\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Paté ingredient"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Decorate"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Fresh hairstyle"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Job for a detective"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Mel, man of a thousand voices"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Words before \"cock horse\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Swears"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Salsa variety"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "River of Florence"
+      }
+    ]
+  }
+}
