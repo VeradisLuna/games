@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-02",
+  "pangram": "watchman",
+  "letters": [ "w", "a", "c", "h", "m", "n", "t" ],
+  "required": "w",
+  "words": [
+    "thaw",
+    "want",
+    "watt",
+    "wham",
+    "what",
+    "macaw",
+    "wanna",
+    "watch",
+    "watchman"
+  ]
+}
