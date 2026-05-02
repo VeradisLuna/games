@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-03",
+  "title": "Rough around the edges",
+  "author": "Luna",
+  "rows": [
+    "PAPER",
+    "SUAVE",
+    "ARLEN",
+    "#IAND",
+    "#CUTS"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "With 9-across, small snips from books?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Smooth and sophisticated"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Over the Rainbow composer"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "\"___ my Annabel Lee\" (Poe)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "See 1-across"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Helpful FYI"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Goldfinger"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Micronesian nation"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Special occasion"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Tears apart"
+      }
+    ]
+  }
+}
