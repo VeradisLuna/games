@@ -1,0 +1,21 @@
+{
+  "date": "2026-05-03",
+  "pangram": "phoenix",
+  "letters": [ "i", "e", "h", "n", "o", "p", "x" ],
+  "required": "i",
+  "words": [
+    "nine",
+    "pine",
+    "pipe",
+    "hippo",
+    "onion",
+    "opine",
+    "pixie",
+    "hippie",
+    "pinion",
+    "pippin",
+    "ninepin",
+    "opinion",
+    "phoenix"
+  ]
+}
