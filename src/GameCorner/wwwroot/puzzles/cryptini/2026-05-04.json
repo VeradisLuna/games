@@ -1,0 +1,11 @@
+{
+  "date": "2025-05-04",
+  "clue": "Buzzer generates never-ending beep?",
+  "enumeration": "3",
+  "answer": "BEE",
+  "explanation": "BEEP never-ending is BEE, a buzzer.",
+  "hints": [
+    "What is beep, never-ending?",
+    "The definition is \"buzzer\", but it's a little loose, hence the question mark at the end of the clue."
+  ]
+}
