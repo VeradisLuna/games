@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-05",
+  "title": "_ Feather _ Tail _ Hunter",
+  "author": "Luna",
+  "rows": [
+    "##MUD",
+    "WHITE",
+    "HALLE",
+    "OWNER",
+    "AKEY#"
+  ],
+  "highlights": [
+    "....*",
+    "*****",
+    ".*..*",
+    ".*..*",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Something that's slung"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Song title lead-in to Wedding or Christmas"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Oscar-winning Berry"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Proprietor"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "It's next to Caps Lock"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Winnie-the-Pooh creator"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Chase, of baseball"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Does, maybe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"No way!\""
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Peddle"
+      }
+    ]
+  }
+}
