@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-04",
+  "title": "Cross word",
+  "author": "Luna",
+  "rows": [
+    "STATS",
+    "TENET",
+    "ANGRY",
+    "NOEM#",
+    "SNL##"
+  ],
+  "highlights": [
+    "...*.",
+    "...*.",
+    "*****",
+    "...*.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Numeric data"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Palindromic Nolan title"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Furious"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Kristi, who was fired in March"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Show with a sketch about said firing"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Big fans"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Wood joint piece"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Word after snow or weeping"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Four years, for a president"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Pig's place"
+      }
+    ]
+  }
+}
