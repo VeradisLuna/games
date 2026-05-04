@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-04",
+  "pangram": "sketchy",
+  "letters": [ "k", "c", "e", "h", "s", "t", "y" ],
+  "required": "k",
+  "words": [
+    "ekes",
+    "heck",
+    "keys",
+    "seek",
+    "tyke",
+    "check",
+    "cheek",
+    "ketch",
+    "seeks",
+    "skeet",
+    "tykes",
+    "checks",
+    "cheeks",
+    "cheeky",
+    "sketch",
+    "ketches",
+    "sketchy",
+    "sketches"
+  ]
+}
