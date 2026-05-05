@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-06",
+  "title": "\"Florals? In spring?\"",
+  "author": "Luna",
+  "rows": [
+    "#WAG#",
+    "DEVIL",
+    "EAGLE",
+    "PRADA",
+    "PSS##"
+  ],
+  "highlights": [
+    ".*...",
+    "*****",
+    ".*...",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Move like a happy dog's tail"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pitchfork wielder"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "One better than a birdie"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Milan-based fashion label"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Letter addenda, in brief"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Dresses in"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Kind of aviation fuel"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Verb for the proverbial lily"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Nosferatu's Lily-Rose"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Salonga of Broadway"
+      }
+    ]
+  }
+}
