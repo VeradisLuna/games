@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-06",
+  "pangram": "graphic",
+  "letters": [ "p", "a", "c", "g", "h", "i", "r" ],
+  "required": "p",
+  "words": [
+    "carp",
+    "chap",
+    "chip",
+    "crap",
+    "grip",
+    "harp",
+    "pair",
+    "papa",
+    "pica",
+    "prig",
+    "carpi",
+    "chirp",
+    "graph",
+    "parch",
+    "pariah",
+    "graphic",
+    "priapic",
+    "paragraph"
+  ]
+}
