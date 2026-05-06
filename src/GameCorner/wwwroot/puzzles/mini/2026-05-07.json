@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-07",
+  "title": "Knees-up",
+  "author": "Luna",
+  "rows": [
+    "#GAS#",
+    "BALL#",
+    "OLEAN",
+    "PARTY",
+    "##TEX"
+  ],
+  "highlights": [
+    ".*...",
+    "****.",
+    ".*...",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Grand old time"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Foot part"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "New York city"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Group of D&D adventurers"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Looney Tunes cartoonist Avery"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fancy-sounding apple cultivar"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Emergency notification"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Roofing material"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Catchy tune"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Greek goddess of the night"
+      }
+    ]
+  }
+}
