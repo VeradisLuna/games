@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-07",
+  "pangram": "mailbox",
+  "letters": [ "o", "a", "b", "i", "l", "m", "x" ],
+  "required": "o",
+  "words": [
+    "ammo",
+    "blob",
+    "boil",
+    "bola",
+    "bomb",
+    "boob",
+    "boom",
+    "lilo",
+    "limo",
+    "loam",
+    "loll",
+    "loom",
+    "moil",
+    "moll",
+    "axiom",
+    "bloom",
+    "limbo",
+    "mambo",
+    "momma",
+    "abloom",
+    "balboa",
+    "bamboo",
+    "baobab",
+    "boombox",
+    "mailbox"
+  ]
+}
