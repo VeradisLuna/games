@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-08",
+  "pangram": "outward",
+  "letters": [ "w", "a", "d", "o", "r", "t", "u" ],
+  "required": "w",
+  "words": [
+    "draw",
+    "trow",
+    "ward",
+    "wart",
+    "watt",
+    "woad",
+    "wood",
+    "word",
+    "wort",
+    "arrow",
+    "award",
+    "toward",
+    "outdraw",
+    "outward",
+    "arrowroot"
+  ]
+}
