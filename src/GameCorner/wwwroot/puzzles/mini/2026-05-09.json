@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-09",
+  "title": "Handcrafted?",
+  "author": "Luna",
+  "rows": [
+    "LIVE#",
+    "ANART",
+    "UGLIS",
+    "GLOVE",
+    "HERO#"
+  ],
+  "highlights": [
+    "****.",
+    "*....",
+    "*....",
+    "*****",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"___ from London, it's Saturday Night!\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Not a science, but..."
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bumpin' fruit?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Item kept on hand?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Big ___ Six"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Product of a good joke"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fireplace"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Courage in Cali, but not in Caerphilly"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Cynthia, of Wicked"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Letter at the start of \"tsar\", in Cyrillic"
+      }
+    ]
+  }
+}
