@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-08",
+  "title": "Show of hands",
+  "author": "Luna",
+  "rows": [
+    "FGS##",
+    "LETGO",
+    "USEUP",
+    "STAMP",
+    "HELP#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "NFL three-pointers, in shorthand"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Unhand"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Exhaust what's on hand"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Mark put on your hand, to enter the club"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Lend a hand"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Poker hand"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hand sign, in France?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Take, by sleight of hand"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Forrest with chocolates in hand"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Briefly, one whose hand you won't shake?"
+      }
+    ]
+  }
+}
