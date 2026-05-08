@@ -1,0 +1,16 @@
+{
+  "date": "2026-05-09",
+  "pangram": "acquittal",
+  "letters": [ "q", "a", "c", "i", "l", "t", "u" ],
+  "required": "q",
+  "words": [
+    "aqua",
+    "quit",
+    "quail",
+    "quill",
+    "quilt",
+    "acquit",
+    "aquatic",
+    "acquittal"
+  ]
+}
