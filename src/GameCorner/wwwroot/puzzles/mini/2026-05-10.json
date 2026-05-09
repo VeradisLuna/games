@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-10",
+  "title": "Layers",
+  "author": "Luna",
+  "rows": [
+    "ONION",
+    "NOTGO",
+    "IVAR#",
+    "CAKE#",
+    "EKE##"
+  ],
+  "highlights": [
+    "ddddd",
+    "...d.",
+    "...d.",
+    "dddd.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Layered bulb"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Opt out of attendance"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"The Boneless\" viking"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Word with round or pound"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Barely manage"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "In the cooler"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "B.J. ___, of The Devil Wears Prada 2"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"May ___ your coat?\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Shrek, for one"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Negative"
+      }
+    ]
+  }
+}
