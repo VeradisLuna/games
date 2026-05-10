@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-11",
+  "pangram": "hoodwink",
+  "letters": [ "k", "d", "h", "i", "n", "o", "w" ],
+  "required": "k",
+  "words": [
+    "honk",
+    "hook",
+    "kind",
+    "kink",
+    "kiwi",
+    "know",
+    "kook",
+    "nook",
+    "oink",
+    "wiki",
+    "wink",
+    "wonk",
+    "kiddo",
+    "known",
+    "hoodwink"
+  ]
+}
