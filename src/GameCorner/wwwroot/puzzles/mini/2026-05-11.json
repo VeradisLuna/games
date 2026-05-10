@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-11",
+  "title": "All ___ lead to ___",
+  "author": "Luna",
+  "rows": [
+    "ROADS",
+    "AGLET",
+    "PLANA",
+    "#EMIT",
+    "#ROME"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Highways"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Shoelace protector"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Preferred course of action"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Give off"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "It wasn't built in a day"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Epic ___ Battles of History"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Gawker"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Texas monument, with \"the\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Jeans material"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Condition"
+      }
+    ]
+  }
+}
