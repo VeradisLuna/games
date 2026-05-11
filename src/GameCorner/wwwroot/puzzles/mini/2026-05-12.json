@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-12",
+  "title": "Don't cry!",
+  "author": "Luna",
+  "rows": [
+    "THINK",
+    "SONIA",
+    "ANASS",
+    "#KLEE",
+    "#SLIM"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    ".**..",
+    "...**"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Use your head"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mononymous Eurovision artist from Liverpool"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Why, what ___ am I!\" (Hamlet soliloquy)"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Surrealist Paul"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Unlikely, as chances"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "US airport organisation"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sounds of geese or traffic"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Taken as a whole"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Some Asian-Americans"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Casey who voiced Shaggy"
+      }
+    ]
+  }
+}
