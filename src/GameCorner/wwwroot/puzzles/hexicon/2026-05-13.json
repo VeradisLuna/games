@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-13",
+  "pangram": "oppobrium",
+  "letters": [ "r", "b", "i", "m", "o", "p", "u" ],
+  "required": "r",
+  "words": [
+    "boor",
+    "brim",
+    "burp",
+    "burr",
+    "moor",
+    "poor",
+    "pour",
+    "prim",
+    "prom",
+    "prop",
+    "purr",
+    "romp",
+    "room",
+    "rump",
+    "broom",
+    "burro",
+    "primp",
+    "prior",
+    "promo",
+    "rumor",
+    "mirror",
+    "murmur",
+    "rumour",
+    "opprobrium"
+  ]
+}
