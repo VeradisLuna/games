@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-13",
+  "title": "Word up",
+  "author": "Luna",
+  "rows": [
+    "#HARD",
+    "MCGEE",
+    "ATOWN",
+    "SAGOS",
+    "SCOPE"
+  ],
+  "highlights": [
+    ".*.*.",
+    ".*.*.",
+    ".*.*.",
+    ".*.*.",
+    ".*.*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Difficult"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"The lovely Debbie ___\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Called Malice (The Jam)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Some starchy palms"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Extent"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Gathering of friends to share recent news *"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Galore"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mushroom, to Mario *"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Having a lot of 5-down, by volume"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "The \"m\" of e = mc squared"
+      }
+    ]
+  }
+}
