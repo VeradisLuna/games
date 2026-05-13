@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-14",
+  "pangram": "acclivity",
+  "letters": [ "v", "a", "c", "i", "l", "t", "y" ],
+  "required": "v",
+  "words": [
+    "lava",
+    "vial",
+    "avail",
+    "cavil",
+    "civic",
+    "civil",
+    "villa",
+    "vital",
+    "cavity",
+    "civilly",
+    "vitally",
+    "activity",
+    "civility",
+    "vitality",
+    "vivacity",
+    "acclivity",
+    "civically"
+  ]
+}
