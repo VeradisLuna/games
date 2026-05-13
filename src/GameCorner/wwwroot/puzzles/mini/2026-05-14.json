@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-14",
+  "title": "🙈🙉🙊",
+  "author": "Luna",
+  "rows": [
+    "#SEE#",
+    "#HEAR",
+    "AALTO",
+    "SPEAK",
+    "PERT#"
+  ],
+  "highlights": [
+    ".aaa.",
+    ".bbbb",
+    ".....",
+    "aaaaa",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Grok"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Catch some waves?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Finnish architect Alvar, or singer Saara"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"___, friend, and enter\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Jaunty"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The ___ of Water (2017 film)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Conger catcher"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Patronise"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "M*A*S*H extra"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Cleopatra's killer"
+      }
+    ]
+  }
+}
