@@ -1,0 +1,11 @@
+{
+  "date": "2025-05-14",
+  "clue": "State of America, due to bad taxes",
+  "enumeration": "5",
+  "answer": "TEXAS",
+  "explanation": "TEXAS is a US state. TEXAS is \"bad\" TAXES.",
+  "hints": [
+    "\"Bad\" is an anagram indicator.",
+    "We need to anagram TAXES, to get an American state."
+  ]
+}
