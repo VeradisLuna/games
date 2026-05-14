@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-15",
+  "title": "\"This was a triumph\"",
+  "author": "Luna",
+  "rows": [
+    "##POR",
+    "BEANO",
+    "ASPIN",
+    "LSAT#",
+    "TAL##"
+  ],
+  "highlights": [
+    "....g",
+    ".....",
+    ".....",
+    ".....",
+    "j...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "With 8-across, puzzle game that promises cake"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Dennis the Menace comic"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Dizzy"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Legally Blonde\" exam"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "See 1-across"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Vatican-related"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"I'll get to work straight away!\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Anchorman's anchorman"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Lithuanian, say"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "She, in Sicily"
+      }
+    ]
+  }
+}
