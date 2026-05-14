@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-15",
+  "pangram": "likability",
+  "letters": [ "k", "a", "b", "i", "l", "t", "y" ],
+  "required": "k",
+  "words": [
+    "balk",
+    "bilk",
+    "kiki",
+    "kill",
+    "kilt",
+    "talk",
+    "balky",
+    "batik",
+    "kayak",
+    "kitty",
+    "talky",
+    "alkali",
+    "balalaika",
+    "likability"
+  ]
+}
