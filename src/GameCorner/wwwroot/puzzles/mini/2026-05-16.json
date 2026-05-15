@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-16",
+  "title": "Paired parts",
+  "author": "Luna",
+  "rows": [
+    "THEM#",
+    "SAYOK",
+    "ENDON",
+    "#DINE",
+    "##EYE"
+  ],
+  "highlights": [
+    ".*...",
+    ".*..*",
+    ".*..*",
+    ".*..*",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Enemy of \"us\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Approve"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Finish with"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Have a nice meal"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Centre of the storm"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "A fly, when doubled"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Full house, say"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Singer Gorme"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Dreamy and distracted"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Place for a cap"
+      }
+    ]
+  }
+}
