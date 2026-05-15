@@ -1,0 +1,28 @@
+{
+  "date": "2026-05-17",
+  "pangram": "allowance",
+  "letters": [ "w", "a", "c", "e", "l", "n", "o" ],
+  "required": "w",
+  "words": [
+    "anew",
+    "claw",
+    "cowl",
+    "lawn",
+    "wale",
+    "wall",
+    "wane",
+    "weal",
+    "wean",
+    "well",
+    "wool",
+    "allow",
+    "clown",
+    "newel",
+    "wanna",
+    "callow",
+    "wallow",
+    "woolen",
+    "woollen",
+    "allowance"
+  ]
+}
