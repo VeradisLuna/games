@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-18",
+  "title": "Introducing SNL UK acts",
+  "author": "Luna",
+  "rows": [
+    "#WET#",
+    "SOYA#",
+    "PLEBE",
+    "AFOOL",
+    "##FOO"
+  ],
+  "highlights": [
+    ".***.",
+    ".*...",
+    ".*...",
+    ".*...",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Leg (Mangetout)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "High-protein bean"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Commoner"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"___ and his money are soon parted\""
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "___ Fighters (Caught in the Echo)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Alice (White Horses)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words before Horus or newt"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Off-limits"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Steamy place"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Chess rating system"
+      }
+    ]
+  }
+}
