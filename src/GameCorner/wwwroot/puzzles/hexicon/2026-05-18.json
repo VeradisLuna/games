@@ -1,0 +1,32 @@
+{
+  "date": "2026-05-18",
+  "pangram": "blizzard",
+  "letters": [ "d", "a", "b", "i", "l", "r", "z" ],
+  "required": "d",
+  "words": [
+    "arid",
+    "bald",
+    "bard",
+    "bird",
+    "brad",
+    "dial",
+    "dill",
+    "drab",
+    "laid",
+    "lard",
+    "raid",
+    "braid",
+    "drill",
+    "laird",
+    "rabid",
+    "radar",
+    "radii",
+    "ballad",
+    "bridal",
+    "lizard",
+    "radial",
+    "ribald",
+    "billiard",
+    "blizzard"
+  ]
+}
