@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-19",
+  "title": "Pokémon, blue?",
+  "author": "Luna",
+  "rows": [
+    "#OLA#",
+    "ELENA",
+    "GLOOM",
+    "GINNY",
+    "SEE##"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "*****",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Portuguese greeting"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "The Vampire Diaries protagonist"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Melancholy"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Diminutive for Genevieve or Virginia"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "KT Tunstall's \"Suddenly I ___\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Skate park trick"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Sierra ___"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Soon, poetically"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "They might be hidden at Easter"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Youngest of the March sisters"
+      }
+    ]
+  }
+}
