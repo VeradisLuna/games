@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-20",
+  "pangram": "fraught",
+  "letters": [ "f", "a", "g", "h", "r", "t", "u" ],
+  "required": "f",
+  "words": [
+    "afar",
+    "faff",
+    "fart",
+    "frat",
+    "gaff",
+    "guff",
+    "haft",
+    "huff",
+    "raft",
+    "ruff",
+    "tuft",
+    "turf",
+    "graft",
+    "gruff",
+    "fraught"
+  ]
+}
