@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-20",
+  "title": "Just around the corner",
+  "author": "Luna",
+  "rows": [
+    "KAIJU",
+    "EAMES",
+    "SHANT",
+    "HEDGE",
+    "ADEAD"
+  ],
+  "highlights": [
+    "...**",
+    "....*",
+    "....*",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Giant monster, such as Godzilla"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Kind of chair"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Quaint contraction indicating refusal"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Row of shrubs that forms a barrier"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Words between flog and horse"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Singer who once spelled her name with a $"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sounded satisfied"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Have ___ myself clear?\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Tower-building game"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Formal \"you\", in Uruguay"
+      }
+    ]
+  }
+}
