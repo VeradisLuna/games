@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-20",
+  "title": "Truly offal puns",
+  "author": "Luna",
+  "rows": [
+    "KID##",
+    "NORAH",
+    "ENOLA",
+    "ELVER",
+    "#YEET"
+  ],
+  "highlights": [
+    "aaa..",
+    "a...b",
+    "a...b",
+    "a...b",
+    "....b"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Young goat"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Jazz singer Jones"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Gay (W.W. II plane)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Young eel"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Throw with a lot of force, slangily"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Support for a proposal"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Have Eyes for You"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Took the wheel"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Sheltered at sea"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Bret \"the Hitman\" ___"
+      }
+    ]
+  }
+}
