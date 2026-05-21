@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-22",
+  "title": "Great minds...",
+  "author": "Luna",
+  "rows": [
+    "#LARA",
+    "#OLES",
+    "THINK",
+    "WAKES",
+    "ONE##"
+  ],
+  "highlights": [
+    "..*..",
+    "..*..",
+    "*****",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Croft, Tomb Raider"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Stadium cheers"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Use your head"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Rouses"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Last digit of Jean Valjean's prisoner number"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Lindsay of The Parent Trap"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Similar"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Philosopher Descartes"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Enquires"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "First digit of Jean Valjean's prisoner number"
+      }
+    ]
+  }
+}
