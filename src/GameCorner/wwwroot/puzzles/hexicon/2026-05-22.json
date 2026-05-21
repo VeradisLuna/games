@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-22",
+  "pangram": "individual",
+  "letters": [ "v", "a", "d", "i", "l", "n", "u" ],
+  "required": "v",
+  "words": [
+    "avid",
+    "diva",
+    "lava",
+    "vain",
+    "vial",
+    "anvil",
+    "avail",
+    "avian",
+    "divan",
+    "livid",
+    "naval",
+    "uvula",
+    "valid",
+    "villa",
+    "vivid",
+    "vulva",
+    "vandal",
+    "invalid",
+    "vanilla",
+    "villain",
+    "alluvial",
+    "individual"
+  ]
+}
