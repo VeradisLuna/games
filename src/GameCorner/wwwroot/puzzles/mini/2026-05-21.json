@@ -1,74 +1,74 @@
 {
-  "date": "2026-05-21",
-  "title": "Great minds...",
+  "date": "2026-05-20",
+  "title": "Truly offal puns",
   "author": "Luna",
   "rows": [
-    "#LARA",
-    "#OLES",
-    "THINK",
-    "WAKES",
-    "ONE##"
+    "KID##",
+    "NORAH",
+    "ENOLA",
+    "ELVER",
+    "#YEET"
   ],
   "highlights": [
-    "..*..",
-    "..*..",
-    "*****",
-    "..*..",
-    "..*.."
+    "aaa..",
+    "a...b",
+    "a...b",
+    "a...b",
+    "....b"
   ],
   "clues": {
     "across": [
       {
         "row": 0,
-        "col": 1,
-        "clue": "___ Croft, Tomb Raider"
+        "col": 0,
+        "clue": "Young goat"
       },
       {
         "row": 1,
-        "col": 1,
-        "clue": "Stadium cheers"
+        "col": 0,
+        "clue": "Jazz singer Jones"
       },
       {
         "row": 2,
         "col": 0,
-        "clue": "Use your head"
+        "clue": "___ Gay (W.W. II plane)"
       },
       {
         "row": 3,
         "col": 0,
-        "clue": "Rouses"
+        "clue": "Young eel"
       },
       {
         "row": 4,
-        "col": 0,
-        "clue": "Last digit of Jean Valjean's prisoner number"
+        "col": 1,
+        "clue": "Throw with a lot of force, slangily"
       }
     ],
     "down": [
       {
         "row": 0,
+        "col": 0,
+        "clue": "Support for a proposal"
+      },
+      {
+        "row": 0,
         "col": 1,
-        "clue": "Lindsay of The Parent Trap"
+        "clue": "___ Have Eyes for You"
       },
       {
         "row": 0,
         "col": 2,
-        "clue": "Similar"
+        "clue": "Took the wheel"
       },
       {
-        "row": 0,
+        "row": 1,
         "col": 3,
-        "clue": "Philosopher Descartes"
+        "clue": "Sheltered at sea"
       },
       {
-        "row": 0,
+        "row": 1,
         "col": 4,
-        "clue": "Enquires"
-      },
-      {
-        "row": 2,
-        "col": 0,
-        "clue": "First digit of Jean Valjean's prisoner number"
+        "clue": "Bret \"the Hitman\" ___"
       }
     ]
   }
