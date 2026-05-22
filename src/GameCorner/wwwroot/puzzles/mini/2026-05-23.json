@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-23",
+  "title": "West-side story",
+  "author": "Luna",
+  "rows": [
+    "SHAG#",
+    "PACES",
+    "ILOSE",
+    "ELITE",
+    "LONER"
+  ],
+  "highlights": [
+    "*....",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Carpet type"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Treasure map units"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Words of defeat"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Top-tier"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Soloist?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Lengthy speech"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Winnie-the-Pooh greeting"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Flip ___ (decide randomly)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Beau ___"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Prophet"
+      }
+    ]
+  }
+}
