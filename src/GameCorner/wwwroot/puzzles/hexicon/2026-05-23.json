@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-23",
+  "pangram": "occupancy",
+  "letters": [ "y", "a", "c", "n", "o", "p", "u" ],
+  "required": "y",
+  "words": [
+    "cony",
+    "copy",
+    "cyan",
+    "pacy",
+    "pony",
+    "puny",
+    "yuan",
+    "annoy",
+    "canny",
+    "copay",
+    "nanny",
+    "nappy",
+    "pappy",
+    "poppy",
+    "puppy",
+    "yucca",
+    "canopy",
+    "canyon",
+    "occupy",
+    "papacy",
+    "papaya",
+    "uncanny",
+    "occupancy"
+  ]
+}
