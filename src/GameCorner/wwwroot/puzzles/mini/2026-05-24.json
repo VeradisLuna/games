@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-24",
+  "title": "Celeste squad",
+  "author": "Luna",
+  "rows": [
+    "##LOB",
+    "CLONE",
+    "LEVER",
+    "ANEAR",
+    "MADDY"
+  ],
+  "highlights": [
+    "....*",
+    ".*..*",
+    ".*..*",
+    ".*..*",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Chuck"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Dolly the sheep, say"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Instrument for lifting"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Something to lend or to bend"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Euphoria cheerleader, ___ Perez"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "When She ___ Me (song from Toy Story 2)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Millennium starter"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Botanically, a banana is this"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Happy as a ___"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Lex Luthor's sister"
+      }
+    ]
+  }
+}
