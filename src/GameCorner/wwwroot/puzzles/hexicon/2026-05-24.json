@@ -1,0 +1,21 @@
+{
+  "date": "2026-05-24",
+  "pangram": "intoxication",
+  "letters": [ "x", "a", "c", "i", "n", "o", "t" ],
+  "required": "x",
+  "words": [
+    "axon",
+    "coax",
+    "taxa",
+    "taxi",
+    "taxon",
+    "toxic",
+    "toxin",
+    "ataxia",
+    "nontoxic",
+    "taxation",
+    "antitoxin",
+    "intoxicant",
+    "intoxication"
+  ]
+}
