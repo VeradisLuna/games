@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-25",
+  "title": "Musical things with strings",
+  "author": "Luna",
+  "rows": [
+    "DOALL",
+    "UNCUT",
+    "PLATE",
+    "LYRE#",
+    "OUD##"
+  ],
+  "highlights": [
+    "...a.",
+    "...a.",
+    "...a.",
+    "aaaa.",
+    "bbb.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Handyperson"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Raw, as a diamond"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Dish"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "What Orpheus played"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Fretless string instrument"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Big bricks for kids"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "2004 Ashanti single"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Pick ___...\" (magician's instruction)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Instrument that becomes another when you add an F"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Letters in the corner of a phone screen"
+      }
+    ]
+  }
+}
