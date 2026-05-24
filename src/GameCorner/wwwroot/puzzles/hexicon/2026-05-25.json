@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-25",
+  "pangram": "humidify",
+  "letters": [ "f", "d", "h", "i", "m", "u", "y" ],
+  "required": "f",
+  "words": [
+    "duff",
+    "fumy",
+    "huff",
+    "iffy",
+    "miff",
+    "muff",
+    "huffy",
+    "mummify",
+    "humidify"
+  ]
+}
