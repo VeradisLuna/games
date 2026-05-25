@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-26",
+  "title": "Rainbow map",
+  "author": "Luna",
+  "rows": [
+    "#MEAT",
+    "#ILGA",
+    "SNEAD",
+    "TSAR#",
+    "UK###"
+  ],
+  "highlights": [
+    ".....",
+    ".aaaa",
+    ".....",
+    ".....",
+    "bb..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "What a vegetarian avoids"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "European \"rainbow map\" org ranking LGBTI policies"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Golf great \"Slammin' Sammy\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Ruler before 1917"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Country that's 22nd on the map, just below Estonia"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Eastern European capital"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Greek philosopher, Zeno of ___"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Petri dish gel"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Smidge"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Simpsons character who's into disco"
+      }
+    ]
+  }
+}
