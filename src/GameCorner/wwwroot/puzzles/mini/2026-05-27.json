@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-27",
+  "title": "On the table",
+  "author": "Luna",
+  "rows": [
+    "#SALT",
+    "#AGEE",
+    "SCATS",
+    "URSUS",
+    "PEPPA"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    ".....",
+    ".....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Golden Ticket recipient, Veruca ___"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Pulitzer-winning author James"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Improvises in a jazz group"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bear genus"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Pig of kid's TV"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___-Cœur (Paris basilica)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Flabbergasted"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Go easier"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Actress Thompson, of Hedda"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Eat an evening meal"
+      }
+    ]
+  }
+}
