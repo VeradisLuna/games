@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-27",
+  "pangram": "mortify",
+  "letters": [ "m", "f", "i", "o", "r", "t", "y" ],
+  "required": "m",
+  "words": [
+    "firm",
+    "form",
+    "from",
+    "miff",
+    "mitt",
+    "moor",
+    "moot",
+    "omit",
+    "room",
+    "trim",
+    "mommy",
+    "motif",
+    "motor",
+    "motto",
+    "roomy",
+    "mirror",
+    "tomtit",
+    "mortify"
+  ]
+}
