@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-28",
+  "pangram": "bibliophile",
+  "letters": [ "h", "b", "e", "i", "l", "o", "p" ],
+  "required": "h",
+  "words": [
+    "heel",
+    "hell",
+    "help",
+    "hill",
+    "hobo",
+    "hole",
+    "hoop",
+    "hope",
+    "pooh",
+    "hello",
+    "hippo",
+    "boohoo",
+    "hippie",
+    "hobble",
+    "bellhop",
+    "hellhole",
+    "loophole",
+    "peephole",
+    "bibliophile"
+  ]
+}
