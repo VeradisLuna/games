@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-28",
+  "title": "Picture this!",
+  "author": "Luna",
+  "rows": [
+    "HOOK#",
+    "OORAH",
+    "UMBRA",
+    "SPILT",
+    "EHS##"
+  ],
+  "highlights": [
+    "****.",
+    "*...*",
+    "*...*",
+    "*...*",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Peter Pan's archenemy"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "US battle cry"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Planetary shadow"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Like milk that shouldn't be cried over"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Quizzical utterances"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Gambling opponent?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Welly"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Latin world"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Lagerfeld, of fashion"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "A milliner makes this"
+      }
+    ]
+  }
+}
