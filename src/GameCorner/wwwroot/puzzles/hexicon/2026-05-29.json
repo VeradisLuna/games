@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-29",
+  "pangram": "mudflap",
+  "letters": [ "p", "a", "d", "f", "l", "m", "u" ],
+  "required": "p",
+  "words": [
+    "damp",
+    "dump",
+    "flap",
+    "lamp",
+    "lump",
+    "pall",
+    "palm",
+    "papa",
+    "plum",
+    "puff",
+    "pull",
+    "pulp",
+    "puma",
+    "pump",
+    "pupa",
+    "appal",
+    "papal",
+    "plump",
+    "pupal",
+    "appall",
+    "applaud",
+    "mudflap"
+  ]
+}
