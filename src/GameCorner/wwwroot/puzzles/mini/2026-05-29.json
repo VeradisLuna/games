@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-28",
+  "title": "Heavenly bodies",
+  "author": "Luna",
+  "rows": [
+    "SPAMS",
+    "TAROT",
+    "ALTON",
+    "RAIN#",
+    "SUN##"
+  ],
+  "highlights": [
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Inundates with messages"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Deck that features The World"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Towers, theme park in the UK"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "April forecast, maybe"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "August forecast, maybe"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Celebs"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Micronesian nation"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Our Father, who ___ heaven...\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Card that also features in 6-across"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Train stop (abbr.)"
+      }
+    ]
+  }
+}
