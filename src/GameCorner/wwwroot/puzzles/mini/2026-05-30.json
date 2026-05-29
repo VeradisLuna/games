@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-30",
+  "title": "Critical issue",
+  "author": "Luna",
+  "rows": [
+    "#EBBS",
+    "CRASH",
+    "ARTOO",
+    "NOTDO",
+    "TRY##"
+  ],
+  "highlights": [
+    ".*.*.",
+    "*****",
+    ".*.*.",
+    ".*.*.",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They're the opposite of flows"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Stock market disaster"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Threepio's companion"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Abstain from"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "A way of scoring points, in rugby"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "404 Not Found, maybe"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Eccentric"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Critical Windows state that may feature a large \":(\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"Get outta here!\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Jargon"
+      }
+    ]
+  }
+}
