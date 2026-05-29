@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-30",
+  "pangram": "razorback",
+  "letters": [ "k", "a", "b", "c", "o", "r", "z" ],
+  "required": "k",
+  "words": [
+    "back",
+    "bark",
+    "bock",
+    "book",
+    "cock",
+    "cook",
+    "cork",
+    "kook",
+    "okra",
+    "rack",
+    "rock",
+    "rook",
+    "aback",
+    "brook",
+    "crack",
+    "croak",
+    "crock",
+    "crook",
+    "kazoo",
+    "barrack",
+    "bazooka",
+    "cookbook",
+    "razorback"
+  ]
+}
