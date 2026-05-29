@@ -1,0 +1,13 @@
+{
+  "date": "2025-05-30",
+  "clue": "Not so great bishop falls from grace",
+  "enumeration": "4",
+  "answer": "LESS",
+  "explanation": "B (bishop) falls from BLESS (grace), giving LESS, meaning \"not so great\".",
+  "hints": [
+    "To grace is to bless.",
+    "Bishop can be represented by a single letter, as in chess notation.",
+    "The description is \"not so great\", but we're talking mathematically...",
+    "What happens if B falls from BLESS?"
+  ]
+}
