@@ -1,0 +1,75 @@
+{
+  "date": "2026-05-31",
+  "title": "Sneezin' season",
+  "author": "Luna",
+  "rows": [
+    "#HAY#",
+    "ROBOT",
+    "ASONE",
+    "FEVER",
+    "ALEXA"
+  ],
+  "highlights": [
+    ".***.",
+    ".....",
+    ".....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "With 7-across, seasonal allergy"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Automaton"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "In unison"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "See 1-across"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Amazon assistant"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Golf club neck"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "As ___, so below"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Badminton brand"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tennis player Nadal, to fans"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "It's bigger than giga"
+      }
+    ]
+  }
+}
