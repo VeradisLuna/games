@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-01",
+  "title": "Herbaceous",
+  "author": "Luna",
+  "rows": [
+    "BASIL",
+    "ABACI",
+    "YEMEN",
+    "#AMID",
+    "#MINT"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The Great Mouse Detective"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Counting tools"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Neighbour of Saudi Arabia"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Betwixt"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Where money is made"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Howl at the moon"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Crosswise, on a ship"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Smith, who sang Help Me Make It Through the Night"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Strand during winter, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Swiss chocolatier"
+      }
+    ]
+  }
+}
