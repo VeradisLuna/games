@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-01",
+  "pangram": "adjourn",
+  "letters": [ "n", "a", "d", "j", "o", "r", "u" ],
+  "required": "n",
+  "words": [
+    "anon",
+    "darn",
+    "naan",
+    "nana",
+    "noon",
+    "noun",
+    "rand",
+    "roan",
+    "undo",
+    "adorn",
+    "donor",
+    "dunno",
+    "nonna",
+    "radon",
+    "rondo",
+    "round",
+    "around",
+    "journo",
+    "adjourn",
+    "runaround"
+  ]
+}
