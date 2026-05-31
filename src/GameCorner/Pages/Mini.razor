@@ -15,7 +15,11 @@
     <meta property="og:site_name" content="LunaMini.io" />
 </HeadContent>
 
-@if (string.IsNullOrWhiteSpace(Vm.SpecialSlug))
+@if (NoNav)
+{
+    
+}
+else if (string.IsNullOrWhiteSpace(Vm.SpecialSlug))
 {
     <GameCorner.Layout.DateNav BasePath="mini" MinDate="@(new DateOnly(2025, 09, 22))" />
 }
@@ -220,6 +224,9 @@ else
     private string? _lastDate;
 
     [Parameter] public string? slug { get; set; }
+
+    [SupplyParameterFromQuery(Name = "nonav")]
+    public bool NoNav { get; set; }
 
     protected override async Task OnParametersSetAsync()
     {

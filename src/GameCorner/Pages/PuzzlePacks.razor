@@ -1,4 +1,4 @@
-﻿@page "/"
+﻿@page "/puzzle-packs"
 @using GameCorner.Services
 @inject Persistence Persistence
 @inject IJSRuntime JS
@@ -35,99 +35,38 @@
             <a href="/privacy">privacy</a>
         </div> *@
     </nav>
-    <p class="subtitle">What do you fancy?</p>
-
+@*     <div class="row-above-game-grid" style="margin-bottom: 0.5rem;">
+        <a href="#">My unlocked puzzle packs</a>
+    </div> *@
+    <p class="subtitle">Puzzle packs</p>
     <div class="game-grid">
-        @if (iceJumperUnlocked && DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 11) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 11))
-        {
-            <div class="game-card shimmer shimmer-card">
-                <a href="ice-jumper">
-                    <div class="card-content">
-                        <h2>Welsh ICE Christmas Jumper Day</h2>
-                        <p>A selection of special puzzles. Thanks for donating!</p>
-                    </div>
-                </a>
-            </div>
-        }
-        <div class="game-card shimmer shimmer-card">
-            <a href="puzzle-packs">
+        <div class="game-card">
+            <a href="pack-school-1?unlock=true">
                 <div class="card-content">
-                    <h2>Puzzle packs!</h2>
-                    <p>Themed collections of puzzles</p>
+                    <h2>School subjects</h2>
+                    <p>5 mini crosswords</p>
                 </div>
             </a>
         </div>
         <div class="game-card">
-            <a href="mini">
+            <a href="pack-hidden-rules-1?unlock=true">
                 <div class="card-content">
-                    <h2>Luna Mini</h2>
-                    <p>Daily mini crossword</p>
+                    <h2>Hidden rules</h2>
+                    <p>5 mini crosswords</p>
                 </div>
             </a>
         </div>
         <div class="game-card">
-            <a href="letterhead">
+            <a href="pack-pokemon-1?unlock=true">
                 <div class="card-content">
-                    <h2>Letterhead</h2>
-                    <p>Guess the word!</p>
-                </div>
-            </a>
-        </div>
-        <div class="game-card">
-            <a href="hexicon">
-                <div class="card-content">
-                    <h2>Hexicon</h2>
-                    <p>Find words that use the central letter</p>
-                </div>
-            </a>
-        </div>
-        <div class="game-card">
-            <a href="cryptini">
-                <div class="card-content">
-                    <h2>Cryptini</h2>
-                    <p>Daily cryptic clue...</p>
+                    <h2>Can you catch 'em all?</h2>
+                    <p>4 Pokémon-themed Hexicon puzzles</p>
                 </div>
             </a>
         </div>
     </div>
-    @if (_loginModalOpen)
-    {
-        <div class="hx-modal-backdrop" @onclick="CloseLoginModal" />
-
-        <div class="hx-modal" role="dialog" aria-modal="true" aria-labelledby="hx-reset-title" tabindex="0">
-            <h3 id="hx-reset-title">Log in</h3>
-            <p>Tell us your email address, and we'll send you a magic link to log in or sign up. No password required!</p>
-
-            <input @bind="loginEmail" style="margin-bottom: 0.5rem;" placeholder="you@example.com" />
-
-            <div class="hx-modal-actions">
-                <button class="btn btn-outline-secondary" @onclick="CloseLoginModal">Cancel</button>
-                <button class="btn btn-primary" @onclick="ConfirmLogin">Send link</button>
-            </div>
-        </div>
-    }
 </div>
 @code{
-    private bool _loginModalOpen;
-    private void OpenLoginModal() => _loginModalOpen = true;
-    private void CloseLoginModal() => _loginModalOpen = false;
-    private bool loggedIn;
-    private string loginEmail = "";
-
-    private async Task ConfirmLogin()
-    {
-        // do something
-
-        loggedIn = true;
-    }
-
-    private async Task Logout()
-    {
-        // do something
-
-        loggedIn = false;
-    }
-
     bool iceJumperUnlocked;
     protected override async Task OnInitializedAsync()
     {

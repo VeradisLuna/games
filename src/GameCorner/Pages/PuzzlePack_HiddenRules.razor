@@ -1,0 +1,263 @@
+﻿@page "/pack-hidden-rules-1"
+@using GameCorner.Services
+@inject ProgressChecker ProgressChecker
+@inject Persistence Persistence
+@inject NavigationManager Nav
+@inject IJSRuntime JS
+
+<div class="homepage">
+    <h1 class="title">LunaMini.io</h1>
+    <nav class="top-bar">
+        <div class="top-row">
+            <a href="/about">✨ about me ✨</a>
+            <span class="divider">|</span>
+            <a href="https://instagram.com/lunamini.io" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <span class="divider">|</span>
+            <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer" title="Support me on Ko-Fi to help keep this free project going!">buy me a cuppa!</a>
+            <span class="divider">|</span>
+            <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
+            <span class="divider">|</span>
+            <a href="/ice-jumper" title="Play the special Welsh ICE Christmas Jumper Day puzzles!">Christmas Jumper Day</a>
+        </div>
+@*         <div class="bottom-row">
+            <a href="/collections">play past puzzles</a>
+            <a href="/notes">behind the scenes</a>
+            <a href="/privacy">privacy</a>
+        </div> *@
+    </nav>
+    <p class="subtitle">Hidden rules</p>
+
+    <div class="game-grid">
+        <div class="game-card">
+            <div class="progress-badge @BadgeClass(progress_puzzle1)">
+                @BadgeSymbol(progress_puzzle1)
+            </div>
+            <a href="mini/2026-05-13?nonav=true">
+                <div class="card-content">
+                    <h2>Word up</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <div class="progress-badge @BadgeClass(progress_puzzle2)">
+                @BadgeSymbol(progress_puzzle2)
+            </div>
+            <a href="mini/2026-04-22?nonav=true">
+                <div class="card-content">
+                    <h2>Sun's out</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <div class="progress-badge @BadgeClass(progress_puzzle3)">
+                @BadgeSymbol(progress_puzzle3)
+            </div>
+            <a href="mini/2026-04-11?nonav=true">
+                <div class="card-content">
+                    <h2>No added Sugar</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <div class="progress-badge @BadgeClass(progress_puzzle4)">
+                @BadgeSymbol(progress_puzzle4)
+            </div>
+            <a href="mini/2026-04-09?nonav=true">
+                <div class="card-content">
+                    <h2>Drop by</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <div class="progress-badge @BadgeClass(progress_puzzle5)">
+                @BadgeSymbol(progress_puzzle5)
+            </div>
+            <a href="mini/2026-04-03?nonav=true">
+                <div class="card-content">
+                    <h2>Back words</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+@code {
+    private int progress_puzzle1;
+    private int progress_puzzle2;
+    private int progress_puzzle3;
+    private int progress_puzzle4;
+    private int progress_puzzle5;
+
+    private string letterheadTitle = "?????";
+    private string hexiconTitle = "???????";
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (UnlockParam())
+        {
+            await Persistence.UnlockCollectionAsync("hidden-rules");
+            Nav.NavigateTo("/pack-hidden-rules-1", replace: true);
+        }
+
+        if(!await Persistence.CollectionUnlocked("hidden-rules"))
+        {
+            Nav.NavigateTo("/", replace: true);
+        }
+
+        if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 1) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 31))
+        {
+            await JS.InvokeVoidAsync("setWinterTheme", true);
+            await JS.InvokeVoidAsync("miniConfetti.snow");
+        }
+
+        (progress_puzzle1, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 05, 13));
+        (progress_puzzle2, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 04, 22));
+        (progress_puzzle3, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 04, 11));
+        (progress_puzzle4, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 04, 09));
+        (progress_puzzle5, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 04, 03));
+    }
+
+    private string BadgeClass(int progress) => progress switch
+    {
+        3 => "badge-done",
+        2 => "badge-done",
+        1 => "badge-started",
+        _ => "badge-hidden"
+    };
+
+    private string BadgeSymbol(int progress) => progress switch
+    {
+        3 => "✔",
+        2 => "✔",
+        1 => "…",
+        _ => ""
+    };
+
+    private static string Indicator(int p) => p switch
+    {
+        3 => " (✔)",
+        2 => " (✔)",
+        1 => " (…)",
+        _ => ""
+    };
+
+    private bool UnlockParam()
+    {
+        var uri = new Uri(Nav.Uri);
+        var query = uri.Query; // e.g. "?unlock=true"
+
+        if (string.IsNullOrWhiteSpace(query)) return false;
+
+        var parts = query.TrimStart('?')
+                         .Split('&', StringSplitOptions.RemoveEmptyEntries);
+
+        foreach (var part in parts)
+        {
+            var kv = part.Split('=', 2);
+            if (kv.Length == 2 && kv[0] == "unlock" && kv[1] == "true")
+                return true;
+        }
+        return false;
+    }
+}
+<style>
+    .homepage {
+        max-width: 1200px;
+        margin: 1rem auto;
+        padding: 0 1rem;
+        text-align: center;
+    }
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 0.25rem;
+    }
+    .subtitle {
+        color: #6b7280;
+        font-weight: 700;
+        font-size: 1.7rem;
+    }
+    .game-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 1.5rem;
+    }
+    .game-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 1rem;
+        background: #fff;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .game-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+    .game-card a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+    .card-content {
+        padding: 1.25rem;
+    }
+    .card-content h2 {
+        margin-bottom: 0.5rem;
+    }
+    .card-content p {
+        color: #374151;
+        font-size: 0.95rem;
+    }
+
+    .status {
+        display: inline-block;
+        text-align: left;
+        font-weight: 400;
+    }
+    .disabled {
+        opacity: 0.6;
+        pointer-events: none;
+    }
+
+    .top-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+        letter-spacing: 0.3px;
+        color: #9b59b6;
+        margin: 0.75rem 0 1rem;
+        font-weight: 700;
+        line-height: 1;
+    }
+
+        .top-bar a {
+            text-decoration: none;
+            color: inherit;
+            transition: color 0.2s ease;
+        }
+
+            .top-bar a:hover {
+                color: #111;
+            }
+
+    .top-row, .bottom-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .top-row {
+        margin-bottom: 0.35rem;
+    }
+
+    .icon-link img {
+        vertical-align: middle;
+        opacity: 0.7;
+        transition: opacity 0.2s ease;
+    }
+
+    .icon-link:hover img {
+        opacity: 1;
+    }
+</style>

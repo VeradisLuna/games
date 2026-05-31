@@ -13,8 +13,11 @@
 </HeadContent>
 
 <div class="container">
+    @if (NoNav)
+    {
 
-    @if(string.IsNullOrWhiteSpace(Vm.SpecialSlug))
+    }
+    else if(string.IsNullOrWhiteSpace(Vm.SpecialSlug))
     {
         <GameCorner.Layout.DateNav BasePath="hexicon" MinDate="@(new DateOnly(2025, 08, 30))" />
     }
@@ -187,6 +190,9 @@
 @code {
     [Parameter] public string? date { get; set; }
     [Parameter] public string? slug { get; set; }
+
+    [SupplyParameterFromQuery(Name = "nonav")]
+    public bool NoNav { get; set; }
 
     private string? _lastDate;
 
