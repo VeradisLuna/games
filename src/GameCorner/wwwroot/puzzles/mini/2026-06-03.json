@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-03",
+  "title": "Skinny things",
+  "author": "Luna",
+  "rows": [
+    "#PLUM",
+    "JEANS",
+    "UPTON",
+    "SSTS#",
+    "TIE##"
+  ],
+  "highlights": [
+    "..*..",
+    "*****",
+    "..*..",
+    "..*..",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cluedo suspect, Professor ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Denim apparel"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Model Kate"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Concordes, say, in brief"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "___-dye"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Coke competitor"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Literally, \"milk\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Ten make diez"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "AOL alternative"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Barely"
+      }
+    ]
+  }
+}
