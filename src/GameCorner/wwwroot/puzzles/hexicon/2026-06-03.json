@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-03",
+  "pangram": "marzipan",
+  "letters": [ "r", "a", "i", "m", "n", "p", "z" ],
+  "required": "r",
+  "words": [
+    "aria",
+    "pair",
+    "pram",
+    "prim",
+    "rain",
+    "ramp",
+    "razz",
+    "rizz",
+    "primp",
+    "airman",
+    "impair",
+    "marina",
+    "marinara",
+    "marzipan",
+    "riparian",
+    "paparazzi"
+  ]
+}
