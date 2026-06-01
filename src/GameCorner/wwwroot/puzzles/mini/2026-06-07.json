@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-07",
+  "title": "Dry spell",
+  "author": "Luna",
+  "rows": [
+    "DEE##",
+    "ARE##",
+    "NONEW",
+    "EDITH",
+    "SEEDY"
+  ],
+  "highlights": [
+    "aaa..",
+    "bbb..",
+    "....a",
+    "....a",
+    "....a"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dennis's sister, in It's Always Sunny"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Where the Wild Things ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ information (status update: nada)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Piaf, who sang \"Non, je ne regrette rien\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Like a run-down motel"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Great ones are dogs"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Wear away"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Start of a choosing rhyme"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "clue": "Flight board abbr."
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Question loved by toddlers and philosophers"
+      }
+    ]
+  }
+}
