@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-04",
+  "title": "Gem fusion!",
+  "author": "Luna",
+  "rows": [
+    "#TRI#",
+    "GIANT",
+    "AMICE",
+    "WOMAN",
+    "KRIS#"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    ".....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Swim-bike-run race, for short"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Colossal"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Cloth worn on the neck by a priest"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Title word for White Town, Doja Cat, and Ariana Grande"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Mother of Kim, Kylie and Kourtney"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___-Leste"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Director Sam"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Machu Picchu builders"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Goggle"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Perfect score in diving"
+      }
+    ]
+  }
+}
