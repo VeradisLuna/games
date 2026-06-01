@@ -1,0 +1,16 @@
+{
+  "date": "2026-06-05",
+  "pangram": "aquaplane",
+  "letters": [ "q", "a", "e", "l", "n", "p", "u" ],
+  "required": "q",
+  "words": [
+    "aqua",
+    "equal",
+    "queen",
+    "quell",
+    "queue",
+    "plaque",
+    "unequal",
+    "aquaplane"
+  ]
+}
