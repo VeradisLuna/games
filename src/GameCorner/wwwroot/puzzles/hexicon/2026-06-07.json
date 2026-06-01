@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-07",
+  "pangram": "orthodoxy",
+  "letters": [ "r", "d", "h", "o", "t", "x", "y" ],
+  "required": "r",
+  "words": [
+    "door",
+    "dory",
+    "odor",
+    "root",
+    "tort",
+    "trod",
+    "trot",
+    "troy",
+    "tyro",
+    "hydro",
+    "rotor",
+    "troth",
+    "horror",
+    "orthodox",
+    "orthodoxy"
+  ]
+}
