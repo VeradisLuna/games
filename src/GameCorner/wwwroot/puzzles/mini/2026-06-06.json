@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-06",
+  "title": "\"Old man ___ at ___\"",
+  "author": "Luna",
+  "rows": [
+    "#MCU#",
+    "YELLS",
+    "ENOTE",
+    "ASURE",
+    "RADAR"
+  ],
+  "highlights": [
+    "..*..",
+    "*****",
+    "..*..",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Comic hero film franchise, in brief"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "TALKS LIKE THIS!"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Cybermemo"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"It's ___ thing!\" (guaranteed?)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "To fly under it, is to go unnoticed"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "High-I.Q. group"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Stratus, say"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Prefix with violet or marine"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Calendar's span"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Prognosticator"
+      }
+    ]
+  }
+}
