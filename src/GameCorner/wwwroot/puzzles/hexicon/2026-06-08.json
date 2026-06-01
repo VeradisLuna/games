@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-08",
+  "pangram": "invincible",
+  "letters": [ "v", "b", "c", "e", "i", "l", "n" ],
+  "required": "v",
+  "words": [
+    "even",
+    "evil",
+    "live",
+    "veil",
+    "vein",
+    "vibe",
+    "vice",
+    "vile",
+    "vine",
+    "bevel",
+    "civic",
+    "civil",
+    "levee",
+    "level",
+    "liven",
+    "eleven",
+    "evince",
+    "believe",
+    "enliven",
+    "villein",
+    "vincible",
+    "invincible"
+  ]
+}
