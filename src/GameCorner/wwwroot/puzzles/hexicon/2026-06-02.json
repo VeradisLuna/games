@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-02",
+  "pangram": "buzzword",
+  "letters": [ "o", "b", "d", "r", "u", "w", "z" ],
+  "required": "o",
+  "words": [
+    "boob",
+    "boor",
+    "bozo",
+    "brow",
+    "dodo",
+    "door",
+    "dour",
+    "odor",
+    "orzo",
+    "ouzo",
+    "wood",
+    "word",
+    "brood",
+    "burro",
+    "odour",
+    "borrow",
+    "burrow",
+    "buzzword"
+  ]
+}
