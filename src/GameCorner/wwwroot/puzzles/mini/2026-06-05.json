@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-05",
+  "title": "Bottom line",
+  "author": "Luna",
+  "rows": [
+    "MUSED",
+    "ORATE",
+    "PSYOP",
+    "#ISNT",
+    "#DASH"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pondered"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Give a speech"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Military mind game, in brief"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Contraction for contradiction"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "It might be em, or en"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Swabbie's tool"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bear"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"That ___ lot\" (it's very telling)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Some waist-length jackets"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Swimming pool measurement"
+      }
+    ]
+  }
+}
