@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-02",
+  "title": "\"___ is a ___\" 🏳️‍🌈🏳️‍⚧️",
+  "author": "Luna",
+  "rows": [
+    "PRIDE",
+    "REMIX",
+    "OHANA",
+    "#IDOL",
+    "#TEST"
+  ],
+  "highlights": [
+    "caaaa",
+    "b....",
+    "b....",
+    ".....",
+    ".bbbb"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Group of lions"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Club version, maybe"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "To Lilo, it means \"family\""
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Billy, who sang White Wedding"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Kind of cricket match"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "No amateur"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fitness regimen that sounds like a second strike"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"___ this\" (meme about ownership)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "T. rex, and friends?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Put on a pedestal"
+      }
+    ]
+  }
+}
