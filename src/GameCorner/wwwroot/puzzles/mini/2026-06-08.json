@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-08",
+  "title": "Magic words",
+  "author": "Luna",
+  "rows": [
+    "#SAP#",
+    "APPLE",
+    "RELAY",
+    "FLUTE",
+    "#LST#"
+  ],
+  "highlights": [
+    ".*...",
+    ".*..*",
+    ".*..*",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Product from a tree"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Product from a tree"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Baton race"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Kind of woodwind instrument"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "W.W. II vessel"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "What one might do at a bee"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Great grade"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Ben who starred in Dear Evan Hansen"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Variety of bark?"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Pupil's place"
+      }
+    ]
+  }
+}
