@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-04",
+  "pangram": "pocketbook",
+  "letters": [ "p", "b", "c", "e", "k", "o", "t" ],
+  "required": "p",
+  "words": [
+    "beep",
+    "coop",
+    "cope",
+    "keep",
+    "kept",
+    "peck",
+    "peek",
+    "peep",
+    "pock",
+    "poet",
+    "poke",
+    "poop",
+    "pope",
+    "bebop",
+    "pekoe",
+    "tepee",
+    "pocket",
+    "poppet",
+    "pocketbook"
+  ]
+}
