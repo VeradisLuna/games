@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-03",
+  "title": "Heroes",
+  "author": "Luna",
+  "rows": [
+    "#CAT#",
+    "AHMAD",
+    "TAILS",
+    "SONIC",
+    "#SEA#"
+  ],
+  "highlights": [
+    ".bbb.",
+    ".....",
+    "aaaaa",
+    "ggggg",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Big the ___ (Team Rose's muscle?)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Jazz pianist Jamal"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Miles Prower, to his friends"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Mario's rival at the Olympic Games?"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "___ Gate, tutorial level in Heroes"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Emeralds"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Nitrogen compound"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Batman foe, ___ al Ghul"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "@ @ @"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Advanced degree in a technical field"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-03",
+  "title": "Eons",
+  "author": "Luna",
+  "rows": [
+    "#JOLT",
+    "BOXER",
+    "ENLAI",
+    "NAIF#",
+    "ESP##"
+  ],
+  "highlights": [
+    ".aada",
+    "...d.",
+    "...d.",
+    "...d.",
+    "lll.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Shock"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "What Hitmonchan resembles"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Zhou, of Chinese history"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Innocent sort"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Medium strength?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Nick, Joe, or Kevin, of pop"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Yellow primrose"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "You might take one out of someone's book"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___ Attack (move learned by Dodrio)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Gesserit, Dune sisterhood"
+      }
+    ]
+  }
+}

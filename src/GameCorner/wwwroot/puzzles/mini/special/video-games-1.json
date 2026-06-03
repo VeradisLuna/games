@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-03",
+  "title": "Super",
+  "author": "Luna",
+  "rows": [
+    "MALL#",
+    "ADOUT",
+    "MARIO",
+    "MIDGE",
+    "ARSIS"
+  ],
+  "highlights": [
+    "...d.",
+    "...d.",
+    "bbbab",
+    "...d.",
+    "...d."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Coconut ___ (beloved Wii track!)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Tennis situation after deuce"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Famed plumber in red"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Gnat-like insect"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Stressed syllable, in verse"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"___ mia!\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Famed firefighter Red"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Some nobles"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "2013 was his year!"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Heads, shoulders, knees, and ___"
+      }
+    ]
+  }
+}

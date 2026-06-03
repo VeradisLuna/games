@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-03",
+  "title": "Combat Evolved",
+  "author": "Luna",
+  "rows": [
+    "CHIEF",
+    "RADAR",
+    "ELITE",
+    "DONEA",
+    "##ARK"
+  ],
+  "highlights": [
+    "*****",
+    ".*...",
+    "*****",
+    ".*...",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Master ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Aircraft detector"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Sangheili warrior"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"___ runner\" (left, to avoid difficulty)"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Installation 00, familiarly"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Street rep"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Array"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Menzel of Broadway"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Word with fire or man"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Le ___ (Chic song)"
+      }
+    ]
+  }
+}

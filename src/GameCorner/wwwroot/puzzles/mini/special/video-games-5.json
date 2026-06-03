@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-03",
+  "title": "Diamond geezer",
+  "author": "Luna",
+  "rows": [
+    "CROP#",
+    "HERE#",
+    "ENDER",
+    "STEVE",
+    "TARES"
+  ],
+  "highlights": [
+    "a....",
+    "a....",
+    "aaaaa",
+    "meeee",
+    "a...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wheat, carrot, or potato, say"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Accounted for"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "What goes before pearl, man, and dragon?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "He made his Smash Bros. debut in 2020"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Sets to zero, as a scale"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Another pairing with 6-across"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___-car"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Law partner?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Source of annoyance"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "It could be hi or lo"
+      }
+    ]
+  }
+}
