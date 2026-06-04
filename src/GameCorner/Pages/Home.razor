@@ -14,11 +14,8 @@
             <a href="https://ko-fi.com/veradisluna" target="_blank" rel="noopener noreferrer" title="Support me on Ko-Fi to help keep this free project going!">buy me a cuppa!</a>
             <span class="divider">|</span>
             <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
-            @if (iceJumperUnlocked)
-            {
-                <span class="divider">|</span>
-                <a class="@(DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 13) ? "shimmer shimmer-link" : "")" href="/ice-jumper" title="Play the special Welsh ICE Christmas Jumper Day puzzles!">Christmas Jumper Day</a>
-            }
+            <span class="divider">|</span>
+            <a href="/my-library" title="Find puzzle packs you've played before">my library</a>
 @*             <span class="divider">|</span>
             @if (loggedIn)
             {
@@ -137,6 +134,11 @@
         {
             await JS.InvokeVoidAsync("setWinterTheme", true);
             await JS.InvokeVoidAsync("miniConfetti.snow");
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("setWinterTheme", false);
+            await JS.InvokeVoidAsync("miniConfetti.stopSnow");
         }
     }
 }

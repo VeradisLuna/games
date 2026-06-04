@@ -1,4 +1,4 @@
-﻿@page "/about"
+﻿@page "/all-packs"
 @using GameCorner.Services
 @inject Persistence Persistence
 @inject IJSRuntime JS
@@ -18,40 +18,62 @@
             <a href="/my-library" title="Find puzzle packs you've played before">my library</a>
         </div>
     </nav>
-    <p class="subtitle">Heya! It's me, Luna.</p>
-    <p>
-        The girl who makes the puzzles.<br />
-        (Yep, it's all me! Four puzzles, every day.)
-    </p>
-    <p>
-        Why do I make them? Great question.
-    </p>
-    <p>
-        Well, my friends and I used to play the New York Times Games, when it was free. It was fun! We had a little group chat where we could talk to each other about the day's puzzles. (Or just moan about tricky Mini clues!)
-    </p>
-    <p>
-        The games that we liked to play ended up going behind a paywall. And we were a bit stuck because we didn't feel good about giving the publication money. For context... in 2024, GLAAD reported that the New York Times falls short in its coverage of trans issues, and that it has a bias that endangers trans people. (Oh yeah, by the way, I'm trans!)
-    </p>
-    <p>
-        Anyway, I've always been a bit puzzly and I love making and playing games. I realised that I might just have the technical know-how and the puzzle design brain to build my friends an alternative daily puzzle platform.
-    </p>
-    <p>
-        So, that's what I did. That was in August, 2025. From then, it's only grown. I went on an 8-week business course, where my little puzzle platform won Best Pitch! All in all, people have played puzzles over 10,000 times. And recently, a fan from Australia got in touch to say thanks for the puzzles too - isn't that lovely?
-    </p>
-    <p>
-        If you've enjoyed a puzzle or two, I'm really glad you're here. Please, tell your friends! (And if you moan to them about tricky Mini clues, then we'll have come full circle!)
-    </p>
-    <p>
-        Thanks for playing,<br />
-        Luna x<br />
-        (they/she)
-    </p>
+    <p class="subtitle">All packs (A-Z)</p>
+    <div class="game-grid">
+        <div class="game-card">
+            <a href="pack-pokemon-1?unlock=true">
+                <div class="card-content">
+                    <h2>Can you catch 'em all?</h2>
+                    <p>4 Pokémon-themed Hexicon puzzles (free)</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="pack-hidden-rules-1?unlock=true">
+                <div class="card-content">
+                    <h2>Hidden rules</h2>
+                    <p>5 mini crosswords (free)</p>
+                </div>
+            </a>
+        </div>
+        <div class="game-card">
+            <a href="pack-school-1?unlock=true">
+                <div class="card-content">
+                    <h2>School subjects</h2>
+                    <p>5 mini crosswords (free)</p>
+                </div>
+            </a>
+        </div>
+        @if (unlocked_videoGames)
+        {
+            <div class="game-card">
+                <a href="pack-video-games">
+                    <div class="card-content">
+                        <h2>⭐ Video games</h2>
+                        <p>5 mini crosswords (unlocked!)</p>
+                    </div>
+                </a>
+            </div>
+        }
+        else
+        {
+            <div class="game-card">
+                <a href="https://buy.stripe.com/3cI4gy7dH3YE8uRcR4grS01">
+                    <div class="card-content">
+                        <h2>⭐ Video games</h2>
+                        <p>5 NEW mini crosswords (£1.99)</p>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
 </div>
 @code{
-    bool iceJumperUnlocked;
+    bool unlocked_videoGames = false;
+
     protected override async Task OnInitializedAsync()
     {
-        iceJumperUnlocked = await Persistence.CollectionUnlocked("ice-jumper");
+        unlocked_videoGames = await Persistence.CollectionUnlocked("video-games");
 
         if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 1) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 31))
         {
@@ -72,9 +94,6 @@
         padding: 0 1rem;
         text-align: center;
     }
-    p {
-        text-align: left;
-    }
     .title {
         font-size: 2.5rem;
         margin-bottom: 0.25rem;
@@ -83,6 +102,11 @@
         color: #6b7280;
         font-weight: 700;
         font-size: 1.7rem;
+    }
+    .subtitle-smaller {
+        color: #6b7280;
+        font-weight: bolder;
+        font-size: larger;
     }
     .game-grid {
         display: grid;

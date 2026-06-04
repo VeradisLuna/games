@@ -46,6 +46,7 @@ namespace Hexicon.Core
         public MiniClueSet? Clues { get; set; }
         public string SpecialURL { get; set; } = "";
         public string Rebus { get; set; } = "";
+        public string Pack { get; set; } = "";
     }
 
     public sealed class MiniClueSet

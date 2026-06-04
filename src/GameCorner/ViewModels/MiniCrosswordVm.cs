@@ -1,6 +1,7 @@
 ﻿using GameCorner.Services;
 using GameCorner.ViewModels;
 using Hexicon.Core;
+using System.Runtime.Intrinsics.Wasm;
 using System.Text.Json;
 using static System.Formats.Asn1.AsnWriter;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -80,6 +81,14 @@ public sealed class MiniCrosswordVm
         var data = string.IsNullOrWhiteSpace(SpecialSlug) ?
             (await _loader.LoadMiniAsync(today) ?? throw new InvalidOperationException($"No puzzle found for {today:yyyy-MM-dd}")) :
             (await _loader.LoadSpecialMiniAsync(SpecialSlug) ?? throw new InvalidOperationException($"No special puzzle found for '{SpecialSlug}'"));
+
+        //if (!string.IsNullOrEmpty(data.Pack))
+        //{
+        //    if (!await Persistence.CollectionUnlocked("school-subjects"))
+        //    {
+        //        throw new InvalidOperationException("Puzzle pack not unlocked!");
+        //    }
+        //}
 
         HydrateMiniData(data);
 

@@ -86,6 +86,11 @@
             await JS.InvokeVoidAsync("setWinterTheme", true);
             await JS.InvokeVoidAsync("miniConfetti.snow");
         }
+        else
+        {
+            await JS.InvokeVoidAsync("setWinterTheme", false);
+            await JS.InvokeVoidAsync("miniConfetti.stopSnow");
+        }
 
         (miniProgress, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 4, 4));
     }

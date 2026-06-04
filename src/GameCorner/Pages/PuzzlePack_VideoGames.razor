@@ -1,6 +1,8 @@
-﻿@page "/puzzle-packs"
+﻿@page "/pack-video-games"
 @using GameCorner.Services
+@inject ProgressChecker ProgressChecker
 @inject Persistence Persistence
+@inject NavigationManager Nav
 @inject IJSRuntime JS
 
 <div class="homepage">
@@ -18,59 +20,78 @@
             <a href="/my-library" title="Find puzzle packs you've played before">my library</a>
         </div>
     </nav>
-    <p class="subtitle">Puzzle packs</p>
-    <p>Welcome back! Here are this week's featured packs.</p>
-    <hr />
+    <p class="subtitle">⭐ Video games</p>
+
     <div class="game-grid">
-        @if (unlocked_videoGames)
-        {
-            <div class="game-card">
-                <a href="pack-video-games">
-                    <div class="card-content">
-                        <h2>⭐ Video games</h2>
-                        <p>5 mini crosswords (unlocked!)</p>
-                    </div>
-                </a>
+        <div class="game-card game-card-special">
+            <div class="progress-badge @BadgeClass(progress_puzzle1)">
+                @BadgeSymbol(progress_puzzle1)
             </div>
-        }
-        else
-        {
-            <div class="game-card">
-                <a href="https://buy.stripe.com/3cI4gy7dH3YE8uRcR4grS01">
-                    <div class="card-content">
-                        <h2>⭐ Video games</h2>
-                        <p>5 NEW mini crosswords (£1.99)</p>
-                    </div>
-                </a>
-            </div>
-        }
-        <div class="game-card">
-            <a href="pack-school-1?unlock=true">
+            <a href="mini/special/video-games-super">
                 <div class="card-content">
-                    <h2>School subjects</h2>
-                    <p>5 mini crosswords (free)</p>
+                    <h2>Super</h2>
                 </div>
             </a>
         </div>
-        <div class="game-card">
-            <a href="pack-hidden-rules-1?unlock=true">
+        <div class="game-card game-card-special">
+            <div class="progress-badge @BadgeClass(progress_puzzle2)">
+                @BadgeSymbol(progress_puzzle2)
+            </div>
+            <a href="mini/special/video-games-heroes"
                 <div class="card-content">
-                    <h2>Hidden rules</h2>
-                    <p>5 mini crosswords (free)</p>
+                    <h2>Heroes</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card game-card-special">
+            <div class="progress-badge @BadgeClass(progress_puzzle3)">
+                @BadgeSymbol(progress_puzzle3)
+            </div>
+            <a href="mini/special/video-games-combat-evolved">
+                <div class="card-content">
+                    <h2>Combat Evolved</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card game-card-special">
+            <div class="progress-badge @BadgeClass(progress_puzzle4)">
+                @BadgeSymbol(progress_puzzle4)
+            </div>
+            <a href="mini/special/video-games-eons">
+                <div class="card-content">
+                    <h2>Eons</h2>
+                </div>
+            </a>
+        </div>
+        <div class="game-card game-card-special">
+            <div class="progress-badge @BadgeClass(progress_puzzle5)">
+                @BadgeSymbol(progress_puzzle5)
+            </div>
+            <a href="mini/special/video-games-diamond-geezer">
+                <div class="card-content">
+                    <h2>Diamond geezer</h2>
                 </div>
             </a>
         </div>
     </div>
-    <hr />
-    <p>Looking for a pack you've played before?<br /><span class="subtitle-smaller"><a href="my-library">View my library</a></span></p>
-    <p>Want to peruse more packs?<br /><span class="subtitle-smaller"><a href="all-packs">View all packs (A-Z)</a></span></p>
 </div>
-@code{
-    bool unlocked_videoGames = false;
+
+@code {
+    private int progress_puzzle1;
+    private int progress_puzzle2;
+    private int progress_puzzle3;
+    private int progress_puzzle4;
+    private int progress_puzzle5;
+
+    private string letterheadTitle = "?????";
+    private string hexiconTitle = "???????";
 
     protected override async Task OnInitializedAsync()
     {
-        unlocked_videoGames = await Persistence.CollectionUnlocked("video-games");
+        if(!await Persistence.CollectionUnlocked("video-games"))
+        {
+            Nav.NavigateTo("/", replace: true);
+        }
 
         if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 1) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 31))
         {
@@ -82,7 +103,37 @@
             await JS.InvokeVoidAsync("setWinterTheme", false);
             await JS.InvokeVoidAsync("miniConfetti.stopSnow");
         }
+
+        (progress_puzzle1, _) = await ProgressChecker.GetProgressAsync("lunamini", "video-games-super");
+        (progress_puzzle2, _) = await ProgressChecker.GetProgressAsync("lunamini", "video-games-heroes");
+        (progress_puzzle3, _) = await ProgressChecker.GetProgressAsync("lunamini", "video-games-combat-evolved");
+        (progress_puzzle4, _) = await ProgressChecker.GetProgressAsync("lunamini", "video-games-eons");
+        (progress_puzzle5, _) = await ProgressChecker.GetProgressAsync("lunamini", "video-games-diamond-geezer");
     }
+
+    private string BadgeClass(int progress) => progress switch
+    {
+        3 => "badge-done",
+        2 => "badge-done",
+        1 => "badge-started",
+        _ => "badge-hidden"
+    };
+
+    private string BadgeSymbol(int progress) => progress switch
+    {
+        3 => "✔",
+        2 => "✔",
+        1 => "…",
+        _ => ""
+    };
+
+    private static string Indicator(int p) => p switch
+    {
+        3 => " (✔)",
+        2 => " (✔)",
+        1 => " (…)",
+        _ => ""
+    };
 }
 <style>
     .homepage {
@@ -100,11 +151,6 @@
         font-weight: 700;
         font-size: 1.7rem;
     }
-    .subtitle-smaller {
-        color: #6b7280;
-        font-weight: bolder;
-        font-size: larger;
-    }
     .game-grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -116,6 +162,9 @@
         background: #fff;
         box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .game-card-special {
+        border: 2px solid goldenrod;
     }
     .game-card:hover {
         transform: translateY(-2px);
@@ -135,6 +184,12 @@
     .card-content p {
         color: #374151;
         font-size: 0.95rem;
+    }
+
+    .status {
+        display: inline-block;
+        text-align: left;
+        font-weight: 400;
     }
     .disabled {
         opacity: 0.6;
@@ -182,25 +237,5 @@
 
     .icon-link:hover img {
         opacity: 1;
-    }
-
-    .shimmer {
-        background: linear-gradient(45deg, #ab74c2, #c274bd, #c27496, #c28174, #c29a74, #c2b574, #b0c274, #75c274, #74c298, #74c2bb, #74abc2, #7482c2, #8674c2);
-        background-size: 200% 100%;
-        animation: shimmer 5s ease-in-out infinite;
-    }
-
-    .shimmer-link {
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .shimmer-card {
-        color: black;
-        grid-column: 1 / -1;
-    }
-
-    .shimmer-card p{
-        color: black;
     }
 </style>

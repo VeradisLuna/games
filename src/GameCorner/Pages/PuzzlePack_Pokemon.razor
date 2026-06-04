@@ -17,13 +17,8 @@
             <span class="divider">|</span>
             <a href="https://tally.so/r/3j1g9E" target="_blank" rel="noopener noreferrer" title="Get in touch with me using this super simple form!">give feedback</a>
             <span class="divider">|</span>
-            <a href="/ice-jumper" title="Play the special Welsh ICE Christmas Jumper Day puzzles!">Christmas Jumper Day</a>
+            <a href="/my-library" title="Find puzzle packs you've played before">my library</a>
         </div>
-@*         <div class="bottom-row">
-            <a href="/collections">play past puzzles</a>
-            <a href="/notes">behind the scenes</a>
-            <a href="/privacy">privacy</a>
-        </div> *@
     </nav>
     <p class="subtitle">Can you catch 'em all?</p>
 
@@ -105,6 +100,11 @@
         {
             await JS.InvokeVoidAsync("setWinterTheme", true);
             await JS.InvokeVoidAsync("miniConfetti.snow");
+        }
+        else
+        {
+            await JS.InvokeVoidAsync("setWinterTheme", false);
+            await JS.InvokeVoidAsync("miniConfetti.stopSnow");
         }
 
         var result_puzzle1 = await ProgressChecker.GetProgressAsync("hexicon", new DateOnly(2025, 09, 03));
