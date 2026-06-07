@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-15",
+  "title": "Conditional",
+  "author": "Luna",
+  "rows": [
+    "IFEAR",
+    "LEAVE",
+    "ELSES",
+    "DOEST",
+    "END##"
+  ],
+  "highlights": [
+    "**...",
+    ".....",
+    "****.",
+    ".....",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"My concern is ...\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Depart"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Someone ___ problem (not my concern!)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Accomplish, archaically"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "~ fin ~"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ la Cité, home of Notre-Dame"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "US convicted criminal"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Alleviated"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Birds, scientifically"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Sheet music squiggle"
+      }
+    ]
+  }
+}

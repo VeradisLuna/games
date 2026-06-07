@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-09",
+  "title": "Fish tank",
+  "author": "Luna",
+  "rows": [
+    "CUING",
+    "ANGEL",
+    "TALIA",
+    "#GOLD",
+    "#IOLE"
+  ],
+  "highlights": [
+    "*....",
+    "*****",
+    "*....",
+    ".****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Giving a line"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It's found atop a Christmas tree"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Shire, who played Adrian in the Rocky films"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Top prize at the Olympics"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Captive of Heracles"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Feline"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Eel, on a sushi menu"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ice house"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sam of Jurassic Park"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Forest clearing"
+      }
+    ]
+  }
+}

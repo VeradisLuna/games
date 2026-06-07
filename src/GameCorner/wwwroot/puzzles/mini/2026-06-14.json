@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-14",
+  "title": "Put it on a pancake",
+  "author": "Luna",
+  "rows": [
+    "#USP#",
+    "AHYES",
+    "MURRE",
+    "FRUIT",
+    "MAPLE"
+  ],
+  "highlights": [
+    "..a..",
+    "..a..",
+    "..a..",
+    "bbcbb",
+    "aaaaa"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Distinguishing feature (inits.)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Now I remember!\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Kind of seabird"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Smoothie ingredient"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Leaf on Canada's flag"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Star Trek lieutenant"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Types include golden and corn"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Danger"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Letters on a radio switch"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "French resort known as the \"Venice of Languedoc\""
+      }
+    ]
+  }
+}

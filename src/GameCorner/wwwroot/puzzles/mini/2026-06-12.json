@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-12",
+  "title": "Gambler's fallacy",
+  "author": "Luna",
+  "rows": [
+    "#AMP#",
+    "GROUP",
+    "MENLO",
+    "ATTED",
+    "NEED#"
+  ],
+  "highlights": [
+    ".....",
+    ".dbd.",
+    ".b.b.",
+    ".dbd.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It pumps up the volume"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Party"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "The Wizard of ___ Park (Thomas Edison)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Directly @mentioned, on Insta"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Must-have"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Mountain ridge"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ Carlo, where black once hit 26 times straight"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Whimpered"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "FBI agent, informally"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Humpback pack"
+      }
+    ]
+  }
+}

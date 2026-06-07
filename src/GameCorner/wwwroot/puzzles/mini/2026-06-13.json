@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-13",
+  "title": "\"On the right track, baby\"",
+  "author": "Luna",
+  "rows": [
+    "BORN#",
+    "THIS#",
+    "WAYYY",
+    "#NANA",
+    "#ALCO"
+  ],
+  "highlights": [
+    "bjad.",
+    "jadgl",
+    "adgln",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Brought into the world"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It's not that"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Chorus heard when a glass smashes in Spoons"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Granny"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Lead-in to pop or hol"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Indicator for a texter's tangent"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hawaiian term that means \"family\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Saudi currency"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Bye Bye Bye band"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "NBA All-Star Ming"
+      }
+    ]
+  }
+}

@@ -561,6 +561,9 @@ h2, .floaty {
 .mini-cell.highlight-type-m {
     background: repeating-linear-gradient(45deg, #ffffbf, #ffffbf 10px, #bfffff 10px, #bfffff 20px);
 }
+.mini-cell.highlight-type-n {
+    background: #ffc2ed;
+}
 .cluenumber {
     position: absolute;
     top: 3px;

@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-10",
+  "title": "Three square meals",
+  "author": "Luna",
+  "rows": [
+    "MEMES",
+    "ALALA",
+    "EMLEN",
+    "#EAVE",
+    "#RYE#"
+  ],
+  "highlights": [
+    "aadd.",
+    "aadd.",
+    ".bb..",
+    ".bb..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "He-Man singing 4 Non Blondes, and Keyboard Cat"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Personification of the war cry in Greek mythology"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "NFL Hall-of-Famer ___ Tunnell"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Roof overhang"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Alternative to white or wheat"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ Martin, who created and starred in Wayward"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Wabbit\" hunter, or patchwork elephant"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Language of Kuala Lumpur"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "École attendee"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Of sound mind"
+      }
+    ]
+  }
+}

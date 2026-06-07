@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-11",
+  "title": "Logo hits the corner!",
+  "author": "Luna",
+  "rows": [
+    "ACRID",
+    "NAIVE",
+    "INDIE",
+    "MEIER",
+    "#DND#"
+  ],
+  "highlights": [
+    "....*",
+    "...*.",
+    "..*..",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pungent"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Easily fooled"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Not belonging to a major company"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sid, who developed the game Civilization"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Popular role-playing game, colloquially"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "In music, lively (abbr.)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Defeated heavily, or consumed quickly"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"They see me rollin'\" hit"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Vine-covered"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Do-Re-Mi \"do\""
+      }
+    ]
+  }
+}
