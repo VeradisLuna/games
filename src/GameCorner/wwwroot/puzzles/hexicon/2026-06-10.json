@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-10",
+  "pangram": "chutzpah",
+  "letters": [ "c", "a", "h", "p", "t", "u", "z" ],
+  "required": "c",
+  "words": [
+    "chap",
+    "chat",
+    "pact",
+    "tact",
+    "catch",
+    "cuppa",
+    "cutup",
+    "hatch",
+    "hutch",
+    "patch",
+    "attach",
+    "thatch",
+    "chutzpah"
+  ]
+}

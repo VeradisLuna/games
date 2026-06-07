@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-12",
+  "pangram": "pavilion",
+  "letters": [ "v", "a", "i", "l", "n", "o", "p" ],
+  "required": "v",
+  "words": [
+    "lava",
+    "nova",
+    "oval",
+    "vain",
+    "vial",
+    "vino",
+    "viol",
+    "anvil",
+    "avail",
+    "avian",
+    "naval",
+    "villa",
+    "viola",
+    "violin",
+    "pavlova",
+    "vanilla",
+    "villain",
+    "pavilion"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-15",
+  "pangram": "adjunct",
+  "letters": [ "a", "c", "d", "j", "n", "t", "u" ],
+  "required": "a",
+  "words": [
+    "aunt",
+    "cant",
+    "data",
+    "naan",
+    "nana",
+    "tact",
+    "taut",
+    "tuna",
+    "daunt",
+    "jaunt",
+    "junta",
+    "taunt",
+    "cancan",
+    "adjunct",
+    "cantata",
+    "adjutant"
+  ]
+}

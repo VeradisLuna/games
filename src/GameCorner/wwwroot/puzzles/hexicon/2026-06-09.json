@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-09",
+  "pangram": "furlong",
+  "letters": [ "r", "f", "g", "l", "n", "o", "u" ],
+  "required": "r",
+  "words": [
+    "four",
+    "frog",
+    "furl",
+    "grog",
+    "guru",
+    "lorn",
+    "roll",
+    "roof",
+    "ruff",
+    "rung",
+    "floor",
+    "flour",
+    "forgo",
+    "furor",
+    "gruff",
+    "gorgon",
+    "runoff",
+    "unfurl",
+    "unroll",
+    "forlorn",
+    "furlong",
+    "froufrou"
+  ]
+}

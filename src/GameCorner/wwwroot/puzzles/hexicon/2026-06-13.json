@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-13",
+  "pangram": "paradigm",
+  "letters": [ "d", "a", "g", "i", "m", "p", "r" ],
+  "required": "d",
+  "words": [
+    "agar",
+    "drag",
+    "gaga",
+    "gimp",
+    "gird",
+    "grad",
+    "gram",
+    "grid",
+    "grim",
+    "grip",
+    "magi",
+    "prig",
+    "raga",
+    "gamma",
+    "magma",
+    "ragga",
+    "rigid",
+    "diagram",
+    "grammar",
+    "paradigm"
+  ]
+}

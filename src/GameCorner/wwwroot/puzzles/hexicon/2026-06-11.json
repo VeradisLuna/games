@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-11",
+  "pangram": "tequila",
+  "letters": [ "q", "a", "e", "i", "l", "t", "u" ],
+  "required": "q",
+  "words": [
+    "aqua",
+    "quit",
+    "equal",
+    "quail",
+    "quell",
+    "queue",
+    "quiet",
+    "quill",
+    "quilt",
+    "quite",
+    "equate",
+    "tequila",
+    "etiquette"
+  ]
+}
