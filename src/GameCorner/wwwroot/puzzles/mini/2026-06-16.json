@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-16",
+  "title": "A job in IT",
+  "author": "Luna",
+  "rows": [
+    "TUBI#",
+    "ANIME",
+    "CHORE",
+    "TITAN",
+    "#PAN#"
+  ],
+  "highlights": [
+    ".....",
+    "..b..",
+    "aaaaa",
+    "..b..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Free streaming service"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Studio Ghibli genre"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Task on one's to-do list"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Goliath"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Give a bad review"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Delicate use of words"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Not cool"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Region's flora and fauna"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Former Pakistani prime minister Khan"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Dusk, poetically"
+      }
+    ]
+  }
+}

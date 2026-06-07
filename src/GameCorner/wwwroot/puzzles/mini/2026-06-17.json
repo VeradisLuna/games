@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-17",
+  "title": "This Music May Contain ___",
+  "author": "Luna",
+  "rows": [
+    "#SIR#",
+    "SONAR",
+    "COINA",
+    "ITGUY",
+    "#HOPE"
+  ],
+  "highlights": [
+    ".....",
+    "....*",
+    "....*",
+    "....*",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"___, this is a Wendy's\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Submarine device"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"To ___ phrase...\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Man about Macs"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "It remained in Pandora's box"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Truth, archaically"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Montoya, of The Princess Bride"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Accumulated"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___-fi"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "She wrote Nightingale Lane"
+      }
+    ]
+  }
+}
