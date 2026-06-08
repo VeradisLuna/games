@@ -1,4 +1,4 @@
-﻿@page "/pack-phrases-1"
+﻿@page "/pack-space-1"
 @using GameCorner.Services
 @inject ProgressChecker ProgressChecker
 @inject Persistence Persistence
@@ -20,16 +20,16 @@
             <a href="/my-library" title="Find puzzle packs you've played before">my library</a>
         </div>
     </nav>
-    <p class="subtitle">Familiar phrases</p>
+    <p class="subtitle">Cosmic collection</p>
 
     <div class="game-grid">
         <div class="game-card">
             <div class="progress-badge @BadgeClass(progress_puzzle1)">
                 @BadgeSymbol(progress_puzzle1)
             </div>
-            <a href="mini/2026-05-22?nonav=true">
+            <a href="mini/2025-10-07?nonav=true">
                 <div class="card-content">
-                    <h2>Great minds...</h2>
+                    <h2>Lunar maxi</h2>
                 </div>
             </a>
         </div>
@@ -37,9 +37,9 @@
             <div class="progress-badge @BadgeClass(progress_puzzle2)">
                 @BadgeSymbol(progress_puzzle2)
             </div>
-            <a href="mini/2026-05-14?nonav=true">
+            <a href="mini/2025-10-26?nonav=true">
                 <div class="card-content">
-                    <h2>No evil</h2>
+                    <h2>Ad astra</h2>
                 </div>
             </a>
         </div>
@@ -47,9 +47,9 @@
             <div class="progress-badge @BadgeClass(progress_puzzle3)">
                 @BadgeSymbol(progress_puzzle3)
             </div>
-            <a href="mini/2026-05-11?nonav=true">
+            <a href="mini/2025-11-19?nonav=true">
                 <div class="card-content">
-                    <h2>All ___ lead to ___</h2>
+                    <h2>Written in the stars</h2>
                 </div>
             </a>
         </div>
@@ -57,9 +57,9 @@
             <div class="progress-badge @BadgeClass(progress_puzzle4)">
                 @BadgeSymbol(progress_puzzle4)
             </div>
-            <a href="mini/2026-04-15?nonav=true">
+            <a href="mini/2025-12-02?nonav=true">
                 <div class="card-content">
-                    <h2>Better ___ than ___</h2>
+                    <h2>Moon landing</h2>
                 </div>
             </a>
         </div>
@@ -67,9 +67,9 @@
             <div class="progress-badge @BadgeClass(progress_puzzle5)">
                 @BadgeSymbol(progress_puzzle5)
             </div>
-            <a href="mini/2026-04-04?nonav=true">
+            <a href="mini/2026-02-03?nonav=true">
                 <div class="card-content">
-                    <h2>Highs and lows</h2>
+                    <h2>Worlds apart</h2>
                 </div>
             </a>
         </div>
@@ -90,11 +90,11 @@
     {
         if (UnlockParam())
         {
-            await Persistence.UnlockCollectionAsync("phrases");
-            Nav.NavigateTo("/pack-phrases-1", replace: true);
+            await Persistence.UnlockCollectionAsync("space");
+            Nav.NavigateTo("/pack-space-1", replace: true);
         }
 
-        if(!await Persistence.CollectionUnlocked("phrases"))
+        if(!await Persistence.CollectionUnlocked("space"))
         {
             Nav.NavigateTo("/", replace: true);
         }
@@ -110,11 +110,11 @@
             await JS.InvokeVoidAsync("miniConfetti.stopSnow");
         }
 
-        (progress_puzzle1, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 05, 22));
-        (progress_puzzle2, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 05, 14));
-        (progress_puzzle3, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 05, 11));
-        (progress_puzzle4, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 04, 15));
-        (progress_puzzle5, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 04, 04));
+        (progress_puzzle1, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2025, 10, 07));
+        (progress_puzzle2, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2025, 10, 26));
+        (progress_puzzle3, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2025, 11, 19));
+        (progress_puzzle4, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2025, 12, 02));
+        (progress_puzzle5, _) = await ProgressChecker.GetProgressAsync("lunamini", new DateOnly(2026, 02, 03));
     }
 
     private string BadgeClass(int progress) => progress switch

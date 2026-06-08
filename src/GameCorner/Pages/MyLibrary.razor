@@ -56,6 +56,28 @@
                 </a>
             </div>
         }
+        @if (unlocked_space)
+        {
+            <div class="game-card">
+                <a href="pack-space-1">
+                    <div class="card-content">
+                        <h2>Cosmic collection</h2>
+                        <p>5 mini crosswords</p>
+                    </div>
+                </a>
+            </div>
+        }
+        @if (unlocked_phrases)
+        {
+            <div class="game-card">
+                <a href="pack-phrases-1">
+                    <div class="card-content">
+                        <h2>Familiar phrases</h2>
+                        <p>5 mini crosswords</p>
+                    </div>
+                </a>
+            </div>
+        }
         @if (unlocked_hiddenRules)
         {
             <div class="game-card">
@@ -86,6 +108,8 @@
     bool unlocked_videoGames = false;
 
     bool unlocked_catchEmAll = false;
+    bool unlocked_space = false;
+    bool unlocked_phrases = false;
     bool unlocked_hiddenRules = false;
     bool unlocked_schoolSubjects = false;
 
@@ -94,12 +118,13 @@
         await ProcessNewUnlocks();
 
         unlocked_iceJumper = await Persistence.CollectionUnlocked("ice-jumper");
-
         unlocked_videoGames = await Persistence.CollectionUnlocked("video-games");
 
         unlocked_catchEmAll = await Persistence.CollectionUnlocked("pokemon");
         unlocked_hiddenRules = await Persistence.CollectionUnlocked("hidden-rules");
+        unlocked_phrases = await Persistence.CollectionUnlocked("phrases");
         unlocked_schoolSubjects = await Persistence.CollectionUnlocked("school-subjects");
+        unlocked_space = await Persistence.CollectionUnlocked("space");
 
         if (DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 1) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 31))
         {
