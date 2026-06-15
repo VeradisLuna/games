@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-20",
+  "title": "Disc directory",
+  "author": "Luna",
+  "rows": [
+    "#SAM#",
+    "OTTO#",
+    "WASIN",
+    "EGEST",
+    "DEATH"
+  ],
+  "highlights": [
+    ".aaa.",
+    "bbbc.",
+    "...a.",
+    "...a.",
+    "bbbcb"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "America's uncle?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bart Simpson's bus driver"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stayed at home"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Expel"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "___ of a Salesman"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "All the world's a ___"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "On the ocean"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Damp"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Had to pay"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "To the ___ degree"
+      }
+    ]
+  }
+}

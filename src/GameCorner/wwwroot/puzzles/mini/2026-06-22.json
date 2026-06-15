@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-22",
+  "title": "Missing link?",
+  "author": "Luna",
+  "rows": [
+    "#MEAL",
+    "ZELDA",
+    "ASCOT",
+    "CHASE",
+    "HYPER"
+  ],
+  "highlights": [
+    "....*",
+    "....*",
+    "....*",
+    "....*",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Breakfast, lunch, or dinner"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Princess of Hyrule"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Tie named for a racecourse"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Pursue"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Webpage connector *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Netlike"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Yosemite peak, familiarly"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Get ___ of your own medicine"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Richard who directed School of Rock *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Braff, of Scrubs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-18",
+  "title": "\"Girl\" songs",
+  "author": "Luna",
+  "rows": [
+    "##GTI",
+    "BROWN",
+    "LINEN",
+    "ACNE#",
+    "CHAN#"
+  ],
+  "highlights": [
+    "..b..",
+    "amcaa",
+    ".eb..",
+    ".eb..",
+    ".eb.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "VW model"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Eyed Girl (Van Morrison)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Like some sheets and shirts"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Skin affliction"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Jackie of Rush Hour"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Are You ___ Be My Girl? (Jet)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "One verging on adolescence, informally"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Tavern"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "US TV personality ___ Chyna"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "___ Girl (Hall & Oates)"
+      }
+    ]
+  }
+}

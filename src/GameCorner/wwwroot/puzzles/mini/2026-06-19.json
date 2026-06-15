@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-19",
+  "title": "Egyptian gods",
+  "author": "Luna",
+  "rows": [
+    "SITH#",
+    "ECHO#",
+    "THERE",
+    "#AMUN",
+    "#TEST"
+  ],
+  "highlights": [
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    ".****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Red lightsaber wielder"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"E\" in the NATO phonetic alphabet"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "It's not here"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Creator god merged with Ra"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Word before card or drive"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "God of storms and chaos"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bygone Apple messenger"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Egyptian gods, in this puzzle"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "God depicted as a falcon-headed man"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Tolkien's Treebeard, for one"
+      }
+    ]
+  }
+}

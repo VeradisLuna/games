@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-21",
+  "title": "Piggy in the middle",
+  "author": "Luna",
+  "rows": [
+    "LEFTS",
+    "ATRIA",
+    "SHOGI",
+    "SAME#",
+    "ONER#"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".***.",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Southpaw punches"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Some chambers of the heart"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Game also known as \"Japanese chess\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Ditto!\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Unbroken cinematic shot"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Roper's rope"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "With 3-down, title character in a Wharton novel"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "See 2-down"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Shere Khan, for one"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Raph's weapon in Teenage Mutant Ninja Turtles"
+      }
+    ]
+  }
+}
