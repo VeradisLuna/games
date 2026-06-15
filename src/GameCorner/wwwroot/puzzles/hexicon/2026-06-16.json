@@ -1,0 +1,25 @@
+{
+  "date": "2026-06-16",
+  "pangram": "jocular",
+  "letters": [ "u", "a", "c", "j", "l", "o", "r" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "cull",
+    "curl",
+    "lour",
+    "luau",
+    "lull",
+    "lulu",
+    "aural",
+    "juror",
+    "occur",
+    "rural",
+    "aurora",
+    "colour",
+    "ocular",
+    "accrual",
+    "jocular",
+    "oracular"
+  ]
+}
