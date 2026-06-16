@@ -1,12 +1,13 @@
 {
   "date": "2025-06-20",
-  "clue": "What about central ingredient of new kind of cereal?",
+  "clue": "Question about origin of eating breakfast cereal?",
   "enumeration": "5",
   "answer": "WHEAT",
-  "explanation": "WHEAT: kind of cereal. WHAT, about the central letter (\"ingredient\") of nEw.",
+  "explanation": "WHEAT: \"breakfast cereal?\". WHAT (\"question\") about E (origin of \"eating\").",
   "hints": [
-    "We're going to put the letters of \"what\" about some other part of the wordplay.",
-    "What is the \"central ingredient\" of NEW?",
-    "Our answer is a kind of cereal."
+    "We need a question word. (What, where, when, why, who...)",
+    "We're going to put our question word around (\"about\") the other part of the wordplay.",
+    "What is the \"origin\" of EATING?",
+    "Our answer will be a \"breakfast cereal\", but the question mark indicates that the answer will be a little cheeky."
   ]
 }
