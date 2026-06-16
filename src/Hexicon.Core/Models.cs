@@ -31,6 +31,10 @@ namespace Hexicon.Core
         public string Enumeration { get; set; }
         public string Answer { get; set; }
         public string Explanation { get; set; }
+        public string ExtraHeading { get; set; }
+        public string ExtraText { get; set; }
+        public string ExtraLink { get; set; }
+        public string ExtraLinkText { get; set; }
         public List<string>? Hints { get; set; }
         public string? Author { get; set; }
         public string SpecialURL { get; set; } = "";

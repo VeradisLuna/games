@@ -63,6 +63,28 @@
         }
     </div>
 
+    @if (Vm.Solved)
+    {
+        @if (!string.IsNullOrWhiteSpace(Vm.ExtraHeading) && !string.IsNullOrWhiteSpace(Vm.ExtraText))
+        {
+            <div class="found-box" style="margin-top:.5rem; background-color: lightgoldenrodyellow;">
+                <h3>@Vm.ExtraHeading</h3>
+                <p>@Vm.ExtraText</p>
+                @if (!string.IsNullOrWhiteSpace(Vm.ExtraLink) && !string.IsNullOrWhiteSpace(Vm.ExtraLinkText))
+                {
+                    <p><a href="@Vm.ExtraLink">@Vm.ExtraLinkText</a></p>
+                }
+            </div>
+        }
+        @if (!string.IsNullOrWhiteSpace(Vm.Explanation))
+        {
+            <div class="found-box" style="margin-top:.5rem;">
+                <h3>How it works</h3>
+                <p>@Vm.Explanation</p>
+            </div>
+        }
+    }
+
     @if (Vm.HintsRevealed > 0)
     {
      <div class="mb-3">
@@ -73,25 +95,6 @@
             }
         </ul>
      </div>   
-    }
-
-    @if (Vm.Solved)
-    {
-@*         @if (Vm.Revealed)
-        {
-            <div class="rank-line pulse">Revealed!</div>
-        }
-        else
-        {
-            <div class="rank-line rank-purple pulse">Correct!</div>
-        } *@
-        @if (!string.IsNullOrWhiteSpace(Vm.Explanation))
-        {
-            <div class="found-box" style="margin-top:.5rem;">
-                <h3>How it works</h3>
-                <p>@Vm.Explanation</p>
-            </div>
-        }
     }
 
     @if (_confirmOpen)

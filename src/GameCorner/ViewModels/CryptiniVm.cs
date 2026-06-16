@@ -29,6 +29,10 @@ public sealed class CryptiniVm
     public bool Solved { get; private set; }
     public bool Revealed { get; private set; } // the puzzle was revealed (i.e. the player didn't solve the puzzle)
     public string? Explanation { get; private set; }
+    public string? ExtraHeading { get; private set; }
+    public string? ExtraText { get; private set; }
+    public string? ExtraLink { get; private set; }
+    public string? ExtraLinkText { get; private set; }
     public DateOnly PuzzleDate { get; private set; }
     public string SpecialSlug { get; set; } = string.Empty;
 
@@ -64,6 +68,10 @@ public sealed class CryptiniVm
         Clue = data.Clue ?? "";
         Enumeration = data.Enumeration ?? "";
         Explanation = data.Explanation;
+        ExtraHeading = data.ExtraHeading ?? "";
+        ExtraText = data.ExtraText ?? "";
+        ExtraLink = data.ExtraLink ?? "";
+        ExtraLinkText = data.ExtraLinkText ?? "";
         Answer = data.Answer;
         Author = data.Author;
 
