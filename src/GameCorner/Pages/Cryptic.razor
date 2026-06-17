@@ -129,6 +129,7 @@
         if (slug != null)
         {
             Vm.SpecialSlug = slug;
+            await Vm.InitAsync();
         }
         else
         {
