@@ -1,0 +1,26 @@
+{
+  "date": "2026-06-18",
+  "pangram": "uncloak",
+  "letters": [ "u", "a", "c", "k", "l", "n", "o" ],
+  "required": "u",
+  "words": [
+    "cull",
+    "luau",
+    "luck",
+    "lull",
+    "lulu",
+    "noun",
+    "null",
+    "ulna",
+    "annul",
+    "caulk",
+    "cluck",
+    "clunk",
+    "annual",
+    "cuckoo",
+    "lacuna",
+    "uncool",
+    "unlock",
+    "uncloak"
+  ]
+}
