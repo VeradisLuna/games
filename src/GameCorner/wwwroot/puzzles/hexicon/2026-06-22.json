@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-22",
+  "pangram": "flapjack",
+  "letters": [ "l", "a", "c", "f", "j", "k", "p" ],
+  "required": "l",
+  "words": [
+    "calf",
+    "call",
+    "clap",
+    "fall",
+    "flak",
+    "flap",
+    "lack",
+    "pall",
+    "alack",
+    "appal",
+    "calla",
+    "clack",
+    "flack",
+    "papal",
+    "alpaca",
+    "appall",
+    "jackal",
+    "alfalfa",
+    "flapjack"
+  ]
+}
