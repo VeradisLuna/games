@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-19",
+  "pangram": "mannequin",
+  "letters": [ "a", "e", "i", "m", "n", "q", "u" ],
+  "required": "a",
+  "words": [
+    "amen",
+    "aqua",
+    "imam",
+    "maim",
+    "main",
+    "mama",
+    "mane",
+    "mean",
+    "naan",
+    "name",
+    "nana",
+    "anime",
+    "enema",
+    "inane",
+    "mamma",
+    "mania",
+    "manna",
+    "unman",
+    "anemia",
+    "meanie",
+    "minima",
+    "anaemia",
+    "mannequin"
+  ]
+}
