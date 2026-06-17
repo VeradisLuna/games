@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-20",
+  "pangram": "grouchy",
+  "letters": [ "g", "c", "h", "o", "r", "u", "y" ],
+  "required": "g",
+  "words": [
+    "chug",
+    "gory",
+    "grog",
+    "guru",
+    "gyro",
+    "orgy",
+    "cough",
+    "rough",
+    "chough",
+    "groggy",
+    "grouch",
+    "grouchy"
+  ]
+}
