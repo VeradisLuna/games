@@ -1,0 +1,29 @@
+{
+  "date": "2026-06-23",
+  "pangram": "autonomy",
+  "letters": [ "y", "a", "m", "n", "o", "t", "u" ],
+  "required": "y",
+  "words": [
+    "many",
+    "mayo",
+    "myna",
+    "tony",
+    "yuan",
+    "annoy",
+    "aunty",
+    "mammy",
+    "mommy",
+    "mummy",
+    "nanny",
+    "natty",
+    "nutty",
+    "tatty",
+    "tummy",
+    "tunny",
+    "yummy",
+    "anatomy",
+    "antonym",
+    "autonomy",
+    "monotony"
+  ]
+}
