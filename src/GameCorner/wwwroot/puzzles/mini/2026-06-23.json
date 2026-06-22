@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-23",
+  "title": "Aftersun",
+  "author": "Luna",
+  "rows": [
+    "CROSS",
+    "LIGHT",
+    "ASLIP",
+    "WEENA",
+    "##SET"
+  ],
+  "highlights": [
+    ".*.*.",
+    "*****",
+    ".*.*.",
+    ".*.*.",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Angry"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "In entertainment, easy to watch"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Many ___ 'twixt cup and lip\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Eloi woman in The Time Machine"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Word between ready and go"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Lobster limb"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "With 4-down, wake up and get going"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Eyes impolitely"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "See 2-down"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Irish patron, for short"
+      }
+    ]
+  }
+}
