@@ -1,0 +1,23 @@
+{
+  "date": "2026-06-24",
+  "pangram": "bequeath",
+  "letters": [ "u", "a", "b", "e", "h", "q", "t" ],
+  "required": "u",
+  "words": [
+    "abut",
+    "aqua",
+    "beau",
+    "butt",
+    "taut",
+    "tuba",
+    "tube",
+    "tutu",
+    "beaut",
+    "butte",
+    "queue",
+    "equate",
+    "hubbub",
+    "bathtub",
+    "bequeath"
+  ]
+}
