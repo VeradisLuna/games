@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-25",
+  "title": "Curi-O-cities",
+  "author": "Luna",
+  "rows": [
+    "#ANAL",
+    "#GURU",
+    "ROMEO",
+    "ORANG",
+    "TANTO"
+  ],
+  "highlights": [
+    ".b..d",
+    ".b..d",
+    "aaaaks",
+    ".b..d",
+    ".b..d"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Particularly particular"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Wise one"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Wherefore art thou ___?; Where all roads lead?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Primate from Borneo, for short"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "So much, in music"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Greek citizen's marketplace; Mughal consort's burial site"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Gary who released Cars"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"___ you a little short for a Stormtrooper?\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Roman \"place\"; Roman place in Spain!"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Decay"
+      }
+    ]
+  }
+}
