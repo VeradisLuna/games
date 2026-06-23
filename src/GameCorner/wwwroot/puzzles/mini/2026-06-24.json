@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-24",
+  "title": "Like no one ever was!",
+  "author": "Luna",
+  "rows": [
+    "POKE#",
+    "THEME",
+    "ARIAS",
+    "#ORLE",
+    "#BALL"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Hawaiian bowl"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Song that starts \"I wanna be the very best\", say"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Operatic solos"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Shield border"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Foot part, or \"foot\" follower"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Initials for a school group"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Catchprase on The Dick Van Dyke show"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Actress Knightley"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Gotta catch ___!\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Düsseldorf donkey"
+      }
+    ]
+  }
+}
