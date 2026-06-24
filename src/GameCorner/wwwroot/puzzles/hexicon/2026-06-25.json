@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-25",
+  "pangram": "handcuff",
+  "letters": [ "n", "a", "c", "d", "f", "h", "u" ],
+  "required": "n",
+  "words": [
+    "faun",
+    "fund",
+    "hand",
+    "naan",
+    "nana",
+    "naff",
+    "fauna",
+    "hunch",
+    "cancan",
+    "haunch",
+    "unhand",
+    "handcuff"
+  ]
+}
