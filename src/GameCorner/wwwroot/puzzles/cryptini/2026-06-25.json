@@ -1,0 +1,13 @@
+{
+  "date": "2025-06-25",
+  "clue": "Rusted broken-down train beside depot",
+  "enumeration": "9",
+  "answer": "TARNISHED",
+  "explanation": "RUSTED: tarnished. Broken-down (anagram) TRAIN, beside SHED (depot) = TARNI-SHED.",
+  "hints": [
+    "The definition is \"rusted\".",
+    "TRAIN is \"broken-down\", so we need to shuffle the letters around.",
+    "Then, we can put those letters next to (beside) a word that means \"depot\".",
+    "(We're especially looking for a word that can mean \"depot\" in a railway context, and it needs to be 4 letters long.)"
+  ]
+}
