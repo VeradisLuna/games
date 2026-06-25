@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-26",
+  "pangram": "hymnbook",
+  "letters": [ "k", "b", "h", "m", "n", "o", "y" ],
+  "required": "k",
+  "words": [
+    "bonk",
+    "book",
+    "honk",
+    "hook",
+    "knob",
+    "kook",
+    "monk",
+    "nook",
+    "hooky",
+    "kooky",
+    "knobby",
+    "hymnbook"
+  ]
+}
