@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-27",
+  "title": "Currency",
+  "author": "Luna",
+  "rows": [
+    "#REAL",
+    "SUSHI",
+    "APTER",
+    "MEARA",
+    "PESO#"
+  ],
+  "highlights": [
+    ".****",
+    ".*..*",
+    ".*..*",
+    ".*..*",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Brazil *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Food that may be served with gari and wasabi"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "More suitable"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Stiller's partner, in comedy"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Argentina *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sri Lanka *"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Cómo ___?\" (How are you?)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "What Bonnie Tyler was holding out for"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Turkey *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Corn porridge"
+      }
+    ]
+  }
+}
