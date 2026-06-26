@@ -1,0 +1,22 @@
+{
+  "date": "2026-06-27",
+  "pangram": "inexact",
+  "letters": [ "x", "a", "c", "e", "i", "n", "t" ],
+  "required": "x",
+  "words": [
+    "exec",
+    "exit",
+    "next",
+    "taxa",
+    "taxi",
+    "text",
+    "annex",
+    "exact",
+    "ataxia",
+    "excite",
+    "extant",
+    "extent",
+    "extinct",
+    "inexact"
+  ]
+}
