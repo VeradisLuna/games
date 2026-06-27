@@ -1,0 +1,28 @@
+{
+  "date": "2026-06-28",
+  "pangram": "warthog",
+  "letters": [ "w", "a", "g", "h", "o", "r", "t" ],
+  "required": "w",
+  "words": [
+    "grow",
+    "thaw",
+    "wart",
+    "watt",
+    "what",
+    "whoa",
+    "wort",
+    "arrow",
+    "throw",
+    "worth",
+    "wrath",
+    "wroth",
+    "growth",
+    "harrow",
+    "thwart",
+    "woohoo",
+    "athwart",
+    "ragwort",
+    "warthog",
+    "arrowroot"
+  ]
+}
