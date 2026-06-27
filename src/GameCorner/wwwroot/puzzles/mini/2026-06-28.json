@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-28",
+  "title": "Colourless",
+  "author": "Luna",
+  "rows": [
+    "#ASS#",
+    "SCAMP",
+    "ETUIS",
+    "GENTS",
+    "#DAH#"
+  ],
+  "highlights": [
+    ".kak.",
+    "jkdkb",
+    "akgkl",
+    "kkkkk",
+    ".kbk."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Stubborn animal"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rascal"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Cases of pins and needles?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Off-topic ramblings *"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Morse code unit"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Censored with black marker, maybe *"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Finnish hot spot"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Worker of precious metal *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Line div."
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Afterthoughts"
+      }
+    ]
+  }
+}
