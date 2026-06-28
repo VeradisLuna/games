@@ -1,0 +1,70 @@
+{
+  "date": "2026-06-29",
+  "title": "Strange times",
+  "author": "Luna",
+  "rows": [
+    "#BOB#",
+    "#ITEM",
+    "#LONI",
+    "#EMIT",
+    "#SINE"
+  ],
+  "highlights": [
+    ".bbb.",
+    ".aaaa",
+    "....a",
+    ".aaaa",
+    "....a"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Dylan who sang The Times They Are a-Changin'"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Piece of news"
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "clue": "Actress Anderson"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Give off"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Kind of wave"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Olympic gymnast Simone"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "People of the Mexican altiplano"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Country that borders Nigeria and Togo"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Tiny arachnid"
+      }
+    ]
+  }
+}
