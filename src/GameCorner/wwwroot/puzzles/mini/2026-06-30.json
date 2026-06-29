@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-30",
+  "title": "Pentatonic",
+  "author": "Luna",
+  "rows": [
+    "IRATE",
+    "SODAS",
+    "AUDIT",
+    "AGILE",
+    "CENSE"
+  ],
+  "highlights": [
+    "....*",
+    "...*.",
+    "..*..",
+    ".*...",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Furious"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pops"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Kind of double-check"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Quick and nimble"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Fragrance, ritually"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Physicist Newton"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Bit of colour for the cheeks"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Extra ingredient"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "One side of the coin"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "First name in perfume"
+      }
+    ]
+  }
+}
