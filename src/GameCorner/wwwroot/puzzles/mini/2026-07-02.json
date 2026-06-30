@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-02",
+  "title": "It's big!",
+  "author": "Luna",
+  "rows": [
+    "##VID",
+    "#GAME",
+    "FIRMA",
+    "ARIAL",
+    "DOG##"
+  ],
+  "highlights": [
+    "....*",
+    ".****",
+    "....*",
+    "....*",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Short film?"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Tag, or tiddlywinks"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Terra ___"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Helvetica lookalike"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Follow relentlessly"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bygone Brazilian airline"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ Be (Black Eyed Peas)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Word said with a handshake"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Early copter"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "It won't be around for long"
+      }
+    ]
+  }
+}
