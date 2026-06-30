@@ -1,0 +1,12 @@
+{
+  "date": "2025-07-02",
+  "clue": "Mother has vehicle that's bright pink",
+  "enumeration": "7",
+  "answer": "MAGENTA",
+  "explanation": "MA contains (has) AGENT (vehicle) = MAGENTA. That's bright pink!",
+  "hints": [
+    "We need a short word meaning \"mother\".",
+    "That word \"has\" (goes around) a word for vehicle.",
+    "The definition? That's bright pink!"
+  ]
+}

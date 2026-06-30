@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-01",
+  "title": "T.S.",
+  "author": "Luna",
+  "rows": [
+    "SWIFT",
+    "PAPER",
+    "ANONO",
+    "TEDDY",
+    "ESSIE"
+  ],
+  "highlights": [
+    "*****",
+    "....*",
+    "....*",
+    "*****",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Shake It Off (Taylor ___)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It beats rock!"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"That's ___!\" (\"Don't do it!\")"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "The Door (___ Swims)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Nail polish brand"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sudden surge"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Diminishes"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Shuffles and Touches"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Big name in handbags"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Rush (___ Sivan)"
+      }
+    ]
+  }
+}

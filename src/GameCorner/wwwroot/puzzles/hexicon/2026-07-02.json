@@ -1,0 +1,17 @@
+{
+  "date": "2026-07-02",
+  "pangram": "privacy",
+  "letters": [ "v", "a", "c", "i", "p", "r", "y" ],
+  "required": "v",
+  "words": [
+    "vary",
+    "viva",
+    "civic",
+    "privy",
+    "vicar",
+    "aviary",
+    "caviar",
+    "privacy",
+    "vivaria"
+  ]
+}
