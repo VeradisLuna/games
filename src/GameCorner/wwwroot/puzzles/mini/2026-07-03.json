@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-03",
+  "title": "A friend in me",
+  "author": "Luna",
+  "rows": [
+    "OHMS#",
+    "BOOT#",
+    "ILLYA",
+    "TELLY",
+    "##YEN"
+  ],
+  "highlights": [
+    ".*.*.",
+    "****.",
+    ".*.*.",
+    ".*.*.",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Units of resistance"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"There's a snake in my ___!\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Napoleon's partner in The Man From U.N.C.L.E."
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Brit box"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "¥"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"In memoriam\" piece"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Somebody's poisoned the water ___!\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ringwald, who starred in Pretty in Pink"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"This is falling, with ___!\""
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Rand who wrote Atlas Shrugged"
+      }
+    ]
+  }
+}
