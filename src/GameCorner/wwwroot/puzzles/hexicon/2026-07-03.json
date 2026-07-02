@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-03",
+  "pangram": "gouache",
+  "letters": [ "h", "a", "c", "e", "g", "o", "u" ],
+  "required": "h",
+  "words": [
+    "ache",
+    "choc",
+    "chug",
+    "coho",
+    "each",
+    "echo",
+    "ghee",
+    "haha",
+    "huge",
+    "ouch",
+    "achoo",
+    "cache",
+    "coach",
+    "couch",
+    "cough",
+    "hooch",
+    "gauche",
+    "gouache",
+    "geocache"
+  ]
+}
