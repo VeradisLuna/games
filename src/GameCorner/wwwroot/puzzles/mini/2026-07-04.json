@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-03",
+  "title": "Unsinkable",
+  "author": "Luna",
+  "rows": [
+    "#JACK",
+    "ROCHE",
+    "OCEAN",
+    "SKIRT",
+    "EST##"
+  ],
+  "highlights": [
+    ".****",
+    "*....",
+    "*****",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Leo's Titanic role"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Canadian writer, Mazo de la ___"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Heart of the ___ (Titanic necklace)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Garment that hangs from the waist"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Letters that may be found on a cornerstone"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Athletic types"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Pass the exam with flying colours"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Burn a little"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Canterbury county"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Kate's Titanic role"
+      }
+    ]
+  }
+}
