@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-04",
+  "pangram": "femininity",
+  "letters": [ "f", "e", "i", "m", "n", "t", "y" ],
+  "required": "f",
+  "words": [
+    "feet",
+    "fief",
+    "fife",
+    "fine",
+    "iffy",
+    "miff",
+    "tiff",
+    "feint",
+    "femme",
+    "fifty",
+    "nifty",
+    "effete",
+    "finite",
+    "fifteen",
+    "feminine",
+    "infinite",
+    "infinity",
+    "femininity"
+  ]
+}
