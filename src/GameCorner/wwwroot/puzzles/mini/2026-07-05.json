@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-05",
+  "title": "Fantasy beings",
+  "author": "Luna",
+  "rows": [
+    "#ORC#",
+    "GNOME",
+    "ETHEL",
+    "DWARF",
+    "#ONE#"
+  ],
+  "highlights": [
+    ".aaa.",
+    "bbbbc",
+    "....a",
+    "bbbbc",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Common Elder Scrolls foe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Garden-dwelling figure?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Preacher's Daughter singer-songwriter Cain"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Happy or Sleepy, say"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "How many are going to St. Ives?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Coming in after the downbeat?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Kingdom of horse riders in The Lord of the Rings"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Lemme borrow you for a sec...\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "A wizard of Earthsea"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Pointy-eared being"
+      }
+    ]
+  }
+}
