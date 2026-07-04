@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-05",
+  "pangram": "padlock",
+  "letters": [ "d", "a", "c", "k", "l", "o", "p" ],
+  "required": "d",
+  "words": [
+    "clad",
+    "clod",
+    "coda",
+    "cold",
+    "dado",
+    "dock",
+    "dodo",
+    "doll",
+    "load",
+    "plod",
+    "dollop",
+    "doodad",
+    "paddock",
+    "padlock"
+  ]
+}
