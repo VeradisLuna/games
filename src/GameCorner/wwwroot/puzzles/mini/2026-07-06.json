@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-06",
+  "title": "Creature features",
+  "author": "Luna",
+  "rows": [
+    "SWAN#",
+    "TIGER",
+    "ULNAE",
+    "#MULE",
+    "#ASS#"
+  ],
+  "highlights": [
+    "aaaa.",
+    "bbbbb",
+    ".....",
+    ".bbbb",
+    ".aaa."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Black ___ (2010)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Crouching ___, Hidden Dragon (2000)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Some arm bones"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "The ___ (2018)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Jack___: Best and Last (2026)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The Simpsons disco guy"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Mrs. Flintstone"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"___ Dei\" (\"Lamb of God\")"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Actor McDonough and guitarist Schon"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Riddle-me-___"
+      }
+    ]
+  }
+}
