@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-06",
+  "pangram": "enjambment",
+  "letters": [ "b", "a", "e", "j", "m", "n", "t" ],
+  "required": "b",
+  "words": [
+    "abet",
+    "baba",
+    "babe",
+    "bane",
+    "bate",
+    "beam",
+    "bean",
+    "beat",
+    "been",
+    "beet",
+    "bent",
+    "beta",
+    "jamb",
+    "abate",
+    "mamba",
+    "banana",
+    "bantam",
+    "batten",
+    "beaten",
+    "abatement",
+    "enjambment"
+  ]
+}
