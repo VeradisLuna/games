@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-07",
+  "title": "Safety first!",
+  "author": "Luna",
+  "rows": [
+    "HARD#",
+    "ISIAH",
+    "VANNA",
+    "INSET",
+    "SAE##"
+  ],
+  "highlights": [
+    "caaa.",
+    "b...a",
+    "b...a",
+    "b...a",
+    "b...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Difficult"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hoops great Thomas"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Famous Wheel of Fortune co-host"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Shetland Islands, on many maps"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "It's included to facilitate a reply (inits.)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Attire that's easily seen"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Yoga pose"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Repeat's partner"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Swede neighbour"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Bowler or boater"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-09",
+  "title": "Heard on the Tube",
+  "author": "Luna",
+  "rows": [
+    "MINDS",
+    "THEIR",
+    "GAPES",
+    "#VAT#",
+    "#ELS#"
+  ],
+  "highlights": [
+    "aaaa.",
+    "bbb..",
+    "aaa..",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Great ___ think alike"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Gender-neutral possessive"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stares open-mouthed"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Large chemical container"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Golfer Ernie"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Card game where players tap lands, briefly"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"___ a dream...\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Only country with a non-rectangular flag"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Paleo and keto, say"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "They're older than jrs."
+      }
+    ]
+  }
+}

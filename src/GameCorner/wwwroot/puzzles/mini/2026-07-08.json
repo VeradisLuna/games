@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-08",
+  "title": "Odyssey",
+  "author": "Luna",
+  "rows": [
+    "#ACC#",
+    "#SHIP",
+    "ATARI",
+    "TRICE",
+    "HOMER"
+  ],
+  "highlights": [
+    "...*.",
+    ".****",
+    "...*.",
+    "...*.",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "U.S. sports org."
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Seafaring vessel"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Makers of Pong"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Jiffy"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Epic poet of ancient Greece"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The Jetsons' dog"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Novelist Potok"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Enchantress who turned men into pigs"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Where 4-across might be docked"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Greek capital, to airlines"
+      }
+    ]
+  }
+}
