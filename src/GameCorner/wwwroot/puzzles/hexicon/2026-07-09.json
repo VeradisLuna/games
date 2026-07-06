@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-09",
+  "pangram": "cogwheel",
+  "letters": [ "w", "c", "e", "g", "h", "l", "o" ],
+  "required": "w",
+  "words": [
+    "chew",
+    "chow",
+    "cowl",
+    "glow",
+    "howl",
+    "well",
+    "whee",
+    "whew",
+    "wool",
+    "wheel",
+    "whole",
+    "hollow",
+    "woohoo",
+    "cogwheel"
+  ]
+}

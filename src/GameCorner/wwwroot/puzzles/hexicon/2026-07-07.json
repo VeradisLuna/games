@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-07",
+  "pangram": "juvenile",
+  "letters": [ "u", "e", "i", "j", "l", "n", "v" ],
+  "required": "u",
+  "words": [
+    "lieu",
+    "lull",
+    "lulu",
+    "null",
+    "ennui",
+    "venue",
+    "jejune",
+    "uneven",
+    "unveil",
+    "julienne",
+    "juvenile"
+  ]
+}
