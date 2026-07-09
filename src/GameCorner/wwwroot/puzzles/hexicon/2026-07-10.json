@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-10",
+  "pangram": "halibut",
+  "letters": [ "u", "a", "b", "h", "i", "l", "t" ],
+  "required": "u",
+  "words": [
+    "abut",
+    "bulb",
+    "bull",
+    "butt",
+    "haul",
+    "hula",
+    "hull",
+    "luau",
+    "lull",
+    "lulu",
+    "taut",
+    "tuba",
+    "tutu",
+    "built",
+    "tubal",
+    "tutti",
+    "hubbub",
+    "bathtub",
+    "halibut",
+    "habitual"
+  ]
+}
