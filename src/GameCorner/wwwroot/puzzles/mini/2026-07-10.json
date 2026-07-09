@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-10",
+  "title": "Ancient Americas",
+  "author": "Luna",
+  "rows": [
+    "#MAYA",
+    "HAZEL",
+    "INTRO",
+    "LIEBE",
+    "INCA#"
+  ],
+  "highlights": [
+    ".****",
+    "..*..",
+    "..*..",
+    "..*..",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Ancient Central American"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Green-brown eye colour"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Start of a song"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Love, to Ludwig"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Ancient Peruvian"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The ___ the High Castle"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ancient Mexican"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ maté (caffeinated plant and beverage)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Soothing succulent"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Organ entry points"
+      }
+    ]
+  }
+}
