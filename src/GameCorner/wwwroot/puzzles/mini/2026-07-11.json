@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-11",
+  "title": "Also in Shakespeare",
+  "author": "Luna",
+  "rows": [
+    "SPAR#",
+    "IAGO#",
+    "TRIMS",
+    "ASSES",
+    "TIMON"
+  ],
+  "highlights": [
+    "...*.",
+    "****.",
+    "...*.",
+    "...*.",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Trade punches"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Jafar's parrot, in Aladdin"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Takes a little off the top"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Beasts of burden"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Pumbaa's friend, in The Lion King"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Occupy, as a desk"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Adherent of Zoroastrianism"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bias against the elderly"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Letter after Quebec" 
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "U.S. ID"
+      }
+    ]
+  }
+}
