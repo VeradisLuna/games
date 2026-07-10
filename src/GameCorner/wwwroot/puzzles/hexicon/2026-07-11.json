@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-11",
+  "pangram": "jackpot",
+  "letters": [ "k", "a", "c", "j", "p", "o", "t" ],
+  "required": "k",
+  "words": [
+    "cock",
+    "cook",
+    "jack",
+    "jock",
+    "kook",
+    "pack",
+    "pock",
+    "tack",
+    "took",
+    "kapok",
+    "kappa",
+    "attack",
+    "jackpot",
+    "cockatoo"
+  ]
+}
