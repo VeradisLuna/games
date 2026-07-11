@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-13",
+  "title": "Rings",
+  "author": "Luna",
+  "rows": [
+    "#CADS",
+    "BAGEL",
+    "ABOMA",
+    "DONUT",
+    "#TYRE"
+  ],
+  "highlights": [
+    ".....",
+    "aaaaa",
+    ".....",
+    "bbbbb",
+    ".dddd"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Scoundrels"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Base for lox and cream cheese, maybe"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Large constrictor"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "It might have jam or nothing in the middle"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "You could keep a spare in the boot"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Meg who wrote The Princess Diaries"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Kind of aunt with a magazine column?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Raise an objection"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Traditional Welsh roofing material"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Naughty"
+      }
+    ]
+  }
+}
