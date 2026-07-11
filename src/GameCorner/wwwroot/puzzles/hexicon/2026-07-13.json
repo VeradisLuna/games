@@ -1,0 +1,22 @@
+{
+  "date": "2026-07-13",
+  "pangram": "driftwood",
+  "letters": [ "i", "d", "f", "o", "r", "t", "w" ],
+  "required": "i",
+  "words": [
+    "dirt",
+    "riff",
+    "rift",
+    "riot",
+    "tiff",
+    "trio",
+    "twit",
+    "writ",
+    "ditto",
+    "drift",
+    "idiot",
+    "widow",
+    "torrid",
+    "driftwood"
+  ]
+}
