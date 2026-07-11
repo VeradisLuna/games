@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-12",
+  "title": "Black ___",
+  "author": "Luna",
+  "rows": [
+    "SHEEP",
+    "WALLE",
+    "ADEER",
+    "NANCI",
+    "#CAT#"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    ".***."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Black ___ (family outcast)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pixar robot"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Doe follower, in song"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Country singer Griffith"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Black ___ (superstitious symbol)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Black ___ (2010 film)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Was equipped for a heatwave"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "The Vampire Diaries protagonist"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Vote into office"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Double this, for a hot chilli flavour"
+      }
+    ]
+  }
+}
