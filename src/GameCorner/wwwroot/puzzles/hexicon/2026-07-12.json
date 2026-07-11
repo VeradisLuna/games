@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-12",
+  "pangram": "eloquence",
+  "letters": [ "l", "c", "e", "n", "o", "q", "u" ],
+  "required": "l",
+  "words": [
+    "cell",
+    "clue",
+    "cool",
+    "cull",
+    "loco",
+    "loll",
+    "lone",
+    "loon",
+    "lull",
+    "lulu",
+    "noel",
+    "null",
+    "oleo",
+    "cello",
+    "clone",
+    "colon",
+    "quell",
+    "uncle",
+    "uncool",
+    "colleen",
+    "colonel",
+    "nucleon",
+    "eloquence"
+  ]
+}
