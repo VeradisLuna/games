@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-14",
+  "title": "Oracular Spectacular",
+  "author": "Luna",
+  "rows": [
+    "#MGMT",
+    "KAUAI",
+    "INANE",
+    "DIVER",
+    "SCATS"
+  ],
+  "highlights": [
+    ".****",
+    "*....",
+    "*....",
+    "*....",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Band originally called The Management"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hawaiian island where South Pacific was filmed"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pointless"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "One wearing scuba equipment, say"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Improvises in a jazz group"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Uncontrollably excited"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Source of pink juice"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Painter Édouard (not to be confused with painter Claude)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Levels for subscriptions or cakes"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Hit by 1-across"
+      }
+    ]
+  }
+}
