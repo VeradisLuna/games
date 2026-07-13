@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-14",
+  "pangram": "hygienic",
+  "letters": [ "c", "e", "g", "h", "i", "n", "y" ],
+  "required": "c",
+  "words": [
+    "chic",
+    "chin",
+    "cine",
+    "inch",
+    "nice",
+    "chine",
+    "cinch",
+    "cynic",
+    "hence",
+    "icing",
+    "niche",
+    "niece",
+    "chichi",
+    "inching",
+    "chinning",
+    "cinching",
+    "hygienic"
+  ]
+}
