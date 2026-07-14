@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-15",
+  "title": "Beyond the binary",
+  "author": "Luna",
+  "rows": [
+    "BELLA",
+    "AMOOT",
+    "SMOTE",
+    "SAMSA",
+    "##SAM"
+  ],
+  "highlights": [
+    "*****",
+    ".*...",
+    ".*...",
+    ".*...",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The Last of Us actor Ramsey"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"It's ___ point\" (We can't agree on this)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Struck down, biblically"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "The Metamorphosis protagonist"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Smith who sang Bond song Writing's on the Wall"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Type of guitar... and fish"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "D'Arcy, of House of the Dragon"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Weaving machines"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Tons o'"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Premier squad"
+      }
+    ]
+  }
+}
