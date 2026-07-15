@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-16",
+  "title": "Music for CAPTCHAs?",
+  "author": "Luna",
+  "rows": [
+    "#VOWS",
+    "ROBOT",
+    "AGAME",
+    "HUMAN",
+    "SEAN#"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    ".....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "I dos"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "I Am Not a ___ (Marina)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "You bring it when you're at your best"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ After All (Daft Punk)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bean who's met many a grisly end in film and TV"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fashion magazine"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Yes we can\" U.S. president"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"I am ___, hear me roar\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "British W.W.II weapon"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Shouts while shaking pompoms"
+      }
+    ]
+  }
+}
