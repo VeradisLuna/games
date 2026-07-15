@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-16",
+  "pangram": "bumpkin",
+  "letters": [ "n", "b", "i", "k", "m", "p", "u" ],
+  "required": "n",
+  "words": [
+    "bunk",
+    "kink",
+    "mini",
+    "mink",
+    "numb",
+    "pink",
+    "punk",
+    "minim",
+    "nimbi",
+    "pinup",
+    "unpin",
+    "bikini",
+    "bunkum",
+    "nubbin",
+    "pippin",
+    "bumpkin",
+    "minimum",
+    "pumpkin"
+  ]
+}
