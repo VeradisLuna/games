@@ -1,0 +1,14 @@
+{
+  "date": "2025-07-16",
+  "clue": "Unfinished box pried open with force and skill!",
+  "enumeration": "5",
+  "answer": "CRAFT",
+  "explanation": "CRAFT: skill. CRATE (box) is unfinished, giving CRAT. CRAT is pried open with F (force), to get CRAFT.",
+  "hints": [
+    "We need another word for a box.",
+    "That word is unfinished, so remove the last letter.",
+    "In cryptics (as in physics equations), force can be represented by the letter F.",
+    "\"Pried open with\" is telling us to put that F inside what we've created so far.",
+    "The answer will be a word that means skill."
+  ]
+}
