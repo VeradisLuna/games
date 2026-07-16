@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-17",
+  "title": "Drop out",
+  "author": "Luna",
+  "rows": [
+    "#FACT",
+    "FATHA",
+    "ELLEN",
+    "BLACK",
+    "##SKA"
+  ],
+  "highlights": [
+    ".*.*.",
+    ".*.*.",
+    ".*.*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Non-fiction"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Nickname of jazz's Earl Hines"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pompeo, of Grey's Anatomy"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Power failure *"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Reggae relative"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Kind of shelter *"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Book of maps"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Final purchase step *"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "31-syllable Japanese poem"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mar preceder"
+      }
+    ]
+  }
+}
