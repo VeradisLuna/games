@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-18",
+  "title": "Sequels of the Apes",
+  "author": "Luna",
+  "rows": [
+    "DAWNS",
+    "ETAIL",
+    "FARSI",
+    "ERNST",
+    "RISES"
+  ],
+  "highlights": [
+    "****.",
+    "..*..",
+    "..*..",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "New beginnings"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Online commerce"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Language of origin for the word \"turban\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ Stavro Blofeld (Bond villain)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Gets up"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Postpone"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Where Steve Jobs worked in the 70s"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Gives a heads up"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Nordic Christmas gnome"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Narrow openings"
+      }
+    ]
+  }
+}
