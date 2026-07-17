@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-18",
+  "pangram": "virology",
+  "letters": [ "r", "g", "i", "l", "o", "v", "y" ],
+  "required": "r",
+  "words": [
+    "girl",
+    "gory",
+    "grog",
+    "gyro",
+    "orgy",
+    "rill",
+    "roil",
+    "roll",
+    "girly",
+    "glory",
+    "grill",
+    "ivory",
+    "lorry",
+    "rigor",
+    "vigor",
+    "gorily",
+    "groggy",
+    "groovy",
+    "groggily",
+    "virology"
+  ]
+}
