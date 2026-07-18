@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-19",
+  "title": "Say that again?",
+  "author": "Luna",
+  "rows": [
+    "SOY##",
+    "THE##",
+    "AFATE",
+    "DURAN",
+    "ENSUE"
+  ],
+  "highlights": [
+    "..*..",
+    "***..",
+    "..*..",
+    "*****",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Dairy alternative"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Repeat this to get \"Uncertain Smile\" band"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"___ worse than death\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Repeat this to get \"Hungry Like the Wolf\" band"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Happen next"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Ancient Greek measure of length"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sarcastic \"sounds exciting...\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Word repeated in Olly Alexander's band name"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "clue": "2 × π"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Spanish letter that follows eme"
+      }
+    ]
+  }
+}
