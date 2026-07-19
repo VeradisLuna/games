@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-20",
+  "title": "Font of knowledge",
+  "author": "Luna",
+  "rows": [
+    "CATS#",
+    "ARIAL",
+    "COMIC",
+    "AMEND",
+    "OAST#"
+  ],
+  "highlights": [
+    "..a..",
+    "bbcbb",
+    "aaaaa",
+    "..a..",
+    "..a.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Musical with Rum Tum Tugger and Bombalurina"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Popular sans-serif typeface"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ Sans MS"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Make changes to"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Kiln for hops"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Bean plant with sweet pulp"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pleasant smell"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ New Roman"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Valentine, say"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Type of flat-screen TV"
+      }
+    ]
+  }
+}
