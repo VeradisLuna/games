@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-21",
+  "pangram": "chinwag",
+  "letters": [ "w", "a", "c", "g", "h", "i", "n" ],
+  "required": "w",
+  "words": [
+    "gnaw",
+    "wain",
+    "wing",
+    "awing",
+    "wanna",
+    "which",
+    "winch",
+    "awning",
+    "cawing",
+    "hawing",
+    "waging",
+    "waning",
+    "wigwag",
+    "wining",
+    "chinwag",
+    "gnawing",
+    "wagging",
+    "whining",
+    "wigging",
+    "wincing",
+    "winging",
+    "winning",
+    "whinging",
+    "winching",
+    "wigwagging"
+  ]
+}
