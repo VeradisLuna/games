@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-21",
+  "title": "Hanna-Barbera",
+  "author": "Luna",
+  "rows": [
+    "#SLY#",
+    "SCOOB",
+    "CORGI",
+    "ATEIT",
+    "TOM##"
+  ],
+  "highlights": [
+    "...*.",
+    "*****",
+    "...*.",
+    "...*.",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Crafty like a fox"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mystery-solving dog, to his friends"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Herder from Wales"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Face-planted"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Jerry's cartoon counterpart"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Darkness prefix"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ ipsum"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Boo-Boo's pal, who loves a \"pic-a-nic\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Improvise, as a jazz singer"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Comedic routine"
+      }
+    ]
+  }
+}
