@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-22",
+  "title": "Strike a pose",
+  "author": "Luna",
+  "rows": [
+    "COBRA",
+    "HEROD",
+    "ASANA",
+    "ITSA#",
+    "REIN#"
+  ],
+  "highlights": [
+    "aaaaa",
+    "a....",
+    "cbbbb",
+    "a....",
+    "a...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Hooded snake (Bhujangasana)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Villain in a Nativity play"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "1-across or 1-down"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lead-in to boy or girl on a card?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "It's used to guide a horse"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Seat for one (Utkatasana)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "90 degrees from norte"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Luca who \"sleeps with the fishes\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Irish singer Keating"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Programming pioneer Lovelace"
+      }
+    ]
+  }
+}
