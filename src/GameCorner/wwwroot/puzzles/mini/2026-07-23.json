@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-23",
+  "title": "World rivers",
+  "author": "Luna",
+  "rows": [
+    "#VIAL",
+    "CONGO",
+    "ALDOL",
+    "AGUA#",
+    "NAST#"
+  ],
+  "highlights": [
+    ".be..",
+    "acmaa",
+    ".be..",
+    ".be..",
+    ".be.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Lab container"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "African river that's the world's deepest"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Perfume ingredient"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Contents of un río"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Thomas ___, \"father of the American cartoon\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Europe's longest river"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Sacred Asian river"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Seuss: \"Would you, could you, with ___?\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "😂"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "James, of Misery"
+      }
+    ]
+  }
+}
