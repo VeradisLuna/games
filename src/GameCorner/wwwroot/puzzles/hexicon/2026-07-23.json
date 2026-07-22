@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-23",
+  "pangram": "forklift",
+  "letters": [ "r", "f", "i", "k", "l", "o", "t" ],
+  "required": "r",
+  "words": [
+    "fork",
+    "fort",
+    "riff",
+    "rift",
+    "rill",
+    "riot",
+    "roil",
+    "roll",
+    "roof",
+    "rook",
+    "root",
+    "tort",
+    "trio",
+    "trot",
+    "flirt",
+    "floor",
+    "frill",
+    "krill",
+    "rotor",
+    "trill",
+    "troll",
+    "forklift"
+  ]
+}
