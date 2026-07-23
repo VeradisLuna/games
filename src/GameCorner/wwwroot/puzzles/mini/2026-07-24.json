@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-24",
+  "title": "Directorial debut",
+  "author": "Luna",
+  "rows": [
+    "GET##",
+    "ARIAS",
+    "PEELE",
+    "SITON",
+    "##OUT"
+  ],
+  "highlights": [
+    "aaa..",
+    ".....",
+    "bbbbb",
+    ".....",
+    "..aaa"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Obtain"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Operatic solos"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Director Jordan"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Not go public with, yet"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Away"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Spaces between"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"... ___ saw Elba\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Connect with"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Baseball's Felipe, Matty, Jesus or Moises"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Headed for someone's inbox"
+      }
+    ]
+  }
+}
