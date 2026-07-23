@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-24",
+  "pangram": "choirboy",
+  "letters": [ "h", "b", "c", "i", "o", "r", "y" ],
+  "required": "h",
+  "words": [
+    "chic",
+    "choc",
+    "coho",
+    "hobo",
+    "rich",
+    "birch",
+    "choir",
+    "hobby",
+    "hooch",
+    "boohoo",
+    "brooch",
+    "chichi",
+    "horror",
+    "chicory",
+    "choirboy"
+  ]
+}
