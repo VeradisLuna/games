@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-25",
+  "pangram": "hydrant",
+  "letters": [ "d", "a", "h", "n", "r", "t", "y" ],
+  "required": "d",
+  "words": [
+    "darn",
+    "dart",
+    "data",
+    "drat",
+    "dray",
+    "hand",
+    "hard",
+    "rand",
+    "trad",
+    "yard",
+    "daddy",
+    "dandy",
+    "dryad",
+    "handy",
+    "hardy",
+    "hydra",
+    "radar",
+    "randy",
+    "tardy",
+    "hardhat",
+    "hydrant"
+  ]
+}
