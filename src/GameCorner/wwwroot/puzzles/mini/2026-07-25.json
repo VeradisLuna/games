@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-25",
+  "title": "Go fish",
+  "author": "Luna",
+  "rows": [
+    "CAST#",
+    "INTEL",
+    "AGREE",
+    "#LINE",
+    "#EAST"
+  ],
+  "highlights": [
+    "****.",
+    ".*...",
+    ".*...",
+    ".****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Players in a play"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Spy's info"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Concur"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Whose ___ Is It Anyway?"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Sunrise direction"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "They employ Bourne, in The Bourne Identity"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It could be obtuse"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Narrow groove"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Adolescents"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "k3wl way to speak"
+      }
+    ]
+  }
+}
