@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-26",
+  "title": "Goldilocks zone?",
+  "author": "Luna",
+  "rows": [
+    "##BOK",
+    "##ROO",
+    "GYOZA",
+    "NEWEL",
+    "PANDA"
+  ],
+  "highlights": [
+    "..*.*",
+    "..*.*",
+    "..*.*",
+    "..*.*",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Leaping South African mammal, in brief"
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "clue": "Leaping Australian mammal, in brief"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Crescent-shaped dumpling"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Stairway post"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bamboo muncher"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Grizzly colour"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Seeped"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "It's not actually a bear"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Country stat"
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "clue": "Vote in support"
+      }
+    ]
+  }
+}
