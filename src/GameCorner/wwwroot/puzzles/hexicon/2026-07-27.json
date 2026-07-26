@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-27",
+  "pangram": "giveaway",
+  "letters": [ "v", "a", "e", "g", "i", "w", "y" ],
+  "required": "v",
+  "words": [
+    "eave",
+    "gave",
+    "give",
+    "view",
+    "wave",
+    "wavy",
+    "agave",
+    "waive",
+    "weave",
+    "veggie",
+    "giveaway"
+  ]
+}
