@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-27",
+  "title": "? block contents",
+  "author": "Luna",
+  "rows": [
+    "COIN#",
+    "ANNES",
+    "SETAT",
+    "KURTA",
+    "#POOR"
+  ],
+  "highlights": [
+    "****.",
+    ".*..*",
+    ".*..*",
+    ".*..*",
+    ".*..*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Collectible with a counter"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Two of Henry VIII's wives"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Launch an attack upon"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Loose shirt popular in South Asia"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Needy"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Container in a cellar"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "What 100 of 1-across grants, in Super Mario Bros."
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "101"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Cool beans!\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "What 100 of 1-across grants, in Super Mario 64"
+      }
+    ]
+  }
+}
