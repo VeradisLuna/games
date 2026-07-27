@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-28",
+  "pangram": "exploit",
+  "letters": [ "x", "e", "i", "l", "p", "o", "t" ],
+  "required": "x",
+  "words": [
+    "exit",
+    "expo",
+    "text",
+    "exile",
+    "expel",
+    "extol",
+    "pixel",
+    "pixie",
+    "telex",
+    "exploit",
+    "textile",
+    "teletext"
+  ]
+}
