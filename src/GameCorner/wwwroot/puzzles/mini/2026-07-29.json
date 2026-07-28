@@ -1,0 +1,68 @@
+{
+  "date": "2026-07-29",
+  "title": "Newsies",
+  "author": "Luna",
+  "rows": [
+    "PAPES",
+    "ANAXE",
+    "YENTL",
+    "#MERL",
+    "#ALAS"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "What newsies shift"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Something to grind"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Barbra Streisand musical"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Keyboardist Saunders"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "\"Oh no!\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Strike concern, often"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ e core (50s pop song)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Collection of jurors, experts, or comics"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Repeated newsie cry"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Does a newsie's job"
+      }
+    ]
+  }
+}
