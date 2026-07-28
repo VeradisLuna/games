@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-29",
+  "pangram": "cheekbone",
+  "letters": [ "b", "c", "e", "h", "k", "n", "o" ],
+  "required": "b",
+  "words": [
+    "beck",
+    "been",
+    "bock",
+    "bone",
+    "bonk",
+    "boob",
+    "book",
+    "boon",
+    "hobo",
+    "knob",
+    "oboe",
+    "beech",
+    "bench",
+    "bonce",
+    "beckon",
+    "bonbon",
+    "bonobo",
+    "boohoo",
+    "hobnob",
+    "cookbook",
+    "checkbook",
+    "cheekbone"
+  ]
+}
