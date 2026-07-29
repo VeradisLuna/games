@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-30",
+  "title": "Rubber ___",
+  "author": "Luna",
+  "rows": [
+    "#BAND",
+    "MASAI",
+    "ELFIN",
+    "GLOVE",
+    "##RES"
+  ],
+  "highlights": [
+    ".****",
+    ".*...",
+    ".*...",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Group"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ giraffe, world's tallest land mammal"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pixie-like"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Keep it on hand!"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "In medias ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Grand old time"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"When it comes to...\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Overly trusting, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Eats a fancy meal"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Eldest sister in Little Women"
+      }
+    ]
+  }
+}
