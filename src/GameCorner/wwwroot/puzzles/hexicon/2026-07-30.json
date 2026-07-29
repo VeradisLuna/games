@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-30",
+  "pangram": "monolith",
+  "letters": [ "h", "i", "l", "m", "n", "o", "t" ],
+  "required": "h",
+  "words": [
+    "hill",
+    "hilt",
+    "hint",
+    "hoot",
+    "moth",
+    "thin",
+    "month",
+    "ninth",
+    "tooth",
+    "monolith",
+    "millionth"
+  ]
+}
