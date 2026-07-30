@@ -1,0 +1,75 @@
+{
+  "date": "2026-07-31",
+  "title": "The ferryman",
+  "author": "Luna",
+  "rows": [
+    "HADES",
+    "ABOAT",
+    "TARRY",
+    "ESSEX",
+    "DEAD#"
+  ],
+  "highlights": [
+    "*****",
+    "....*",
+    "....*",
+    "....*",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Ancient Greek underworld"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "I'm on ___ (Charon's fave Lonely Island song?)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Dawdle"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "County at one end of the river Thames"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "They get ferried to 1-across (with \"the\")"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Loathed"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Belittle"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Backs of animals"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Dog-___ (like well-read books)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "River that goes to 1-across"
+      }
+    ]
+  }
+}
