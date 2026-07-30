@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-31",
+  "pangram": "typeface",
+  "letters": [ "c", "a", "e", "f", "p", "t", "y" ],
+  "required": "c",
+  "words": [
+    "cafe",
+    "caff",
+    "cape",
+    "face",
+    "fact",
+    "pace",
+    "pact",
+    "pacy",
+    "tact",
+    "apace",
+    "catty",
+    "facet",
+    "peace",
+    "accept",
+    "affect",
+    "efface",
+    "effect",
+    "papacy",
+    "acetate",
+    "typeface"
+  ]
+}
