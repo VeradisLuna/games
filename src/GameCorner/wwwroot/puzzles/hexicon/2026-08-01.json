@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-01",
+  "pangram": "downhill",
+  "letters": [ "l", "d", "h", "i", "n", "o", "w" ],
+  "required": "l",
+  "words": [
+    "dill",
+    "doll",
+    "hill",
+    "hold",
+    "howl",
+    "idol",
+    "lido",
+    "lilo",
+    "lino",
+    "lion",
+    "loin",
+    "loll",
+    "loon",
+    "wild",
+    "will",
+    "wold",
+    "wool",
+    "dildo",
+    "hollow",
+    "willow",
+    "lowdown",
+    "downhill"
+  ]
+}
