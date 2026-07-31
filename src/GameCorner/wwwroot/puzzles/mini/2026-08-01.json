@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-01",
+  "title": "___ around the ___",
+  "author": "Luna",
+  "rows": [
+    "TURBO",
+    "USAIN",
+    "BEIGE",
+    "BUSH#",
+    "#PAT#"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "bb...",
+    "aaaa.",
+    "..bb."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Engine booster"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Lightning Bolt"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Boring\" shade"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Shrub"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Friendly touch"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Country singer Ernest"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Deplete"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ Gorbachev, former Soviet first lady"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Coastline curve"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "10/10"
+      }
+    ]
+  }
+}
