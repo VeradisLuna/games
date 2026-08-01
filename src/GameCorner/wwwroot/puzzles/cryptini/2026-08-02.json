@@ -1,0 +1,12 @@
+{
+  "date": "2025-08-02",
+  "clue": "Study speed of light and stellar distance",
+  "enumeration": "6",
+  "answer": "PARSEC",
+  "explanation": "PARSEC: stellar distance. PARSE (study) + C (speed of light).",
+  "hints": [
+    "In physics equations, the speed of light is often represented by C.",
+    "Our answer will be a (unit of) stellar distance.",
+    "We'll also need to find a word that can mean \"study\"."
+  ]
+}
