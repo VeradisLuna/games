@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-02",
+  "pangram": "mindful",
+  "letters": [ "d", "f", "i", "l", "m", "n", "u" ],
+  "required": "d",
+  "words": [
+    "dill",
+    "duff",
+    "dull",
+    "find",
+    "fund",
+    "midi",
+    "mild",
+    "mind",
+    "fluid",
+    "undid",
+    "dumdum",
+    "indium",
+    "mindful",
+    "unmindful"
+  ]
+}
