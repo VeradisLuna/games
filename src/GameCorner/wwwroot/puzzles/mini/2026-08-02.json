@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-02",
+  "title": "Tailored for you",
+  "author": "Luna",
+  "rows": [
+    "PATCH",
+    "IRULE",
+    "NONOS",
+    "SMITS",
+    "#ACHE"
+  ],
+  "highlights": [
+    "caaca",
+    "b.ab.",
+    "b.ab.",
+    "b.ab.",
+    "..ab."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Something to put on a denim jacket?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Go me!\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Taboos"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Jimmy of The West Wing"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Yearn"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Needles' partner"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pleasant scent"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "What Link wears, in The Legend of Zelda"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Woven material"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Steppenwolf author"
+      }
+    ]
+  }
+}
