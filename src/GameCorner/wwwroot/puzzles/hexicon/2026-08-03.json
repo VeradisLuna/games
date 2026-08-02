@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-03",
+  "pangram": "updraft",
+  "letters": [ "u", "a", "d", "f", "p", "r", "t" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "duff",
+    "puff",
+    "pupa",
+    "purr",
+    "putt",
+    "ruff",
+    "taut",
+    "tuft",
+    "turd",
+    "turf",
+    "tutu",
+    "fraud",
+    "updraft"
+  ]
+}
