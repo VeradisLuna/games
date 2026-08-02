@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-03",
+  "title": "Finish lines",
+  "author": "Luna",
+  "rows": [
+    "CLOSE",
+    "RAMON",
+    "AMEND",
+    "IAGO#",
+    "GRAS#"
+  ],
+  "highlights": [
+    "*****",
+    "..*.*",
+    "..*.*",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "About to happen"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Novarro who played Ben-Hur"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Make changes to"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Othello villain"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Mardi ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "007 from 2006 to 2021"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Rapper Kendrick"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Swiss watchmaker"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Speaker brand"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "What this clue marks"
+      }
+    ]
+  }
+}
