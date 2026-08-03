@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-04",
+  "title": "Marvel at this!",
+  "author": "Luna",
+  "rows": [
+    "BEAST",
+    "LATKE",
+    "APHID",
+    "DOOM#",
+    "EES##"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "****.",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wild thing"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Potato pancake for Hanukkah"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Greenfly"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Calamity"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Creepy couple?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Cutting edge"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The Raven writer, in brief"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Eldest of the Three Musketeers"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Not read thoroughly"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "TV's ___ Lasso"
+      }
+    ]
+  }
+}
