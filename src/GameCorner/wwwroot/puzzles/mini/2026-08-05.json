@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-05",
+  "title": "Ice picks",
+  "author": "Luna",
+  "rows": [
+    "PINS#",
+    "AHOK#",
+    "CREAM",
+    "KENTE",
+    "##DEW"
+  ],
+  "highlights": [
+    "*..*.",
+    "*..*.",
+    "*****",
+    "*..*.",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wrestling victories"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Riiight, now I get it!\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Like the cat that got the ___\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Brightly coloured Ghanaian cloth"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Morning droplets"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Get ready to go away"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Her in Hamburg"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "On and on and on"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Stingray relative"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Mythical catlike Pokémon"
+      }
+    ]
+  }
+}
