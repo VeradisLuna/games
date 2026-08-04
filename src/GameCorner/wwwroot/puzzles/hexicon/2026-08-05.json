@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-05",
+  "pangram": "homepage",
+  "letters": [ "g", "a", "e", "h", "m", "o", "p" ],
+  "required": "g",
+  "words": [
+    "agog",
+    "gaga",
+    "game",
+    "gape",
+    "ghee",
+    "goop",
+    "mage",
+    "mega",
+    "page",
+    "agape",
+    "gamma",
+    "magma",
+    "omega",
+    "apogee",
+    "homage",
+    "homepage"
+  ]
+}
