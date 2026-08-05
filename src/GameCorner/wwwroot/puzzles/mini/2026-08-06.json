@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-06",
+  "title": "Things you can ride",
+  "author": "Luna",
+  "rows": [
+    "#COAT",
+    "#IRMA",
+    "PALPI",
+    "AROLL",
+    "WAVES"
+  ],
+  "highlights": [
+    ".aaaa",
+    "....a",
+    "....a",
+    "....a",
+    "bbbbc"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Some formalwear features, with 4-across"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Diner owner, in Garfield"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "They help bugs feel their food"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Doing great, after \"on\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Goodbye signals"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Frequent Missy Elliott collaborator"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Diamond given to Catherine the Great, \"for love\" in part"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Plenty"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "See 1-across"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Rabbit's foot"
+      }
+    ]
+  }
+}
