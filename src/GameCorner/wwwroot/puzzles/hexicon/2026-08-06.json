@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-06",
+  "pangram": "downpour",
+  "letters": [ "u", "d", "n", "o", "p", "r", "w" ],
+  "required": "u",
+  "words": [
+    "dour",
+    "noun",
+    "pour",
+    "purr",
+    "undo",
+    "upon",
+    "dunno",
+    "odour",
+    "popup",
+    "pound",
+    "proud",
+    "round",
+    "wound",
+    "unworn",
+    "pronoun",
+    "roundup",
+    "rundown",
+    "unwound",
+    "downpour",
+    "propound"
+  ]
+}
