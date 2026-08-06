@@ -1,0 +1,17 @@
+{
+  "date": "2026-08-07",
+  "pangram": "boutique",
+  "letters": [ "i", "b", "e", "o", "q", "t", "u" ],
+  "required": "i",
+  "words": [
+    "bite",
+    "obit",
+    "quit",
+    "quiet",
+    "quite",
+    "tutti",
+    "titbit",
+    "boutique",
+    "etiquette"
+  ]
+}
