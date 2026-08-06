@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-07",
+  "title": "Jurassic",
+  "author": "Luna",
+  "rows": [
+    "#SORT",
+    "AMBER",
+    "LIEBE",
+    "ATSIX",
+    "NEED#"
+  ],
+  "highlights": [
+    "....*",
+    "*****",
+    "*...*",
+    "*...*",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Organise"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Dinosaur DNA source?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Ich ___ dich (I love you)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "You Me ___ (\"Take on the World\" band)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Not just want"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Strike down biblically"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "According to BMI alone, some bodybuilders?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Second offer, say on eBay"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"Tyrant lizard king\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Dr Grant, portrayed by Sam Neill"
+      }
+    ]
+  }
+}
