@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-08",
+  "title": "Pet names?",
+  "author": "Luna",
+  "rows": [
+    "#LAB#",
+    "JAMUP",
+    "ATALL",
+    "CHILE",
+    "KENYA"
+  ],
+  "highlights": [
+    ".***.",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "*..*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Where science happens"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Clog"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Even a little bit"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Country that's around 25 times longer than it is wide"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Nairobi is its largest city"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Wood turner"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "At full speed, at sea"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Someone who might demand your lunch money"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Part of a royal flush"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Heartfelt request"
+      }
+    ]
+  }
+}
