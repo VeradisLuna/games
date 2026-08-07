@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-08",
+  "pangram": "loudmouth",
+  "letters": [ "d", "h", "l", "m", "o", "t", "u" ],
+  "required": "d",
+  "words": [
+    "dodo",
+    "doll",
+    "dolt",
+    "doom",
+    "doth",
+    "dull",
+    "hold",
+    "hood",
+    "loud",
+    "mold",
+    "mood",
+    "thud",
+    "told",
+    "mould",
+    "outdo",
+    "dumdum",
+    "hoodoo",
+    "holdout",
+    "hoodlum",
+    "loudmouth"
+  ]
+}
