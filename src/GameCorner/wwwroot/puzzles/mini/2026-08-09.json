@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-09",
+  "title": "Fruit smoothie",
+  "author": "Luna",
+  "rows": [
+    "MANGO",
+    "OPIUM",
+    "APLAN",
+    "#LEVI",
+    "#ESA#"
+  ],
+  "highlights": [
+    "*****",
+    ".*.*.",
+    ".*.*.",
+    ".*.*.",
+    ".*.*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Chutney ingredient"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Illicit poppy product"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Panama palindrome part"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Jeans-maker Strauss"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Spanish pronoun"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Extinct emu relative"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Orchard fruit"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Frasier's brother"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "It produces pink juice"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Prefix with present and potent"
+      }
+    ]
+  }
+}
