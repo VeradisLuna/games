@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-09",
+  "pangram": "limelight",
+  "letters": [ "g", "e", "h", "i", "l", "m", "t" ],
+  "required": "g",
+  "words": [
+    "ghee",
+    "gill",
+    "gilt",
+    "glee",
+    "high",
+    "eight",
+    "gimme",
+    "legit",
+    "liege",
+    "light",
+    "might",
+    "thigh",
+    "tight",
+    "eighth",
+    "giggle",
+    "gimlet",
+    "height",
+    "eightieth",
+    "highlight",
+    "limelight"
+  ]
+}
