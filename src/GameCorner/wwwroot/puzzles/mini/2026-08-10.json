@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-10",
+  "title": "Batmen?",
+  "author": "Luna",
+  "rows": [
+    "VICE#",
+    "ADAM#",
+    "LEROY",
+    "#DOTE",
+    "##BEN"
+  ],
+  "highlights": [
+    "*....",
+    "****.",
+    "*....",
+    ".....",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Miami ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Batman actor West"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "The L of \"Samuel L. Jackson\""
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Heap affection (on)"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Batman actor Affleck"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Batman actor Kilmer"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Picked out of a lineup, in brief"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cocoa alternative"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Show one's feelings"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "¥"
+      }
+    ]
+  }
+}
