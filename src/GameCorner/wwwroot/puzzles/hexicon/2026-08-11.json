@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-11",
+  "pangram": "jukebox",
+  "letters": [ "o", "b", "e", "j", "k", "u", "x" ],
+  "required": "o",
+  "words": [
+    "boob",
+    "book",
+    "joke",
+    "kook",
+    "oboe",
+    "jukebox"
+  ]
+}
