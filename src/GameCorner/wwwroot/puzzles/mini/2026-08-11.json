@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-11",
+  "title": "Cryptid cousins",
+  "author": "Luna",
+  "rows": [
+    "BABE#",
+    "IFANY",
+    "GOLDE",
+    "#FOOT",
+    "#LOFI"
+  ],
+  "highlights": [
+    "a....",
+    "a...b",
+    "a...b",
+    ".aaac",
+    "....b"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Gallant pig\" of children's literature"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Few ___\" (perhaps not even one)"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Fiddler on the Roof matriarch"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Twelve inches"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Intentionally uncrisp genre"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "1988 Tom Hanks film"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Samuel Gompers U.S. group"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "The Bare Necessities bear"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Period.\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Cooler brand"
+      }
+    ]
+  }
+}
