@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-10",
+  "title": "Grisly Grid",
+  "author": "Luna",
+  "rows": [
+    "#ACTI",
+    "BLOOD",
+    "ATUNE",
+    "TANGS",
+    "#RTS#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "When Macbeth meets the witches"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bank deposit?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Something to carry... or butcher!"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sharp sensations in the mouth"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Social media shares, once upon a time"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sacrificial site"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dracula, for one"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Pick-me-ups?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Fateful day..."
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Creature of the night"
+      }
+    ]
+  }
+}
