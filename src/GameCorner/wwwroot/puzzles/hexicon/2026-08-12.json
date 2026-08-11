@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-12",
+  "pangram": "foundry",
+  "letters": [ "n", "d", "f", "o", "r", "u", "y" ],
+  "required": "n",
+  "words": [
+    "fond",
+    "fund",
+    "noon",
+    "noun",
+    "undo",
+    "donor",
+    "dunno",
+    "found",
+    "frond",
+    "funny",
+    "rondo",
+    "round",
+    "runny",
+    "runoff",
+    "foundry",
+    "unfunny"
+  ]
+}
