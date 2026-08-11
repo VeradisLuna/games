@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-12",
+  "title": "Twinning",
+  "author": "Luna",
+  "rows": [
+    "MAPS#",
+    "EQUAL",
+    "NULLI",
+    "DALEK",
+    "#SAME"
+  ],
+  "highlights": [
+    ".....",
+    "*****",
+    "....*",
+    "....*",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "What a cartographer makes"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Word before rights or opportunities"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "None prefix"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Dr. Who baddie with a plunger-like appendage"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "\"Me too!\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Patch up"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Blue-greens shades"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words before muscle or fast one"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Witch trials town"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Filler word"
+      }
+    ]
+  }
+}
