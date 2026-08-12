@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-13",
+  "title": "Don't look directly!",
+  "author": "Luna",
+  "rows": [
+    "#MED#",
+    "#BLEU",
+    "JAVAS",
+    "AKIRA",
+    "SUN##"
+  ],
+  "highlights": [
+    ".aaa.",
+    "....a",
+    "....a",
+    "....a",
+    "bbb.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "The ___, sea surrounding Italy, in brief"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "\"Sacre ___!\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Joes?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Landmark 1988 anime film"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Pinhole-projector subject"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "MCU King of Wakanda"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "NBA Hall-of-Famer Hayes"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ Evan Hansen"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Country that has hosted the most Olympics"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "They're not neins"
+      }
+    ]
+  }
+}
