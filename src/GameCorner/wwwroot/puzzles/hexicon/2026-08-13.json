@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-13",
+  "pangram": "hipbone",
+  "letters": [ "i", "b", "e", "h", "n", "o", "p" ],
+  "required": "i",
+  "words": [
+    "nine",
+    "pine",
+    "pipe",
+    "hippo",
+    "onion",
+    "opine",
+    "bobbin",
+    "hippie",
+    "pinion",
+    "pippin",
+    "hipbone",
+    "ninepin",
+    "opinion"
+  ]
+}
