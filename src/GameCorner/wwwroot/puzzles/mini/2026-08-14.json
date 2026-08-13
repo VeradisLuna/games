@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-14",
+  "title": "This and that",
+  "author": "Luna",
+  "rows": [
+    "HABIT",
+    "OMANI",
+    "DANDD",
+    "ODDIE",
+    "ROBES"
+  ],
+  "highlights": [
+    "..b..",
+    "..a..",
+    "daaad",
+    "..a..",
+    "..b.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "What a nun wears"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Saudi neighbour"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Fantasy role-playing game, to those who play it"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Goodie Bill"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "What a wizard wears"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Game of Thrones servant"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Brazilian writer Jorge"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Overnight accommodation, in brief"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Many a low-budget film"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "They ebb; they flow"
+      }
+    ]
+  }
+}
