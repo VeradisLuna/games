@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-14",
+  "pangram": "foliage",
+  "letters": [ "i", "a", "e", "f", "g", "l", "o" ],
+  "required": "i",
+  "words": [
+    "fail",
+    "fief",
+    "fife",
+    "file",
+    "fill",
+    "filo",
+    "foil",
+    "gill",
+    "life",
+    "agile",
+    "flail",
+    "folio",
+    "igloo",
+    "liege",
+    "filial",
+    "giggle",
+    "gigolo",
+    "goalie",
+    "loggia",
+    "foliage",
+    "illegal"
+  ]
+}
