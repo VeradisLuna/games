@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-15",
+  "pangram": "convivial",
+  "letters": [ "v", "a", "c", "i", "l", "n", "o" ],
+  "required": "v",
+  "words": [
+    "lava",
+    "nova",
+    "oval",
+    "vain",
+    "vial",
+    "vino",
+    "viol",
+    "anvil",
+    "avail",
+    "avian",
+    "cavil",
+    "civic",
+    "civil",
+    "naval",
+    "villa",
+    "viola",
+    "vocal",
+    "violin",
+    "vanilla",
+    "villain",
+    "vocalic",
+    "volcano",
+    "civilian",
+    "volcanic",
+    "convivial"
+  ]
+}
