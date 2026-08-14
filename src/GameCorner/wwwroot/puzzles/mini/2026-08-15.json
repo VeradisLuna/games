@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-15",
+  "title": "Silk ilk",
+  "author": "Luna",
+  "rows": [
+    "AREA#",
+    "WORM#",
+    "WARIO",
+    "#DONA",
+    "##LEK"
+  ],
+  "highlights": [
+    ".*...",
+    "****.",
+    ".*..*",
+    ".*..*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Length × width"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "What the early bird catches"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Nintendo bad guy, treasure hunter, entrepreneur"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Spanish lady"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Currency of Albania"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Adorable!\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Way"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Swashbuckling Finn"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Nitrogen compound"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Mighty thing that grows from a tiny acorn"
+      }
+    ]
+  }
+}
