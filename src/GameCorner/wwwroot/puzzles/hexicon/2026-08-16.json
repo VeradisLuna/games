@@ -1,0 +1,29 @@
+{
+  "date": "2026-08-16",
+  "pangram": "hyacinth",
+  "letters": [ "y", "a", "c", "h", "i", "n", "t" ],
+  "required": "y",
+  "words": [
+    "achy",
+    "city",
+    "cyan",
+    "hiya",
+    "tiny",
+    "canny",
+    "catty",
+    "cynic",
+    "itchy",
+    "nanny",
+    "natty",
+    "ninny",
+    "tatty",
+    "tinny",
+    "yacht",
+    "catchy",
+    "chancy",
+    "chatty",
+    "titchy",
+    "inanity",
+    "hyacinth"
+  ]
+}
