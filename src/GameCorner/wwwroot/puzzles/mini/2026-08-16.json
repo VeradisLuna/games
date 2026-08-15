@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-16",
+  "title": "All under Ctrl",
+  "author": "Luna",
+  "rows": [
+    "COPY#",
+    "UBAHN",
+    "TOSEA",
+    "#ETAT",
+    "##ERA"
+  ],
+  "highlights": [
+    "****.",
+    "*.*..",
+    "*.*..",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"I hear you\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "German rapid transit system"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Where the Owl and the Pussycat went"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Coup d'___"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Long stretch"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Director's cry"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Double-reed woodwind"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Sticky stuff"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Capeesh?\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Pastel de ___ (Portuguese pastry)"
+      }
+    ]
+  }
+}
