@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-17",
+  "title": "Spider-Man drip",
+  "author": "Luna",
+  "rows": [
+    "BRAND",
+    "EAPOE",
+    "ZFLIP",
+    "OFART",
+    "SINE#"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    "*****",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ New Day, Spidey film with $300m of product placement"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Gothic literary signature"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Peter Parker's Samsung phone"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Words after work"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Kind of wave"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Amazon billionaire Jeff"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "One-named Armenian-Canadian children's singer"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Panama palindrome part"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "L.A. ___ (crime thriller video game)"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Co. division?"
+      }
+    ]
+  }
+}
