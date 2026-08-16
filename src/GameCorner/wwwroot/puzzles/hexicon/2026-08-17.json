@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-17",
+  "pangram": "covenant",
+  "letters": [ "v", "a", "c", "e", "n", "o", "t" ],
+  "required": "v",
+  "words": [
+    "cave",
+    "cove",
+    "eave",
+    "even",
+    "nave",
+    "nova",
+    "oven",
+    "vane",
+    "vent",
+    "veto",
+    "vote",
+    "coven",
+    "covet",
+    "event",
+    "novae",
+    "ovate",
+    "caveat",
+    "octave",
+    "vacant",
+    "vacate",
+    "concave",
+    "convene",
+    "convent",
+    "covenant",
+    "nonevent"
+  ]
+}
