@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-18",
+  "title": "Cornerstones",
+  "author": "Luna",
+  "rows": [
+    "STROP",
+    "OHANA",
+    "NENES",
+    "GODOT",
+    "SCONE"
+  ],
+  "highlights": [
+    "kk...",
+    "k....",
+    "kk..k",
+    "....k",
+    "..kkk"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Temper"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "To Lilo and Nani, it means family"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Hawaiian state birds"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Waiting For ___"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Serve it with jam and cream"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ of Praise (BBC religious program)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "2000s teen drama set in SoCal"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Complete stranger, informally"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Base hit result, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Ctrl+V action"
+      }
+    ]
+  }
+}
