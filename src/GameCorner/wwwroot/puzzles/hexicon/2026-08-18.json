@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-18",
+  "pangram": "aground",
+  "letters": [ "u", "a", "d", "g", "n", "o", "r" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "dour",
+    "drug",
+    "dung",
+    "guru",
+    "noun",
+    "ragu",
+    "rung",
+    "undo",
+    "augur",
+    "dunno",
+    "gourd",
+    "guano",
+    "guard",
+    "odour",
+    "round",
+    "ardour",
+    "around",
+    "aurora",
+    "ground",
+    "aground",
+    "runaround"
+  ]
+}
