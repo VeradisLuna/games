@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-19",
+  "title": "A working title?",
+  "author": "Luna",
+  "rows": [
+    "AMISS",
+    "TABEI",
+    "#REEL",
+    "#SANE",
+    "##MAX"
+  ],
+  "highlights": [
+    "abbbb",
+    ".a...",
+    ".b...",
+    ".b...",
+    "..bab"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Not quite right"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Everest's first lady? She's in that vista being filmed!"
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "clue": "Short video on socials"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Sensible"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Physicist Planck"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "@"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Attacks!"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Letter-shaped girder"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"You look like you've ___ ghost!\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Finely ground silica"
+      }
+    ]
+  }
+}
