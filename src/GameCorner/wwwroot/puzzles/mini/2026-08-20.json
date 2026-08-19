@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-20",
+  "title": "Hop to it!",
+  "author": "Luna",
+  "rows": [
+    "FROG#",
+    "LOIRE",
+    "ALLEY",
+    "GLUTE",
+    "##PAD"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Kermit, for one"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "French wine valley"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Place for bowling or tin cans"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Biggest human muscle, informally"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Lily ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Our ___ Means Death"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Dice action"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Lubricate"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Activist Thunberg"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Gave a look"
+      }
+    ]
+  }
+}
