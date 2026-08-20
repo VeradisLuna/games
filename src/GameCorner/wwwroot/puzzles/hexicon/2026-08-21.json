@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-21",
+  "pangram": "cornflour",
+  "letters": [ "f", "c", "l", "n", "o", "r", "u" ],
+  "required": "f",
+  "words": [
+    "cuff",
+    "fool",
+    "foul",
+    "four",
+    "full",
+    "furl",
+    "luff",
+    "roof",
+    "ruff",
+    "floor",
+    "flour",
+    "fluff",
+    "furor",
+    "runoff",
+    "unfurl",
+    "forlorn",
+    "colorful",
+    "froufrou",
+    "colourful",
+    "cornflour"
+  ]
+}
