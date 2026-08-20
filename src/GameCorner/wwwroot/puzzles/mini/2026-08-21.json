@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-21",
+  "title": "Pokémon Types",
+  "author": "Luna",
+  "rows": [
+    "GHOST",
+    "RANTO",
+    "ASIAN",
+    "SANTA",
+    "STEEL"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Gengar, Phantump, Mimikyu *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sought for help, say"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Japanese or Javanese"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "North Pole bigwig"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Magnemite, Scizor, Metagross *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Bulbasaur, Bellossom, Gogoat *"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Attacks"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cat-tails connector?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "What a star on a flag might represent"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Like Mandarin and Punjabi"
+      }
+    ]
+  }
+}
