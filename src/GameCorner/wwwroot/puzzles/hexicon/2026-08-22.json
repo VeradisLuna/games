@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-22",
+  "pangram": "diurnal",
+  "letters": [ "u", "a", "d", "i", "l", "n", "r" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "dual",
+    "dull",
+    "laud",
+    "luau",
+    "lull",
+    "lulu",
+    "null",
+    "ruin",
+    "ulna",
+    "annul",
+    "aural",
+    "druid",
+    "lunar",
+    "lurid",
+    "rural",
+    "ulnar",
+    "undid",
+    "annual",
+    "urinal",
+    "annular",
+    "diurnal",
+    "dullard"
+  ]
+}
