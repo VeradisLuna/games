@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-22",
+  "title": "The Secret Garden",
+  "author": "Luna",
+  "rows": [
+    "##PAL",
+    "GARRY",
+    "AGAIN",
+    "LADEN",
+    "ERAS#"
+  ],
+  "highlights": [
+    ".....",
+    "...kk",
+    ".....",
+    "kk...",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bud"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Chess great Kasparov"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Once more"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Weighed down"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Georgian and Victorian"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "What \"The Devil Wears\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Space ram?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Country singer Loretta"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Aptly windy family name in The Wizard of Oz"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Petri dish gel"
+      }
+    ]
+  }
+}
