@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-23",
+  "title": "Indie issues",
+  "author": "Luna",
+  "rows": [
+    "#PPP#",
+    "#RARE",
+    "ZINES",
+    "ANDSO",
+    "PTAS#"
+  ],
+  "highlights": [
+    ".*.*.",
+    ".*.*.",
+    "*****",
+    ".*.*.",
+    ".*.*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Very very softly, in music"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Descriptor for steak or Pokémon cards"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "DIY publications"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"Therefore...\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "School support groups, for short"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Produce on paper"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bamboo-eating bear"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gutenberg's machine"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "That, in Spain"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Lightning bolt sound"
+      }
+    ]
+  }
+}
