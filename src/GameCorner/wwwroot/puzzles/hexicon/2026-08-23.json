@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-23",
+  "pangram": "ballgown",
+  "letters": [ "w", "a", "b", "g", "l", "o", "n" ],
+  "required": "w",
+  "words": [
+    "bawl",
+    "blow",
+    "bowl",
+    "glow",
+    "gnaw",
+    "gown",
+    "lawn",
+    "wall",
+    "wool",
+    "aglow",
+    "allow",
+    "blown",
+    "wagon",
+    "wanna",
+    "wallow",
+    "longbow",
+    "ballgown"
+  ]
+}
