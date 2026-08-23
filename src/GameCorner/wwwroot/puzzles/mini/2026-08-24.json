@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-24",
+  "title": "The cards you're dealt",
+  "author": "Luna",
+  "rows": [
+    "#ADD#",
+    "ACEIT",
+    "STUNS",
+    "SOCKO",
+    "TREY#"
+  ],
+  "highlights": [
+    "..*..",
+    "***..",
+    "..*..",
+    "..*..",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Put two and two together, perhaps"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Nail the exam"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Shocks into silence"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Spiffing!"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Basketball long shot"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cast member"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "40-40?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Itty-bitty"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Abbr. before \"Mgr.\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "General's name in a Chinese-American dish"
+      }
+    ]
+  }
+}
