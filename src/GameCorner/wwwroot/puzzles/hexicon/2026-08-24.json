@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-24",
+  "pangram": "fatigue",
+  "letters": [ "a", "e", "f", "g", "i", "t", "u" ],
+  "required": "a",
+  "words": [
+    "ague",
+    "faff",
+    "fate",
+    "feat",
+    "feta",
+    "fiat",
+    "gaff",
+    "gaga",
+    "gait",
+    "gate",
+    "taut",
+    "teat",
+    "agate",
+    "gaffe",
+    "gauge",
+    "taiga",
+    "gateau",
+    "agitate",
+    "fatigue",
+    "taffeta"
+  ]
+}
