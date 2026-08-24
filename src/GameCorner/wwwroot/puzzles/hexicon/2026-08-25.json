@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-25",
+  "pangram": "hackney",
+  "letters": [ "k", "a", "c", "e", "h", "n", "y" ],
+  "required": "k",
+  "words": [
+    "ankh",
+    "cake",
+    "hack",
+    "hake",
+    "hank",
+    "heck",
+    "kana",
+    "keen",
+    "khan",
+    "knee",
+    "neck",
+    "yank",
+    "check",
+    "cheek",
+    "hanky",
+    "kayak",
+    "knack",
+    "cheeky",
+    "hackney"
+  ]
+}
