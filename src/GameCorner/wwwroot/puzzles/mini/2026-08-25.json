@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-25",
+  "title": "\"Plus 3 × the square root of 4\"",
+  "author": "Luna",
+  "rows": [
+    "DODGE",
+    "SCORE",
+    "LUZON",
+    "#LES#",
+    "#INS#"
+  ],
+  "highlights": [
+    "..be.",
+    "aacma",
+    "..be.",
+    "..be.",
+    "..be."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "A place to get out of"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "20"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Largest island in the Philippines"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "___ Miserables"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "They go with outs"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Broadband inits."
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Eye-like openings"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "12"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "144"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Poet's dusk"
+      }
+    ]
+  }
+}
