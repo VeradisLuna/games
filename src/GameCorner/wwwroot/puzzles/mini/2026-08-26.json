@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-26",
+  "title": "WFH",
+  "author": "Luna",
+  "rows": [
+    "APT##",
+    "ORALB",
+    "COLOR",
+    "#WIFI",
+    "#LAIT"
+  ],
+  "highlights": [
+    ".....",
+    "...*.",
+    "...*.",
+    ".****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Fitting"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Toothbrush maker"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Crayon choice, in California"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Surfing aid?"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Café au ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Youngest woman elected to US Congress, in brief"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Be on the hunt"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Rocky actress Shire"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Intentionally \"imperfect\" genre"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "One who can't fit crayon choice into a 5x5 mini crossword?"
+      }
+    ]
+  }
+}
