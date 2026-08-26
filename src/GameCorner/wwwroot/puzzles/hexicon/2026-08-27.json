@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-27",
+  "pangram": "blindfold",
+  "letters": [ "b", "d", "f", "i", "l", "n", "o" ],
+  "required": "b",
+  "words": [
+    "biff",
+    "bill",
+    "bind",
+    "blob",
+    "boil",
+    "bold",
+    "bond",
+    "boob",
+    "boon",
+    "blind",
+    "blini",
+    "blond",
+    "blood",
+    "boffo",
+    "bobbin",
+    "boffin",
+    "bonbon",
+    "bonobo",
+    "libido",
+    "billion",
+    "billfold",
+    "blindfold"
+  ]
+}
