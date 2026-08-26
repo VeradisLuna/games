@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-27",
+  "title": "What a way to make a livin'",
+  "author": "Luna",
+  "rows": [
+    "#NINE",
+    "PIVOT",
+    "USAIR",
+    "FENCE",
+    "FIVE#"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    ".....",
+    ".....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cloud ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Turn on the spot"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bygone American carrier"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cross swords?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "High ___"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Second-generation Japanese-American"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Czar who co-ruled with Peter I"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"Neat\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "To be, in French"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "The Magic Dragon"
+      }
+    ]
+  }
+}
