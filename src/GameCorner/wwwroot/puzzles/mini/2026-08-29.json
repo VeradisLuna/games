@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-29",
+  "title": "Cards for sorrow",
+  "author": "Luna",
+  "rows": [
+    "#DONT",
+    "AANDE",
+    "DREAM",
+    "SEAS#",
+    "#IT##"
+  ],
+  "highlights": [
+    ".****",
+    ".....",
+    "*****",
+    ".....",
+    ".**.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ Stop Believin'"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Goldfrapp single named for a UK hospital department"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Night vision?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "High ___ (waters sailed in Muppet Treasure Island?)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "1990 miniseries featuring Tim Curry as Pennywise"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"Is this too forward of me?\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ a time (\"wait your turn, please\")"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Letters of confidentiality?"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Pro ___ (for now)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "They're often included with a free subscription"
+      }
+    ]
+  }
+}
