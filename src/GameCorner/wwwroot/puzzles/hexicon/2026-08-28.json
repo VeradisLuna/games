@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-28",
+  "pangram": "burgundy",
+  "letters": [ "b", "d", "g", "n", "r", "u", "y" ],
+  "required": "b",
+  "words": [
+    "bung",
+    "burg",
+    "burn",
+    "burr",
+    "bury",
+    "drub",
+    "grub",
+    "ruby",
+    "buddy",
+    "buggy",
+    "bunny",
+    "nubby",
+    "rugby",
+    "grubby",
+    "burgundy"
+  ]
+}
