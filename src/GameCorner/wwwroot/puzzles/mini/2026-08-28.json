@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-28",
+  "title": "Beam",
+  "author": "Luna",
+  "rows": [
+    "FLASH",
+    "LITHO",
+    "ANTIS",
+    "REINE",
+    "ENCE#"
+  ],
+  "highlights": [
+    "*****",
+    "*..*.",
+    "*..*.",
+    "*..*.",
+    "*..*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "The ___, speedy superhero Barry Allen"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Collectible art print, in brief"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Those opposed; foes of pros"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Marie Antoinette, par exemple"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "An end to depend?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Emergency signal"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fabric from flax"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Room in the roof"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Perform well"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "___pipe ban (water usage restriction)"
+      }
+    ]
+  }
+}
