@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-29",
+  "pangram": "landmark",
+  "letters": [ "l", "a", "d", "k", "m", "n", "r" ],
+  "required": "l",
+  "words": [
+    "anal",
+    "lama",
+    "land",
+    "lank",
+    "lard",
+    "lark",
+    "mall",
+    "alarm",
+    "llama",
+    "mammal",
+    "mallard",
+    "mandala",
+    "landmark"
+  ]
+}
