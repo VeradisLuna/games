@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-30",
+  "pangram": "brimful",
+  "letters": [ "b", "f", "i", "l", "m", "r", "u" ],
+  "required": "b",
+  "words": [
+    "biff",
+    "bill",
+    "blur",
+    "brim",
+    "buff",
+    "bulb",
+    "bull",
+    "burl",
+    "burr",
+    "flub",
+    "limb",
+    "bluff",
+    "blurb",
+    "brill",
+    "brimful"
+  ]
+}
