@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-30",
+  "title": "Down clues",
+  "author": "Luna",
+  "rows": [
+    "##BOP",
+    "FORGO",
+    "ADIEU",
+    "LONER",
+    "LMK##"
+  ],
+  "highlights": [
+    "....*",
+    "*...*",
+    "*...*",
+    "*...*",
+    "*...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Catchy tune"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Do without"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"Au revoir!\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "One who prefers their own company"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Texted request for a later update"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cusp"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "S-shaped line"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Decant"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Autumn, in Arkansas"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Hamilton actor Leslie ___ Jr."
+      }
+    ]
+  }
+}
