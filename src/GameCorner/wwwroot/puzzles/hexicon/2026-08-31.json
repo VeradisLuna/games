@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-31",
+  "pangram": "dockyard",
+  "letters": [ "d", "a", "c", "k", "o", "r", "y" ],
+  "required": "d",
+  "words": [
+    "card",
+    "coda",
+    "cord",
+    "dark",
+    "dock",
+    "dodo",
+    "door",
+    "dork",
+    "dory",
+    "dray",
+    "odor",
+    "road",
+    "yard",
+    "ardor",
+    "daddy",
+    "dorky",
+    "dryad",
+    "radar",
+    "accord",
+    "doodad",
+    "dockyard",
+    "dooryard"
+  ]
+}
