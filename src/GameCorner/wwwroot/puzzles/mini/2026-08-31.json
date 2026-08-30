@@ -1,0 +1,75 @@
+{
+  "date": "2026-08-31",
+  "title": "Earthsea",
+  "author": "Luna",
+  "rows": [
+    "###LE",
+    "#GUIN",
+    "BULGE",
+    "PANEM",
+    "SCARY"
+  ],
+  "highlights": [
+    "...**",
+    ".****",
+    ".....",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "With 3-across, Earthsea author Ursula"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "See 1-across"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Protrusion"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Hunger Games nation"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Frightening"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Feline hybrid; its name is a portmanteau of its parents"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Foe"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Avo dip"
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "clue": "Forearm bone"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Some petrol stations"
+      }
+    ]
+  }
+}
