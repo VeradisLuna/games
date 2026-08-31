@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-01",
+  "pangram": "tailwind",
+  "letters": [ "d", "a", "i", "l", "n", "t", "w" ],
+  "required": "d",
+  "words": [
+    "data",
+    "dawn",
+    "dial",
+    "dill",
+    "dint",
+    "laid",
+    "land",
+    "wand",
+    "wild",
+    "wind",
+    "naiad",
+    "tidal",
+    "inlaid",
+    "inland",
+    "tailwind"
+  ]
+}
