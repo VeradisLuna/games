@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-01",
+  "title": "I'm spinning around",
+  "author": "Luna",
+  "rows": [
+    "#MAIM",
+    "#ENNA",
+    "TRIPE",
+    "ACME#",
+    "MIEN#"
+  ],
+  "highlights": [
+    "...**",
+    ".....",
+    "..*..",
+    "..*..",
+    "**..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Severely hurt"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Sicilian city"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Utter balderdash"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Coyote vs. ___"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Appearance"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"___ beaucoup!\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Princess Mononoke genre"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Permanently, as writing"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Martin, of Wayward"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___-o'-shanter"
+      }
+    ]
+  }
+}
