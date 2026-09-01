@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-02",
+  "title": "Outer SPACE!",
+  "author": "Luna",
+  "rows": [
+    "#SPA#",
+    "PALUP",
+    "ACURA",
+    "COMIC",
+    "##ACE"
+  ],
+  "highlights": [
+    ".***.",
+    "*...*",
+    "*...*",
+    "*...*",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Spot for a massage"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Become buddies"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Luxury Honda brand displayed by A CURATOR?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Garfield or Peanuts"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "You might have one up your sleeve"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Maine city on its namesake river"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Feather, in Spanish"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "___ Goldfinger (Bond villain)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___-Man (arcade classic)"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Tempo"
+      }
+    ]
+  }
+}
