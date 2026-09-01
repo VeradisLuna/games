@@ -1,9 +1,9 @@
 {
   "date": "2025-09-01",
-  "clue": "Mad Hatter? Treat around hotel? Almost three a time?",
+  "clue": "Mad Hatter? Treat around hotel? Almost three at a time?",
   "enumeration": "6, 6",
   "answer": "TRIPLE THREAT",
-  "explanation": "TRIPLE THREAT. THREAT = mad (anagram) HATTER. TREAT around H (hotel). THRE (almost three) A T (time).",
+  "explanation": "TRIPLE THREAT. THREAT = mad (anagram) HATTER. TREAT around H (hotel). THRE (almost three) at A T (time).",
   "hints": [
     "This surface makes no sense. Something strange is going on! Let's start with each clause separately.",
     "How can we make HATTER mad? It's an anagram, of course.",
