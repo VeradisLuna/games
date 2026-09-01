@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-02",
+  "pangram": "gallantry",
+  "letters": [ "l", "a", "g", "n", "r", "t", "y" ],
+  "required": "l",
+  "words": [
+    "alga",
+    "ally",
+    "anal",
+    "gala",
+    "gall",
+    "tall",
+    "algal",
+    "allay",
+    "altar",
+    "annal",
+    "gnarl",
+    "natal",
+    "rally",
+    "tally",
+    "anally",
+    "gnarly",
+    "raglan",
+    "rattly",
+    "tartly",
+    "gallant",
+    "gallantly",
+    "gallantry"
+  ]
+}
