@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-03",
+  "pangram": "handout",
+  "letters": [ "h", "a", "d", "n", "o", "t", "u" ],
+  "required": "h",
+  "words": [
+    "doth",
+    "haha",
+    "hand",
+    "hath",
+    "hood",
+    "hoot",
+    "hunt",
+    "oath",
+    "than",
+    "that",
+    "thou",
+    "thud",
+    "haunt",
+    "hound",
+    "tooth",
+    "doodah",
+    "hoodoo",
+    "unhand",
+    "handout"
+  ]
+}
