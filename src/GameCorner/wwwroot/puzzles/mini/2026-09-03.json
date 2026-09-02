@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-03",
+  "title": "Herrings on Newmarket Heath",
+  "author": "Luna",
+  "rows": [
+    "DUCKS",
+    "OVARY",
+    "GETIN",
+    "SASSE",
+    "#####"
+  ],
+  "highlights": [
+    "*****",
+    "*.*..",
+    "*.*..",
+    "*.*..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Lovely weather for ___\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Egg-producing organ"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"___ loser, we're going shopping\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Old term for a river lock"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It might be raining these animals?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Eye part"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "It might be raining these animals?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Kringle or Kross!"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Auld Lang ___"
+      }
+    ]
+  }
+}
