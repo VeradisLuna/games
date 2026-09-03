@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-04",
+  "title": "Horse colours",
+  "author": "Luna",
+  "rows": [
+    "#BAY#",
+    "FAME#",
+    "ABIND",
+    "BANTU",
+    "#ROAN"
+  ],
+  "highlights": [
+    ".***.",
+    ".....",
+    "....*",
+    "....*",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Howl at the moon"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Stardom"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stuck, after \"in\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Language group including Xhosa and Zulu"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Singer Chappell"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Crowned elephant of children's literature"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Protein-building acid"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gossip (from Yiddish)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Beatles descriptor?"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Bug about bills"
+      }
+    ]
+  }
+}
