@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-04",
+  "pangram": "judicial",
+  "letters": [ "i", "a", "c", "d", "j", "l", "u" ],
+  "required": "i",
+  "words": [
+    "acid",
+    "dial",
+    "dill",
+    "jail",
+    "laid",
+    "cilia",
+    "lilac",
+    "lucid",
+    "acacia",
+    "acidic",
+    "cicada",
+    "calculi",
+    "judicial"
+  ]
+}
