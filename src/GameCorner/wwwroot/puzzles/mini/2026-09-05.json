@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-05",
+  "title": "Countdown",
+  "author": "Luna",
+  "rows": [
+    "PENTA",
+    "AROAR",
+    "TETRA",
+    "#CEST",
+    "#TRI#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Hexa- minus one"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Like a loud crowd"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "1-across minus one"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "___ la vie"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "7-across minus one"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Friendly touch"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Standing up"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Person taking minutes"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Ankle bones"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"How now!\" follower in Hamlet"
+      }
+    ]
+  }
+}
