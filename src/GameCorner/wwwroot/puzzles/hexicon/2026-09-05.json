@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-05",
+  "pangram": "midpoint",
+  "letters": [ "m", "d", "i", "n", "o", "p", "t" ],
+  "required": "m",
+  "words": [
+    "doom",
+    "midi",
+    "mind",
+    "mini",
+    "mint",
+    "mitt",
+    "mono",
+    "mood",
+    "moon",
+    "moot",
+    "omit",
+    "pimp",
+    "pomp",
+    "idiom",
+    "minim",
+    "motto",
+    "timid",
+    "domino",
+    "minion",
+    "motion",
+    "pompom",
+    "tomtit",
+    "dominion",
+    "midpoint"
+  ]
+}
