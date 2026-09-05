@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-06",
+  "title": "Cabaret",
+  "author": "Luna",
+  "rows": [
+    "##BOA",
+    "WOOLS",
+    "IPODS",
+    "GUTEN",
+    "#SSR#"
+  ],
+  "highlights": [
+    "..***",
+    "*.*..",
+    "*.*..",
+    "*.*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___ constrictor"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Merino and cashmere"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Touches and Shuffles"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Word before Morgen or Tag"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Map abbr. until 1991"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dora the Explorer's simian sidekick"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Born earlier"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Org."
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Big ___ (important person)"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Impressive work"
+      }
+    ]
+  }
+}
