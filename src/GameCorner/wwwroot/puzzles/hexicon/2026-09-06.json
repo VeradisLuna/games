@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-06",
+  "pangram": "drought",
+  "letters": [ "d", "g", "h", "o", "r", "t", "u" ],
+  "required": "d",
+  "words": [
+    "dodo",
+    "door",
+    "doth",
+    "dour",
+    "drug",
+    "good",
+    "hood",
+    "odor",
+    "thud",
+    "trod",
+    "turd",
+    "dough",
+    "gourd",
+    "odour",
+    "outdo",
+    "dugout",
+    "hoodoo",
+    "drought",
+    "godhood",
+    "outdoor"
+  ]
+}
