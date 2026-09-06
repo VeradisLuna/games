@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-07",
+  "title": "Things Weird Al bought online",
+  "author": "Luna",
+  "rows": [
+    "#CLEM",
+    "GLOBE",
+    "ROWAN",
+    "ICRY#",
+    "SKY##"
+  ],
+  "highlights": [
+    ".a.b.",
+    "aaaca",
+    ".a.b.",
+    ".a.b.",
+    ".a..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Jazz drummer DeRosa"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"A rare mint snow ___\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Mr. Bean portrayer Atkinson"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Flo Rida 2012 single"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Blue expanse"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"(Tell me why) I got that elf alarm ___\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Industrial landscape artist L.S. ___"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Title of Weird Al's \"I Want it that Way\" parody"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Guys"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Grey, in Spanish or French"
+      }
+    ]
+  }
+}
