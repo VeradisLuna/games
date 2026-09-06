@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-07",
+  "pangram": "immaturity",
+  "letters": [ "y", "a", "i", "m", "r", "t", "u" ],
+  "required": "y",
+  "words": [
+    "airy",
+    "army",
+    "arty",
+    "tray",
+    "yurt",
+    "amity",
+    "array",
+    "mammy",
+    "marry",
+    "mummy",
+    "ratty",
+    "rummy",
+    "rutty",
+    "tarry",
+    "tatty",
+    "tummy",
+    "yummy",
+    "martyr",
+    "rarity",
+    "mammary",
+    "yttrium",
+    "maturity",
+    "immaturity"
+  ]
+}
