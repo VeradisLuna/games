@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-08",
+  "title": "Face off!",
+  "author": "Luna",
+  "rows": [
+    "CATS#",
+    "ABATE",
+    "POKER",
+    "RUINS",
+    "ITS##"
+  ],
+  "highlights": [
+    ".*...",
+    ".*...",
+    "*****",
+    ".*...",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Musical with a Rum Tum Tugger"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Ease up"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Expression that's hard to read *"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Dig site, perhaps"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "___ My Life (Bon Jovi hit)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Word for some shorts, or an Italian isle"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "180° turn *"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Blue Heat snack"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "British W.W.II weapon"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Verbal hesitations"
+      }
+    ]
+  }
+}
