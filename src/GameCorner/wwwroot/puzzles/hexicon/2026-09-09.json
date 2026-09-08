@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-09",
+  "pangram": "bloodhound",
+  "letters": [ "d", "b", "h", "l", "n", "o", "u" ],
+  "required": "d",
+  "words": [
+    "bold",
+    "bond",
+    "dodo",
+    "doll",
+    "dull",
+    "hold",
+    "hood",
+    "loud",
+    "undo",
+    "blond",
+    "blood",
+    "bound",
+    "dunno",
+    "hound",
+    "hoodoo",
+    "unbound",
+    "doubloon",
+    "bloodhound"
+  ]
+}
