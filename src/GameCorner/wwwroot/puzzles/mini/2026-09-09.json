@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-08",
+  "title": "Word-123 bands",
+  "author": "Luna",
+  "rows": [
+    "#SUM#",
+    "CAROB",
+    "BLINK",
+    "DUADS",
+    "#THE#"
+  ],
+  "highlights": [
+    ".***.",
+    ".....",
+    "*****",
+    ".....",
+    ".***."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "___ 41"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Cocoa alternative"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___-182"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Pairs"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "___ 1975"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "French toast"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dickens villain Heep"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Orb atop a crown"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Kind of oil from hemp, for short"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Whopper restaurants, in brief"
+      }
+    ]
+  }
+}
