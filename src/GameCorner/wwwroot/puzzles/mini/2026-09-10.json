@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-10",
+  "title": "Refreshing!",
+  "author": "Luna",
+  "rows": [
+    "ITPRO",
+    "MOLES",
+    "PEACH",
+    "##ICE",
+    "##TEA"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "*****",
+    "..***",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Computer whizz, informally"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "They're underground, or undercover"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Princess of the Mushroom Kingdom"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "clue": "Rink surface"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Gossip, maybe"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Little devil"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Tic tac ___"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Braid"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Quick visit to gather info"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Actor Jackson Jr."
+      }
+    ]
+  }
+}
