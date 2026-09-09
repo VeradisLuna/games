@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-10",
+  "pangram": "carnival",
+  "letters": [ "v", "a", "c", "i", "l", "n", "r" ],
+  "required": "v",
+  "words": [
+    "lava",
+    "vain",
+    "vial",
+    "anvil",
+    "avail",
+    "avian",
+    "cavil",
+    "civic",
+    "civil",
+    "larva",
+    "naval",
+    "rival",
+    "vicar",
+    "villa",
+    "viral",
+    "caviar",
+    "larval",
+    "arrival",
+    "caravan",
+    "nirvana",
+    "vanilla",
+    "villain",
+    "carnival",
+    "civilian"
+  ]
+}
