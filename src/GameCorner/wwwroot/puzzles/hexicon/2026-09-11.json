@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-11",
+  "pangram": "factotum",
+  "letters": [ "c", "a", "f", "m", "o", "t", "u" ],
+  "required": "c",
+  "words": [
+    "caff",
+    "coat",
+    "coca",
+    "coma",
+    "coot",
+    "cuff",
+    "fact",
+    "taco",
+    "tact",
+    "cacao",
+    "cocoa",
+    "comma",
+    "cutoff",
+    "cutout",
+    "tomcat",
+    "toccata",
+    "factotum"
+  ]
+}
