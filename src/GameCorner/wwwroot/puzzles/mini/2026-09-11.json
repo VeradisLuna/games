@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-11",
+  "title": "Love ___",
+  "author": "Luna",
+  "rows": [
+    "BUG##",
+    "INUIT",
+    "RSPCA",
+    "DETER",
+    "SEAT#"
+  ],
+  "highlights": [
+    "***..",
+    "*....",
+    "*....",
+    "*....",
+    "****."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Programmer's problem"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "People indigenous to the Arctic"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Creature welfare charity (inits.)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Dissuade"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "One of 650 in the UK House of Commons"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Hitchcock film, with The"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"I wish I could ___ that!\" (Memory wipe please!)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ancient Indian dynasty"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Rapper and actor Tracy Lauren Marrow"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Sticky black substance"
+      }
+    ]
+  }
+}
