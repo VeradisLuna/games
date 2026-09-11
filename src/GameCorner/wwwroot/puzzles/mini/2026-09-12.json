@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-12",
+  "title": "Hair things",
+  "author": "Luna",
+  "rows": [
+    "#ISM#",
+    "#CLIP",
+    "CHILI",
+    "RODAN",
+    "ORE##"
+  ],
+  "highlights": [
+    "..*..",
+    ".****",
+    "..*.*",
+    "..*.*",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Set of beliefs"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Short video"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___ con carne"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Flying adversary of Godzilla"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Mined material"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Blood of the gods, in Greek mythology"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Slippery slope"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Actress Kunis"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "It ends a wrestling match"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "___-Magnon (early human)"
+      }
+    ]
+  }
+}
