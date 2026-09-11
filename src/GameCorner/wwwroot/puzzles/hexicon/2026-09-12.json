@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-12",
+  "pangram": "hardback",
+  "letters": [ "k", "a", "b", "c", "d", "h", "r" ],
+  "required": "k",
+  "words": [
+    "back",
+    "bark",
+    "dark",
+    "hack",
+    "hark",
+    "rack",
+    "aback",
+    "crack",
+    "barrack",
+    "hardback"
+  ]
+}
