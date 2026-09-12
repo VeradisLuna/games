@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-13",
+  "pangram": "captaincy",
+  "letters": [ "y", "a", "c", "i", "n", "p", "t" ],
+  "required": "y",
+  "words": [
+    "city",
+    "cyan",
+    "pacy",
+    "pity",
+    "tiny",
+    "canny",
+    "catty",
+    "cynic",
+    "nanny",
+    "nappy",
+    "natty",
+    "ninny",
+    "nippy",
+    "pappy",
+    "patty",
+    "pinny",
+    "tatty",
+    "tinny",
+    "papacy",
+    "papaya",
+    "pinyin",
+    "inanity",
+    "capacity",
+    "captaincy",
+    "incapacity"
+  ]
+}
