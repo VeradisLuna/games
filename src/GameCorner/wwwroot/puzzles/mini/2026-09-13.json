@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-13",
+  "title": "Comic book sound effects",
+  "author": "Luna",
+  "rows": [
+    "SNL##",
+    "NEAR#",
+    "INLAY",
+    "KEANU",
+    "THWIP"
+  ],
+  "highlights": [
+    "*....",
+    "*....",
+    "*....",
+    "*....",
+    "*****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Show with a Weekend Update, in brief"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Close by"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Embedded decoration"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "The Matrix actor Reeves"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Sound of Spider-Man's web shooters"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sound of Wolverine's claws extending"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Singer ___ Cherry"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "80s US legal drama"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Indian queen"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "\"Uh-huh!\""
+      }
+    ]
+  }
+}
