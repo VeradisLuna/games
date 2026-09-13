@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-14",
+  "pangram": "bankroll",
+  "letters": [ "r", "a", "b", "k", "l", "n", "o" ],
+  "required": "r",
+  "words": [
+    "barb",
+    "bark",
+    "barn",
+    "boar",
+    "boor",
+    "born",
+    "bran",
+    "lark",
+    "lorn",
+    "nark",
+    "okra",
+    "oral",
+    "rank",
+    "roan",
+    "roar",
+    "roll",
+    "rook",
+    "arbor",
+    "baron",
+    "boron",
+    "brook",
+    "labor",
+    "anorak",
+    "bankroll"
+  ]
+}
