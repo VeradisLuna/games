@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-14",
+  "title": "On your shoulder",
+  "author": "Luna",
+  "rows": [
+    "LAWS#",
+    "ONEAM",
+    "AGATE",
+    "DEVIL",
+    "SLEET"
+  ],
+  "highlights": [
+    ".*...",
+    ".*...",
+    ".*...",
+    "*****",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Rules"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Early hour"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Banded gemstone"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "It's in the details, they say"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Rain with snow"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "A ton!"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Buffy spin-off"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Constantly change lanes"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "French composer Erik"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Turn from solid to liquid"
+      }
+    ]
+  }
+}
