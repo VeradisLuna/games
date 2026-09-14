@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-15",
+  "title": "Arcane focus",
+  "author": "Luna",
+  "rows": [
+    "ORB##",
+    "NEUF#",
+    "EMBER",
+    "DOBRO",
+    "#WAND"
+  ],
+  "highlights": [
+    "***..",
+    ".....",
+    "....*",
+    "....*",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Globe"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Le nombre that Philip counts to, in Hamilton"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Fire remnant"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Certain resonator guitar"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Magician's prop"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Former band for Harry Styles, to fans"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cut grass again"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___-Gump Shrimp Co., fictional chain made real"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Ancient plant without seeds or flowers"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Fishing pole"
+      }
+    ]
+  }
+}
