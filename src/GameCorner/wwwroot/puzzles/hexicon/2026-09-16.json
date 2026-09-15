@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-16",
+  "pangram": "colloquial",
+  "letters": [ "u", "a", "c", "i", "l", "o", "q" ],
+  "required": "u",
+  "words": [
+    "aqua",
+    "cull",
+    "luau",
+    "lull",
+    "lulu",
+    "quail",
+    "quill",
+    "calculi",
+    "colloquial"
+  ]
+}
