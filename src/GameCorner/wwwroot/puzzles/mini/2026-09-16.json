@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-16",
+  "title": "One out of four",
+  "author": "Luna",
+  "rows": [
+    "PJS##",
+    "LUKE#",
+    "EVIAN",
+    "DIPSY",
+    "#ESTE"
+  ],
+  "highlights": [
+    ".....",
+    "****.",
+    "...*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Jimjams"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Gospel *"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bottled water brand"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Teletubby *"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "This, in Spain"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Said \"guilty\", perhaps"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Youth detention centre, in US slang"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Passes over"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Compass direction *"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "It's six days after Xmas"
+      }
+    ]
+  }
+}
