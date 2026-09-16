@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-17",
+  "title": "Cuppa",
+  "author": "Luna",
+  "rows": [
+    "##BOP",
+    "INUSE",
+    "SUGAR",
+    "MILK#",
+    "#TEA#"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    "aaaaa",
+    "bbbb.",
+    ".aaa."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Catchy tune"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Occupied"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Term of endearment"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Get as much out as possible"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Pot leaves?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Military brass"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Japanese port city"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "For each"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Belief system"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Night, in Nantes"
+      }
+    ]
+  }
+}
