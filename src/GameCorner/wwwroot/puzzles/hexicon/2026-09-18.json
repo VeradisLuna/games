@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-18",
+  "pangram": "mechanic",
+  "letters": [ "h", "a", "c", "e", "i", "m", "n" ],
+  "required": "h",
+  "words": [
+    "ache",
+    "ahem",
+    "chic",
+    "chin",
+    "each",
+    "haha",
+    "inch",
+    "cache",
+    "chain",
+    "chime",
+    "china",
+    "cinch",
+    "hence",
+    "henna",
+    "niche",
+    "chance",
+    "chichi",
+    "chicane",
+    "enchain",
+    "enhance",
+    "machine",
+    "henchman",
+    "henchmen",
+    "mechanic"
+  ]
+}
