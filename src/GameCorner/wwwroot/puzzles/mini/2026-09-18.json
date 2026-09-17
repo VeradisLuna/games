@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-18",
+  "title": "One in three",
+  "author": "Luna",
+  "rows": [
+    "NAB##",
+    "IBEG#",
+    "CIAOS",
+    "KELLY",
+    "##EDD"
+  ],
+  "highlights": [
+    "a....",
+    "a....",
+    "a....",
+    "cbbbb",
+    "..ddd"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pinch"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"___ to differ\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Arrivedercis"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "One of Charlie's Angels"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "One in a Cartoon Network trio"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "One of the Jonas brothers"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Irish Rose's love"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Ian ___, most-married character in EastEnders"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Olympian aspiration"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Barrett who co-founded Pink Floyd"
+      }
+    ]
+  }
+}
