@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-19",
+  "title": "Secret agents",
+  "author": "Luna",
+  "rows": [
+    "ANT##",
+    "GEAR#",
+    "ADRAG",
+    "#SOIE",
+    "##TNT"
+  ],
+  "highlights": [
+    "aaa..",
+    "aa...",
+    "...bb",
+    "....b",
+    "...bb"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Myrmecology subject"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bike part with teeth"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"What ___!\" (\"Bummer!\")"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "French silk"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Explosive stuff"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Turkish title"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Flanders and Stark"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Fortune-telling deck"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Drought ender"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Obtain"
+      }
+    ]
+  }
+}
