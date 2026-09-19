@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-20",
+  "title": "Citrus",
+  "author": "Luna",
+  "rows": [
+    "GLAD#",
+    "AIDED",
+    "UMAMI",
+    "LEMON",
+    "##SST"
+  ],
+  "highlights": [
+    ".*...",
+    ".*...",
+    ".*...",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pleased"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Helped"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Savoury flavour"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Yellow shade"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Concorde, e.g. (inits.)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Ancient Celtic region"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Green shade"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "US president after Washington"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Test versions"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "By ___ of (due to)"
+      }
+    ]
+  }
+}
