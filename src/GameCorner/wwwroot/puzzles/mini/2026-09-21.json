@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-21",
+  "title": "Far out!",
+  "author": "Luna",
+  "rows": [
+    "#GAM#",
+    "SIDE#",
+    "HARDC",
+    "ADAIR",
+    "#AWAY"
+  ],
+  "highlights": [
+    ".....",
+    "****.",
+    "....*",
+    "....*",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Old-fashioned term for leg"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Unseen part of the moon *"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "It's in instructions, but not in recipe"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Famed firefighter Red"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Very distant *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "TV chef De Laurentiis"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "End in ___ (not be resolved)"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "TV, newspapers, etc."
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "___ Na Na"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Very different thing *"
+      }
+    ]
+  }
+}
