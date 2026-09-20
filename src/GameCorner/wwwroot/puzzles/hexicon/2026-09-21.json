@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-21",
+  "pangram": "hootenanny",
+  "letters": [ "y", "a", "e", "h", "n", "o", "t" ],
+  "required": "y",
+  "words": [
+    "ahoy",
+    "they",
+    "tony",
+    "yeah",
+    "annoy",
+    "honey",
+    "hooey",
+    "hyena",
+    "nanny",
+    "natty",
+    "tatty",
+    "teeny",
+    "yahoo",
+    "anyone",
+    "toothy",
+    "eyeteeth",
+    "eyetooth",
+    "hootenanny"
+  ]
+}
