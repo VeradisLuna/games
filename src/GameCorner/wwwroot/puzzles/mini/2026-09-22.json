@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-22",
+  "title": "Ballooning",
+  "author": "Luna",
+  "rows": [
+    "#CDS#",
+    "#HOTH",
+    "CAIRO",
+    "RIDES",
+    "TROPE"
+  ],
+  "highlights": [
+    ".....",
+    ".***.",
+    ".***.",
+    "****.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Music discs"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Star Wars icy planet"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Egypt's capital"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Funfair attractions"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Recurring ideas across media"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Committee head"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "1982 Stevie Wonder hit"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Throat ailment"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Water pipe"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Old-school monitor inits."
+      }
+    ]
+  }
+}
