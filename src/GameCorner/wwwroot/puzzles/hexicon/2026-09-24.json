@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-24",
+  "pangram": "buoyancy",
+  "letters": [ "y", "a", "b", "c", "n", "o", "u" ],
+  "required": "y",
+  "words": [
+    "baby",
+    "bony",
+    "buoy",
+    "cyan",
+    "yuan",
+    "annoy",
+    "bayou",
+    "bobby",
+    "bonny",
+    "booby",
+    "bunny",
+    "cabby",
+    "canny",
+    "nanny",
+    "nubby",
+    "yobbo",
+    "yucca",
+    "banyan",
+    "bouncy",
+    "canyon",
+    "uncanny",
+    "buoyancy"
+  ]
+}
