@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-24",
+  "title": "Minus five",
+  "author": "Luna",
+  "rows": [
+    "#ONE#",
+    "ITEM#",
+    "THREE",
+    "SEVEN",
+    "#RETD"
+  ],
+  "highlights": [
+    ".aaa.",
+    ".....",
+    "bbbbb",
+    "ddddd",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "I"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Celebrity couple, maybe"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Number of Brontë sisters"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Most likely sum of two dice"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Letters that indicate \"no longer serving\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Catch-all category"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Audacity"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Become acquainted virtually"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pronoun often incorrectly assigned an apostrophe"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Conclusion"
+      }
+    ]
+  }
+}
