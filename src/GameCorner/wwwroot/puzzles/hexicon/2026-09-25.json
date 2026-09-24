@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-25",
+  "pangram": "dumbfound",
+  "letters": [ "m", "b", "d", "f", "n", "o", "u" ],
+  "required": "m",
+  "words": [
+    "bomb",
+    "boom",
+    "bumf",
+    "doom",
+    "dumb",
+    "mono",
+    "mood",
+    "moon",
+    "muff",
+    "numb",
+    "dumbo",
+    "mound",
+    "dumdum",
+    "muumuu",
+    "dumbfound"
+  ]
+}
