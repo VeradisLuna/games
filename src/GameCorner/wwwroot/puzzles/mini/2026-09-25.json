@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-25",
+  "title": "Luna Mini",
+  "author": "Luna",
+  "rows": [
+    "SNIDE",
+    "MINOR",
+    "ASTON",
+    "LEERS",
+    "LIL##"
+  ],
+  "highlights": [
+    "*....",
+    "*****",
+    "*....",
+    "*....",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Descriptor for remarks said with a sneer"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Like melancholy musical keys"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Word before Martin or Villa"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Lecherous looks"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Diminutive for Wayne or Nas X"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ potatoes (insignificant issues)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Second-generation Japanese-American"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Info gathered by a spy"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Way in or out"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Seabirds that become other seabirds when you add a T"
+      }
+    ]
+  }
+}
