@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-26",
+  "title": "Final fantasy?",
+  "author": "Luna",
+  "rows": [
+    "##WII",
+    "##END",
+    "ARISE",
+    "COSTA",
+    "LIZA#"
+  ],
+  "highlights": [
+    "....*",
+    "..***",
+    "....*",
+    "....*",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Nintendo console with Nunchuks?"
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "clue": "Conclude"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Instruction to a new knight"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "___ del Sol"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Entertainer Minnelli"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Rachel who played Evy, in The Mummy"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Platform that might also be called the Gram"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Something to think about!"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Tissue torn by some athletes, in brief"
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "clue": "French king"
+      }
+    ]
+  }
+}
