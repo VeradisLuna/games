@@ -41,7 +41,7 @@
       {
         "row": 4,
         "col": 0,
-        "clue": "Step inside"
+        "clue": "\"Come in – the door's slightly open!\""
       }
     ],
     "down": [
@@ -63,7 +63,7 @@
       {
         "row": 0,
         "col": 3,
-        "clue": "Mountain spine"
+        "clue": "Hiker's climb"
       },
       {
         "row": 2,
