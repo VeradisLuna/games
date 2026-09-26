@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-27",
+  "title": "Otaku",
+  "author": "Luna",
+  "rows": [
+    "AJAR#",
+    "NAVI#",
+    "IPADS",
+    "MANGA",
+    "ENTER"
+  ],
+  "highlights": [
+    "ab...",
+    "ab...",
+    "ab...",
+    "acaaa",
+    "ab..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Slightly open"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Link's fairy companion in Ocarina of Time"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Apple tablets"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Some comics and graphic novels"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Step inside"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Some cartoons and movies"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Country of origin for 8-across and 1-down"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "___-garde"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mountain spine"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Effort to find missing hiker, for short"
+      }
+    ]
+  }
+}
