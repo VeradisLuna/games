@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-27",
+  "pangram": "dogfight",
+  "letters": [ "g", "d", "f", "h", "i", "o", "t" ],
+  "required": "g",
+  "words": [
+    "gift",
+    "good",
+    "goof",
+    "goth",
+    "high",
+    "digit",
+    "fight",
+    "thigh",
+    "tight",
+    "godhood",
+    "dogfight"
+  ]
+}
