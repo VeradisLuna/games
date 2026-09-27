@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-28",
+  "title": "Pokémon",
+  "author": "Luna",
+  "rows": [
+    "#DMC#",
+    "MOOR#",
+    "EEVEE",
+    "WRITE",
+    "#SEEL"
+  ],
+  "highlights": [
+    ".....",
+    "*....",
+    "*****",
+    "*....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hip hop's Run-___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Wuthering Heights setting"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pokémon that can evolve in many ways"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Compose"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Pinniped-based Water-type Pokémon"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Go-getters"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Film"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Birthplace of Zeus, in Greek myth"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mythical Pokémon with the DNA of all others"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Snake-like fish found in 8-across"
+      }
+    ]
+  }
+}
