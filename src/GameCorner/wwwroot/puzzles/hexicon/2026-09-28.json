@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-28",
+  "pangram": "buckaroo",
+  "letters": [ "u", "a", "b", "c", "k", "o", "r" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "buck",
+    "burr",
+    "curb",
+    "ruck",
+    "burro",
+    "occur",
+    "arbour",
+    "aurora",
+    "cuckoo",
+    "buckaroo",
+    "kookaburra"
+  ]
+}
