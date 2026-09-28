@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-29",
+  "pangram": "arachnid",
+  "letters": [ "h", "a", "c", "d", "i", "n", "r" ],
+  "required": "h",
+  "words": [
+    "arch",
+    "char",
+    "chic",
+    "chin",
+    "haha",
+    "hair",
+    "hand",
+    "hard",
+    "hind",
+    "inch",
+    "rich",
+    "chain",
+    "chair",
+    "chard",
+    "china",
+    "cinch",
+    "dacha",
+    "ranch",
+    "chichi",
+    "archaic",
+    "handcar",
+    "anarchic",
+    "arachnid",
+    "harridan"
+  ]
+}
