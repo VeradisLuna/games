@@ -1,0 +1,12 @@
+{
+  "date": "2025-09-29",
+  "clue": "Point contained in small square?",
+  "enumeration": "4",
+  "answer": "NINE",
+  "explanation": "NINE: small square (number). NE (point) contained IN. N(IN)E.",
+  "hints": [
+    "In cryptics, \"point\" is often a compass point. N, NE, E, SE, S...",
+    "Our answer will be, in some sense, a small square.",
+    "\"Point\" will contain IN. Or in other words, our letters representing a point will go around IN."
+  ]
+}
