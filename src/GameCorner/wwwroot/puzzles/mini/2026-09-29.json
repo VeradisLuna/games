@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-29",
+  "title": "Mythic proportions",
+  "author": "Luna",
+  "rows": [
+    "#EEGS",
+    "#MAIA",
+    "TITAN",
+    "BLOND",
+    "HEFTY"
+  ],
+  "highlights": [
+    "...a.",
+    ".eeme",
+    "bbbcb",
+    "...a.",
+    "...a."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Brain-wave tests, briefly"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "One of Tolkien's immortal spirits"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pre-Olympian Greek deity"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Light-headed?"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Weighty"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Author Zola who wrote \"J'Accuse...!\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Consume, biblically"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Jack's beanstalk foe"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Kind of 7-across"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "NGL"
+      }
+    ]
+  }
+}
