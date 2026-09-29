@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-30",
+  "pangram": "brought",
+  "letters": [ "b", "g", "h", "o", "r", "t", "u" ],
+  "required": "b",
+  "words": [
+    "boob",
+    "boor",
+    "boot",
+    "both",
+    "bout",
+    "burg",
+    "burr",
+    "butt",
+    "grub",
+    "hobo",
+    "booth",
+    "bough",
+    "broth",
+    "burgh",
+    "burro",
+    "robot",
+    "throb",
+    "turbo",
+    "boohoo",
+    "bought",
+    "hubbub",
+    "turbot",
+    "borough",
+    "brought"
+  ]
+}
