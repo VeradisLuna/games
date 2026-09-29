@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-30",
+  "title": "3×4",
+  "author": "Luna",
+  "rows": [
+    "#FED#",
+    "FOUR#",
+    "ORLOK",
+    "REEVE",
+    "##REG"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Gave sustenance"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Two by two?"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Count ___ (Nosferatu)"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Christopher who portrayed Superman"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "On the ___ (frequently, informally)"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Golfer's warning"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Mathematician known for the constant e"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Had control of the wheel"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "In favour of"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Beer barrel"
+      }
+    ]
+  }
+}
