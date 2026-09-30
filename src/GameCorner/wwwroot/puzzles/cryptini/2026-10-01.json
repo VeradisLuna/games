@@ -1,0 +1,11 @@
+{
+  "date": "2025-09-30",
+  "clue": "Stockpile contents: rarest ore",
+  "enumeration": "5",
+  "answer": "STORE",
+  "explanation": "STORE: stockpile. STORE can be found in (contents of) rareST ORE.",
+  "hints": [
+    "Our answer will be a word that can mean stockpile.",
+    "The answer is found in the contents of RAREST ORE."
+  ]
+}
