@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-01",
+  "title": "...was his name-o",
+  "author": "Luna",
+  "rows": [
+    "##BIN",
+    "BEING",
+    "INTRO",
+    "NYSE#",
+    "GO###"
+  ],
+  "highlights": [
+    "..***",
+    "*...*",
+    "*...*",
+    "*....",
+    "**..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Where rubbish goes"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Life form"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Starter course"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Wall St. inits."
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "What green means"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "0s and 1s, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "About, on a memo"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Many a charity, for short"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Google alternative"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Greek war goddess"
+      }
+    ]
+  }
+}
