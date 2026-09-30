@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-01",
+  "pangram": "enjoyment",
+  "letters": [ "m", "e", "j", "n", "o", "t", "y" ],
+  "required": "m",
+  "words": [
+    "meet",
+    "meme",
+    "memo",
+    "mete",
+    "mono",
+    "moon",
+    "moot",
+    "mote",
+    "omen",
+    "teem",
+    "tome",
+    "emote",
+    "enemy",
+    "mommy",
+    "money",
+    "motet",
+    "motto",
+    "totem",
+    "moment",
+    "yeomen",
+    "memento",
+    "monotone",
+    "monotony",
+    "tenement",
+    "enjoyment"
+  ]
+}
