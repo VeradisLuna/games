@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-02",
+  "title": "Too many video calls",
+  "author": "Luna",
+  "rows": [
+    "MEET#",
+    "AXLE#",
+    "ITSA#",
+    "ZOOM#",
+    "ELLS#"
+  ],
+  "highlights": [
+    "****.",
+    "...*.",
+    "...*.",
+    "****.",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Convene"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Rod between wheels"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "\"___ small world after all\""
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Go fast!"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Right angles"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Corn"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Glorify"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "The sun, in Spain"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Sets of players"
+      }
+    ]
+  }
+}
