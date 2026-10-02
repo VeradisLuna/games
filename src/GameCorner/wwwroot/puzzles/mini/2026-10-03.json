@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-03",
+  "title": "National treasure?",
+  "author": "Luna",
+  "rows": [
+    "#NICK",
+    "SINAI",
+    "KANGA",
+    "ILIE#",
+    "PLS##"
+  ],
+  "highlights": [
+    ".****",
+    "...*.",
+    "...*.",
+    "...*.",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Pinch"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Biblical mount"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Roo's mum, in the Hundred Acre Wood"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Would ___ to You? (comedy panel show)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "\"Thx\" counterpart?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Horan of One Direction"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "American civil rights leader Roy"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Shark diver's protection"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Car from Korea"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Pass over"
+      }
+    ]
+  }
+}
