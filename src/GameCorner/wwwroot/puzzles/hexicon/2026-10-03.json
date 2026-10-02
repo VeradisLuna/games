@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-03",
+  "pangram": "chutney",
+  "letters": [ "h", "c", "e", "n", "t", "u", "y" ],
+  "required": "h",
+  "words": [
+    "etch",
+    "hunt",
+    "thee",
+    "then",
+    "they",
+    "chute",
+    "hence",
+    "hunch",
+    "hutch",
+    "teeth",
+    "tench",
+    "tenth",
+    "eunuch",
+    "teethe",
+    "tetchy",
+    "thence",
+    "chutney",
+    "eyeteeth"
+  ]
+}
