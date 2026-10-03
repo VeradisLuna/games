@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-04",
+  "pangram": "infirmary",
+  "letters": [ "y", "a", "f", "i", "m", "n", "r" ],
+  "required": "y",
+  "words": [
+    "airy",
+    "army",
+    "fray",
+    "iffy",
+    "many",
+    "miry",
+    "myna",
+    "nary",
+    "yarn",
+    "array",
+    "fairy",
+    "fanny",
+    "finny",
+    "mammy",
+    "marry",
+    "nanny",
+    "niffy",
+    "ninny",
+    "rainy",
+    "affray",
+    "friary",
+    "infamy",
+    "ramify",
+    "mammary",
+    "infirmary"
+  ]
+}
