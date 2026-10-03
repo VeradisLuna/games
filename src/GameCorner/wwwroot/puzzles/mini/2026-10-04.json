@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-04",
+  "title": "Extra!",
+  "author": "Luna",
+  "rows": [
+    "BONUS",
+    "THORP",
+    "SAMBA",
+    "#NEAR",
+    "#ANNE"
+  ],
+  "highlights": [
+    "*****",
+    "....*",
+    "....*",
+    "....*",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ level (special video game stage)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Small village"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Carnival dance"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Close by"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Either of two wives of Henry VIII"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "K-pop group"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "\"___ means family\" (Lilo & Stitch)"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Roman name"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Opposite of rural"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "/ in bowling"
+      }
+    ]
+  }
+}
