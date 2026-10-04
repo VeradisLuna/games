@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-05",
+  "pangram": "gratuity",
+  "letters": [ "u", "a", "g", "i", "r", "t", "y" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "guru",
+    "taut",
+    "tutu",
+    "yurt",
+    "augur",
+    "rutty",
+    "tutti",
+    "augury",
+    "guitar",
+    "rugrat",
+    "gratuity"
+  ]
+}
