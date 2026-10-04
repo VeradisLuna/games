@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-05",
+  "title": "Hanging plant",
+  "author": "Luna",
+  "rows": [
+    "#AMP#",
+    "TROLL",
+    "ALTAI",
+    "GETIN",
+    "#NOTE"
+  ],
+  "highlights": [
+    "...*.",
+    "....*",
+    "...*.",
+    "....*",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "It pumps up the volume"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Creature under a bridge"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "CENTRAL TAIGA hides Asian mountain range"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Pickup line?"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Do, re, or mi"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Over the Rainbow composer Harold"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Words to live by"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Braid"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Game where you could be it!"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Queue"
+      }
+    ]
+  }
+}
