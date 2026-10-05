@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-06",
+  "title": "Secret ___",
+  "author": "Luna",
+  "rows": [
+    "#AGAR",
+    "ADORE",
+    "BERET",
+    "CLANS",
+    "DENT#"
+  ],
+  "highlights": [
+    "..***",
+    ".....",
+    ".....",
+    ".....",
+    "***.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Petri dish gel"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Love"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Headwear in a Prince hit"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Scottish groups, maybe"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Bad impression?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Skyfall singer"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Football manager Sven-___ Eriksson"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"___ you a little short for a stormtrooper?\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Soaks flax, say"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Multiple choice choices"
+      }
+    ]
+  }
+}
