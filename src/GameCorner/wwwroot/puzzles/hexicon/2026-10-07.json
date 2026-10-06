@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-07",
+  "pangram": "bulldoze",
+  "letters": [ "z", "b", "d", "e", "l", "o", "u" ],
+  "required": "z",
+  "words": [
+    "bozo",
+    "buzz",
+    "doze",
+    "ooze",
+    "ouzo",
+    "bezel",
+    "booze",
+    "dozed",
+    "oozed",
+    "boozed",
+    "buzzed",
+    "bulldoze",
+    "bulldozed"
+  ]
+}
