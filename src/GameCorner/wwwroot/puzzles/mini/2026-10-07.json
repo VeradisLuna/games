@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-07",
+  "title": "Big cat, little cat",
+  "author": "Luna",
+  "rows": [
+    "ROAR#",
+    "ACMES",
+    "SCONE",
+    "PARES",
+    "#MEW#"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    ".***."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Din from a den"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "High points"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Afternoon tea serving with jam and cream"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Cuts (back)"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Kitten's call"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Speak hoarsely"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Philosopher with a famous \"razor\""
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Dean Martin's \"That's ___\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Subscribe for another year"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Parisian possessive"
+      }
+    ]
+  }
+}
