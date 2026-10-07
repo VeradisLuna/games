@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "pangram": "chairman",
+  "letters": [ "h", "a", "c", "i", "m", "n", "r" ],
+  "required": "h",
+  "words": [
+    "arch",
+    "char",
+    "chic",
+    "chin",
+    "haha",
+    "hair",
+    "harm",
+    "inch",
+    "rich",
+    "chain",
+    "chair",
+    "charm",
+    "china",
+    "cinch",
+    "march",
+    "ranch",
+    "chichi",
+    "archaic",
+    "anarchic",
+    "armchair",
+    "chairman",
+    "maharani",
+    "mariachi"
+  ]
+}
