@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-08",
+  "title": "Take it out!",
+  "author": "Luna",
+  "rows": [
+    "TRASH",
+    "RASH#",
+    "ASH##",
+    "SH###",
+    "H####"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Wreck, as a hotel room"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Reckless"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Hardwood tree"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "\"This is a library!\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Hotel"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ compactor"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Allergy symptom"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "What's left after 7-across burns"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "/ʃ/"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Steps singer Ian"
+      }
+    ]
+  }
+}
