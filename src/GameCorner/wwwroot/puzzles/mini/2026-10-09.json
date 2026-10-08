@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-09",
+  "title": "All in order",
+  "author": "Luna",
+  "rows": [
+    "AAHS#",
+    "OBOE#",
+    "NICER",
+    "ETUDE",
+    "##SSE"
+  ],
+  "highlights": [
+    "*....",
+    ".*...",
+    "..*..",
+    "...*.",
+    "....*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sounds of bliss"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Double-reed woodwind"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "More lovely"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Piano practice piece"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Direction encompassed in ENCOMPASSED"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Tip-top"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Not very much"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Start of a witchy phrase"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "They may be sown"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Mr. ___ (old Cluedo-like board game)"
+      }
+    ]
+  }
+}
