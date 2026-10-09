@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-10",
+  "title": "Languages",
+  "author": "Luna",
+  "rows": [
+    "CZECH",
+    "OUTRO",
+    "SLEEK",
+    "#URDU",
+    "##NOM"
+  ],
+  "highlights": [
+    "*****",
+    ".*...",
+    ".*...",
+    ".****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Language spoken in Prague"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Closing bit of music"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Stylishly streamlined"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Language spoken in Islamabad"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "___ de plume"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "sin/tan"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Language spoken in Johannesburg"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Forever, in verse"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Words to live by"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "2026 supernatural horror"
+      }
+    ]
+  }
+}
