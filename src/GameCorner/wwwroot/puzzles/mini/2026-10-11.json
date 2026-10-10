@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-11",
+  "title": "Czech again!",
+  "author": "Luna",
+  "rows": [
+    "CZECH",
+    "LORRE",
+    "ARGON",
+    "IROC#",
+    "MOT##"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".....",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Source of the word \"robot\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Peter ___, first Bond villain actor"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Most common noble gas"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Car model \"he drives\", in Teenage Dirtbag"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "UK vehicle safety test"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Allegation"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Masked hero, of book and film"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Grain disease"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Gator's cousin"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "She might be cooped up"
+      }
+    ]
+  }
+}
