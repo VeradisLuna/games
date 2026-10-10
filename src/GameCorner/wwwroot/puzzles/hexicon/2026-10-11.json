@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-11",
+  "pangram": "checkout",
+  "letters": [ "e", "c", "h", "k", "o", "t", "u" ],
+  "required": "e",
+  "words": [
+    "coke",
+    "cote",
+    "cute",
+    "echo",
+    "etch",
+    "heck",
+    "hoke",
+    "keto",
+    "thee",
+    "toke",
+    "tote",
+    "check",
+    "cheek",
+    "choke",
+    "chute",
+    "ketch",
+    "octet",
+    "teeth",
+    "teethe",
+    "checkout"
+  ]
+}
