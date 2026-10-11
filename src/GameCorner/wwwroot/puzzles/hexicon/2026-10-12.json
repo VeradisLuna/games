@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "pangram": "inaccuracy",
+  "letters": [ "u", "a", "c", "i", "n", "r", "y" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "ruin",
+    "uric",
+    "yuan",
+    "curry",
+    "incur",
+    "runic",
+    "runny",
+    "unary",
+    "yucca",
+    "curacy",
+    "uncanny",
+    "urinary",
+    "accuracy",
+    "inaccuracy"
+  ]
+}
