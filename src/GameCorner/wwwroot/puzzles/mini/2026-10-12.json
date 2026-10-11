@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-12",
+  "title": "Nightcrawler",
+  "author": "Luna",
+  "rows": [
+    "SOWED",
+    "KRONA",
+    "EARTH",
+    "ELMOS",
+    "#####"
+  ],
+  "highlights": [
+    "..*..",
+    "..*..",
+    "*****",
+    "..*..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Scattered"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Money in Malmö"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Third rock from the sun"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "St ___ Fire"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___-ball (arcade attraction)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Spoken exam, perhaps"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Undulating dance move, with \"the\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Course about insects, for short"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Three of these make an O, in Morse code"
+      }
+    ]
+  }
+}
