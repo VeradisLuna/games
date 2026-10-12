@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-13",
+  "title": "Black and white and...",
+  "author": "Luna",
+  "rows": [
+    "RUST#",
+    "UPFOR",
+    "BP#KO",
+    "YESES",
+    "#RARE"
+  ],
+  "highlights": [
+    "bbbb.",
+    "b...b",
+    "b...b",
+    "b...b",
+    ".bbbb"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Red that's a sign of decay"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Willing to take part in"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "It has systolic and diastolic readings (inits.)"
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "clue": "How a Tekken round might end"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Affirmatives"
+      },
+
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Red, as in meat"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Red gemstone"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Word before deck or hand"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Where Vertigo is set, for short"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "\"I'm a joker, I'm a smoker, I'm a midnight ___\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Red flower"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "clue": "It's between Fr and Su?"
+      }
+    ]
+  }
+}
