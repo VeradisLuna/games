@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-13",
+  "pangram": "girlhood",
+  "letters": [ "r", "d", "g", "h", "i", "l", "o" ],
+  "required": "r",
+  "words": [
+    "door",
+    "gird",
+    "girl",
+    "grid",
+    "grog",
+    "lord",
+    "odor",
+    "rill",
+    "roil",
+    "roll",
+    "dolor",
+    "drill",
+    "droll",
+    "drool",
+    "grill",
+    "rigid",
+    "rigor",
+    "horrid",
+    "horror",
+    "girlhood"
+  ]
+}
