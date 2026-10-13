@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-14",
+  "title": "LGBTQ+ Film Festival",
+  "author": "Luna",
+  "rows": [
+    "#MPAA",
+    "#IRIS",
+    "SMIRK",
+    "MEZE#",
+    "HOED#"
+  ],
+  "highlights": [
+    "..*..",
+    ".****",
+    "..*..",
+    "..*..",
+    "..*.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "US film-rating org."
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Goo Goo Dolls hit single"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Smug smile"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Mediterranean appetizer"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Did some gardening"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Photocopier precusor"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cherish"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Showed on TV"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "AMA's first A"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Texter's acronym, expressing disbelief or disappointment"
+      }
+    ]
+  }
+}
