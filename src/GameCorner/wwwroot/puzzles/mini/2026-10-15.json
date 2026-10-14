@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-15",
+  "title": "Fly me to the...",
+  "author": "Luna",
+  "rows": [
+    "ORD##",
+    "MOON#",
+    "AVIAN",
+    "REDRY",
+    "#ROCK"
+  ],
+  "highlights": [
+    ".*...",
+    "****.",
+    ".*...",
+    ".*...",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Airport with the most runways in the world (code)"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Apollo destination"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "To do with birds"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Put back in the kiln"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Sea of Tranquility souvenir"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sharif who played Doctor Zhivago"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Lunar low-gravity vehicle"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "1982 Stevie Wonder hit"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "Drug buster"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "MSG team?"
+      }
+    ]
+  }
+}
