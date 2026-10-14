@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-14",
+  "title": "Happy birthday!",
+  "author": "Luna",
+  "rows": [
+    "#CAT#",
+    "ELLIS",
+    "CUOMO",
+    "REVEL",
+    "USERS"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Tom, Felix, or James"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Mini recipient, wonderful human 💜"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Rivers ___"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Celebrate wildly, as one's birthday"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Often the problem, in computing"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They're sometimes cryptic"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Philia: ___ between friends"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Send payment back, just watch!"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Light beige (I ran out of theme words!)"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Musical notes, or sci-fi suns"
+      }
+    ]
+  }
+}
