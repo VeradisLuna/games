@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "pangram": "confirm",
+  "letters": [ "f", "c", "i", "m", "n", "o", "r" ],
+  "required": "f",
+  "words": [
+    "coif",
+    "firm",
+    "form",
+    "from",
+    "info",
+    "miff",
+    "riff",
+    "roof",
+    "coffin",
+    "formic",
+    "infirm",
+    "inform",
+    "confirm",
+    "conform"
+  ]
+}
