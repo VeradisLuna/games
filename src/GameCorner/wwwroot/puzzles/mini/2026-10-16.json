@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-16",
+  "title": "The great outdoors",
+  "author": "Luna",
+  "rows": [
+    "HIKES",
+    "IDINA",
+    "LENDS",
+    "LAKES",
+    "#SYD#"
+  ],
+  "highlights": [
+    "*****",
+    "*....",
+    "*....",
+    "*****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Some nature walks"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Menzel with a Tony for Wicked"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Gives, for now"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "What a limnologist studies"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Barrett of Pink Floyd"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "House on Haunted ___ (horror)"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "They may be represented by light bulbs"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Tightly curled"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Put a stop to"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Back talk"
+      }
+    ]
+  }
+}
