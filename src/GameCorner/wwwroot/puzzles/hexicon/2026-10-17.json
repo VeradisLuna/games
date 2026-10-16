@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-17",
+  "pangram": "halogen",
+  "letters": [ "h", "a", "e", "g", "l", "n", "o" ],
+  "required": "h",
+  "words": [
+    "ghee",
+    "hale",
+    "hall",
+    "halo",
+    "hang",
+    "heal",
+    "heel",
+    "hell",
+    "hole",
+    "hone",
+    "aloha",
+    "halal",
+    "hello",
+    "henna",
+    "hogan",
+    "haggle",
+    "halogen",
+    "hellhole"
+  ]
+}
