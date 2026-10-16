@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-17",
+  "title": "Busy",
+  "author": "Luna",
+  "rows": [
+    "#BEE#",
+    "BULL#",
+    "AZTEC",
+    "OZONE",
+    "##NAE"
+  ],
+  "highlights": [
+    ".***.",
+    ".*...",
+    ".*...",
+    ".*...",
+    ".*..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hive resident"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Taurus symbol"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Ancient Mexican empire"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "O₃"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Dundonian denial"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hubbub"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "John who sang Rocket Man"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Novellist Ferrante"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Kind of steamed bun"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Third letter"
+      }
+    ]
+  }
+}
