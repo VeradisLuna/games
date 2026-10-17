@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-18",
+  "title": "Trans+",
+  "author": "Luna",
+  "rows": [
+    "POSE#",
+    "LATE#",
+    "ATARI",
+    "NEVIS",
+    "TREES"
+  ],
+  "highlights": [
+    "cbbb.",
+    "meee.",
+    "a....",
+    "a....",
+    "a...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Change to a new key *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Convert to a new language *"
+      }, 
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Arcade game pioneer"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Ben ___ (Scottish mountain)"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "The Lorax speaks for them"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Move to a new place *"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Old term for a western"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Music lines, or strip of wood"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Spooky"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Outpost for astronauts, in brief"
+      }
+    ]
+  }
+}
