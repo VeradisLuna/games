@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-18",
+  "pangram": "exchange",
+  "letters": [ "c", "a", "e", "g", "h", "n", "x" ],
+  "required": "c",
+  "words": [
+    "ache",
+    "acne",
+    "cage",
+    "cane",
+    "each",
+    "exec",
+    "cache",
+    "hence",
+    "cancan",
+    "chance",
+    "change",
+    "enhance",
+    "exchange"
+  ]
+}
