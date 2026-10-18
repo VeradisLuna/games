@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "pangram": "haircut",
+  "letters": [ "u", "a", "c", "h", "i", "r", "t" ],
+  "required": "u",
+  "words": [
+    "aura",
+    "curt",
+    "hurt",
+    "taut",
+    "thru",
+    "tutu",
+    "uric",
+    "hutch",
+    "truth",
+    "tutti",
+    "church",
+    "crutch",
+    "hurrah",
+    "circuit",
+    "haircut",
+    "chihuahua"
+  ]
+}
