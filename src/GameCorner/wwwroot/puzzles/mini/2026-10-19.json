@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "title": "Ghost in the machine",
+  "author": "Luna",
+  "rows": [
+    "DEAD#",
+    "ITWAS",
+    "SHADE",
+    "HERDS",
+    "#REY#"
+  ],
+  "highlights": [
+    ".....",
+    "..bbb",
+    "aaaaa",
+    "bbb..",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "___ as a doornail"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "First words of A Tale of Two Cities"
+      }, 
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Snide remark, maybe"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Groups of cattle, say"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Daisy Ridley's Star Wars role"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "It ran away with the spoon!"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Heavens"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Conscious"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Papa"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Its in French"
+      }
+    ]
+  }
+}
