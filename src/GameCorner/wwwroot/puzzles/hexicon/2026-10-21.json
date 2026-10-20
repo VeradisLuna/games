@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "pangram": "autopilot",
+  "letters": [ "u", "a", "i", "p", "l", "o", "t" ],
+  "required": "u",
+  "words": [
+    "auto",
+    "lout",
+    "luau",
+    "lull",
+    "lulu",
+    "pout",
+    "pull",
+    "pulp",
+    "pupa",
+    "putt",
+    "taut",
+    "tout",
+    "tutu",
+    "outta",
+    "popup",
+    "pupal",
+    "pupil",
+    "tulip",
+    "tutti",
+    "output",
+    "pulpit",
+    "putout",
+    "utopia",
+    "pullout",
+    "autopilot"
+  ]
+}
