@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "pangram": "chickpea",
+  "letters": [ "h", "a", "c", "e", "i", "k", "p" ],
+  "required": "h",
+  "words": [
+    "ache",
+    "chap",
+    "chic",
+    "chip",
+    "each",
+    "hack",
+    "haha",
+    "hake",
+    "heap",
+    "heck",
+    "hick",
+    "hike",
+    "cache",
+    "cheap",
+    "check",
+    "cheek",
+    "cheep",
+    "chick",
+    "khaki",
+    "peach",
+    "chichi",
+    "hippie",
+    "chickpea"
+  ]
+}
