@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "title": "Bactrian",
+  "author": "Luna",
+  "rows": [
+    "#RPM#",
+    "TORIC",
+    "ANIMA",
+    "LASER",
+    "C#M#L"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    ".*.*.",
+    "*.*.*"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "33⅓ or 45, perhaps"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Shaped like a doughnut"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Feminine side, in Jungian psychology"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Tool with a beam"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Dune traveller"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Covid-19, colloquially"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Rainbow maker"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Silent type?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Bathroom powder"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Jung who developed the concept in 6-across"
+      }
+    ]
+  }
+}
