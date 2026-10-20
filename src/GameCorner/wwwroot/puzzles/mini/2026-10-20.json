@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-20",
+  "title": "Fruity",
+  "author": "Luna",
+  "rows": [
+    "GRP##",
+    "REALM",
+    "APPLE",
+    "PEACH",
+    "ELS##"
+  ],
+  "highlights": [
+    "a....",
+    "a....",
+    "cbbbb",
+    "meeee",
+    "a...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Org."
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Domain"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "One a day keeps the doctor away, they say"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Mushroom Kingdom princess"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Golfer Ernie"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Raisin, once"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Item that keeps wild Pokémon from appearing?"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "The Mamas & the ___"
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "clue": "American cousin of \"Inc.\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"Whatever\""
+      }
+    ]
+  }
+}
