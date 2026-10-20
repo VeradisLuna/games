@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-22",
+  "title": "Dromedary",
+  "author": "Luna",
+  "rows": [
+    "#SEA#",
+    "AUDRE",
+    "LLAMA",
+    "ELMER",
+    "CA#EL"
+  ],
+  "highlights": [
+    ".....",
+    ".....",
+    ".....",
+    "..*..",
+    "**.**"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "In the Odyssey, it's \"wine-dark\""
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Sister Outsider writer Lorde"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Peruvian cousin of this puzzle's theme word"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Fudd, who's hunting for \"wabbits\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "So-called \"ship of the desert\""
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Roman ruler before Caesar"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Cheese that seems to be made up?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "French force"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Name for someone smart?"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "\"Tea, ___ Grey, hot.\""
+      }
+    ]
+  }
+}
