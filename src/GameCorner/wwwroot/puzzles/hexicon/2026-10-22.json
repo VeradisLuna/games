@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "pangram": "charlatan",
+  "letters": [ "l", "a", "c", "h", "n", "r", "t" ],
+  "required": "l",
+  "words": [
+    "anal",
+    "call",
+    "clan",
+    "hall",
+    "halt",
+    "lath",
+    "talc",
+    "tall",
+    "altar",
+    "calla",
+    "canal",
+    "halal",
+    "larch",
+    "latch",
+    "natal",
+    "carnal",
+    "thrall",
+    "catcall",
+    "catchall",
+    "charlatan"
+  ]
+}
