@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-23",
+  "title": "Cosmic (I)",
+  "author": "Luna",
+  "rows": [
+    "#BIG#",
+    "BLOOP",
+    "RUNTO",
+    "ORION",
+    "#BANG"
+  ],
+  "highlights": [
+    ".***.",
+    ".....",
+    ".....",
+    ".....",
+    ".****"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "With 8-across, how it all started?"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Soft baseball hit"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Reach in total"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Hunter constellation"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "See 1-across"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Words on a dust jacket"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Coastal region of ancient Greece"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Mounted"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "\"Dude...\""
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Classic 70s video game"
+      }
+    ]
+  }
+}

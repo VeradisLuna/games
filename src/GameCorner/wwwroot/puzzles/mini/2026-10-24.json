@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-24",
+  "title": "Cosmic (II)",
+  "author": "Luna",
+  "rows": [
+    "#KAHN",
+    "#ARIA",
+    "WRATH",
+    "AMBI#",
+    "VAST#"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Madeline of Blazing Saddles"
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "clue": "Operatic solo"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Comeuppance, perhaps"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Prefix for \"both\""
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Cosmic, say"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Cosmic comeuppance"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Emiratis for one"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Start the music!"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "\"I'm good, thanks\""
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Not aac or mp3"
+      }
+    ]
+  }
+}
