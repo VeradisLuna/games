@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-23",
+  "pangram": "anonymity",
+  "letters": [ "y", "a", "i", "m", "n", "o", "t" ],
+  "required": "y",
+  "words": [
+    "many",
+    "mayo",
+    "myna",
+    "tiny",
+    "tony",
+    "amity",
+    "annoy",
+    "mammy",
+    "minty",
+    "mommy",
+    "nanny",
+    "natty",
+    "ninny",
+    "tatty",
+    "tinny",
+    "anatomy",
+    "antonym",
+    "inanity",
+    "antimony",
+    "monotony",
+    "anonymity"
+  ]
+}
