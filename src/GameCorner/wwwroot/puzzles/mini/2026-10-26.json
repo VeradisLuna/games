@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-26",
+  "title": "It's raining cats and dogs",
+  "author": "Luna",
+  "rows": [
+    "TOWS#",
+    "ODEA#",
+    "MILLI",
+    "#ETES",
+    "##SMH"
+  ],
+  "highlights": [
+    "op.o.",
+    "op.o.",
+    "op.o.",
+    ".p.o.",
+    "...o."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Pulls along the road"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Greek theaters"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Pop duo ___ Vanilli"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Saisons chaudes"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Texter's disapproving expression"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Jerry's foe in old cartoons"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Comics dog with a big red tongue"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Bad marks?"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Cat that lives with Sabrina the Teenage Witch"
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "clue": "Kinda"
+      }
+    ]
+  }
+}

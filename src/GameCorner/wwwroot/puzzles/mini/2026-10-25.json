@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-25",
+  "title": "It's raining men",
+  "author": "Luna",
+  "rows": [
+    "#BARB",
+    "MOWER",
+    "ROMEO",
+    "TEALS",
+    "#RNS#"
+  ],
+  "highlights": [
+    "....o",
+    "o...o",
+    "o.p.o",
+    "..p..",
+    "..p.."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Sting"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "It cuts the grass"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Shakespeare lover?"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Bluish hues"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Some hospital staff, in brief"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Vocal critic"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "\"Jeez!\""
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Units of film"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Super Mario ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Clubber Lang portrayer, in Rocky III"
+      }
+    ]
+  }
+}
