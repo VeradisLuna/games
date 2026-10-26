@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-27",
+  "title": "No win, no fee",
+  "author": "Luna",
+  "rows": [
+    "BREG#",
+    "ROTOR",
+    "OCHRE",
+    "#SIDE",
+    "##COF"
+  ],
+  "highlights": [
+    "****.",
+    ".....",
+    ".....",
+    ".....",
+    "..***"
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "With 9-across, what a French press is for? *"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Turbine turner"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Earthy tone"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "One of two on a record"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "See 1-across *"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "\"Dude...\""
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Fierce fliers of myth"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Set of moral principles"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Astronaut Cooper, as portrayed in The Right Stuff"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Great Barrier ___"
+      }
+    ]
+  }
+}
