@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-27",
+  "pangram": "handicap",
+  "letters": [ "n", "a", "c", "d", "h", "i", "p" ],
+  "required": "n",
+  "words": [
+    "chin",
+    "hand",
+    "hind",
+    "inch",
+    "naan",
+    "nana",
+    "pain",
+    "chain",
+    "china",
+    "cinch",
+    "naiad",
+    "panda",
+    "panic",
+    "pinch",
+    "cancan",
+    "candid",
+    "niacin",
+    "picnic",
+    "pippin",
+    "handicap"
+  ]
+}
