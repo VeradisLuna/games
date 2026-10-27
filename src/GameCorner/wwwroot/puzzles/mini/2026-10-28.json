@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "title": "🐌 trails",
+  "author": "Luna",
+  "rows": [
+    "#SANS",
+    "SPRAY",
+    "NOTIN",
+    "AISLE",
+    "PLY##"
+  ],
+  "highlights": [
+    "...bb",
+    "a..b.",
+    "a..b.",
+    "aa.b.",
+    ".a..."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Without"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Deodorant, perhaps"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Away from home"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Walkway for weddings or weekly shops"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Layer on a roll"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Go off"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Creative, in a way"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Hammer's target"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Auld Lang ___"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Crackle and Pop's companion"
+      }
+    ]
+  }
+}
