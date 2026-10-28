@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "pangram": "eventful",
+  "letters": [ "v", "e", "f", "l", "n", "t", "u" ],
+  "required": "v",
+  "words": [
+    "even",
+    "vent",
+    "event",
+    "levee",
+    "level",
+    "venue",
+    "eleven",
+    "uneven",
+    "velvet",
+    "eventful",
+    "velveteen",
+    "uneventful"
+  ]
+}
