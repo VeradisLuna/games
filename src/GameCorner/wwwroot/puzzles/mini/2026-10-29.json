@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-29",
+  "title": "They call me Dr. Worm",
+  "author": "Luna",
+  "rows": [
+    "MEDIC",
+    "STENO",
+    "NABOB",
+    "#GRUB",
+    "#EAT#"
+  ],
+  "highlights": [
+    "*****",
+    ".....",
+    ".....",
+    ".****",
+    "....."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Military first-aid expert"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Courtroom scribe, in brief"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Bigwig"
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "clue": "Insect larva, or chow"
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "clue": "Consume"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Skype predecessor?"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "French floor"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Actress Winger"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "Words before you \"shake it all about\""
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Kind of salad"
+      }
+    ]
+  }
+}
