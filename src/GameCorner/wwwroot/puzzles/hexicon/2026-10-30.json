@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "pangram": "mahogany",
+  "letters": [ "g", "a", "h", "m", "n", "o", "y" ],
+  "required": "g",
+  "words": [
+    "agog",
+    "gaga",
+    "gamy",
+    "gang",
+    "gong",
+    "goon",
+    "hang",
+    "yang",
+    "yoga",
+    "agony",
+    "among",
+    "gamma",
+    "gammy",
+    "gonna",
+    "hogan",
+    "magma",
+    "manga",
+    "mango",
+    "mangy",
+    "moggy",
+    "gammon",
+    "hangman",
+    "mahogany",
+    "monogamy"
+  ]
+}
