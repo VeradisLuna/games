@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-30",
+  "title": "React badly?",
+  "author": "Luna",
+  "rows": [
+    "CRATE",
+    "AEGIS",
+    "TRACE",
+    "EARS#",
+    "RNS##"
+  ],
+  "highlights": [
+    "meeee",
+    "a....",
+    "cbbbb",
+    "a....",
+    "a...."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Big box"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Athena's shield"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Soupçon"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Where hoops might hang"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "They work in ICUs"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Provide food, say"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Broadcast again"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Petri dish gels"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "They might be motor or phonic"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Suffix with Sudan or Japan"
+      }
+    ]
+  }
+}
