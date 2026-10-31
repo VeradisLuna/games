@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-31",
+  "title": "Hallowoom",
+  "author": "Luna",
+  "rows": [
+    "TOMB#",
+    "ADORN",
+    "NIMOY",
+    "GLOOM",
+    "SEAM#"
+  ],
+  "highlights": [
+    "****.",
+    "...*.",
+    "...*.",
+    "*****",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Skeleton's room, unless you exhume!"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Decorate"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Spock portrayer Leonard"
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "clue": "Sad thoughts resume: it's all doom and ___"
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "clue": "Clothes line?"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 0,
+        "clue": "Sharp tastes"
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Black swan, of Swan Lake"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Jason who plays Aquaman"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "In the cupboard you'll see it loom. It's part of a witch's costume!"
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "clue": "Local Yankee rivals, on a scoreboard"
+      }
+    ]
+  }
+}
