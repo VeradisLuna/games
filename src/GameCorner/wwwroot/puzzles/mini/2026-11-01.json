@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-01",
+  "title": "Hats!",
+  "author": "Luna",
+  "rows": [
+    "#FADS",
+    "BERET",
+    "FZERO",
+    "##ABO",
+    "##SYD"
+  ],
+  "highlights": [
+    ".*.*.",
+    "*****",
+    ".*.*.",
+    "...*.",
+    "...*."
+  ],
+  "clues": {
+    "across": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Passing crazes"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Headwear in a Prince song"
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "clue": "Racing game series with Captain Falcon"
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "clue": "Blood letters?"
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "clue": "Familiarly, Ayo Edebiri's character on The Bear"
+      }
+    ],
+    "down": [
+      {
+        "row": 0,
+        "col": 1,
+        "clue": "Hat that's cool, according to the Eleventh Doctor"
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "clue": "Zones"
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "clue": "It's also known as a bowler"
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "clue": "Got up"
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "clue": "Beau, in brief"
+      }
+    ]
+  }
+}
