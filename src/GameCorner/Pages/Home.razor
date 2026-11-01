@@ -32,7 +32,26 @@
             <a href="/privacy">privacy</a>
         </div> *@
     </nav>
-    <p class="subtitle">What do you fancy?</p>
+    @* <p class="subtitle">What do you fancy?</p> *@
+
+        <div>
+        <p>
+            Hey friends! It's Luna. I'm taking a little break from making puzzles. 
+            I've made puzzles every day for over a year, and there are over a thousand puzzles here now!
+            (I'll try and make an archive soon, so you can easily access old puzzles.)
+        </p>
+        <p>
+            If you'd like to play a few puzzles while you wait for me to get back, I've put together a couple of new puzzle packs. 
+            Puzzle packs are curated collections of old puzzles! 
+            I recommend the Halloween-themed one! It's called "Spooky Set".
+        </p>
+        <p>
+            Thanks for playing! I really appreciate it. See you again soon!
+        </p>
+        <p style="font-weight: bold;">
+            ~ Luna (the girl who makes the puzzles)
+        </p>
+    </div>
 
     <div class="game-grid">
         @if (iceJumperUnlocked && DateOnly.FromDateTime(DateTime.Now) >= new DateOnly(2025, 12, 11) && DateOnly.FromDateTime(DateTime.Now) <= new DateOnly(2025, 12, 11))
@@ -47,14 +66,14 @@
             </div>
         }
         <div class="game-card shimmer shimmer-card">
-            <a href="puzzle-packs">
+            <a href="all-packs">
                 <div class="card-content">
                     <h2>Puzzle packs!</h2>
                     <p>Themed collections of puzzles</p>
                 </div>
             </a>
         </div>
-        <div class="game-card">
+@*         <div class="game-card">
             <a href="mini">
                 <div class="card-content">
                     <h2>Luna Mini</h2>
@@ -85,7 +104,7 @@
                     <p>Daily cryptic clue...</p>
                 </div>
             </a>
-        </div>
+        </div> *@
     </div>
     @if (_loginModalOpen)
     {
